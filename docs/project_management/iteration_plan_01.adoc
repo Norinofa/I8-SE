@@ -19,13 +19,12 @@ include::../_includes/default-attributes.inc.adoc[]
 
 
 == Wesentliche Ziele
-//Nennen Sie 1-5 wesentliche Ziele für die Iteration.
 
-Beispiele:
 
-* Beheben der Usability-Probleme, die von Abteilung X berichtet wurden
-* Ausliefern der Hauptszenarios, die die Integration mit System Y zeigen
-* Present a technical demonstration (demo).
+* Vison schreiben
+* Use Cases ausarbeiten
+* Iterationsplan schreiben
+* Prejektplan anfangen
 
 
 == Aufgabenzuordnung
