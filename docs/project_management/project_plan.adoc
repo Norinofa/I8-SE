@@ -7,10 +7,12 @@ include::../_includes/default-attributes.inc.adoc[]
 
 == Einführung
 //Briefly describe the content of the project plan.
+Die HTW Dresden führt im Modul Software Engineering realitätsnahe Projektarbeiten in Gruppen durch. Dafür muss eine Software entwickelt werden, die die Studierenden als ein Team bündelt. Dafür ist es wichtig, dass Präferenzen, Interessen und Fähigkeiten der Studierenden ausgewertet werden, sodass ein bestmögliches Team zusammengestellt werden kann.
 
 
 == Projektorganisation
 //Introduce the project team, team members, and roles that they play during this project. If applicable, introduce work areas, domains, or technical work packages that are assigned to team members. Introduce neighboring projects, relationships, and communication channels. If the project is introduced somewhere else, reference that location with a link.
+
 
 
 == Praktiken und Bewertung
