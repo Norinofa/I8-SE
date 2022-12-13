@@ -10,7 +10,7 @@
 | Arbeitsstunden 
 | zugewiesene Materialien 
 
-| Vision schreiben | 9 | 6 | .. | 02 | Kilian, Hieu | ... | ... | vision.adoc 
+| Vision schreiben | 9 | 6 | in Arbeit | 02 | Kilian, Hieu | ... | ... | vision.adoc 
 
 | mit Code vertraut machen | 1 | 10 | in Arbeit | ... | Viktoria Nuha |  ... | 3(V) + 10 | s. Code/ Video
 
@@ -18,7 +18,7 @@
 
 | in Python/ Django einarbeiten | 1 | 10 | ... | ... | Viktoria, Nuha | ... | ... | s. Code/ Video
 
-| Use Cases ausarbeiten | 9 | 7 | .. | 02 | Kilian, Hieu, Julius | ... | 4 | use-case_model.adoc 
+| Use Cases ausarbeiten | 9 | 7 | in Arbeit | 02 | Kilian, Hieu, Julius | ... | 4 | use-case_model.adoc 
 
 | Iterationsplan schreiben | 9 | 4 | in Arbeit | 06.12.22 | Evelyn | 1 | 2 | iterationsplan.adoc 
 
