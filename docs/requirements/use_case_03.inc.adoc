@@ -4,35 +4,36 @@
 
 === Kurzbeschreibung
 //<Kurze Beschreibung des Use Case>
-
+Das speichernder Antworten im Fragebogen
 === Kurzbeschreibung der Akteure
 
-==== <Akteur 1 Name>
+==== Student
+möchte seine gegebene Antworten senden
 
 === Vorbedingungen
 //Vorbedingungen müssen erfüllt, damit der Use Case beginnen kann, z.B. Benutzer ist angemeldet, Warenkorb ist nicht leer...
 
-<Vorbedingung 1>
+Student muss angemeldetsein und Antworten gegeben haben
 
 === Standardablauf (Basic Flow)
 //Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
 
-. Der Use Case beginnt, wenn <akteur> <macht>…
-. <Standardablauf Schritt 1>
-. …
-. <Standardablauf Schritt n>
-. Der Use Case ist abgeschlossen.
+. Der Use Case beginnt, wenn der Student auf den Button "Speichern" klickt
+. das System prüft ob Eingaben getätigt wurden
+. die Antworten werden in einer Datenbank gespeichert
+. Wenn die Daten erfolgreich gespeichert wurden gibt es eine RÜckmeldung
+. Pop up mit Speicherbestätigung
 
 === Alternative Abläufe
 //Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
 
-==== <Alternativer Ablauf 1>
-Wenn <Akteur> im Schritt <x> des Standardablauf <etwas macht>, dann
-. <Ablauf beschreiben>
-. Der Use Case wird im Schritt <y> fortgesetzt.
+==== Leerer Fragebogen 
+Wenn der Student im Schritt vor Schritt eins keine Antworten im Fragebogen gegeben hat.
+. Fehlermeldung mit leere Datenmenge
+. Popup, es wurden keine Antworten gegeben
 
 === Unterabläufe (subflows)
-//Nutzen Sie Unterabläufe, um wiederkehrende Schritte auszulagern
+In der Datenbank werden die Antworten zu dem angemeldeten Studenten gespeichert
 
 ==== <Unterablauf 1>
 . <Unterablauf 1, Schritt 1>
