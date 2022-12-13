@@ -4,55 +4,52 @@
 
 === Kurzbeschreibung
 //<Kurze Beschreibung des Use Case>
-
+Student füllt den Fragebogen, mittels setzen von Häkchen aus.
 === Kurzbeschreibung der Akteure
 
-==== <Akteur 1 Name>
+Student 
+
+. möchte den Fragebogen ausfüllen 
 
 === Vorbedingungen
 //Vorbedingungen müssen erfüllt, damit der Use Case beginnen kann, z.B. Benutzer ist angemeldet, Warenkorb ist nicht leer...
-
-<Vorbedingung 1>
+Student hat sich mittels seines HTW-Logins angemeldet 
+richtiger Fragebogen wurde geladen 
 
 === Standardablauf (Basic Flow)
 //Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
 
-. Der Use Case beginnt, wenn <akteur> <macht>…
-. <Standardablauf Schritt 1>
-. …
-. <Standardablauf Schritt n>
+. Usecase beginnt, wenn der Student nach der Anmeldung weitergeleitet wird 
+. Student kann bei Multiple-Choise-Fragen Häkchen setzen
+. bei Texttfragen wir die Antwort als Text gespeichert
 . Der Use Case ist abgeschlossen.
 
 === Alternative Abläufe
-//Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
 
-==== <Alternativer Ablauf 1>
-Wenn <Akteur> im Schritt <x> des Standardablauf <etwas macht>, dann
-. <Ablauf beschreiben>
-. Der Use Case wird im Schritt <y> fortgesetzt.
+==== Logout
+. Wenn Studentim Schritt 1 des Standardablauf sich ohne zu bearbeiten ausloggt, dann
+. ist der Usecase beendet
 
 === Unterabläufe (subflows)
-//Nutzen Sie Unterabläufe, um wiederkehrende Schritte auszulagern
+--Keine Unterabläufe
 
-==== <Unterablauf 1>
-. <Unterablauf 1, Schritt 1>
-. …
-. <Unterablauf 1, Schritt n>
 
 === Wesentliche Szenarios
 //Szenarios sind konkrete Instanzen eines Use Case, d.h. mit einem konkreten Akteur und einem konkreten Durchlauf der o.g. Flows. Szenarios können als Vorstufe für die Entwicklung von Flows und/oder zu deren Validierung verwendet werden.
 
-==== <Szenario 1>
-. <Szenario 1, Schritt 1>
-. …
-. <Szenario 1, Schritt n>
+==== Erfolgreich
+. Nutzer beendet und möchte speichern 
+==== Abbruch
+. Nutzer beendet ohne zu speichern
 
 === Nachbedingungen
-//Nachbedingungen beschreiben das Ergebnis des Use Case, z.B. einen bestimmten Systemzustand.
 
-==== <Nachbedingung 1>
+====Speichern
+. Antworten müssen gesendet werden um sie zu speichern 
+
+
 
 === Besondere Anforderungen
 //Besondere Anforderungen können sich auf nicht-funktionale Anforderungen wie z.B. einzuhaltende Standards, Qualitätsanforderungen oder Anforderungen an die Benutzeroberfläche beziehen.
-
-==== <Besondere Anforderung 1>
+-- Keine besonder Anforderungen 
+====
