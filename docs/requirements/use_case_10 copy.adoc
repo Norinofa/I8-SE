@@ -7,20 +7,24 @@
 
 === Kurzbeschreibung der Akteure
 
+Dozent oder Mitbetreuer möchte ein Backup für die Seite anlegen.
 ==== <Akteur 1 Name>
 
 === Vorbedingungen
-//Vorbedingungen müssen erfüllt, damit der Use Case beginnen kann, z.B. Benutzer ist angemeldet, Warenkorb ist nicht leer...
+Dozent ist angemeldet, begibt sich auf die Einstellungen und Besitzt die nötigen Rechte.
+Es sollten Backups vorhanden sein.
 
 <Vorbedingung 1>
 
 === Standardablauf (Basic Flow)
 //Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
 
-. Der Use Case beginnt, wenn <akteur> <macht>…
-. <Standardablauf Schritt 1>
-. …
-. <Standardablauf Schritt n>
+. Der Use Case beginnt, wenn der Dozent sich in den Einstellungen befindet.
+. Dozent wählt ein Backup aus
+. Dozent akzeptiert die Sicherheitsabfrage
+. Wiederherstellungsprozess wird gestartet
+. Ladebildschirm wird angezeigt
+. Benachrichtigung für das abgeschlossene Backup
 . Der Use Case ist abgeschlossen.
 
 === Alternative Abläufe

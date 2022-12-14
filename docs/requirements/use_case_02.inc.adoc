@@ -51,5 +51,5 @@ richtiger Fragebogen wurde geladen
 
 === Besondere Anforderungen
 //Besondere Anforderungen können sich auf nicht-funktionale Anforderungen wie z.B. einzuhaltende Standards, Qualitätsanforderungen oder Anforderungen an die Benutzeroberfläche beziehen.
--- Keine besonder Anforderungen 
+-- Keine besonderen Anforderungen 
 ====
