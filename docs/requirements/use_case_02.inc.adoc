@@ -13,8 +13,8 @@ Student
 
 === Vorbedingungen
 //Vorbedingungen müssen erfüllt, damit der Use Case beginnen kann, z.B. Benutzer ist angemeldet, Warenkorb ist nicht leer...
-Student hat sich mittels seines HTW-Logins angemeldet 
-richtiger Fragebogen wurde geladen 
+. Student hat sich mittels seines HTW-Logins angemeldet 
+. richtiger Fragebogen wurde geladen 
 
 === Standardablauf (Basic Flow)
 //Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
