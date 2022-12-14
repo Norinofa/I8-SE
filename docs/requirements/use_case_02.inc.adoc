@@ -21,7 +21,9 @@ Student
 
 . Usecase beginnt, wenn der Student nach der Anmeldung weitergeleitet wird 
 . Student kann bei Multiple-Choise-Fragen Häkchen setzen
-. bei Texttfragen wir die Antwort als Text gespeichert
+. bei Texttfragen wir die Antwort als Text gespeichert+
+. der Student klickt auf den Button Speichern
+. es wird überprüft ob antworten gegeben wurden 
 . Der Use Case ist abgeschlossen.
 
 === Alternative Abläufe
@@ -30,15 +32,23 @@ Student
 . Wenn Studentim Schritt 1 des Standardablauf sich ohne zu bearbeiten ausloggt, dann
 . ist der Usecase beendet
 
-=== Unterabläufe (subflows)
--- Keine Unterabläufe
+==== Leer
+. Wenn der Student bei dem Schritt 4 noch keine Antworten gegeben hat
+. Fehler Rücksendung da der Fragebogen leer ist
+. Pop-up mit der Erinnerung das keine Antworten gegeben wurden
 
+=== Unterabläufe (subflows)
+==== Speichern
+. Wenn der Student auf "Speichern" klickt wird der Fragebogen überprüft 
+. Wenn der Student Antworten gegeben hat werden diese zu der jewaligen s-Nummer gespeichert 
 
 === Wesentliche Szenarios
 //Szenarios sind konkrete Instanzen eines Use Case, d.h. mit einem konkreten Akteur und einem konkreten Durchlauf der o.g. Flows. Szenarios können als Vorstufe für die Entwicklung von Flows und/oder zu deren Validierung verwendet werden.
 
 ==== Erfolgreich
 . Nutzer beendet und möchte speichern 
+==== Keine Antworten
+. Nutzer bekommt eine Pop-up zur Erinnerung
 ==== Abbruch
 . Nutzer beendet ohne zu speichern
 
