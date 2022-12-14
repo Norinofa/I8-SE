@@ -31,7 +31,7 @@ Student
 . ist der Usecase beendet
 
 === Unterabläufe (subflows)
---Keine Unterabläufe
+-- Keine Unterabläufe
 
 
 === Wesentliche Szenarios
