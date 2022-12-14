@@ -1,63 +1,58 @@
 //Nutzen Sie dieses Template als Grundlage für die Spezifikation *einzelner* Use-Cases. Diese lassen sich dann per Include in das Use-Case Model Dokument einbinden (siehe Beispiel dort).
 
-== Use-Case: UC04 Projekt anlegen
+== Use-Case: UC04 Projekt bearbeiten
 
 === Kurzbeschreibung
-Es wir ein neues Projekt auf die Seite geladen
+//<Kurze Beschreibung des Use Case>
 
 === Kurzbeschreibung der Akteure
 
-==== Professor
-möchte ein neues Projekt erstellen
+==== <Akteur 1 Name>
+
 === Vorbedingungen
 //Vorbedingungen müssen erfüllt, damit der Use Case beginnen kann, z.B. Benutzer ist angemeldet, Warenkorb ist nicht leer...
 
-===Login 
-Der Professor muss sich mit seinem HTW-Login angemeldet haben
+<Vorbedingung 1>
 
 === Standardablauf (Basic Flow)
 //Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
 
-. Der Use Case beginnt, wenn der Akteur auf "Projekt hinzufügen" klickt
-. Er wird auf eine Seite weitergeleitet 
-. Es werden ihm verschiedene Felder abgezeigt die ausgefüllt werden möchten
-. wenn der Professor mit dem eintragen der Informationen fertig kann er das Projekt speichern
-. bei dem betätigen des "Speichern" Buttons wird geprüft ob alle Pflichtfelder ausgefüllt sind
-. Das Projekt mit der dazugehörigen ID wird in der Datenbank gespeichert
+. Der Use Case beginnt, wenn <akteur> <macht>…
+. <Standardablauf Schritt 1>
+. …
+. <Standardablauf Schritt n>
 . Der Use Case ist abgeschlossen.
 
 === Alternative Abläufe
 //Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
 
-==== Pflichtfelder
-.Wenn der Professor im Schritt 5 des Standardablauf speichert und nicht alle Pflichtfelder ausgefüllt sind
-. wird eine Fehlermeldung zurück gesendet
-. es wird ein Pup angezeigt mit der Aufforderung alle Pflichtfelder auzufüllen
-. der Usecase wird an Schritt 3 weitergeführt.
+==== <Alternativer Ablauf 1>
+Wenn <Akteur> im Schritt <x> des Standardablauf <etwas macht>, dann
+. <Ablauf beschreiben>
+. Der Use Case wird im Schritt <y> fortgesetzt.
 
-=== Unterabläufe 
+=== Unterabläufe (subflows)
+//Nutzen Sie Unterabläufe, um wiederkehrende Schritte auszulagern
 
-==== Speichern
-. Wenn die Pflichtfelder alle ausgefüllt sind
-. werden die Antworten aus den Textfeldern in einer Datenbank gespeichert
-. Unterablauf abgeschlossen
+==== <Unterablauf 1>
+. <Unterablauf 1, Schritt 1>
+. …
+. <Unterablauf 1, Schritt n>
 
 === Wesentliche Szenarios
 //Szenarios sind konkrete Instanzen eines Use Case, d.h. mit einem konkreten Akteur und einem konkreten Durchlauf der o.g. Flows. Szenarios können als Vorstufe für die Entwicklung von Flows und/oder zu deren Validierung verwendet werden.
-==== Erfolg
-Projekt konnte Erfolgreich gespeichert werden
-==== Fehler
-Pflichtfelder sind nicht ausgefüllt
-==== Abbruch
-Projekt wird nicht gespeichert und verfällt
 
+==== <Szenario 1>
+. <Szenario 1, Schritt 1>
+. …
+. <Szenario 1, Schritt n>
 
 === Nachbedingungen
 //Nachbedingungen beschreiben das Ergebnis des Use Case, z.B. einen bestimmten Systemzustand.
 
--- Keiner Nachbedingung
+==== <Nachbedingung 1>
 
 === Besondere Anforderungen
 //Besondere Anforderungen können sich auf nicht-funktionale Anforderungen wie z.B. einzuhaltende Standards, Qualitätsanforderungen oder Anforderungen an die Benutzeroberfläche beziehen.
 
--- Keine Besondere Anforderungen
+==== <Besondere Anforderung 1>
