@@ -5,9 +5,11 @@
 === Kurzbeschreibung
 //<Kurze Beschreibung des Use Case>
 
+Dozent möchte ein Backup erstellen.
+
 === Kurzbeschreibung der Akteure
 
-Dozent oder Mitbetreuer möchte ein Backup für die Seite anlegen.
+Dozent oder Mitbetreuer
 ==== <Akteur 1 Name>
 
 === Vorbedingungen
@@ -29,6 +31,8 @@ Es sollten Backups vorhanden sein.
 
 === Alternative Abläufe
 //Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
+
+Backup ist korrupt
 
 ==== <Alternativer Ablauf 1>
 Wenn <Akteur> im Schritt <x> des Standardablauf <etwas macht>, dann
@@ -59,4 +63,7 @@ Wenn <Akteur> im Schritt <x> des Standardablauf <etwas macht>, dann
 === Besondere Anforderungen
 //Besondere Anforderungen können sich auf nicht-funktionale Anforderungen wie z.B. einzuhaltende Standards, Qualitätsanforderungen oder Anforderungen an die Benutzeroberfläche beziehen.
 
+
 ==== <Besondere Anforderung 1>
+
+-- Keine besonderen Anforderungen 
