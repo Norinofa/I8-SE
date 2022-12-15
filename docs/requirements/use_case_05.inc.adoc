@@ -22,10 +22,11 @@ Der Dozent möchte ein bestehendes Projekt aus dem System löschen, sodass diese
 . Der Use Case beginnt, wenn der Dozent auf der "Projektübersicht" befindet.
 . Dozent wählt das zu bearbeitende Projekt mit einem Klick auf den "Projekt bearbeiten"-Button aus.
 . Dozent klickt auf den "Projekt löschen"-Button.
-. Das System zeigt ein Pop-Up an mit den Worten "Wollen Sie dieses Projekt wirklich löschen?" und den zwei Button "Ja" und "Nein".
-. Der Dozent bestätigt das Löschen des Projekts mit einem Klick auf den "Ja"-Button.
-. Das System entfernt das Projekt und alle hinterlegten Daten aus der Datenbank.
-. Das System zeigt das gelöschte Projekt nicht mehr an.
+. System zeigt ein Pop-Up an mit den Worten "Wollen Sie dieses Projekt wirklich löschen?" und den zwei Button "Ja" und "Nein".
+. Dozent bestätigt das Löschen des Projekts mit einem Klick auf den "Ja"-Button.
+. System entfernt das Projekt und alle hinterlegten Daten aus der Datenbank.
+. System gibt Rückmeldung in Form eines Pop-Up "Projekt xyz wurde erfolgreich gelöscht."
+. System zeigt das gelöschte Projekt nicht mehr an.
 . Der Use Case ist abgeschlossen.
 
 === Alternative Abläufe
@@ -48,12 +49,11 @@ Wenn <Akteur> im Schritt <x> des Standardablauf <etwas macht>, dann
 //Szenarios sind konkrete Instanzen eines Use Case, d.h. mit einem konkreten Akteur und einem konkreten Durchlauf der o.g. Flows. Szenarios können als Vorstufe für die Entwicklung von Flows und/oder zu deren Validierung verwendet werden.
 
 ==== Löschen des Projekts I8 Teamverwaltung
-* Der Dozent möchte das Projekt "I8 Teamverwaltung" löschen. Der Dozent wählt das Projekt in der Projektübersicht aus
+* Der Dozent möchte das Projekt "I8 Teamverwaltung" löschen. Der Dozent wählt das Projekt in der Projektübersicht aus und löscht dieses. Das Projekt "I8 Teamverwaltung" wird nun nicht mehr angezeigt.
 
 === Nachbedingungen
-//Nachbedingungen beschreiben das Ergebnis des Use Case, z.B. einen bestimmten Systemzustand.
-
-==== <Nachbedingung 1>
+* Das Projekt wurde aus der Datenbank gelöscht.
+* Die Studenten und Dozenten können dieses Projekt in der Projektübersicht nicht mehr sehen.
 
 === Besondere Anforderungen
 //Besondere Anforderungen können sich auf nicht-funktionale Anforderungen wie z.B. einzuhaltende Standards, Qualitätsanforderungen oder Anforderungen an die Benutzeroberfläche beziehen.
