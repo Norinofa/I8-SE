@@ -17,7 +17,7 @@ Möchte sich einloggen um weitere Schritte vorzunehmen.
 === Vorbedingungen
 //Vorbedingungen müssen erfüllt, damit der Use Case beginnen kann, z.B. Benutzer ist angemeldet, Warenkorb ist nicht leer...
 
-* User besitzt und kennt seinen HTWD-Login-Daten.
+* User besitzt und kennt seine HTWD-Login-Daten.
 * User ist nicht eingeloggt.
 
 === Standardablauf (Basic Flow)
@@ -28,7 +28,7 @@ Möchte sich einloggen um weitere Schritte vorzunehmen.
 . Das System zeigt die Felder "s-Nummer" und "Passwort" für die Eingabe der Login-Daten an.
 . Der User gibt seine Login-Daten ein.
 . Der User klickt auf den "Anmelden"-Button.
-. Das System prüft Login-Daten.
+. Das System prüft die Login-Daten.
 . Das System bestätigt die übereinstimmeneden Login-Daten.
 . User ist eingeloggt und wird auf die entsprechende Website weitergeleitet.
 . Der Use Case ist abgeschlossen.
@@ -54,22 +54,21 @@ Möchte sich einloggen um weitere Schritte vorzunehmen.
 //Szenarios sind konkrete Instanzen eines Use Case, d.h. mit einem konkreten Akteur und einem konkreten Durchlauf der o.g. Flows. Szenarios können als Vorstufe für die Entwicklung von Flows und/oder zu deren Validierung verwendet werden.
 
 ==== Erfolgreicher Login eines Studierenden
-* Studierender X der HTWD ruft das Online-Tool auf und öffnet das Anmeldefenster. Er gibt seine Login-Daten ein und klickt auf den "Anmelden"-Button. Die Login-Daten sind korrekt, der Studierende X ist angemeldet und ihm wird der Fragebogen angezeigt.
+Studierender X der HTWD ruft das Online-Tool auf und öffnet das Anmeldefenster. Er gibt seine Login-Daten ein und klickt auf den "Anmelden"-Button. Die Login-Daten sind korrekt, der Studierende X ist angemeldet und ihm wird der Fragebogen angezeigt.
 
 ==== Erfolgreicher Login eines Dozenten
-* Dozent X der HTWD ruft das Online-Tool auf und öffnet das Anmeldefenster. Er gibt seine Login-Daten ein und klickt auf den "Anmelden"-Button. Die Login-Daten sind korrekt, der Dozent X ist angemeldet und ihm wird Landing Page für Dozenten angezeigt.
+Dozent X der HTWD ruft das Online-Tool auf und öffnet das Anmeldefenster. Er gibt seine Login-Daten ein und klickt auf den "Anmelden"-Button. Die Login-Daten sind korrekt, der Dozent X ist angemeldet und ihm wird die Landing Page für Dozenten angezeigt.
 
 === Nachbedingungen
 //Nachbedingungen beschreiben das Ergebnis des Use Case, z.B. einen bestimmten Systemzustand.
 
-* Der User ist eingeloggt und kann weitere Schritte auf der Webseite vornehmen.
+Der User ist eingeloggt und kann weitere Schritte auf der Webseite vornehmen.
 
 === Besondere Anforderungen
 //Besondere Anforderungen können sich auf nicht-funktionale Anforderungen wie z.B. einzuhaltende Standards, Qualitätsanforderungen oder Anforderungen an die Benutzeroberfläche beziehen.
 
 ==== Usability
-* Der Use Case ist der erste Schritt aus der Sicht des Studierenden und des Dozenten und verlangt daher eine intuitive Bedienung.
+Der Use Case ist der erste Schritt des gesamten Prozesses und damit die Grundlage aus Sicht des Studierenden und des Dozenten und verlangt daher eine intuitive Bedienung.
 
 ==== Verbesserung der bisherigen Lösung
-
-* Das bisherige System zeigt dem User den Fragebogen unabhängig vom Login-Zustand (Ob und aus welcher Sicht eingeloggt) bereits an. Dies gilt es zu eliminieren, sodass der erste Schritt immer ein Login ist und der User danach auf die ihm entsprechende Seite weitergeleitet wird.
+Das bisherige System zeigt dem User den Fragebogen unabhängig vom Login-Zustand (Ob und aus welcher Sicht eingeloggt) bereits an. Dies gilt es zu eliminieren, sodass der erste Schritt immer ein Login ist und der User danach auf die ihm entsprechende Seite weitergeleitet wird.
