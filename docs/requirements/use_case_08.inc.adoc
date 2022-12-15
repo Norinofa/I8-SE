@@ -1,27 +1,28 @@
 //Nutzen Sie dieses Template als Grundlage für die Spezifikation *einzelner* Use-Cases. Diese lassen sich dann per Include in das Use-Case Model Dokument einbinden (siehe Beispiel dort).
 
-== Use-Case: UC08 Teams händisch bearbeiten
+== Use-Case: UC08 manuell verwalten
 
 === Kurzbeschreibung
 //<Kurze Beschreibung des Use Case>
-
+Der entsprechende Dozent oder Mitbetreuer des Moduls loggt sich in die entsprechende Website ein und geht in den exklusiven Bereich für die Teamverwaltung rein. Dort wird mittels eines Algorithmus die Teamzuordnung generiert.
+Dort kann der Verantwortliche Dozent diese Teamzusammensetzung nochmals manuell bearbeiten.
 === Kurzbeschreibung der Akteure
 
-==== <Akteur 1 Name>
+Dozent oder Mitbetreuer möchte die Teams verwalten.
+
+Dozent/Betreuer
 
 === Vorbedingungen
 //Vorbedingungen müssen erfüllt, damit der Use Case beginnen kann, z.B. Benutzer ist angemeldet, Warenkorb ist nicht leer...
 
-<Vorbedingung 1>
+* Dozent muss die benötigten Rechte besitzen um die Projekte und Teamzuordnungen zu verwalten
+* Studenten müssen den Fragebogen schon ausgefüllt haben und gespeichert haben
 
 === Standardablauf (Basic Flow)
 //Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
 
-. Der Use Case beginnt, wenn <akteur> <macht>…
-. <Standardablauf Schritt 1>
-. …
-. <Standardablauf Schritt n>
-. Der Use Case ist abgeschlossen.
+. Der Use Case beginnt, wenn der Dozent sich anmeldet und in die manuelle Teamverwaltung wechselt
+. Der Dozent hat die Möglichkeit mittels (Wie funktioniert die Teamverwaltung?)
 
 === Alternative Abläufe
 //Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
