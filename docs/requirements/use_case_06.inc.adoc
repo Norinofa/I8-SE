@@ -3,16 +3,21 @@
 == Use-Case: UC06 Teams generieren
 
 === Kurzbeschreibung
-//<Kurze Beschreibung des Use Case>
+Der Use Case beschreibt den Prozess der Generierung der Teams auf Grundlage der ausgefüllten Formulare der Studenten.
 
 === Kurzbeschreibung der Akteure
 
-==== <Akteur 1 Name>
+==== Dozent
+Möchte die Teams der Projekte für das kommende Semester generieren.
+
+==== Studenten
+Geben die Formulare als Grundlage für die Generierung der Teams und warten auf die Veröffentlichung der Teams.
 
 === Vorbedingungen
 //Vorbedingungen müssen erfüllt, damit der Use Case beginnen kann, z.B. Benutzer ist angemeldet, Warenkorb ist nicht leer...
 
-<Vorbedingung 1>
+* Alle Studenten haben ein Formular ausgefüllt.
+* Algorithmus zur Teamgenerierung ist funktionsfähig.
 
 === Standardablauf (Basic Flow)
 //Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")

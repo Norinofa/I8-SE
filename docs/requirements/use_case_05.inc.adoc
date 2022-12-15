@@ -8,7 +8,7 @@ Der Use Case beschreibt den Prozess des Löschens von Projekten.
 === Kurzbeschreibung der Akteure
 
 ==== Dozent
-Der Dozent möchte ein bestehendes Projekt aus dem System löschen, sodass dieses nicht mehr angezeigt wird.
+Möchte ein bestehendes Projekt aus dem System löschen, sodass dieses nicht mehr angezeigt wird.
 
 === Vorbedingungen
 //Vorbedingungen müssen erfüllt, damit der Use Case beginnen kann, z.B. Benutzer ist angemeldet, Warenkorb ist nicht leer...
