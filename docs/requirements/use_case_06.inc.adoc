@@ -51,6 +51,10 @@ Wenn <Akteur> im Schritt <x> des Standardablauf <etwas macht>, dann
 . <Szenario 1, Schritt 1>
 . …
 . <Szenario 1, Schritt n>
+==== <Szenario 1>
+. <Szenario 1, Schritt 1>
+. …
+. <Szenario 1, Schritt n>
 
 === Nachbedingungen
 //Nachbedingungen beschreiben das Ergebnis des Use Case, z.B. einen bestimmten Systemzustand.
