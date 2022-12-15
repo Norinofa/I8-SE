@@ -3,17 +3,18 @@
 == Use-Case: UC03 Projekt anlegen
 
 === Kurzbeschreibung
-Es wir ein neues Projekt auf die Seite geladen
+Es wird ein neues Projekt auf die Seite geladen.
 
 === Kurzbeschreibung der Akteure
 
-==== Professor
-möchte ein neues Projekt erstellen
+==== Dozent
+Möchte ein neues Projekt erstellen.
+
 === Vorbedingungen
 //Vorbedingungen müssen erfüllt, damit der Use Case beginnen kann, z.B. Benutzer ist angemeldet, Warenkorb ist nicht leer...
 
-===Login 
-Der Professor muss sich mit seinem HTW-Login angemeldet haben
+=== Login 
+Der Dozent ist mittels seines HTW-Login angemeldet.
 
 === Standardablauf (Basic Flow)
 //Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
@@ -21,7 +22,7 @@ Der Professor muss sich mit seinem HTW-Login angemeldet haben
 . Der Use Case beginnt, wenn der Akteur auf "Projekt hinzufügen" klickt
 . Er wird auf eine Seite weitergeleitet 
 . Es werden ihm verschiedene Felder abgezeigt die ausgefüllt werden möchten
-. wenn der Professor mit dem eintragen der Informationen fertig kann er das Projekt speichern
+. wenn der Dozent mit dem eintragen der Informationen fertig kann er das Projekt speichern
 . bei dem betätigen des "Speichern" Buttons wird geprüft ob alle Pflichtfelder ausgefüllt sind
 . Das Projekt mit der dazugehörigen ID wird in der Datenbank gespeichert
 . Der Use Case ist abgeschlossen.
@@ -30,7 +31,7 @@ Der Professor muss sich mit seinem HTW-Login angemeldet haben
 //Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
 
 ==== Pflichtfelder
-.Wenn der Professor im Schritt 5 des Standardablauf speichert und nicht alle Pflichtfelder ausgefüllt sind
+.Wenn der Dozent im Schritt 5 des Standardablauf speichert und nicht alle Pflichtfelder ausgefüllt sind
 . wird eine Fehlermeldung zurück gesendet
 . es wird ein Pup angezeigt mit der Aufforderung alle Pflichtfelder auzufüllen
 . der Usecase wird an Schritt 3 weitergeführt.

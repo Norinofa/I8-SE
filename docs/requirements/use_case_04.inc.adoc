@@ -4,23 +4,32 @@
 
 === Kurzbeschreibung
 //<Kurze Beschreibung des Use Case>
+Der Use Case beschreibt den Prozess der Bearbeitung eines bereits vorhandenen Projekts durch einen Dozenten.
 
 === Kurzbeschreibung der Akteure
 
-==== <Akteur 1 Name>
+==== Dozent
+Möchte ein bereits vorhandenes Projekt bearbeiten.
 
 === Vorbedingungen
 //Vorbedingungen müssen erfüllt, damit der Use Case beginnen kann, z.B. Benutzer ist angemeldet, Warenkorb ist nicht leer...
 
-<Vorbedingung 1>
+* Der Dozent ist mittels seiner HTW-Logindaten angemeldet.
+* Das zu bearbeitende Projekt wurde bereits angelegt.
 
 === Standardablauf (Basic Flow)
 //Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
 
-. Der Use Case beginnt, wenn <akteur> <macht>…
-. <Standardablauf Schritt 1>
-. …
-. <Standardablauf Schritt n>
+. Der Use Case beginnt, wenn der Dozent das zu bearbeitende Projekt ausfündig gemacht hat.
+. Dozent klickt auf den "Projekt bearbeiten"-Button.
+. Das System zeigt den bisherigen Bearbeitungsstand des Projekts an.
+. Die Felder "Projektname" und "Projektbeschreibung" können mit einer Textfunktion bearbeitet werden.
+. Die Felder "Projekt-ID" und "Projektlabels" zeigen eine Vorauswahl an.
+. Das Feld "Anhang" gibt dem Dozent die Möglichkeit ein Dokument anzuhängen.
+. Der Dozent nimmt die gewünschten Veränderungen vor und bestätigt seine Eingabe.
+. Das Dozent Klick den "Projekt speichern"-Button.
+. Das System speichert den neuen Bearbeitungsstand der Projekts ab.
+. Das System zeigt die neue Version der Projekts im Frontend an.
 . Der Use Case ist abgeschlossen.
 
 === Alternative Abläufe
@@ -42,15 +51,15 @@ Wenn <Akteur> im Schritt <x> des Standardablauf <etwas macht>, dann
 === Wesentliche Szenarios
 //Szenarios sind konkrete Instanzen eines Use Case, d.h. mit einem konkreten Akteur und einem konkreten Durchlauf der o.g. Flows. Szenarios können als Vorstufe für die Entwicklung von Flows und/oder zu deren Validierung verwendet werden.
 
-==== <Szenario 1>
-. <Szenario 1, Schritt 1>
-. …
-. <Szenario 1, Schritt n>
+==== Bearbeiten des Projekts I8 Teamverwaltung
+* Sc1: Der Dozent bearbeitet das Projekt "I8 Teamverwaltung". Er fügt das vorgeschlagene Label "Weiterentwicklung" hinzu. Zusätzlich dazu ändert er die Projektbeschreibung, da hier ein Rechtschreibfehler unterlaufen ist. Er speichert die Änderungen mit dem Klick auf den "Projekt speichern"-Button ab. Nun wird die aktualisierte Version der Projekts I8 Teamverwaltung angezeigt.
+
 
 === Nachbedingungen
 //Nachbedingungen beschreiben das Ergebnis des Use Case, z.B. einen bestimmten Systemzustand.
 
-==== <Nachbedingung 1>
+* Eine neue Version des Projekts ist in der Datenbank hinterlegt.
+* Das bearbeitete Projekt wird nun aktualisiert angezeigt.
 
 === Besondere Anforderungen
 //Besondere Anforderungen können sich auf nicht-funktionale Anforderungen wie z.B. einzuhaltende Standards, Qualitätsanforderungen oder Anforderungen an die Benutzeroberfläche beziehen.
