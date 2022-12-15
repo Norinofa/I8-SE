@@ -1,4 +1,4 @@
-= Iteration Plan 01: I8
+= Iteration Plan 01: {project-name}
 Vorname Nachname <email@domain.org>; Vorname2 Nachname2 <email2@domain.org>; Vorname3 Nachname3 <email3@domain.org>
 {localdatetime}
 include::../_includes/default-attributes.inc.adoc[]
@@ -24,13 +24,13 @@ include::../_includes/default-attributes.inc.adoc[]
 * Vison schreiben
 * Use Cases ausarbeiten
 * Iterationsplan schreiben
-* Projektplan anfangen
+* Prejektplan anfangen
 
 
 == Aufgabenzuordnung
 //Dieser Abschnitt sollte einen Verweis auf die Work Items List enthalten, die die für diese Iteration vorgesehenen Aufgaben dokumentiert sowie die Zuordnung dieser Aufgaben zu Teammitgliedern. Alternativ können die Aufgaben für die Iteration und die Zuordnung zu Teammitgliedern in nachfolgender Tabelle dokumentiert werden - je nach dem, was einfacher für die Projektbeteiligten einfacher zu finden ist.
 
-Die in dieser Iteration geplanten Aufgaben sind in der Work Items List dargestellt (s. Workitems_list).
+Die in dieser Iteration geplanten Aufgaben sind in der Work Items List dargestellt (hier Verweis einfügen).
 
 _alternativ:_ Die folgenden Aufgaben werden in dieser Iteration bearbeitet:
 [%header, cols="3,1,1,1,2,1,1,1,1"]
@@ -48,18 +48,18 @@ _alternativ:_ Die folgenden Aufgaben werden in dieser Iteration bearbeitet:
 |===
 | Problem | Status | Notizen
 
-| wenig Kommunikation | x | anderen Weg zur Kommunikation finden?
+| x | x | x
 |===
 
 
 == Bewertungskriterien
 //Eine kurze Beschreibung, wie Erfüllung die o.g. Ziele bewertet werden sollen.
 
+Beispiele:
 
-
-* Vision erstellen, die die Kundenwünsche berücksichtigt und machbar ist
-* logische Use Cases finden
-* Iterationsplan, an dem man sich orientieren kann erstellen
+* 97% der Testfälle auf Systemebene sind erfolgreich.
+* Gemeinsame Inspektion des Iterations-Ergebnisses (Inkrement) mit den Abteilungen X und Y ergibt positive Rückmeldung.
+* Technische Präsentation / Demo erhält positive Rückmeldungen.
 
 
 == Assessment
@@ -67,11 +67,11 @@ _alternativ:_ Die folgenden Aufgaben werden in dieser Iteration bearbeitet:
 
 [%header, cols="1,3"]
 |===
-| Assessment Ziel | Iteration 01
+| Assessment Ziel | Das kann die gesamte Iteration oder eine spezifische Komponente sein
 
-| Assessment Datum | 12.12.2022
-| Teilnehmer | Evelyn
-| Projektstatus	| gelb
+| Assessment Datum | ...
+| Teilnehmer | ...
+| Projektstatus	| Zum Beispiel ausgedrückt als rot, gelb oder grün.
 |===
 
 * Beurteilung im Vergleich zu den Zielen
