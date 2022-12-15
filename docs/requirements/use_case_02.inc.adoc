@@ -1,63 +1,63 @@
 //Nutzen Sie dieses Template als Grundlage für die Spezifikation *einzelner* Use-Cases. Diese lassen sich dann per Include in das Use-Case Model Dokument einbinden (siehe Beispiel dort).
 
-== Use-Case: UC02 Student bearbeitet Fragebogen
+== Use-Case: UC02 Fragebogen bearbeiten und einreichen
 
 === Kurzbeschreibung
-Student füllt den Fragebogen, mittels setzen von Häkchen aus.
+//<Kurze Beschreibung des Use Case>
+Der Use Case beschreibt den Einreichprozess des Fragebogens durch den Studierenden.
 
 === Kurzbeschreibung der Akteure
 
-==== Student 
-Möchte den Fragebogen ausfüllen.
+==== Studierender
+Möchte den Fragebogen ausfüllen und einreichen.
 
 === Vorbedingungen
 //Vorbedingungen müssen erfüllt, damit der Use Case beginnen kann, z.B. Benutzer ist angemeldet, Warenkorb ist nicht leer...
 
-* Student ist mittels seines HTW-Logins angemeldet.
-* richtiger Fragebogen wurde geladen.
+Studierender ist eingeloggt.
 
 === Standardablauf (Basic Flow)
 //Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
 
-. Usecase beginnt, wenn der Student nach der Anmeldung weitergeleitet wird 
-. Student kann bei Multiple-Choise-Fragen Häkchen setzen
-. bei Texttfragen wir die Antwort als Text gespeichert+
-. der Student klickt auf den Button Speichern
-. es wird überprüft ob antworten gegeben wurden 
+. Der Use Case beginnt, wenn der Studierende nach dem Klick auf den "Anmelden"-Button erfolgreich weitergeleitet wird.
+. Das System prüft in der Datenbank ob der Studierende bereits einen Fragebogen ausgefüllt und abgespeichert hat.
+. IF gespeicherter Fragebogen gefunden
+.. Das System lädt den bisherigen Speicherstand des, dem Studierenden zugeordneten, Fragebogens.
+.. Dem Studierender wird der bereits ausgefüllte Fragebogen angezeigt.
+. ELSE
+.. Dem Studierender wird ein neuer, leerer Fragebogen angezeigt.
+. Studierender setzt Häckchen bei den Multiple-Choice-Fragen
+. Bei Textfragen wird der Studierenden ein Textfeld angezeigt in dem er seine Antwort eingeben kann.
+. Der Studierende klickt auf den "Fragebogen speichern"-Button.
+. Der Studierende möchte den Fragebogen einreichen.
+. Der Studierende klickt auf den "Fragebogen einreichen"-Button.
+. Das System fragt den Studierenden mit einem Pop-Up ob er seine Eingaben überprüft hat und wirklich einreichen will.
+. Der Studierende bestätigt seine Eingabe mit dem Klick auf den "Ja"-Button.
 . Der Use Case ist abgeschlossen.
 
 === Alternative Abläufe
+//Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
 
 ==== Logout
-. Wenn Studentim Schritt 1 des Standardablauf sich ohne zu bearbeiten ausloggt, dann
-. ist der Usecase beendet
+pass:[#] Studierende bricht den Vorgang durch Schließen des Browsers oder durch Ausloggen ab. Der Use Case ist damit beendet.
 
 ==== Leer
-. Wenn der Student bei dem Schritt 4 noch keine Antworten gegeben hat
-. Fehler Rücksendung da der Fragebogen leer ist
-. Pop-up mit der Erinnerung das keine Antworten gegeben wurden
+(9) Wenn der Studierende den Schritt ausführt, obwohl er nicht alle Felder ausgefüllt hat, gibt das System ein Pop-Up raus, dass den Studierende darüber informiert und so der Fragenbogen nicht eingereicht werden kann.
 
 === Unterabläufe (subflows)
+//Nutzen Sie Unterabläufe, um wiederkehrende Schritte auszulagern
 ==== Speichern
-. Wenn der Student auf "Speichern" klickt wird der Fragebogen überprüft 
-. Wenn der Student Antworten gegeben hat werden diese zu der jewaligen s-Nummer gespeichert 
+(7) Fragebogen wird auf Änderungen geprüft, wenn der Studierende Änderungen vorgenommen hat, werden diese zu der jeweiligen s-Nummer zugeordnet in der Datenbank gespeichert. 
 
 === Wesentliche Szenarios
 //Szenarios sind konkrete Instanzen eines Use Case, d.h. mit einem konkreten Akteur und einem konkreten Durchlauf der o.g. Flows. Szenarios können als Vorstufe für die Entwicklung von Flows und/oder zu deren Validierung verwendet werden.
 
-==== Erfolgreich
-. Nutzer beendet und möchte speichern 
-==== Keine Antworten
-. Nutzer bekommt eine Pop-up zur Erinnerung
-==== Abbruch
-. Nutzer beendet ohne zu speichern
+==== Erfolgreiches Einreichen des Fragebogens
+* Studierender X der HTWD füllt alle Felder des Fragebogens ordnungsgemäß aus. Der Studierende trägt außerdem eine bereits absolvierte Ausbildung im Fragebogen an. Der Fragebogen wird erfolgreich eingereicht.
 
 === Nachbedingungen
-
-==== Speichern
-
-. Antworten müssen gesendet werden um sie zu speichern 
-
+//Nachbedingungen beschreiben das Ergebnis des Use Case, z.B. einen bestimmten Systemzustand.
+* Das System hat den vollständigen Fragebogen gespeichert und wird nun bei der Teamgenerierung beachtet.
 
 
 === Besondere Anforderungen
