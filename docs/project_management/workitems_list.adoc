@@ -10,7 +10,7 @@
 | Arbeitsstunden 
 | zugewiesene Materialien 
 
-| Vision schreiben | 9 | 6 | in Arbeit | i2 | Kilian, Hieu | ... | ... | vision.adoc 
+| Vision schreiben | 9 | 6 | in Arbeit | 20.12.22 | Kilian, Hieu | ... | 4 | vision.adoc 
 
 | mit Code vertraut machen | 1 | 10 | in Arbeit | ... | Viktoria Nuha |  ... | 7(V) + 10 | s. Code/ Video
 
@@ -28,7 +28,7 @@
 
 | Architecture Notebook anfangen | 3 | 7 | in Arbeit | .. | Phil, Julius | .. | 4 | architecture-notebook.adoc
 
-|SSL Zertifikat beantragen | 8 | 3 | ... | 23.12. | ... | 2 | 2 | Internet 
+|SSL Zertifikat beantragen | 8 | 3 | ... | 23.12.22 | ... | 2 | 2 | Internet 
 
 | Termin mit Coach /Auftraggeber machen | 10 | 1 | fertig | I3 | Evelyn | 0 | 0,25 | Outlook 
 
