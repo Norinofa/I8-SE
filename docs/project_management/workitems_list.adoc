@@ -10,7 +10,7 @@
 | Arbeitsstunden 
 | zugewiesene Materialien 
 
-| Vision schreiben | 9 | 6 | in Arbeit | 02 | Kilian, Hieu | ... | ... | vision.adoc 
+| Vision schreiben | 9 | 6 | in Arbeit | i2 | Kilian, Hieu | ... | ... | vision.adoc 
 
 | mit Code vertraut machen | 1 | 10 | in Arbeit | ... | Viktoria Nuha |  ... | 7(V) + 10 | s. Code/ Video
 
@@ -18,7 +18,7 @@
 
 | in Python/ Django einarbeiten | 1 | 10 | ... | ... | Viktoria, Nuha | ... | ... | s. Code/ Video
 
-| Use Cases ausarbeiten | 9 | 7 | in Arbeit | 02 | Kilian, Hieu, Julius | ... | 4 | use-case_model.adoc 
+| Use Cases ausarbeiten | 9 | 7 | in Arbeit | I2 | Kilian, Hieu, Julius | ... | 4 | use-case_model.adoc 
 
 | Iterationsplan schreiben | 9 | 4 | in Arbeit | 06.12.22 | Evelyn | 1 | 2 | iterationsplan.adoc 
 
@@ -29,4 +29,14 @@
 | Architecture Notebook anfangen | 3 | 7 | in Arbeit | .. | Phil, Julius | .. | 4 | architecture-notebook.adoc
 
 |SSL Zertifikat beantragen | 8 | 3 | ... | 23.12. | ... | 2 | 2 | Internet 
+
+| Termin mit Coach /Auftraggeber machen | 10 | 1 | fertig | I3 | Evelyn | 0 | 0,25 | Outlook 
+
+| SSL beantragen | 9 | 2 | ... | I3 | Evelyn | 0,5 | 0,5 | s. Link in Discord von Viktoria
+
+| Architecture NOtebook weiter bearbeiten | 7 | 7 | in Arbeit | I4 | Julius, Phil | 4 | 6 | architcture_notebook.adoc
+
+| Use Case Modell/ Diagramm ausarbeiten | 8 | 7 | ... | I3 | Kilian | 4 | 4 | 
+
+| Systemweite Anforderungen anfangen | 6 | 7 | ... | I3 | Hieu | 6 | 6 | 
 |===
