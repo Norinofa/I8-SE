@@ -63,7 +63,7 @@ Beispiele:
 
 | Assessment Datum | 28.11.22
 | Teilnehmer | Viktoria, Nuha, Kilian, Julius, Hieu, Phil, Evelyn 
-| Projektstatus	| grün.
+| Projektstatus	| rot
 |===
 
 * die angestrebten Ziele wurden erreicht
