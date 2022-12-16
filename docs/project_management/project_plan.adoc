@@ -9,7 +9,6 @@ include::../_includes/default-attributes.inc.adoc[]
 
 == Einführung
 //Briefly describe the content of the project plan.
-(Die HTW Dresden führt im Modul Software Engineering realitätsnahe Projektarbeiten in Gruppen durch. Dafür muss eine Software entwickelt werden, die die Studierenden als ein Team bündelt. Dafür ist es wichtig, dass Präferenzen, Interessen und Fähigkeiten der Studierenden ausgewertet werden, sodass ein bestmögliches Team zusammengestellt werden kann.)
 
 In diesem Projektplan der Gruppe I8 wird die Vorgehensweise und Organisation des Projektes protokolliert. Anhand des Open Unified Process wird das Projekt durch mehrere Iterationsschritte organisiert um bestmögliche Ergebnisse zu erzielen. Während des gesamten Projektes wird dieses Dokument stetig überarbeitet und der Erkenntnisse des Teams angepasst.
 
@@ -17,6 +16,13 @@ In diesem Projektplan der Gruppe I8 wird die Vorgehensweise und Organisation des
 == Projektorganisation
 //Introduce the project team, team members, and roles that they play during this project. If applicable, introduce work areas, domains, or technical work packages that are assigned to team members. Introduce neighboring projects, relationships, and communication channels. If the project is introduced somewhere else, reference that location with a link.
 In der folgenden Tabelle werden die Teammitglieder und deren Rollenverteilung dargestellt.
+
+[%header, cols="1,1,1"]
+
+|===
+| Name | Rolle | Anmerkungen
+
+| 
 
 
 
