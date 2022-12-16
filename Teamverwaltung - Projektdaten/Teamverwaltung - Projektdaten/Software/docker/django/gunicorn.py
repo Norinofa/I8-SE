@@ -7,5 +7,5 @@ worker_connections = 1000
 timeout = 300
 graceful_timeout = 60
 keepalive = 5
-keyfile = '/var/www/ssl/htw_iteamse_server.key'
-certfile = '/var/www/ssl/htw_iteamse_server_with_ca.crt'
+keyfile = '/var/www/ssl/server.key'
+certfile = '/var/www/ssl/server.crt'
