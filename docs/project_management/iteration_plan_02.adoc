@@ -55,7 +55,7 @@ Verweis zu workitems list
 * die Vision wurde inhaltlich vom Auftraggeber befürwortet
 * Zertifizierung erhalten
 * das Architecture Notebook ist parallel zu den Use Cases ausgearbeitet
-* ein ausgreiftes Use Case Modell/ Diagramm muss erarbeitet sein
+* ein ausgereiftes Use Case Modell/ Diagramm muss erarbeitet sein
 * für ausgewählte Use Cases schlüssige Wireframes erkennbar und ausgearbeitet
 
 
