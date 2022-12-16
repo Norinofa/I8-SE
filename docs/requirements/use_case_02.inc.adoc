@@ -42,7 +42,7 @@ Studierender ist eingeloggt.
 pass:[#] Studierender bricht den Vorgang durch Schließen des Browsers oder durch Ausloggen ab. Der Use Case ist damit beendet.
 
 ==== Leer
-(9) Wenn der Studierende den Schritt ausführt, obwohl er nicht alle Felder ausgefüllt hat, gibt das System ein Pop-Up raus, dass den Studierende darüber informiert und so der Fragenbogen nicht eingereicht werden kann.
+(9) Wenn der Studierende den Schritt ausführt, obwohl er nicht alle Felder ausgefüllt hat, gibt das System ein Pop-Up raus, dass den Studierende darüber informiert und so der Fragebogen nicht eingereicht werden kann.
 
 === Unterabläufe (subflows)
 //Nutzen Sie Unterabläufe, um wiederkehrende Schritte auszulagern
