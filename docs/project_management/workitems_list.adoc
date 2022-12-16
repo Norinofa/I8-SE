@@ -27,4 +27,6 @@
 | Projektplan anfangen | 7 | 7 | in Arbeit | 31.12.22 | Evelyn | 3 | 4 | projektplan.adoc
 
 | Architecture Notebook anfangen | 3 | 7 | in Arbeit | .. | Phil, Julius | .. | 4 | architecture-notebook.adoc
+
+|SSL Zertifikat beantragen | 8 | 3 | ... | 23.12. | ... | 2 | 2 | Internet 
 |===
