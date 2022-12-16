@@ -12,7 +12,7 @@
 
 | Vision schreiben | 9 | 6 | in Arbeit | 02 | Kilian, Hieu | ... | ... | vision.adoc 
 
-| mit Code vertraut machen | 1 | 10 | in Arbeit | ... | Viktoria Nuha |  ... | 3(V) + 10 | s. Code/ Video
+| mit Code vertraut machen | 1 | 10 | in Arbeit | ... | Viktoria Nuha |  ... | 7(V) + 10 | s. Code/ Video
 
 | VM einrichten | 9 | 2 | fertig | sofort | Viktoria | 0 | 0.5 | Terminal
 
