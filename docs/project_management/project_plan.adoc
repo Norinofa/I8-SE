@@ -58,9 +58,12 @@ Unsere Kommunikation verläuft ausschließlich über Discord, da dort mehrere Ch
 
 | I1
 |
-* Mitigate Risk1
-* Develop Use Case 3, Scenario 2
-| Date from/Date to
+* Kennenlernen der Gruppe 
+* Rollen verteilen/ mit Aufgaben vertraut machen
+* Repo Url senden
+* Meeting mit Auftraggeber/ Coach wahrnehmen
+* Kommunikationweg finden
+| 17.11.22-28.11.22
 | 15
 
 | I2
