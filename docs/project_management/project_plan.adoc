@@ -64,14 +64,16 @@ Unsere Kommunikation verläuft ausschließlich über Discord, da dort mehrere Ch
 * Meeting mit Auftraggeber/ Coach wahrnehmen
 * Kommunikationweg finden
 | 17.11.22-28.11.22
-| 15
+| 11
 
 | I2
 |
-* Mitigate Risk 2
-* Develop Use Case 1, Scenario 2
-| Date from/Date to
-| 16
+* Use Cases ausarbeiten
+* Vision schreiben
+* Projektplan anfangen
+* in vorherrschenden Code einarbeiten/ Docker verstehen
+| 28.11.22-16.12.22
+| 19
 |===
 
 
@@ -81,3 +83,5 @@ Unsere Kommunikation verläuft ausschließlich über Discord, da dort mehrere Ch
 
 == Erkenntnisse (Lessons learned)
 //List lessons learned from the retrospective, with special emphasis on actions to be taken to improve, for example: the development environment, the process, or team collaboration.
+
+*Kommunikation zwischen den Mitgliedern und ständigen Kontakt zu den Steakholdern erleichtert die Arbeit
