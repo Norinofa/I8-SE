@@ -1,4 +1,4 @@
-= Projektplan: I8 Erstellung und Verwaltung von Gruppen
+= Projektplan: I8 Erstellung und Verwaltung von Gruppen für Software Engineering Projekte
 für Software Engineering Projekte
 
 Vorname Nachname <email@domain.org>; Vorname2 Nachname2 <email2@domain.org>; Vorname3 Nachname3 <email3@domain.org>
@@ -10,7 +10,7 @@ include::../_includes/default-attributes.inc.adoc[]
 == Einführung
 //Briefly describe the content of the project plan.
 
-In diesem Projektplan der Gruppe I8 wird die Vorgehensweise und Organisation des Projektes protokolliert. Anhand des Open Unified Process wird das Projekt durch mehrere Iterationsschritte organisiert um bestmögliche Ergebnisse zu erzielen. Während des gesamten Projektes wird dieses Dokument stetig überarbeitet und der Erkenntnisse des Teams angepasst.
+In diesem Projektplan der Gruppe "I8 Erstellung und Verwaltung von Gruppen für Software Engineering Projekte" wird die Vorgehensweise und Organisation des Projektes protokolliert. Anhand des Open Unified Process wird das Projekt durch mehrere Iterationsschritte organisiert um bestmögliche Ergebnisse zu erzielen. Während des gesamten Projektes wird dieses Dokument stetig überarbeitet und der Erkenntnisse des Teams angepasst.
 
 
 == Projektorganisation
