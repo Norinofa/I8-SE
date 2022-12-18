@@ -5,7 +5,7 @@
 === Kurzbeschreibung
 //<Kurze Beschreibung des Use Case>
 
-Dozent möchte ein Backup erstellen.
+Dozent oder Mitbetreuer möchte ein Backup für die Seite anlegen.
 
 === Kurzbeschreibung der Akteure
 

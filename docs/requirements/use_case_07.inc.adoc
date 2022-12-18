@@ -1,27 +1,29 @@
 //Nutzen Sie dieses Template als Grundlage für die Spezifikation *einzelner* Use-Cases. Diese lassen sich dann per Include in das Use-Case Model Dokument einbinden (siehe Beispiel dort).
 
-== Use-Case: UC07 
+== Use-Case: UC07 Seite zurücksetzen
 // ADOC Seite noch zu bearbeiten oder bleibt leer
 
 === Kurzbeschreibung
-//<Kurze Beschreibung des Use Case>
+Dozent setzt die Website in den Urpsrungszustand zurück.
 
 === Kurzbeschreibung der Akteure
 
-==== <Akteur 1 Name>
+==== Dozent
+Möchte die Website zurücksetzen
 
 === Vorbedingungen
 //Vorbedingungen müssen erfüllt, damit der Use Case beginnen kann, z.B. Benutzer ist angemeldet, Warenkorb ist nicht leer...
 
-<Vorbedingung 1>
+Der Dozent ist angemeldet und besitzt die nötigen Rechte um die Website zurückzusetzen. (Es sollte ein Backup vorhanden sein.)
 
 === Standardablauf (Basic Flow)
 //Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
 
-. Der Use Case beginnt, wenn <akteur> <macht>…
-. <Standardablauf Schritt 1>
-. …
-. <Standardablauf Schritt n>
+. Der Use Case beginnt, wenn der Dozent sich anmeldet und auf die Einstellungen wechselt.
+. Dozent erhält eine Sicherheitsabfrage und stimmt dieser zu 
+.. Dozent stimmt zu
+.. Dozent lehnt ab 
+. Website wird auf dem Werkzustand zurückgesetzt
 . Der Use Case ist abgeschlossen.
 
 === Alternative Abläufe
@@ -43,10 +45,11 @@ Wenn <Akteur> im Schritt <x> des Standardablauf <etwas macht>, dann
 === Wesentliche Szenarios
 //Szenarios sind konkrete Instanzen eines Use Case, d.h. mit einem konkreten Akteur und einem konkreten Durchlauf der o.g. Flows. Szenarios können als Vorstufe für die Entwicklung von Flows und/oder zu deren Validierung verwendet werden.
 
-==== <Szenario 1>
-. <Szenario 1, Schritt 1>
-. …
-. <Szenario 1, Schritt n>
+==== Erfolgreich 
+. Dozent setzt die Website erfolgreich in den Werkzustand zurück
+
+==== Ablehnung
+. Dozent lehnt bei der Sicherheitsabfrage ab und der Vorgang wird abgebrochen
 
 === Nachbedingungen
 //Nachbedingungen beschreiben das Ergebnis des Use Case, z.B. einen bestimmten Systemzustand.
