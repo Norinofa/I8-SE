@@ -15,14 +15,13 @@ include::../_includes/default-attributes.inc.adoc[]
 | Beginn der Iteration | 28.11.22
 | Treffen mit Coach/ Auftraggeber | 20.12.22
 | SSL beantragen | 
-| Architecture Notebook bearbeiten |
 | Ende der Iteration | 12.12.22
 |===
 
 
 == Wesentliche Ziele
 
-
+* Vision schreiben
 * Vision mit dem Auftraggeber besprechen/ überarbeiten
 * SSL beantragen
 * Das Architecture Notebook anfangen
