@@ -13,7 +13,6 @@ include::../_includes/default-attributes.inc.adoc[]
 | Meilenstein | Datum
 
 | Beginn der Iteration | 28.11.22
-| Vision schreiben| 15.12.22
 | Use Cases ausarbeiten | 13.12.22  
 | Iteration 01 fertig geschrieben| 15.12.22
 | Ende der Iteration | 16.12.22
@@ -22,11 +21,10 @@ include::../_includes/default-attributes.inc.adoc[]
 
 == Wesentliche Ziele
 
-
-* die Vison soll schreiben
 * Use Cases ausarbeiten
 * Iterationsplan fertigstellen
 * Projektplan anfangen
+* Vision anfangen
 
 
 == Aufgabenzuordnung
@@ -44,7 +42,7 @@ Die in dieser Iteration geplanten Aufgaben sind in der Work Items List dargestel
 |===
 | Problem | Status | Notizen
 
-| Zeitmanagement | in Arbeit | bessere Zeiteinteilung
+| Zeitmanagement durch andere laufende Projekte | in Arbeit | bessere Zeiteinteilung
 |===
 
 
@@ -55,7 +53,7 @@ Die in dieser Iteration geplanten Aufgaben sind in der Work Items List dargestel
 * erste Iteration soll vollständig ausgearbeitet sein
 * logische Use Cases sollen gefunden werden und größtenteils ausgearbeitet sein 
 * grobe Erstellung des Projektplanes
-* die Vision soll im Groben ausgearbeitet sein
+* Projektplan soll im Groben ausgearbeitet sein
 
 
 == Assessment
@@ -70,11 +68,11 @@ Die in dieser Iteration geplanten Aufgaben sind in der Work Items List dargestel
 | Projektstatus	| gelb
 |===
 
-* die angestrebten Ziele wurden erreicht
+* die Vision wurde nicht angefangen, alle anderen Aufgaben wurden odrnungsgemäß erledigt
 //Dokumentieren Sie, ob die angestrebten Ziele des Iterationsplans erreicht wurden.
 
 
-* das Bearbeiten des Architecture Noteboooks wurde als Aufgabe hinzugefügt (nur Anfangen)
+* das Bearbeiten des Architecture Noteboooks wurde als Aufgabe hinzugefügt (nur Anfangen), die Vision wird in der nächsten Iteration vervollständigt und soll beim Auftraggeber vorgelegt werden
 //Zusammenfassung, ob alle für die Iteration geplanten Aufgaben bearbeitet wurden und welche Aufgaben verschoben oder hinzugefügt wurden.
 
 
