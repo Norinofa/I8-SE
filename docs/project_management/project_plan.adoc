@@ -17,12 +17,12 @@ In diesem Projektplan der Gruppe "I8 Erstellung und Verwaltung von Gruppen für 
 //Introduce the project team, team members, and roles that they play during this project. If applicable, introduce work areas, domains, or technical work packages that are assigned to team members. Introduce neighboring projects, relationships, and communication channels. If the project is introduced somewhere else, reference that location with a link.
 In der folgenden Tabelle werden die Teammitglieder und deren Rollenverteilung dargestellt. Die Aufgaben wurden zum Teil doppelt verteilt. Die Rolle, die zuerst benannt wird, weist darauf hin, dass die Person die Hauptverantwortung in dieser Position trägt. Jedoch haben wir uns als Team darauf geeinigt, jeden Bereich zu unterstützen. 
 
-[%header, cols="1,1,1"]
+[%header, cols="1,1,1,1"]
 
 |===
-| Name | Rolle | Studiengang
+| Name | Rolle | Studiengang | Informationen zur Person
 | Evelyn Dietrich | Teamleiterin, Testerin | Wirtschaftsinformatik
-| Kilian Luca Schinnerling | Analyst, Teamleiter | Wirtschaftsingenieur 
+| Kilian Luca Schinnerling | Analyst, Teamleiter | Wirtschaftsingenieurwesen 
 | Hieu Trung Thi | Analyst | Wirtschaftsinformatik
 | Phil Benedikt Beck | Entwurf | Wirtschaftsinformatik 
 | Julius Wyrembek | Tester, Entwurf | Wirtschaftsinformatik
