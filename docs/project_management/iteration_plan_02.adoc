@@ -23,10 +23,10 @@ include::../_includes/default-attributes.inc.adoc[]
 == Wesentliche Ziele
 
 
-* die Vison soll weitesgehend fertiggestllt werden, sodass sie zur Vorlage für den Auftraggeber bereitliegt
-* Use Cases sollen logisch und vollständig fertiggestellt sein
-* Iterationsplan soll möglichst schnell fertig gestellt werden
-* Projektplan soll im groben alle bisher wichtigen Aspekte beinhalten
+* die Vison soll schreiben
+* Use Cases ausarbeiten
+* Iterationsplan fertigstellen
+* Projektplan anfangen
 
 
 == Aufgabenzuordnung
