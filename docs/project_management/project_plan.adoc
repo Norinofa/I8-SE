@@ -20,14 +20,14 @@ In der folgenden Tabelle werden die Teammitglieder und deren Rollenverteilung da
 [%header, cols="1,1,1,1"]
 
 |===
-| Name | Rolle | Studiengang | Informationen zur Person
-| Evelyn Dietrich | Teamleiterin, Testerin | Wirtschaftsinformatik
-| Kilian Luca Schinnerling | Analyst, Teamleiter | Wirtschaftsingenieurwesen 
-| Hieu Trung Thi | Analyst | Wirtschaftsinformatik
-| Phil Benedikt Beck | Entwurf | Wirtschaftsinformatik 
-| Julius Wyrembek | Tester, Entwurf | Wirtschaftsinformatik
-| Viktoria Karklin | Implementiererin | Informatik
-| Nuha Alhamiidi | Implementiererin | Wirtschaftsinformatik                                       
+| Name | Rolle | Studiengang | Informationen zur Person 
+| Evelyn Dietrich | Teamleiterin, Testerin | Wirtschaftsinformatik |
+| Kilian Luca Schinnerling | Analyst, Teamleiter | Wirtschaftsingenieurwesen |
+| Hieu Trung Thi | Analyst | Wirtschaftsinformatik |
+| Phil Benedikt Beck | Entwurf | Wirtschaftsinformatik |
+| Julius Wyrembek | Tester, Entwurf | Wirtschaftsinformatik |
+| Viktoria Karklin | Implementiererin | Informatik |
+| Nuha Alhamiidi | Implementiererin | Wirtschaftsinformatik |                                     
 |===
 
 
