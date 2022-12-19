@@ -1,10 +1,10 @@
 //Nutzen Sie dieses Template als Grundlage für die Spezifikation *einzelner* Use-Cases. Diese lassen sich dann per Include in das Use-Case Model Dokument einbinden (siehe Beispiel dort).
 
-== Use-Case: UC08 Teams mauell bearbeiten
+== Use-Case: UC08 Teams manuell bearbeiten
 
 === Kurzbeschreibung
 //<Kurze Beschreibung des Use Case>
-Der entsprechende Dozent oder Mitbetreuer des Moduls loggt sich in die entsprechende Website ein und geht in den exklusiven Bereich für die Teamverwaltung rein. Dort wird mittels eines Algorithmus die Teamzuordnung generiert.
+Der entsprechende Dozent oder Mitbetreuer des Moduls loggt sich in die Website ein und geht in den Bereich für Verwaltung rein. Dort wird mittels eines Sortieralgorithmus die Teamzuordnung generiert.
 Dort kann der Verantwortliche Dozent diese Teamzusammensetzung nochmals manuell bearbeiten.
 === Kurzbeschreibung der Akteure
 
@@ -18,11 +18,15 @@ Dozent/Betreuer
 * Dozent muss die benötigten Rechte besitzen um die Projekte und Teamzuordnungen zu verwalten
 * Studenten müssen den Fragebogen schon ausgefüllt haben und gespeichert haben
 
+
 === Standardablauf (Basic Flow)
 //Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
 
-. Der Use Case beginnt, wenn der Dozent sich anmeldet und in die manuelle Teamverwaltung wechselt
-. Der Dozent hat die Möglichkeit mittels (Wie funktioniert die Teamverwaltung?)
+. Der Use Case beginnt, wenn der Dozent sich anmeldet und in die manuelle Teamverwaltung aufruft
+. Der Dozent hat die Möglichkeit mittels (Wie funktioniert die Teamverwaltung???)
+. WHILE Dozent sich auf der Benutzeroberfläche befindet
+.. ...
+. Der Use Case endet hier
 
 === Alternative Abläufe
 //Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
@@ -50,6 +54,8 @@ Wenn <Akteur> im Schritt <x> des Standardablauf <etwas macht>, dann
 
 === Nachbedingungen
 //Nachbedingungen beschreiben das Ergebnis des Use Case, z.B. einen bestimmten Systemzustand.
+
+* Teamkonstellation wurden manuell neu angepasst
 
 ==== <Nachbedingung 1>
 
