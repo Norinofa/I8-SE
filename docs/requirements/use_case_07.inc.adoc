@@ -54,6 +54,9 @@ Wenn <Akteur> im Schritt <x> des Standardablauf <etwas macht>, dann
 === Nachbedingungen
 //Nachbedingungen beschreiben das Ergebnis des Use Case, z.B. einen bestimmten Systemzustand.
 
+* das System befindet sich wieder in ihren Ursprungszustand
+* Fragebögen und Teamzusammenstellungen wurden gelöscht
+
 ==== <Nachbedingung 1>
 
 === Besondere Anforderungen
