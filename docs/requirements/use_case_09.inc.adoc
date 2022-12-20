@@ -1,38 +1,47 @@
 //Nutzen Sie dieses Template als Grundlage für die Spezifikation *einzelner* Use-Cases. Diese lassen sich dann per Include in das Use-Case Model Dokument einbinden (siehe Beispiel dort).
 
-== Use-Case: UC09 Backup laden
+== Use-Case: UC09 Backup erstellen/laden
 
 === Kurzbeschreibung
 //<Kurze Beschreibung des Use Case>
 
-Dozent oder Mitbetreuer möchte ein Backup für die Seite anlegen.
+Dozent möchte ein Backup erstellen oder laden.
 
 === Kurzbeschreibung der Akteure
 
 Dozent oder Mitbetreuer
+
 ==== <Akteur 1 Name>
 
 === Vorbedingungen
 Dozent ist angemeldet, begibt sich auf die Einstellungen und Besitzt die nötigen Rechte.
-Es sollten Backups vorhanden sein.
+Es ist noch kein Backup vorhanden. (Backup erstellen)
+Es sollte mindestens ein Backups vorhanden sein. (Backup laden)
 
-<Vorbedingung 1>
 
 === Standardablauf (Basic Flow)
 //Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
 
-. Der Use Case beginnt, wenn der Dozent sich in den Einstellungen befindet.
-. Dozent wählt ein Backup aus
-. Dozent akzeptiert die Sicherheitsabfrage
-. Wiederherstellungsprozess wird gestartet
-. Ladebildschirm wird angezeigt
-. Benachrichtigung für das abgeschlossene Backup
+. Der Use Case beginnt, wenn der Dozent sich in den Einstellungen befindet und das Backup Fenster öffnet
+. If Dozent wählt Backup erstellen und es öffnet sich ein Abfragefenster
+.. der Dozent akzeptiert die Sicherheitsabfrage
+.. Dozent wird gefragt auf welchem Medium es gespeichert werden soll
+.. Backupprozess wird gestartet
+.. Backupprozess ist abgeschlossen
 . Der Use Case ist abgeschlossen.
+
+. If der Dozent lehnt die Sicherheitsabfrage ab
+.. Vorgang wird abgebrochen
+.. Sicherheitsabfragefenster schließt sich
+.. Basic Flow befindet sich wieder auf Schritt 1.
+
+
 
 === Alternative Abläufe
 //Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
-
+Wiederherstellungsfenster
 Backup ist korrupt
+
 
 ==== <Alternativer Ablauf 1>
 Wenn <Akteur> im Schritt <x> des Standardablauf <etwas macht>, dann
@@ -51,12 +60,17 @@ Wenn <Akteur> im Schritt <x> des Standardablauf <etwas macht>, dann
 //Szenarios sind konkrete Instanzen eines Use Case, d.h. mit einem konkreten Akteur und einem konkreten Durchlauf der o.g. Flows. Szenarios können als Vorstufe für die Entwicklung von Flows und/oder zu deren Validierung verwendet werden.
 
 ==== <Szenario 1>
-. <Szenario 1, Schritt 1>
-. …
-. <Szenario 1, Schritt n>
+. Erfolgreiches Backup wird angelegt
+. Sc1. Dozent wählt den Button aus um ein Backup jetzt zu erstellen. Er bestätigt die Sicherheitsabfrage für das Backup und der Prozess beginnt. Das Backup wird erfolgreich abgeschlossen.
+//Sollte man diese zusammenfassen????
+. Erfolgreiches laden eines Backups
+
 
 === Nachbedingungen
 //Nachbedingungen beschreiben das Ergebnis des Use Case, z.B. einen bestimmten Systemzustand.
+
+* Backup mit Datum und Uhrzeit wird angezeigt
+* System wurde in die Momentaufnahme des Backups zurückgesetzt
 
 ==== <Nachbedingung 1>
 
