@@ -20,19 +20,16 @@ Der Dozent ist angemeldet und besitzt die nötigen Rechte um die Website zurück
 //Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
 
 . Der Use Case beginnt, wenn der Dozent sich anmeldet und auf die Einstellungen wechselt.
-. Dozent erhält eine Sicherheitsabfrage und stimmt dieser zu 
-.. Dozent stimmt zu
-.. Dozent lehnt ab 
+. Dozent erhält eine Sicherheitsabfrage 
+. Dozent stimmt dieser zu 
 . Website wird auf dem Werkzustand zurückgesetzt
 . Der Use Case ist abgeschlossen.
 
 === Alternative Abläufe
 //Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
 
-==== <Alternativer Ablauf 1>
-Wenn <Akteur> im Schritt <x> des Standardablauf <etwas macht>, dann
-. <Ablauf beschreiben>
-. Der Use Case wird im Schritt <y> fortgesetzt.
+. Dozent lehnt ab
+. Vorgang wird abgebrochen
 
 === Unterabläufe (subflows)
 //Nutzen Sie Unterabläufe, um wiederkehrende Schritte auszulagern
