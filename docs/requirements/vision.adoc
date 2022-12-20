@@ -6,13 +6,13 @@ include::../_includes/default-attributes.inc.adoc[]
 
 
 == Einführung
-Der Zweck dieses Dokuments ist es, die wesentlichen Bedarfe und Funktionalitäten des <Projektname-Systems> zu sammeln, zu analysieren und zu definieren. Der Fokus liegt auf den Fähigkeiten, die von Stakeholdern und adressierten Nutzern benötigt werden, und der Begründung dieser Bedarfe. Die  Details, wie das <Projektname-System> diese Bedarfe erfüllt, werden in der Use-Case und Supplementary Specification beschrieben.
+Der Zweck dieses Dokuments ist es, die wesentlichen Bedarfe und Funktionalitäten des Online-Tool zur Erstellung und Verwaltung von Gruppen für Software Engineering Projekte zu sammeln, zu analysieren und zu definieren. Der Fokus liegt auf den Fähigkeiten, die von Stakeholdern und adressierten Nutzern benötigt werden, und der Begründung dieser Bedarfe. Die  Details, wie das Online-Tool diese Bedarfe erfüllt, werden in dem <<#use-case_model.adoc, Use-Case Model>> und <<#system-wide_requirement.adoc, System-Wide Requirements>> beschrieben.
 
 === Zweck
 Der Zweck dieses Dokuments ist es, die wesentlichen Anforderungen an das System aus Sicht und mit den Begriffen der künftigen Anwender zu beschreiben.
 
 === Gültigkeitsbereich (Scope)
-Dieses Visions-Dokument bezieht sich auf das <Projektthema-System>, das von <Team> entwickelt wird. Das System wird es <Zielkunde/Auftraggeber> erlauben, <Hauptfunktionen> zu nutzen, um damit <Vorteile> zu erreichen / <Aufgabe> zu erleichtern / <Problem> zu lösen.
+Dieses Visions-Dokument bezieht sich auf das Online-Tool zur Erstellung und Verwaltung von Gruppen für Software Engineering Projekte, das von Team I8 entwickelt wird. Das System wird es dem Dozenten erlauben, auf Basis von durch Studierenden ausgefüllten Fragebögen, mit Hilfe eines Algorithmus Teams aus Studierenden generieren zu lassen. Diese Teams sind vorher erstellten Projekten zugeordnet.
 
 === Definitionen, Akronyme und Abkürzungen
 //Verweis passend zum Belegabgabe-Template se1_belegabgabe_t00.adoc
@@ -21,11 +21,24 @@ Siehe <<#glossary, Glossar>>.
 === Referenzen
 (hier externe Verweise zu anderen Dokumenten, Quellen, Standards etc. einfügen, sofern notwendig)
 
+Möglicherweise Dokumente des Erstellerteams des Tools einfügen.
+
 
 == Positionierung
 
 === Fachliche Motivation
 //Erläutern Sie kurz den Hintergrund, in dem das Projekt angesiedelt ist. Welches Problem soll gelöst werden, wie ist es entstanden? Welche Verbesserung wird angestrebt. Achten Sie darauf, eine fachliche (organisatorische, betriebswirtschaftliche) Perspektive einzunehmen.
+
+Im Rahmen des Fachs Software Engineering werden interne (innerhalb der HTWD) und externe (Auftraggeber außerhalb der HTWD) Projekte in Teams aus teilnehmenden Studierenden realisiert. Die Studierenden stehen daher vor der Entscheidung an welchem Projekt sie im Semester mitwirken möchten. Um die Präferenzen, Fähigkeiten und Vorerfahrung jedes Studenten in die Teamerstellung einfließen zu lassen, füllen die Studierenden einen Fragebogen, in welchem diese abgefragt werden, aus. Die Teamerstellung bringt einige Probleme mit sich. Einerseits ist die Auswertung der Daten aus dem Fragebogen sehr zeitintensiv. Andererseits nehmen im Modul SE I neben verschiedenen Informatikstudiengängen auch Studierende des Wirtschaftsingenieurwesens teil, wobei die zweit genannten nach dem ersten Semester ausscheiden und im zweiten Semester ausschließlich die Studierenden der Informatik involviert sind. Gegebenfalls werden andere Studierende zum Semesterwechsel zusätzlich an SE II teilnehmen, z.B. aufgrund von Beurlaubung, Wiederholungsprüfung oder Auslandssemester Außerdem müssen folgenede Faktoren beachtet werden:
+
+
+* Ausgewogene Interessen bzgl. der Rollenverteilung
+* Nutzung vorhandener Fähigkeiten, v.a. im technischen Bereich
+* Gleichmäßige Verteilung der WING-Studierenden auf die Teams
+* Möglichst gleiche Größe der Teams (initial 7-10 Teammitglieder)
+
+
+Die aktuelle Softwarelösung ist von den Studierenden der letzten beiden Semester erstellt worden, wobei diese im aktuellen Semester erstmals getestet wurde. Jedoch sind hierbei einige Probleme aufgetreten, beziehungsweise Verbesserungswünsche vom Auftraggeber geäußert worden.
 
 === Problem Statement
 //Stellen Sie zusammenfassend das Problem dar, das mit diesem Projekt gelöst werden soll. Das folgende Format kann dazu verwendet werden:
