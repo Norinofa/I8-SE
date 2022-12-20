@@ -28,7 +28,7 @@ Der Dozent ist angemeldet und besitzt die nötigen Rechte um die Website zurück
 === Alternative Abläufe
 //Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
 ==== Dozent will die Seite doch nicht zurücksetzen 
-(3). Dozent lehnt ab
+(3) Dozent lehnt ab
 . Vorgang wird abgebrochen
 
 === Unterabläufe (subflows)
