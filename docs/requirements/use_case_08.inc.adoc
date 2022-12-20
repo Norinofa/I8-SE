@@ -6,6 +6,7 @@
 //<Kurze Beschreibung des Use Case>
 Der entsprechende Dozent oder Mitbetreuer des Moduls loggt sich in die Website ein und geht in den Bereich für Verwaltung rein. Dort wird mittels eines Sortieralgorithmus die Teamzuordnung generiert.
 Dort kann der Verantwortliche Dozent diese Teamzusammensetzung nochmals manuell bearbeiten.
+
 === Kurzbeschreibung der Akteure
 
 Dozent oder Mitbetreuer möchte die Teams verwalten.
