@@ -102,6 +102,8 @@ Beispiel Produkt:
 | Überarbeiten des bestehenden Bewerbungsprozesses für die Projektarbeit im Modul SE1
 | Studierende 
 | Kursteilnehmer im Modul SE1,
+
+
 *Wirtschaftsinformatiker 
 *Wirtschftsingenieure
 *Informaiker
@@ -110,6 +112,8 @@ Beispiel Produkt:
 | Auftraggeber
 | Herr Zirkelbach
 | 
+
+
 * Endnutzer des Produktes
 * ist für die Verwaltung zuständig
 * Ansprechpartner und Festleger der Anforderungen 
