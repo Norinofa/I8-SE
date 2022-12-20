@@ -101,22 +101,13 @@ Beispiel Produkt:
 | Berarbeiter des Projektes I8
 | Überarbeiten des bestehenden Bewerbungsprozesses für die Projektarbeit im Modul SE1
 | Studierende 
-| Kursteilnehmer im Modul SE1,
-
-
-*Wirtschaftsinformatiker 
-*Wirtschftsingenieure
-*Informaiker
-*Verwaltungsinformatiker
+| Kursteilnehmer im Modul SE1, Wirtschaftsinformatiker, Wirtschftsingenieure, Informaiker, Verwaltungsinformatiker
 | Endnutzer des Produktes
 | Auftraggeber
 | Herr Zirkelbach
-| 
-
-
-* Endnutzer des Produktes
-* ist für die Verwaltung zuständig
-* Ansprechpartner und Festleger der Anforderungen 
+| Endnutzer des Produktes,
+ ist für die Verwaltung zuständig.
+ Ansprechpartner und Festleger der Anforderungen 
 | Rechenzentrum der HTW
 | betreibt zentrale Server und Dienste der HTW
 | stellt Zertifikat bereit
