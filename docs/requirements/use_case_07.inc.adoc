@@ -1,6 +1,6 @@
 //Nutzen Sie dieses Template als Grundlage für die Spezifikation *einzelner* Use-Cases. Diese lassen sich dann per Include in das Use-Case Model Dokument einbinden (siehe Beispiel dort).
 
-== Use-Case: UC07 Seite zurücksetzen
+== Use-Case: UC07 Projektteams zurücksetzen
 // ADOC Seite noch zu bearbeiten oder bleibt leer
 
 === Kurzbeschreibung
