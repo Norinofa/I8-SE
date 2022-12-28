@@ -4,7 +4,6 @@ Vorname Nachname <email@domain.org>; Vorname2 Nachname2 <email2@domain.org>; Vor
 include::../_includes/default-attributes.inc.adoc[]
 // Platzhalter für weitere Dokumenten-Attribute
 
-
 == Einführung
 Der Zweck dieses Dokuments ist es, die wesentlichen Bedarfe und Funktionalitäten des Online-Tool zur Erstellung und Verwaltung von Gruppen für Software Engineering Projekte zu sammeln, zu analysieren und zu definieren. Der Fokus liegt auf den Fähigkeiten, die von Stakeholdern und adressierten Nutzern benötigt werden, und der Begründung dieser Bedarfe. Die  Details, wie das Online-Tool diese Bedarfe erfüllt, werden in dem <<#use-case_model.adoc, Use-Case Model>> und <<#system-wide_requirement.adoc, System-Wide Requirements>> beschrieben.
 
@@ -38,17 +37,29 @@ Im Rahmen des Fachs Software Engineering werden interne (innerhalb der HTWD) und
 * Möglichst gleiche Größe der Teams (initial 7-10 Teammitglieder)
 
 
-Die aktuelle Softwarelösung ist von den Studierenden der letzten beiden Semester erstellt worden, wobei diese im aktuellen Semester erstmals getestet wurde. Jedoch sind hierbei einige Probleme aufgetreten, beziehungsweise Verbesserungswünsche vom Auftraggeber geäußert worden.
+Die aktuelle Softwarelösung ist von den Studierenden der letzten beiden Semester erstellt worden, wobei diese im aktuellen Semester erstmals getestet wurde. Jedoch sind hierbei einige Probleme aufgetreten, beziehungsweise Verbesserungswünsche vom Auftraggeber geäußert worden. Diese lauten wie folgt:
+
+
+* Überarbeitung bzw. Neugestaltung der Oberfläche
+* Erweiterung der Projektverwaltung
+* Erweiterung des Fragebogens und Zuordnungsalgorithmus
+* Daten zurücksetzen für ein neues Semester
+* Backup- und Wiederherstellung
+* Optimieren der Docker-Umgebung
 
 === Problem Statement
 //Stellen Sie zusammenfassend das Problem dar, das mit diesem Projekt gelöst werden soll. Das folgende Format kann dazu verwendet werden:
 
 [cols="1,3"]
 |===
-| Das Problem | [beschreiben Sie das Problem]
-| betrifft | [die Stakeholder, die vom Problem betroffen sind]
-| die Auswirkung davon ist | [welche Auswirkungen hat das Problem?]
-| eine erfolgreiche Lösung wäre | Führen Sie einige wesentliche Vorteile einer erfolgreichen Lösung auf]
+| Das Problem | bisheriges Online-Tool erfüllt zwar den gewünschten Zweck der Teamgenerierung, jedoch ist die Handhabung und die Oberfläche in vielen Bereichen nicht ausgereift, außerdem fehlen Informationen im Fragebogen
+| betrifft | die Studierenden und Dozenten des Moduls Software Engineering, sowie den Kunden Herrn Zirkelbach
+| die Auswirkung davon ist a|
+* unnötiger Zeitaufwand bei der Verwaltung der Projekte
+* unübersichtliche Menüführung für Studierende und Dozenten
+* schlechte Platzausnutzung auf der Webseite
+* Teamgenerierung ist nicht ideal (fehlende Erfassung von abgeschlossener Fachinformatikerausbildung)
+| eine erfolgreiche Lösung wäre | eine Weiterentwicklung des bestehnden Online-Tools, dass die Kernfunktion (Zuordnungsalgorithmus und damit verbundene Teamgenerierung) beibehält, wobei die Beachtung von einer abgeschlossenen Fachinformatikerausbildung ergänzt wird. Eine Oberfläche, die ein intuitiveres Bedienen durch die Studierenden ermöglicht. Eine effizientere Projektverwaltung durch Features wie der Zuordnung von Projekt-ID's und Labels.
 |===
 
 ////
@@ -69,12 +80,22 @@ Beispiel:
 
 [cols="1,3"]
 |===
-| Für | [Zielkunde / Nutzer]
-| der / die | [Angabe des Bedarfs oder Chance]
-| Das Produkt / die Lösung ist ein | [Produktkategorie]
-| Die / Das | [Aussage zum Hauptvorteil / Alleinstellungsmerkmal]
-| Im Gegensatz zu | [wesentliche Lösungsalternative]
-| Unser Produkt | [Aussage zum Hauptunterschied]
+| Für | Studierende des Moduls SE
+| die | gemäß ihrem Interesse in ein Team für ein Projekt zugeteilt werden wollen
+| Das Produkt / die Lösung ist eine | Erweiterung des "Online-Tools der Teamerstellung"
+| Welche | ein intuitives Ausfüllen des Fragebogens ermöglicht
+| Im Gegensatz zu | dem bisherigen Online-Tool
+| Unser Produkt | ermöglicht durch eine überarbeitete Oberfläche ein angenehmeres Ausfüllen des Fragebogens, was durch die Beachtung des Vorhandenseins einer Fachinformatikerausbildung zu einer idealen Teamgenerierung führt
+|===
+
+[cols="1,3"]
+|===
+| Für | Dozenten des Moduls SE
+| die | Teams für die Software Engineering Projekte erstellen
+| Das Produkt / die Lösung ist eine | Erweiterung des "Online-Tools der Teamerstellung"
+| Welche | die ideale Generierung der Teams und das Erstellen, sowie die Verwaltung von Projekten mit erweiterten Funktionalitäten ermöglicht 
+| Im Gegensatz zu | dem bisherigen Online-Tool
+| Unser Produkt | ermöglicht durch eine überarbeitete Oberfläche und bessere Strukturierung der Projekte durch Projekt-ID's (I3 und E3) und Labels (Neuentwicklung/ Weiterentwicklung) ein angenehmeres Verwalten der Projekte und Teams. [Nach Möglichkeit weiterer Satz bzgl. Zurücksetzen und Backup- und Wiederherstellung]
 |===
 
 ////
@@ -97,17 +118,13 @@ Beispiel Produkt:
 |===
 | Name | Beschreibung | Verantwortlichkeiten
 
-| Projektteam I8
-| Berarbeiter des Projektes I8
-| Überarbeiten des bestehenden Bewerbungsprozesses für die Projektarbeit im Modul SE1
-| Studierende 
-| Kursteilnehmer im Modul SE1, Wirtschaftsinformatiker, Wirtschftsingenieure, Informaiker, Verwaltungsinformatiker
-| Endnutzer des Produktes
+| Studierende | Kursteilnehmer im Modul SE1 (Wirtschaftsinformatiker, Wirtschftsingenieure, Informatiker, Verwaltungsinformatiker) | Endnutzer des Produktes, beantworten den Fragebogen
+| Dozenten
+| Herr Prof. Dr.-Ing. Anke, Herr Zirkelbach
+| Endnutzer des Produktes, ist für die Verwaltung zuständig
 | Auftraggeber
 | Herr Zirkelbach
-| Endnutzer des Produktes,
- ist für die Verwaltung zuständig.
- Ansprechpartner und Festleger der Anforderungen 
+| Ansprechpartner und gibt die Anforderungen vor 
 | Rechenzentrum der HTW
 | betreibt zentrale Server und Dienste der HTW
 | stellt Zertifikat bereit
@@ -121,23 +138,35 @@ Beispiel Produkt:
 
 ==== Für Dozent
 
-. Die Anzahl Dozenten, ist abhängig davon wie viele Dozenten dieses Projekt bearbeiten. Dies sollte sich in der Regel nicht ändern. 
+* Bisherige Webanwendung soll verwendet werden (bekannt und etabliert)
 
-. Die Bearbeitungsdauer der Aufgabe ist abhängig von der Aufgabe, die in Anspruch genommen wird.
+* Bereitstellung des Online-Tools als Web-Applikation im HTW-Netz
 
-. Eine mobile Version des bestehenden Programmes ist wünschenswert
+* Die Anzahl der Nutzer beläuft sich derzeit auf zwei Dozenten
 
+* Der vorhandener Dozenten-Login wird von allen Dozenten geteilt
 
+* Datenhaltung erfolgt in einer MySQL Datenbank, Anbindung hierzu erforderlich
 
-==== Für Admin
+* Software läuft über Docker Container auf einem Server
 
-. Die Anhzahl der Teilnehmer ist abhängig von der Anzahl der Studierenden, die das Projekt in SE1 in Angriff nehmen
+* Bearbeitungszeit ist abhängig von der Anzahl der zu verwaltenden Projekten und Schnelligkeit des Algorithmus
 
-. Die Aufgabe sollte in etwa 20 Minuten in Anspruch nehmen
+==== Für Studierende
 
-. Die Bewerbung kann nur online erfolgen
+* Bisherige Webanwendung soll verwendet werden (bekannt und etabliert)
 
-. Eine mobile Anwendung soll gewährleistet werden
+* Bereitstellung des Online-Tools als Web-Applikation im HTW-Netz
+
+* Die Anzahl der Nutzer beläuft sich auf ungefähr 100 Studierende
+
+* Lediglich Studierende, welche zuvor vom Dozenten hinzugefügt wurden (also jene, die am Modul SE teilnehmen), können sich anmelden
+
+* Studierende verwenden hierfür ihre individuellen HTW-Logindaten
+
+* Die Beantwortung des Fragebogens sollte circa 20 Minuten in Anspruch nehmen
+
+* Mobile Version des Online-Tools ist wünschenswert
 
 //. Wie lange dauert die Bearbeitung der Aufgabe? Wie viel Zeit wird für jeden Arbeitsschritt benötigt? Ändert sich das?
 //. Gibt es besondere Umgebungsbedingungen, z.B. mobil, offline, Außeneinsatz, Touchbedienung, Nutzung durch seh- oder hörbeeinträchtigte Personen?
@@ -155,7 +184,15 @@ Beispiel Produkt:
 [%header, cols="4,1,4,1"]
 |===
 | Bedarf | Priorität | Features | Geplantes Release
-| xx | xx | xx | xx
+| Überarbeitung bzw. Neugestaltung der Oberfläche | xx | schlanke, funktionale Oberfläche, einfachere Menüführung für Szudenten- und Dozentenansicht, bessere Ausnutzung des Platzes, Labels/Begriffe vereinheitlichen und von den Begrifflichkeiten (ein-/mehrzahl, genderge­ rechte Begriffe) anpassen,  | xx
+| Erweiterung der Projektverwaltung | xx | Projekt-ID (I1, E3) extra zum Thema erfassen, Labels zum Projekt erfassen und anzeigen (Techniken, intern/extern, Neuentwicklung/Wei­
+terentwicklung), Pflichtfelder anpassen und Standardwerte/-verhalten für leere Felder | xx
+| Erweiterung des Fragebogens und Zuordnungsalgorithmus | xx | Erfassung ob eine Fachinformatikausbildung oder ähnliche Qualifikation erfolgt ist. Diese
+sollen gleichmäßig auf die Teams verteilt werden, Möglichkeit der mehrfachen Vergabe von Themen (bspw. bei zu wenig Themen) | xx
+| Daten zurücksetzen für neues Semester | xx | Entfernen aller Daten (Projektthemen, Studenten, Umfragen, Teams) und Einstellungen
+(Sichtbarkeiten) für ein neues Semester | xx
+| Backup- und Wiederherstellung | xx | Datenbank SQL-Dump (down-/upload?), Einstellungen (wenn nicht in Datenbank vorhanden) | xx
+| Optimieren der Docker-Umgebung | xx | Passwörter auslagern (Umgebungsvariable statt fest im Code/Git), logfiles, file/folder permissions, ... | xx
 |===
 
 
@@ -172,5 +209,8 @@ Hinweise:
 [%header, cols="4,1,1"]
 |===
 | Anforderung | Priorität | Geplantes Release
-| xx | xx | xx
+| hell/ dunkel Modus | xx | xx
+| Zurücksetzen der Primärschlüssel | xx | xx
+| Online-Tool soll zuverlässig sein | hoch | xx
+| Online-Tool soll intuitiv bedienbar sein | hoch | xx
 |===
