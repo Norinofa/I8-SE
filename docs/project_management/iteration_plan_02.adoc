@@ -13,8 +13,6 @@ include::../_includes/default-attributes.inc.adoc[]
 | Meilenstein | Datum
 
 | Beginn der Iteration | 28.11.22
-| Use Cases ausarbeiten | 13.12.22  
-| Iteration 01 fertig geschrieben| 15.12.22
 | Ende der Iteration | 16.12.22
 |===
 
