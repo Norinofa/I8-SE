@@ -66,9 +66,10 @@ Die in dieser Iteration geplanten Aufgaben sind in der Work Items List dargestel
 | Projektstatus	| gelb
 |===
 
-* die Vision wurde nicht angefangen, alle anderen Aufgaben wurden odrnungsgemäß erledigt
+* die Vision und die Uses Cases wurden nicht angefangen, daher werden diese in der nächsten Iteration bearbeitet
 //Dokumentieren Sie, ob die angestrebten Ziele des Iterationsplans erreicht wurden.
 
+* Ansonsten wurden alle Aufgaben ordnungsgemäß erledigt. 
 
 * das Bearbeiten des Architecture Noteboooks wurde als Aufgabe hinzugefügt (nur Anfangen), die Vision wird in der nächsten Iteration vervollständigt und soll beim Auftraggeber vorgelegt werden
 //Zusammenfassung, ob alle für die Iteration geplanten Aufgaben bearbeitet wurden und welche Aufgaben verschoben oder hinzugefügt wurden.
