@@ -13,7 +13,6 @@ include::../_includes/default-attributes.inc.adoc[]
 | Meilenstein | Datum
 
 | Beginn der Iteration | 17.11.22
-| mit Aufgaben vertraut machen | 25.11.22
 | Gespräch mit Herr Zirkelbach (Coach + Auftraggeber) | 25.11.22
 | Meeting nach Gespräch um Zusammenfassen der Erkenntnisse | 25.11.22 
 | Ende der Iteration | 28.11.22
@@ -25,6 +24,7 @@ include::../_includes/default-attributes.inc.adoc[]
 
 * Kennenlernen der Gruppe 
 * Rollenverteilung
+* mit Aufgaben vertraut machen
 * Vorbereitung auf das Gespräch mit Herr Zirkelbach
 
 
