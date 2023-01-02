@@ -12,9 +12,9 @@ include::../_includes/default-attributes.inc.adoc[]
 |===
 | Meilenstein | Datum
 
-| Beginn der Iteration | 28.11.22
+| Beginn der Iteration | 03.01.23
 | ...| -
-| Ende der Iteration | 12.12.22
+| Ende der Iteration | 
 |===
 
 
