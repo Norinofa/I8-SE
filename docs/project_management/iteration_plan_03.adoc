@@ -13,8 +13,6 @@ include::../_includes/default-attributes.inc.adoc[]
 | Meilenstein | Datum
 
 | Beginn der Iteration | 28.11.22
-| Treffen mit Coach/ Auftraggeber | 20.12.22
-| SSL beantragen | 
 | Ende der Iteration | 12.12.22
 |===
 
@@ -22,11 +20,9 @@ include::../_includes/default-attributes.inc.adoc[]
 == Wesentliche Ziele
 
 * Vision schreiben
-* Vision mit dem Auftraggeber besprechen/ überarbeiten
-* SSL beantragen
-* Das Architecture Notebook anfangen
-* Use Case Modell/ Diagramm Ausarbeitung
-* Wireframes ausarbeiten
+* mit dem Code vertraut machen
+* Use Cases ausarbeiten
+
 
 == Aufgabenzuordnung
 //Dieser Abschnitt sollte einen Verweis auf die Work Items List enthalten, die die für diese Iteration vorgesehenen Aufgaben dokumentiert sowie die Zuordnung dieser Aufgaben zu Teammitgliedern. Alternativ können die Aufgaben für die Iteration und die Zuordnung zu Teammitgliedern in nachfolgender Tabelle dokumentiert werden - je nach dem, was einfacher für die Projektbeteiligten einfacher zu finden ist.
