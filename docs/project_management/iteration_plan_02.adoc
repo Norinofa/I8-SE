@@ -51,7 +51,7 @@ Die in dieser Iteration geplanten Aufgaben sind in der Work Items List dargestel
 * erste Iteration soll vollständig ausgearbeitet sein
 * logische Use Cases sollen gefunden werden und größtenteils ausgearbeitet sein 
 * grobe Erstellung des Projektplanes
-* Projektplan soll im Groben ausgearbeitet sein
+
 
 
 == Assessment
