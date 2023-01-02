@@ -22,12 +22,14 @@ include::../_includes/default-attributes.inc.adoc[]
 * Vision schreiben
 * mit dem Code vertraut machen
 * Use Cases ausarbeiten
+* virtuelle Maschine beantragen
+* Architecture Notebook anfangen
 
 
 == Aufgabenzuordnung
 //Dieser Abschnitt sollte einen Verweis auf die Work Items List enthalten, die die für diese Iteration vorgesehenen Aufgaben dokumentiert sowie die Zuordnung dieser Aufgaben zu Teammitgliedern. Alternativ können die Aufgaben für die Iteration und die Zuordnung zu Teammitgliedern in nachfolgender Tabelle dokumentiert werden - je nach dem, was einfacher für die Projektbeteiligten einfacher zu finden ist.
 
-Verweis zu workitems list
+Verweis zu Projects 
 
 
 
@@ -39,7 +41,7 @@ Verweis zu workitems list
 | Problem | Status | Notizen
 
 | für nächsten geplanten Schritt (Archtecture Notebook) noch kein Praktikum | gelb | wird daher erst nur angefangen
-| wenig Zeit durch Feiertage | gelb | so weit wie möglich Aufgaben ausarbeiten
+| wenig Zeit durch laufende Projekte in anderen Modulen | gelb | so weit wie möglich Aufgaben ausarbeiten
 |===
 
 
@@ -47,11 +49,11 @@ Verweis zu workitems list
 //Eine kurze Beschreibung, wie Erfüllung die o.g. Ziele bewertet werden sollen.
 
 
-* die Vision wurde inhaltlich vom Auftraggeber befürwortet
-* Zertifizierung erhalten
+* die Vision wurde Fertiggestellt und kann dem Auftraggeber vorgelegt werden
+* die Use Cases sind identifiziert wurden und können dem Auftraggeber vorgelegt werden
+* der Code wurde im Groben verstanden
 * das Architecture Notebook ist parallel zu den Use Cases ausgearbeitet
-* ein ausgereiftes Use Case Modell/ Diagramm muss erarbeitet sein
-* für ausgewählte Use Cases schlüssige Wireframes erkennbar und ausgearbeitet
+* eine virtuelle Maschine ist vorhanden
 
 
 == Assessment
@@ -66,13 +68,13 @@ Verweis zu workitems list
 | Projektstatus	|gelb
 |===
 
-* Beurteilung im Vergleich zu den Zielen
+* Alle Aufgaben wurden ausgeführt
 //Dokumentieren Sie, ob die angestrebten Ziele des Iterationsplans erreicht wurden.
 
-* Geplante vs. erledigte Aufgaben
+* Alles Aufgaben wurden bearbeitet, sodass keine verschoben wurden.
 //Zusammenfassung, ob alle für die Iteration geplanten Aufgaben bearbeitet wurden und welche Aufgaben verschoben oder hinzugefügt wurden.
 
-* Beurteilung im Vergleich zu den Bewertungskriterien
+
 //Document whether you met the evaluation criteria as specified in the Iteration Plan.
 //Geben Sie an, ob Sie die o.g. Bewertungskriterien erfüllt haben. Das kann z.B. folgende Informationen enthalten: “Demo for Department X was well-received, with some concerns raised around usability,” or “495 test cases were automated with a 98% pass rate. 9 test cases were deferred because the corresponding Work Items were postponed.”
 
