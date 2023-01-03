@@ -70,8 +70,8 @@ _alternativ:_ Die folgenden Aufgaben werden in dieser Iteration bearbeitet:
 |===
 | Assessment Ziel | Das kann die gesamte Iteration oder eine spezifische Komponente sein
 
-| Assessment Datum | 20.12.22
-| Teilnehmer | Kilian, Evelyn
+| Assessment Datum | 03.01.23
+| Teilnehmer | Evelyn
 | Projektstatus	| gelb
 |===
 
