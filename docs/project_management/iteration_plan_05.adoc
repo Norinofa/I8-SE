@@ -13,18 +13,21 @@ include::../_includes/default-attributes.inc.adoc[]
 | Meilenstein | Datum
 
 | Beginn der Iteration | 03.01.23
-| ...| -
-| Ende der Iteration | 
+| Wireframes ausarbeiten | 04.01.23
+| Treffen mit Auftraggeber | 06.01.23?
+| Ende der Iteration | 16.01.23
 |===
 
 
 == Wesentliche Ziele
 
 
-* Vison schreiben
-* Use Cases ausarbeiten
-* Iterationsplan schreiben
-* Prejektplan anfangen
+* Demo erstellen
+* Systemweite Anforderungen ausarbeiten
+* Glossar ausarbeiten
+* Domänenmodel ausarbeiten
+* Architecture Notebook vervollständigen
+* Test Cases beginnen
 
 
 == Aufgabenzuordnung
@@ -55,11 +58,10 @@ _alternativ:_ Die folgenden Aufgaben werden in dieser Iteration bearbeitet:
 == Bewertungskriterien
 //Eine kurze Beschreibung, wie Erfüllung die o.g. Ziele bewertet werden sollen.
 
-Beispiele:
 
-* 97% der Testfälle auf Systemebene sind erfolgreich.
-* Gemeinsame Inspektion des Iterations-Ergebnisses (Inkrement) mit den Abteilungen X und Y ergibt positive Rückmeldung.
-* Technische Präsentation / Demo erhält positive Rückmeldungen.
+* Wireframes, Use Case Model, Use Cases wurden vom Auftraggeber akzeptiert und als gut empfunden
+* Glossar, Domänenmodell, Architecture Notebook wurden so ausgearbeitet, dass nur noch Feinheiten fehlen
+* eine Implementierung wurde vorgenommen und soweit ausgearbeitet, dass sie dem Auftraggeber vorgelegt werden kann
 
 
 == Assessment
