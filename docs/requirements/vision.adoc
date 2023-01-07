@@ -184,7 +184,7 @@ Beispiel Produkt:
 [%header, cols="4,1,4,1"]
 |===
 | Bedarf | Priorität | Features | Geplantes Release
-| Überarbeitung bzw. Neugestaltung der Oberfläche | xx | schlanke, funktionale Oberfläche, einfachere Menüführung für Szudenten- und Dozentenansicht, bessere Ausnutzung des Platzes, Labels/Begriffe vereinheitlichen und von den Begrifflichkeiten (ein-/mehrzahl, genderge­ rechte Begriffe) anpassen,  | xx
+| Überarbeitung bzw. Neugestaltung der Oberfläche | xx | schlanke, funktionale Oberfläche, einfachere Menüführung für Studenten- und Dozentenansicht, bessere Ausnutzung des Platzes, Labels/Begriffe vereinheitlichen und von den Begrifflichkeiten (ein-/mehrzahl, genderge­ rechte Begriffe) anpassen,  | xx
 | Erweiterung der Projektverwaltung | xx | Projekt-ID (I1, E3) extra zum Thema erfassen, Labels zum Projekt erfassen und anzeigen (Techniken, intern/extern, Neuentwicklung/Wei­
 terentwicklung), Pflichtfelder anpassen und Standardwerte/-verhalten für leere Felder | xx
 | Erweiterung des Fragebogens und Zuordnungsalgorithmus | xx | Erfassung ob eine Fachinformatikausbildung oder ähnliche Qualifikation erfolgt ist. Diese
