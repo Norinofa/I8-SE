@@ -52,14 +52,22 @@ Die aktuelle Softwarelösung ist von den Studierenden der letzten beiden Semeste
 
 [cols="1,3"]
 |===
-| Das Problem | bisheriges Online-Tool erfüllt zwar den gewünschten Zweck der Teamgenerierung, jedoch ist die Handhabung und die Oberfläche in vielen Bereichen nicht ausgereift, außerdem fehlen Informationen im Fragebogen
-| betrifft | die Studierenden und Dozenten des Moduls Software Engineering, sowie den Kunden Herrn Zirkelbach
-| die Auswirkung davon ist a|
+| Das Problem
+| bisheriges Online-Tool erfüllt zwar den gewünschten Zweck der Teamgenerierung, jedoch ist die Handhabung und die Oberfläche in vielen Bereichen nicht ausgereift, außerdem fehlen Informationen im Fragebogen
+
+| betrifft
+| die Studierenden und Dozenten des Moduls Software Engineering, sowie den Kunden Herrn Zirkelbach
+
+
+| die Auswirkung davon ist 
+a|
 * unnötiger Zeitaufwand bei der Verwaltung der Projekte
 * unübersichtliche Menüführung für Studierende und Dozenten
 * schlechte Platzausnutzung auf der Webseite
 * Teamgenerierung ist nicht ideal (fehlende Erfassung von abgeschlossener Fachinformatikerausbildung)
-| eine erfolgreiche Lösung wäre | eine Weiterentwicklung des bestehnden Online-Tools, dass die Kernfunktion (Zuordnungsalgorithmus und damit verbundene Teamgenerierung) beibehält, wobei die Beachtung von einer abgeschlossenen Fachinformatikerausbildung ergänzt wird. Eine Oberfläche, die ein intuitiveres Bedienen durch die Studierenden ermöglicht. Eine effizientere Projektverwaltung durch Features wie der Zuordnung von Projekt-ID's und Labels.
+
+| eine erfolgreiche Lösung wäre
+| eine Weiterentwicklung des bestehnden Online-Tools, dass die Kernfunktion (Zuordnungsalgorithmus und damit verbundene Teamgenerierung) beibehält, wobei die Beachtung von einer abgeschlossenen Fachinformatikerausbildung ergänzt wird. Eine Oberfläche, die ein intuitiveres Bedienen durch die Studierenden ermöglicht. Eine effizientere Projektverwaltung durch Features wie der Zuordnung von Projekt-ID's und Labels.
 |===
 
 ////
