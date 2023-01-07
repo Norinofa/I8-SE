@@ -219,6 +219,9 @@ Hinweise:
 | Anforderung | Priorität | Geplantes Release
 | hell/ dunkel Modus | xx | xx
 | Zurücksetzen der Primärschlüssel | xx | xx
-| Online-Tool soll zuverlässig sein | hoch | xx
-| Online-Tool soll intuitiv bedienbar sein | hoch | xx
+| Online-Tool soll zuverlässig sein | hoch | xx     
+| Online-Tool soll intuitiv bedienbar sein | hoch | xx  
 |===
+
+//sehr vage formuliert und rest kann noch ergänzt werden
+//zu beachten sind noch die Verlinkungen für später
