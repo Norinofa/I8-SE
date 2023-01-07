@@ -12,20 +12,22 @@ include::../_includes/default-attributes.inc.adoc[]
 |===
 | Meilenstein | Datum
 
-| Beginn der Iteration | 16.12.22
-| Termin mit Couch/ (Auftraggeber)| 20.12.22
-| Ende der Iteration | 03.01.23
+| Beginn der Iteration | 03.01.23
+| Wireframes ausarbeiten | 04.01.23
+| Treffen mit Auftraggeber | 06.01.23?
+| Ende der Iteration | 16.01.23
 |===
 
 
 == Wesentliche Ziele
 
 
-* SSL beantragen
-* Use Case Model/ Diagramm (ggf.) anpassen
-* Iterationsplan schreiben
-* Architecture Notebook aktualisieren
-* Projects in GitHub erstellen
+* Demo erstellen
+* Systemweite Anforderungen ausarbeiten
+* Glossar ausarbeiten
+* Domänenmodel ausarbeiten
+* Architecture Notebook vervollständigen
+* Test Cases beginnen
 
 
 == Aufgabenzuordnung
@@ -49,8 +51,7 @@ _alternativ:_ Die folgenden Aufgaben werden in dieser Iteration bearbeitet:
 |===
 | Problem | Status | Notizen
 
-| wenig Zeit durch Feiertage | gelb | Aufgaben weitesgehend bearbeiten
-| wir hätten erst das Use Case Diagramm ausarbeiten sollen, dann die Use Cases | grün | Use Case Diagramm wurde erstellt
+| x | x | x
 |===
 
 
@@ -58,9 +59,9 @@ _alternativ:_ Die folgenden Aufgaben werden in dieser Iteration bearbeitet:
 //Eine kurze Beschreibung, wie Erfüllung die o.g. Ziele bewertet werden sollen.
 
 
-* der Couch/ Auftraggeber ist mit den ausgearbeiteten Use Cases einverstanden
-* eine Zertifizierung wurde erlangt
-* Projects ist ein Bestandteil für die Organisation der Gruppenarbeit geworden
+* Wireframes, Use Case Model, Use Cases wurden vom Auftraggeber akzeptiert und als gut empfunden
+* Glossar, Domänenmodell, Architecture Notebook wurden so ausgearbeitet, dass nur noch Feinheiten fehlen
+* eine Implementierung wurde vorgenommen und soweit ausgearbeitet, dass sie dem Auftraggeber vorgelegt werden kann
 
 
 == Assessment
@@ -70,18 +71,18 @@ _alternativ:_ Die folgenden Aufgaben werden in dieser Iteration bearbeitet:
 |===
 | Assessment Ziel | Das kann die gesamte Iteration oder eine spezifische Komponente sein
 
-| Assessment Datum | 03.01.23
-| Teilnehmer | Evelyn
-| Projektstatus	| gelb
+| Assessment Datum | ...
+| Teilnehmer | ...
+| Projektstatus	| Zum Beispiel ausgedrückt als rot, gelb oder grün.
 |===
 
-* 
+* Beurteilung im Vergleich zu den Zielen
 //Dokumentieren Sie, ob die angestrebten Ziele des Iterationsplans erreicht wurden.
 
-* Nicht alle Aufgaben wurden bearbeitet, jedoch der Großteil
+* Geplante vs. erledigte Aufgaben
 //Zusammenfassung, ob alle für die Iteration geplanten Aufgaben bearbeitet wurden und welche Aufgaben verschoben oder hinzugefügt wurden.
-* Der Couch war mit der Ausarbeitung der Use Cases nicht ganz einverstanden, da viele identifizierte Use Cases bereits in der uns gegebenen Vorlage beinhaltet sind
-* Die Zertifizierung wurde nicht beantragt und soll am 04.01.23 beantragt
+
+* Beurteilung im Vergleich zu den Bewertungskriterien
 //Document whether you met the evaluation criteria as specified in the Iteration Plan.
 //Geben Sie an, ob Sie die o.g. Bewertungskriterien erfüllt haben. Das kann z.B. folgende Informationen enthalten: “Demo for Department X was well-received, with some concerns raised around usability,” or “495 test cases were automated with a 98% pass rate. 9 test cases were deferred because the corresponding Work Items were postponed.”
 

@@ -12,16 +12,16 @@ include::../_includes/default-attributes.inc.adoc[]
 == Identifizierte Use Cases
 // Liste aller identifizierten Use Cases (priorisiert)
 
-
-* *UC01*: User login
-* *UC02*: Fragebogen bearbeiten
-* *UC03*: Projekt anlegen
-* *UC04*: Projekt bearbeiten
-* *UC05*: Projekt löschen
+* *UC04*: Projekt bearbeiten (ID)
+* *UC03*: Projekt anlegen/ bearbeiten
+* *UC02*: Fragebogen ausfüllen
 * *UC06*: Teams generieren
+* *UC05*: Projekt löschen
 * *UC07*: Projektteams zurücksetzen
 * *UC08*: Teams manuell bearbeiten
 * *UC09*: Backup erstellen/laden
+* *UC01*: User login
+* *UC11*: Zurücksetzen für neues Semester
 
 
 == Use Case Diagramm
