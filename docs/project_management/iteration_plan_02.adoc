@@ -21,8 +21,11 @@ include::../_includes/default-attributes.inc.adoc[]
 
 * Use Cases ausarbeiten
 * Iterationsplan fertigstellen
-* Projektplan anfangen
-* Vision anfangen
+* Projektplan schreiben
+* Vision schreiben
+* Mit dem Code vertrau machen
+* virtuelle Maschine beantragen
+* Architecure Notebook anfangen
 
 
 == Aufgabenzuordnung
@@ -40,7 +43,9 @@ Die in dieser Iteration geplanten Aufgaben sind in der Work Items List dargestel
 |===
 | Problem | Status | Notizen
 
-| Zeitmanagement durch andere laufende Projekte | in Arbeit | bessere Zeiteinteilung
+| Zeitmanagement durch andere laufende Projekte | gelb | bessere Zeiteinteilung
+| Für nächsten geplanten Schritt noch kein Praktikum | gelb | nur so weit, wie möglich ausarbeiten
+| Der Code ist schwer verständlich, da keine Vorerfahrungen mit den Programmen | gelb | mehr Zeit dafür investieren, mehr Mitglieder dafür einteilen
 |===
 
 
@@ -49,8 +54,12 @@ Die in dieser Iteration geplanten Aufgaben sind in der Work Items List dargestel
 
 
 * erste Iteration soll vollständig ausgearbeitet sein
-* logische Use Cases sollen gefunden werden und größtenteils ausgearbeitet sein 
+* die Vision wurde fertigggestellt und kann dem AUftraggeber vorgelegt werden
+* die Use Cases sind identifieziert wurden und können dem Auftraggeber vorgelegt werden
+* der Code wurde im Groben verstanden
 * grobe Erstellung des Projektplanes
+* eine virtuelle Maschine ist vorhanden
+* Das Architecture Notebook ist parallel zu den Use Cases ausgearbeitet
 
 
 
@@ -62,16 +71,16 @@ Die in dieser Iteration geplanten Aufgaben sind in der Work Items List dargestel
 | Assessment Ziel | Das kann die gesamte Iteration oder eine spezifische Komponente sein
 
 | Assessment Datum | 16.12.22
-| Teilnehmer | Kiian, Hieu, Phil, Julius, Evelyn
+| Teilnehmer | Evelyn
 | Projektstatus	| gelb
 |===
 
-* die Vision und die Uses Cases wurden nicht angefangen, daher werden diese in der nächsten Iteration bearbeitet
+* die Vision und die Uses Cases wurden nicht bis zu Ende ausgearbeitet, daher werden diese in der nächsten Iteration bearbeitet
 //Dokumentieren Sie, ob die angestrebten Ziele des Iterationsplans erreicht wurden.
 
 * Ansonsten wurden alle Aufgaben ordnungsgemäß erledigt. 
 
-* das Bearbeiten des Architecture Noteboooks wurde als Aufgabe hinzugefügt (nur Anfangen), die Vision wird in der nächsten Iteration vervollständigt und soll beim Auftraggeber vorgelegt werden
+* Die Vision und die Use Cases werden in der nächsten Iteration vervollständigt und sollen beim Auftraggeber vorgelegt werden
 //Zusammenfassung, ob alle für die Iteration geplanten Aufgaben bearbeitet wurden und welche Aufgaben verschoben oder hinzugefügt wurden.
 
 
