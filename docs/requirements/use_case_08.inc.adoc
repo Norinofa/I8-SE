@@ -1,6 +1,6 @@
 //Nutzen Sie dieses Template als Grundlage für die Spezifikation *einzelner* Use-Cases. Diese lassen sich dann per Include in das Use-Case Model Dokument einbinden (siehe Beispiel dort).
 
-== Use-Case: UC08 Teams manuell bearbeiten
+== Use-Case: UC08 manuelle Teamverwaltung
 
 === Kurzbeschreibung
 //<Kurze Beschreibung des Use Case>

@@ -18,11 +18,22 @@ NOTE: Die funktionalen Anforderungen, die sich aus der Interaktion von Nutzern m
 == Systemweite funktionale Anforderungen
 //Angabe von system-weiten funktionalen Anforderungen, die nicht als Use Cases ausgedrückt werden können. Beispiele sind Drucken, Berichte, Authentifizierung, Änderungsverfolgung (Auditing), zeitgesteuerte Aktivitäten (Scheduling), Sicherheit / Maßnahmen zum Datenschutz
 
-SWFA-1: Die Webseite soll 
+*SWFA-1:* Die Webseite soll 
 
-SWFA-2: Die Webseite
+*SWFA-2:* Die Webseite
 
-SWFA-3: 
+*SWFA-3:* 
+
+//Punkte noch zu bearbeiten
+* Fragebogen nicht zu beachten
+* zusätzliche Frage wegen Informatikausbildung (Fragebogen)
+* ID soll zusätzlich als eigenes Feld erfasst werden
+* Pflichtfelder sollen markiert sein und muss ausgefüllt sein 
+* wenn bereits der Fragebogen bearbeitet wurde dann sollen die zwischengespeicherten Daten aufgerufen werden können
+* bei wenigen Projekten sollen gefragte doppelt verwendet werden und bie zuvielen Projekten sollen nur die gefragten verwendet werden
+* Entfernen aller Daten (Projektthemen, Studenten, Umfragen, Teams) und Einstellungen (Sichtbarkeiten) für ein neues Semester
+* der Dozent soll die Möglichkeit haben manuell erstellte Backups aus einer Cloud auf der Website neu zu laden
+
 //das hier und Reliability nochmals anschauen
 //Testcases noch zu bearbeiten
 
@@ -34,21 +45,21 @@ SWFA-3:
 === Benutzbarkeit (Usability)
 //Beschreiben Sie Anforderungen für Eigenschaften wie einfache Bedienung, einfaches Erlernen, Standards für die Benutzerfreundlichkeit, Lokalisierung (landesspezifische Anpassungen von Sprache, Datumsformaten, Währungen usw.)
 
-* NFAU-1: Die Benutzeroberfläche muss möglichst intuitiv, simple, eindeutig und Angemessene Gestaltung von Schrift und Farbe besitzen
+* *NFAU-1:* Die Benutzeroberfläche muss möglichst intuitiv, simple, eindeutig und Angemessene Gestaltung von Schrift und Farbe besitzen
 
-	*NFAU-1.1: Das Design der Website sollte für den Studenten möglichst Intuitiv sein und gewünschte Interaktionen oder Inhalte schnell finden zu können
+	*NFAU-1.1:* Das Design der Website sollte für den Studenten möglichst Intuitiv sein und gewünschte Interaktionen oder Inhalte schnell zu finden  sein.
 	
     Zur Überprüfung
 
-	*NFAU-1.2: Einfache Gestaltung der Layouts, [wie nennt man diese Knöpfe in da man weitergeleitet wird oder eine funktion im programm getriggert wird?], angemessene Nutzung des textuellen Platzes
+	*NFAU-1.2:* Einfache Gestaltung der Layouts, [wie nennt man diese Knöpfe in da man weitergeleitet wird oder eine funktion im programm getriggert wird?], angemessene Nutzung des textuellen Platzes
 
     Zur Überprüfung..
 
-	*NFAU-1.3: Eine Konsistente (möglichst Einheitliche) Layout der Website sollte gegeben werden als auch für Begrifflichkeiten (Labels/Begriffe) welche zusätzlich gendergerecht angepasst sein sollten. Damit eine einfache Navigation innerhalb der Website für den Benutzer gewährleistet wird (und menschliche Gestalten sich nicht angegriffen fühlen wenn sie sich deswegen diskrimminiert fühlen).
+	*NFAU-1.3:* Eine Konsistente (möglichst Einheitliche) Layout der Website sollte gegeben werden als auch für Begrifflichkeiten (Labels/Begriffe) welche zusätzlich gendergerecht angepasst sein sollten. Damit eine einfache Navigation innerhalb der Website für den Benutzer gewährleistet wird (und menschliche Gestalten sich nicht angegriffen fühlen wenn sie sich deswegen diskrimminiert fühlen).
 
 	Zur Überprüfung
 
-	*NFAU-1.4: Die Farben und Schriftarten sollen auf die Website so angepasst werden, sodass sie gut Lesbar ist (Hell/Dunkel Format beachten)
+	*NFAU-1.4:* Die Farben und Schriftarten sollen auf die Website so angepasst werden, sodass sie gut Lesbar ist (Hell/Dunkel Format beachten)
 
     Zur Überprüfung
 
@@ -57,16 +68,18 @@ SWFA-3:
 * Projekt-ID (I1, E3) extra zum Thema erfassen
 * Labels zum Projekt erfassen und anzeigen (Techniken, intern/extern, Neuentwicklung/Weiterentwicklung)
 
+//noch nicht vollständig überdacht
+
 === Zuverlässigkeit (Reliability)
 // Zuverlässigkeit beinhaltet die Fähigkeit des Produkts und/oder des Systems unter Stress und ungünstigen Bedingungen am laufen zu bleiben. Spezifizieren Sie Anforderungen für zuverlässige Akzeptanzstufen, und wie diese gemessen und evaluiert werden. Vorgeschlagene Themen sind Verfügbarkeit, Häufigkeit und Schwere von Fehlern und Wiederherstellbarkeit.
 
-NFAR-1: Das Webseite soll Robust gegen Fehler und Abstürzen sein
+*NFAR-1:* Das Webseite soll Robust gegen Fehler und Abstürzen sein
 
 Zur Überprüfung soll durch simulierte Lasttest (Apache JMeter) oder simulieren von Netzverkehr (Wireshark)
 
-NFAR-2: Die Webseite soll sicher sein und den Zugang von unbefugten Nutzern schützen
+*NFAR-2:* Die Webseite soll sicher sein und den Zugang von unbefugten Nutzern schützen
 
-NFAR-2.1: 
+*NFAR-2.1:* 
 Zur Überprüfung 
 - Passwort, benutzerkonten
 - Zugriffsrechte
@@ -78,27 +91,28 @@ Zur Überprüfung
 === Effizienz (Performance)
 // Die Performanz Charakteristiken des Systems sollten in diesem Bereich ausgeführt werden. Beispiele sind Antwortzeit, Durchsatz, Kapazität und Zeiten zum Starten oder Beenden.
 
-* NFAP-1: Die Nutzbarkeit muss gewährleistet sein, wenn alle derzeitigen Anwender gleichzeitig
+*NFAP-1:* Die Nutzbarkeit muss gewährleistet sein, wenn alle derzeitigen Anwender gleichzeitig
 arbeiten wollen.
-* Überprüft wird dies durch einen Stresstest mit 10 Nutzern.
+Überprüft wird dies durch einen Stresstest mit 10 Nutzern.
 
-NFAP-2: Die Wechselzeit von verschiedenen Unterseiten sollte möglichst minimal verlaufen
-*Überprüft werden die unterseiten in verschiedenen Zeitintervallen abgefragt und die Antwortzeit wird notiert
+*NFAP-2:* Die Wechselzeit von verschiedenen Unterseiten sollte möglichst minimal verlaufen
 
-NFAP-3: Die Zeit für die Teamerstellung soll möglichst klein beim erweiterten Zuordnungsalgorithmus gehalten werden.
+Überprüft werden die unterseiten in verschiedenen Zeitintervallen abgefragt und die Antwortzeit wird notiert
+
+*NFAP-3:* Die Zeit für die Teamerstellung soll möglichst klein beim erweiterten Zuordnungsalgorithmus gehalten werden.
 
 Zur Überprüfung soll der erweiterte Zuordnungsalgorithmus mit ähnlichen Testdaten und dem alten Zuordnungsalgorithmus verglichen werden
 
 === Wartbarkeit (Supportability)
 // Dieser Bereich beschreibt sämtliche Anforderungen welche die Supportfähigkeit oder Wartbarkeit des zu entwickelnden Systems verbessern, einschließlich Anpassungsfähigkeit und Erweiterbarkeit, Kompatibilität, Skalierbarkeit und Anforderungen bezüglich der System Installation sowie Maß an Support und Wartbarkeit.
 
-NFAS-1: Ausreichende Dokumentierung, um das veröffentlichen/schließen der Webseite durch Dozenten zu garantieren
+*NFAS-1:* Ausreichende Dokumentierung, um das veröffentlichen/schließen der Webseite durch Dozenten zu garantieren
 Eine gute Dokumentation soll gegeben sein, um das veröffentlichen und das Offline stellen der Webseite zu gewährleisten
 
 Zur Überprüfung wird ein Dozent gebeten ohne jegliche Hilfestellung, nur mit der gegebenen
 Dokumentation, die Webseite zu veröffentlichen und dann wieder offline zu stellen
 
-• NFAS-2: Die Website sollte mit verschiedenen Webbrowsern kompatible sein:
+*NFAS-2:* Die Website sollte mit verschiedenen Webbrowsern kompatible sein:
 
 Website:
 * Edge
@@ -118,9 +132,11 @@ nicht anders spezifiziert), getestet werden.
 // * zu unterstützende Plattformen / Betriebssysteme
 // * Physische Begrenzungen für Hardware, auf der das System betrieben werden soll 
 
-*Die Verwaltung des Sourcecodes und der Dokumentation muss mittels GitHub erfolgen.
-*Die Website soll auf allen gängigen Browsern nutzbar sein.
-*Bildschirm soll je nach Endgerät angepasst sein
+* Die Verwaltung des Sourcecodes und der Dokumentation muss mittels GitHub erfolgen.
+* Die Website soll auf allen gängigen Browsern nutzbar sein.
+* Bildschirm soll je nach Endgerät angepasst sein
+
+* Folgende Programmiersprachen sind weiterhin vorgegeben:
 
 
 
