@@ -147,6 +147,11 @@ nicht anders spezifiziert), getestet werden.
 
 * Folgende Programmiersprachen sind weiterhin vorgegeben:
 
+	* Python mit Django
+	* MySQL Datenbank
+	* HTML, CSS und JavaScript (jquery)
+	* Oberflächen-Frameworks
+	* Docker Container
 //siehe PDF teamverwaltung
 
 === Organisatorische Randbedingungen
