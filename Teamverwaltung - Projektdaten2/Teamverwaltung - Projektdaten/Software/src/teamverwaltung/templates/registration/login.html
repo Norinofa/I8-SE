@@ -1,0 +1,50 @@
+{% load static %}
+
+{% load widget_tweaks %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="{% static 'teamverwaltung_main/css/signinstyle.css' %}">
+    <script src="https://kit.fontawesome.com/aed942cfc8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="fullscreen">
+        <div class="signin-container">
+            <div class="kontakt-container">
+                <div class="icon-placeholder"><i class="fa-solid fa-user"></i></div>
+                <form method="post">
+                    <div class="content">
+                        {{ form.non_field_errors }}
+                        <div class="input-group">
+                            {% csrf_token %}
+                            {{ form.username.errors }}
+                            {{ form.username|add_class:"input-text" }}
+                            <!--<input type="text" name="name" id="input-text" class="input-text" required>-->
+                            <label for="input-text" class="input-placeholder">E-Mail</label>
+                        </div>
+                        <div class="input-group">
+                            {{ form.password.errors }}
+                            {{ form.password|add_class:"input-text" }}
+                            <!--<input type="text" name="name" id="input-text" class="input-text" required>-->
+                            <label for="input-text" class="input-placeholder">Passwort</label>
+                        </div>
+                        <div class="input-group upload-submit">
+                            <button type="submit" class="btn-submit"><span class="text-bold">Log-In</span><span class="fa fa-arrow-right"></span></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- <video #vid class="vid" src="waves.mp4" autoplay muted loop  preload="auto" type="video/mp4"></video> -->
+    
+
+    <script src="main.js"></script>
+</body>
+</html>

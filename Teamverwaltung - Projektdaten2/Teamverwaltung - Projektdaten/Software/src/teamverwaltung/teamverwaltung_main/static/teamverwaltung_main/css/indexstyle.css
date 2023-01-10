@@ -1,0 +1,353 @@
+body {
+    width: 100%;
+    background-image: url('../res/svg/longcool.svg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+
+header {padding: 40px 100px 15px 100px;}
+
+.start {
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+}
+
+.start-container {
+    width: 100%;
+    max-width: 1500px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.text {
+    width: 65%;
+    height: 600px;
+    padding: 50px 100px 0px 150px;
+}
+.text h1 {margin-top: 15%;}
+.text h3 {margin-top: 5px;}
+.text p {margin: 20px 0px;}
+
+/* first navigation */
+.navi li{line-height: 45px;}
+
+.navi li a {
+    font-size: 30px;
+    font-weight: 800;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.navi li a:hover {
+    transition: transform 0.5s;
+    transform: translateY(-5px);
+    text-shadow: 0 0 3px #fff;
+}
+
+/* sticky navbar  start */
+.sticky-nav-container {
+    position: fixed;
+    top: 0vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 10;
+}
+
+.sticky-nav {
+    padding: 15px 10px 15px 10px;
+    width: 100%;
+
+    -webkit-backdrop-filter: blur(100px);
+    -moz-backdrop-filter: blur(100px);
+    -o-backdrop-filter: blur(100px);
+    -ms-backdrop-filter: blur(100px);
+    backdrop-filter: blur(100px);
+    background-color: rgba(0, 0, 0, 0.4);
+
+    box-shadow: 0 1px 3px #000;
+
+    transform: translateY(-20px);
+    transition: .5s ease-out;
+    visibility: hidden;
+    opacity: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sticky-nav.active {
+    transform: translateY(0px);
+    transition: .5s ease-out;
+    visibility: visible;
+    opacity: 1;
+}
+
+.sticky-nav a {
+    font-size: 18px;
+    font-weight: 1000;
+    text-shadow: 1px 1px 3px #000;
+    transition: .5s;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.sticky-nav a:last-child {
+    margin-right: 0px;
+}
+
+.sticky-nav a:hover {
+    transition: .5s;
+    transform: translateY(3px);
+}
+/* sticky navbar  end */
+
+/* Themenansicht */
+.cards {
+    max-width: 300px;
+    min-width: 300px;
+    min-height: 400px;
+    max-height: 400px;
+    margin: 2% 10px 2% 10px;
+    overflow: hidden;
+}
+
+
+/* Fragebogen */
+/* open and close parts of the survey */
+#questionnaireInfo {
+    display: none;
+    font-size: 17px;
+    text-align: center;
+    color: #B92B27;
+    padding: 50px;
+}
+
+.fragebogen .container {
+    flex-direction: column;
+}
+
+#firstholder {display: none;}
+#firstholder.active {display: block;}
+#secondholder {display: none;}
+#secondholder.active {display: block;}
+#thirdholder {display: none;}
+#thirdholder.active {display: block;}
+
+.divider {
+    width: 30%;
+    height: 0.4px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.choice {
+    width: 90%;
+    margin: 10px 0px;
+    box-shadow: 1px 1px 2px #000;
+    border-radius: 0 30px 0px 30px;
+    position: relative;
+    /* overflow: hidden; */
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) , rgba(0, 0, 0, 0.157))
+}
+
+.choice:first-of-type {overflow: unset;}
+.choice h3 {margin: 20px 0px;}
+
+.choice label {
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.head {
+    width: 100%;
+    height: 60px;
+    padding: 0px 20px 0px 20px; 
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.erklaerung {
+    width: 100%;
+    /* margin-top: 20px; */
+    padding: 0 30px;
+    font-size: 13px;
+}
+
+.content-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+.content-container > * {
+    display: flex;
+    align-items: center;
+    height: 35px;
+}
+
+.content-container:last-child {margin-bottom: 10px;}
+
+.bezeichnung {
+    width: 61%;
+    border-radius: 0px 30px 30px 0px;
+    padding: 20px;
+}
+.special-bez {width: 48%;}
+
+.bezeichnung span {
+    width: 95%;
+    margin-left: 40px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    overflow: hidden
+}
+
+.cell-full {
+    width: 39%;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cell-full input {margin: 0px 2px;}
+input[type="radio"] {cursor: pointer;}
+
+.cell {
+    width: 13%;
+    border-radius: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.drop {
+    /* background-image: linear-gradient(to right, rgba(255, 255, 255, 0.014) , rgba(0, 0, 0, 0.157)); */
+    background-color: rgba(0, 0, 0, 0.157);
+}
+
+#sendQuestionnaire {font-size: 18px;}
+
+/* Teamansicht */
+.teammember-placeholder {
+    padding: 0 10% 30px 10%;
+    flex-direction: column;
+    overflow-y: scroll;
+    border-radius: 30px;
+}
+
+.teammember {
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.teammember:first-child {margin-top: 15px;}
+
+.titel-placeholder {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.titel-placeholder h3 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+/* dropdown test, auswahl wird im main angezeigt */
+.dropdown {
+    position: relative;
+    width: 90%;
+    height: 100%;
+}
+
+.dropdown input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: #1D2028;
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+}
+
+.dropdown .option {
+    position: absolute;
+    top: calc(100% + 5px);
+    width: 100%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    overflow: hidden;
+    z-index: 100;
+    background-color: #1D2028;
+    display: none;
+}
+.dropdown.active .option {display: block;}
+
+.dropdown .option div {
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.dropdown .option div:hover {background-color: rgba(0, 0, 0, 0.15);}
+
+/* center the placeholder in the input start */
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */ text-align: center;font-size: 16px;font-weight: 550;color: white;}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ text-align: center;font-size: 16px;font-weight: 550;color: white;}
+::-moz-placeholder { /* Mozilla Firefox 19+ */ text-align: center;font-size: 16px;font-weight: 550;color: white;}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ text-align: center;font-size: 16px;font-weight: 550;color: white;}
+::-ms-input-placeholder { /* Microsoft Edge */ text-align: center;font-size: 16px;font-weight: 550;color: white;}
+::placeholder { /* Most modern browsers support this now. */
+    text-align: center;
+    font-size: 16px;
+    font-weight: 550;
+    color: white;
+}
+
+.fa-arrow-up {
+    bottom: 25vh;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s ease-out;
+}
+.fa-arrow-up.active {
+    transition: 1s ease-out;
+    bottom: 1vh;
+    visibility: visible;
+    opacity: 1;
+}
+
+/* specific @media */
+@media only screen and (max-width: 1200px) {
+    .bezeichnung p {font-size: 16px;}
+    ::placeholder {font-size: 15px;}
+    .dropdown .option {font-size: 13px;}
+}
+
+@media only screen and (max-width: 750px){
+    .dropdown .option {font-size: 10px;}
+    .bezeichnung p {font-size: 14px;}
+    ::placeholder {font-size: 12px;}
+}

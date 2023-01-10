@@ -1,0 +1,93 @@
+{% extends 'base_verwaltung.html' %}
+
+{% block content %}
+    <div class="anzahl">
+    <label for="anzahl">Wieviele Teams sollen erstellt werden?</label>
+    <input type="text" name="anzahl" placeholder="5">
+    </div>
+
+    <div class="verwalten-container">
+        <div class="container">
+            {% if not assignments %}
+            <h2>Keine Teams vorhanden</h2>
+            {% else %}
+            {% regroup assignments by project.name as assignments_by_project %}
+            
+            {% for assignment in assignments_by_project %}
+            <div class="cards" >
+                <div class="titel-placeholder">
+                    <h3>{{ assignment.grouper }}</h3>
+                    <div class="teammember-placeholder dropzone" id="topic{{assignment.list.0.project.pk}}">
+                        {% for a in assignment.list %}
+                        <!--<div class="little-teammember">{{ a.student.name }}</div>-->
+                        <script>
+                            dragElementManager.addDragElement("{{ a.student.pk }}", "{{ a.project.pk }}", "{{ a.student.first_name }} {{ a.student.last_name }}", "{{ a.student.s_num }}");
+                        </script>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+            {% endif %}
+        </div>
+
+        <div class="sidenav">
+            <form method="post">
+                {% csrf_token %}
+                <button type="submit" name="run_algo" id="algo" class="fa-solid fa-arrows-rotate" title="Team-Zuordnung generieren"></button>
+            </form>
+            <i id="changesWarning" style="margin-top: 20px; margin-left: 2px; visibility: hidden;" class="fa-solid fa-triangle-exclamation fa-fade fa-2xl" title="Warnung: ungespeicherte Änderungen"></i>
+            <p id="changesCount" style="margin-top: 20px; font-size: 18pt;">0</p>
+            <i id="changesSave" onclick="changesSave_Click();" style="visibility: hidden;" class="fa-solid fa-check" title="Änderungen speichern"></i>
+            <form method="post">
+                {% csrf_token %}
+                <button type="submit" name="delete_assignments" id="algo" class='fa-solid fa-trash' title="Zuordnung verwerfen"></button>
+            </form>
+        </div>
+    </div>
+
+    {% include 'teamverwaltung_main/utility/questionnaire_modal.html' %}
+    {% block detailModal %}{% endblock %}
+
+    <div class="fullscreen">
+        <div class="file-upload" id="file-upload">
+            <div class="layer1">
+                <div class="layer2">
+                    <div class="layer3">
+                        <input type="file" multiple name="fileUpload" id="fileUpload" value="">
+                    </div>
+                    <div class="chk">
+                        <input type="checkbox" name="ueberschreiben" id="ueberschreiben">
+                        <label for="ueberschreiben">Überschreiben?</label>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <button type="submit">Submit<i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% include 'teamverwaltung_main/utility/notify.html' %}
+    {% block notify_success %}{% endblock %}
+
+    <script>
+        let dropdown = document.querySelector('.dropdown');
+        dropdown.onclick = function () {
+            dropdown.classList.toggle('active');
+        }
+
+
+
+        const urlString = window.location.search;
+        const urlParams = new URLSearchParams(urlString);
+        const delete_notify = urlParams.get('noti_saved');
+        if(delete_notify){
+            showToast("Erfolgreich", "Änderungen wurden gespeichert");
+            urlParams.delete('noti_saved');
+        }
+
+        history.replaceState(null, '', '?' + urlParams + location.hash)
+    </script>
+
+{% endblock %}
