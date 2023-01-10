@@ -1,0 +1,66 @@
+{% extends 'base_verwaltung.html' %}
+
+{% block content %}
+
+    <div class="verwalten-container" style="height: 700px; padding: 10px 1% 0px 1%;">
+        <div id="specific-container-fragebogen" class="container">
+            <div class="fragebogen-table">
+                <table class="flat-table">
+                    <thead>
+                        <tr>
+                            <th>Eintrag</th>
+                            <th>Vorname</th>
+                            <th>Nachname</th>
+                            <th>S-Nummer</th>
+                            <th>Studiengang</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for poll in polls%}
+                            <tr onclick="openModalStudent('{{ poll.student.s_num }}')">
+                                <td>{{ forloop.counter }}</td>
+                                <td>{{ poll.student.first_name }}</td>
+                                <td>{{ poll.student.last_name }}</td>
+                                <td>{{ poll.student.s_num }}</td>
+                                {%  if poll.student.faculty == "ia" %}
+                                <td>Allgemeine Informatik</td>
+                                {% elif poll.student.faculty == "iw" %}
+                                <td>Wirtschaftsinformatik</td>
+                                {% elif poll.student.faculty == "iv" %}
+                                <td>Verwaltungsinformatik</td>
+                                {% elif poll.student.faculty == "wi" %}
+                                <td>Wirtschaftsingenieurwesen</td>
+                                {% endif %}
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- modal -->
+    {% include 'teamverwaltung_main/utility/questionnaire_modal.html' %}
+    {% block detailModal %}{% endblock %}
+
+    <div class="fullscreen">
+        <div class="file-upload" id="file-upload">
+            <div class="layer1">
+                <div class="layer2">
+                    <div class="layer3">
+                        <input type="file" multiple name="fileUpload" id="fileUpload" value="">
+                    </div>
+                    <div class="chk">
+                        <input type="checkbox" name="ueberschreiben" id="ueberschreiben">
+                        <label for="ueberschreiben">Überschreiben?</label>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <button type="submit">Submit<i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
