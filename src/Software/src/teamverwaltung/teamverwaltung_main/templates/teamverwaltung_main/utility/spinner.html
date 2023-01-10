@@ -1,0 +1,13 @@
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'teamverwaltung_main/css/spinner.css' %}">
+
+
+{% block spinner %}
+<div class="lds-ring" id="load_spinner" style="width: 5px; height: 5px;" >
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+{% endblock %}

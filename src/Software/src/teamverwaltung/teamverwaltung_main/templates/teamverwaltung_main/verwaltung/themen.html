@@ -1,0 +1,130 @@
+{% extends 'base_verwaltung.html' %}
+
+{% load static %}
+
+{% block content %}
+
+
+    <div class="verwalten-container">
+        <div class="container">
+            {% for project in projects %}
+            <div class="cards" onclick="openModalEdit({{ project.pk }})">
+                    <div class="titel-placeholder">
+                        <h3>{{ project.name }}</h3>
+                        <div class="short-description-placeholder">
+                            <p><b>Beschreibung: </b><br>{{ project.description}}
+                            <br/>
+                            <br/>
+                            <b>Zuständiger: </b><br>{{ project.responsible }}</p>
+                        </div>
+                    </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="sidenav">
+            <i class="fa-solid fa-plus" onclick="openModalNew()"></i>
+        </div>
+    </div>
+
+    {% include 'teamverwaltung_main/utility/notify.html' %}
+    {% block notify_success %}{% endblock %}
+
+    <div id="modal-bearbeitung" class="modal-bearbeitung">
+        <header>
+            <h2 id="modalEditHeadline">Themenverwaltung - Bearbeitung</h2>
+            <span class="closeBtn" id="modalEditClose">&times;</span>  
+        </header>
+        <div class="verwalten-container-fullsize">
+            <div class="container">
+                <form>
+                    {% include 'teamverwaltung_main/utility/spinner.html' %}
+                    {% block spinner %}{% endblock %}
+
+                    <div class="input-group">
+                        <input type="text" name="titel" id="modalEditName" class="input-text" required>
+                        <label for="input-text" class="input-placeholder">Titel</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea name="kurzbeschreibung" id="modalEditDescription" class="textarea" required></textarea>
+                        <label for="textarea" class="textarea-placeholder">Kurzbeschreibung</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea name="zustaendigkeit" id="modalEditResponsible" class="textarea" required></textarea>
+                        <label for="textarea" class="textarea-placeholder">Zuständigkeit</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea name="kontakt" id="modalEditPDF" class="textarea" required></textarea>
+                        <label for="textarea" class="textarea-placeholder">PDF</label>
+                    </div>
+                    <div class="container-for-SpLoe">
+                        <div class="input-group">
+                            <button type="button" id="modalEditSave"><span>Speichern</span></button>
+                        </div>
+                        <div class="input-group">
+                            <button type="button" id="modalEditDelete"><span>Löschen</span></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="modal-neu" class="modal-neu">
+        <header>
+            <h2>Themenverwaltung - Neu anlegen</h2>
+            <span class="closeBtn" id="modalNewClose">&times;</span>  
+        </header>
+        <div class="verwalten-container-fullsize">
+            <div class="container">
+                <form>
+                    <div class="input-group">
+                        <input type="text" name="titel" id="modalNewName" class="input-text" required>
+                        <label for="input-text" class="input-placeholder">Titel</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea name="kurzbeschreibung" id="modalNewDescription" class="textarea" required></textarea>
+                        <label for="textarea" class="textarea-placeholder">Kurzbeschreibung</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea name="zustaendigkeit" id="modalNewResponsible" class="textarea" required></textarea>
+                        <label for="textarea" class="textarea-placeholder">Zuständigkeit</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea name="kontakt" id="modalNewPDF" class="textarea" required></textarea>
+                        <label for="textarea" class="textarea-placeholder">PDF</label>
+                    </div>
+                    <div class="container-for-SpLoe">
+                        <div class="input-group">
+                            <button type="button" id="modalNewSave"><span>Speichern</span></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const urlString = window.location.search;
+        const urlParams = new URLSearchParams(urlString);
+        const delete_notify = urlParams.get('noti_deleted');
+        const create_notify = urlParams.get('noti_created');
+        const update_notify = urlParams.get('noti_updated');
+        if(delete_notify){
+            showToast("Erfolgreich", "Thema wurde gelöscht");
+            urlParams.delete('noti_deleted');
+        }
+        if(create_notify){
+            showToast("Erfolgreich", "Thema wurde erstellt");
+            urlParams.delete('noti_created');
+        }
+        if(update_notify){
+            showToast("Erfolgreich", "Thema wurde bearbeitet");
+            urlParams.delete('noti_updated');
+        }
+
+        history.replaceState(null, '', '?' + urlParams + location.hash)
+    </script>
+
+
+{% endblock %}
