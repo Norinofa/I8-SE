@@ -1,0 +1,67 @@
+[arabic]
+. Zweck
+
+Das Architecture Notebook behandelt die Philosophie, Nebenbedingungen,
+Begründungen, wesentliche Elemente und andere übergreifende Aspekte, die
+Einfluss auf Entwurf und Implementierung bezüglich der Realisierung
+eines in der Vision beschrieben Erstellung und Verwaltung von Gruppen in
+Software Engineering Projekte. Die für die Architektur getroffenen
+Entscheidungen und Ihre Hintergründe werden hier festgehalten.
+
+[arabic, start=2]
+. Architekturziele und Philosophie
+
+Die Architektur muss eine Webanwendung für Studenten und Professoren,
+welche es ermöglicht Teams mit der gleichen Anzahl der Studenten jedoch
+unterschiedlicher Rollen in verschiedenen Projekten aufzuteilen,
+verwirklichen. Diese basiert auf einer bereits bestehenden Anwendung und
+ist somit als Weiterentwicklung zu betrachten. Unsere Schwerpunkte bei
+der Architektur der Weiterentwicklung liegen auf der
+Nutzerfreundlichkeit für Studenten sowie Projektadministrator und der
+Erweiterung des bereits vorhandenen Algorithmus.
+
+Weitere Ziele, die Architektur in Bezug auf Struktur und Verhalten
+erreichen soll, sind:
+
+* _Es muss die Möglichkeit bestehen, das Programm über mehrere Semester
+zu verwenden._
+* - das Zurücksetzen und Neuerstellen der Website
+* - das Einbinden neuer Projekte
+* - das Erstellen von Gruppen unterschiedlicher Größe sowie Anzahl an
+Projekten
+
+[arabic, start=3]
+. Beschränkungen, Annahmen und Abhängigkeiten
+
+Grundannahme:
+
+* Die Weiterentwicklung eines bestehenden Systems
+* Ein System zur Erstellung und Verwaltung von Gruppen in Software
+Engineering Projekte und des Fragebogens der Studenten.
+
+Python ist als Programmiersprache für das Backend zu verwenden
+
+Das Framework für das Backend ist Django.
+
+Die Software wird über eine virtuelle Maschine, Docker Container,
+betrieben.
+
+Die virtuelle Maschine läuft über Linux.
+
+Als Datenbank wird MySQL verwendet.
+
+Die Anmeldung erfolgt über den HTW-Login.
+
+Für das Frontend wird als Programmiersprache wird JavaScript verwendet.
+
+Zur Oberflächengestaltung werden HTML und CSS verwendet.
+
+[arabic, start=4]
+. Architektur-relevante Anforderungen
+
+Functional:
+
+* NFAF-1 Das System muss den Fragebogen der Studenten, die Accountdaten
+sowie die Projektdaten des Professors speichern.
+* NFAF – 2 Das System muss sicherstellen, dass die Anwendung nur im
+Netzwerk der HTW Dresden funktioniert.
