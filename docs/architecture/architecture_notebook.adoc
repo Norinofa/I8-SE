@@ -83,11 +83,66 @@ sowie die Projektdaten des Professors speichern.
 * NFAF – 2 Das System muss sicherstellen, dass die Anwendung nur im
 Netzwerk der HTW Dresden funktioniert.
 
+* *NFAU-1:* Die Benutzeroberfläche muss möglichst intuitiv, simple, eindeutig und Angemessene Gestaltung von Schrift und Farbe besitzen
+
+	*NFAU-1.1:* Das Design der Website sollte für den Studenten möglichst Intuitiv sein und gewünschte Interaktionen oder Inhalte sollen schnell zu finden  sein.
+	
+    Zur Überprüfung
+
+	*NFAU-1.2:* Einfache Gestaltung der Layouts mit weiterverlinkungen innerhalb der Webseite, Damit eine einfache Navigation innerhalb der Website für den Benutzer gewährleistet wird. 
+
+    Zur Überprüfung..
+
+	*NFAU-1.3:* Ein Konsistentes Layout der Website sollte gegeben werden als auch für Begrifflichkeiten (Labels/Begriffe) und angemessene Nutzung des textuellen-Platzes.
+	Damit alles relevanten Informationen auf einer Webseite Sichtbar sind.
+
+	Zur Überprüfung 
+
+	*NFAU-1.4:* Die Farben und Schriftarten sollen auf die Website so angepasst werden, sodass sie gut Lesbar ist (Hell/Dunkel Format beachten)
+
+    Zur Überprüfung
+
+
+*NFAU-2:* Gender gerechte Wortwahl um die Misskommunikation zu verhindern
+
+
+=== Effizienz (Performance)
+// Die Performanz Charakteristiken des Systems sollten in diesem Bereich ausgeführt werden. Beispiele sind Antwortzeit, Durchsatz, Kapazität und Zeiten zum Starten oder Beenden.
+
+*NFAP-1:* Die Nutzbarkeit muss gewährleistet sein, für den unwahrscheinlichen Fall falls 20 Nutzer gleichzeitig die Webseite nutzen
+
+Überprüft wird dies durch einen Stresstest mit 10 Nutzern.
+
+*NFAP-2:* Die Wechselzeit von verschiedenen Unterseiten sollte möglichst minimal verlaufen
+
+Überprüft werden die unterseiten in verschiedenen Zeitintervallen abgefragt und die Antwortzeit wird notiert
+
+*NFAP-3:* Die Zeit für die Teamerstellung soll möglichst klein beim erweiterten Zuordnungsalgorithmus gehalten werden.
+
+Zur Überprüfung soll der erweiterte Zuordnungsalgorithmus mit ähnlichen Testdaten und dem alten Zuordnungsalgorithmus verglichen werden
+
+=== Wartbarkeit (Supportability)
+// Dieser Bereich beschreibt sämtliche Anforderungen welche die Supportfähigkeit oder Wartbarkeit des zu entwickelnden Systems verbessern, einschließlich Anpassungsfähigkeit und Erweiterbarkeit, Kompatibilität, Skalierbarkeit und Anforderungen bezüglich der System Installation sowie Maß an Support und Wartbarkeit.
+
+*NFAS-1:* Ausreichende Dokumentierung, um das veröffentlichen/schließen der Webseite durch Dozenten zu garantieren
+
+Eine gute Dokumentation soll gegeben sein, um das veröffentlichen und das Offline stellen der Webseite zu gewährleisten
+
+Zur Überprüfung wird ein Dozent gebeten ohne jegliche Hilfestellung, nur mit der gegebenen
+Dokumentation, die Webseite zu veröffentlichen und dann wieder offline zu stellen
+
+
+
 == Entscheidungen, Nebenbedingungen und Begründungen
 //[List the decisions that have been made regarding architectural approaches and the constraints being placed on the way that the developers build the system. These will serve as guidelines for defining architecturally significant parts of the system. Justify each decision or constraint so that developers understand the importance of building the system according to the context created by those decisions and constraints. This may include a list of DOs and DON’Ts to guide the developers in building the system.]
 
-. Entscheidung oder Einschränkung oder Begründung 1
-. Entscheidung oder Einschränkung oder Begründung 2
+. Aufbauend auf der bereits verwendeten WEbsite haben wir uns Entschieden folgende Punkte zu übernehmen:
+.. Datenbanken basierend auf MySQl
+.. Programmiersprache Python, Java Script und CSS
+.. Bibliotheken und Framework von Django
+.. Konfiguration über Docker
+
+. als Schnittstelle der Website verwenden wir ngnix da auch diese bereits auf der Website vorhanden ist
 
 
 == Architekturmechanismen
@@ -98,12 +153,37 @@ https://www2.htw-dresden.de/~anke/openup/core.tech.common.extend_supp/guidances/
 
 //Beschreiben Sie den Zweck, Eigenschaften und Funktion der Architekturmechanismen.
 
-. Architekturmechanismus 1
-. Architekturmechanismus 2
+. Erreichbarkeit  
+Da die Website bereits für Linux erstellt wurde haben wir uns dazu entschieden dies zu übernehmen, sodass die Website auch in Zukunft im Htw-Netzwerk über Linux laufen wird.
+Abrufbar ist sie jedoch von jedem Browser auf jedem Betreibssystemm, wärend man sich in dem Htw-Netzwerk befindet. 
+
+. Zugangs Berechtigung
+Zugang zum Fragebogen sollen nur jene Studenten haben, welche sich in Opal für den Beleg eingeschrieben haben. Dafür haben wir einen Login über den HTW Account welcher nur im Htw-Netzwerk funktioniert. 
+Das ausfüllen des Fragebogens außerhalb der Htw ist mittels eines VPNs möglich.
+
+. Problem adaption 
+Wenn es zu der Situation kommen sollte das es in einem Semester zuwenig oder zuviele Projektthemen geben sollte, hat der Dozent die Möglichkeit die Anzahl der Teammitglieder festzulegen. 
+Daraufhin soll der Algorithmus eine Konstellation erstellen bei der die meist gefragtesten Themen priorisiert oder doppelt verwendet werden sollen.
+Diese einzelnen Szenarien mpssen in dem Algorithmus beachtet werden.
+
+
 
 
 == Wesentliche Abstraktionen
 //[List and briefly describe the key abstractions of the system. This should be a relatively short list of the critical concepts that define the system. The key abstractions will usually translate to the initial analysis classes and important patterns.]
+
+
+. Teamstabelle
+Darstellung der fertig generierten Teams und deren Thema. Diese wird vom Dozenten betrachtet. Es zeigt die Teams mit ihren Projektleiter.
+
+. Projekttabelle
+Zeigt die Projekte mit der wesentlichen Beschreibung und deren Ansprechpartner. Sortiert sind die Projekte nach ihrer ID welche vom Dozenten manuell vergeben wird. Abgebildet wird sie für den Dozent, aber auch oberhalb des Fragebogens ist sie für die Studenten einsehbar.
+
+. Nutzer 
+.. Dozent:
+In der Rolle des Admins welcher auf der Dozentenwebsite die Projekte anlegt, Teams generiert und im Zweifel die Teams manuell bearbeitet.
+.. Student:
+In der Rolle des Besuchers. Von ihm werden auf der Studentwebsite Antworten verlangt die später bei der Teamerstellung verwendet werden.
 
 
 == Schichten oder Architektur-Framework
