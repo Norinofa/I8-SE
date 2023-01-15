@@ -1,5 +1,7 @@
 ﻿ID;Datum;Name;Beschreibung;Typ;IMP;PRB;MAG;Owner;Gegenmaßnahme
-1;30.11.22;wenig Zeit;Mitglied des Teams können das Projekt nicht anfangen, durch andere Projekte, die nebenbei in anderen Modulen laufen;zeitlich;4;100%;4;KS,ED,NA,JW,PB,HTT;die Aufgaben so weit wie möglich machen, Rest in die nächste Iteration mitnehmen
+1;30.11.22;wenig Zeit;Mitglied des Teams können das Projekt nicht anfangen, durch andere Projekte, die nebenbei in anderen Modulen laufen;zeitlich;4;100%;4;KS,ED,NA,JW,PB,HTT,VK;die Aufgaben so weit wie möglich machen, Rest in die nächste Iteration mitnehmen
 2;20.12.22;Webseite funktioniert nicht;keine Einsicht in die Webseite gefährdet den Fortschritt, Prototyp kann so nicht (über die Webseite) erstellt werden;technisch, zeitlich;5;20;1;VK,NA;Hilfe suchen bei Erstellern der Originalwebseite, externe Hilfe suchen
 3;11.01.23;Datenbank verknüpfen mit Django;durch Unerfahrenheit stellt es ein Problem dar eine Verknüpfung zwischen Django und der Datenbank zuerzeugen;technisch;3;10;0,3;VK,NA;im Internet informieren, externe Hilfe suchen
+4;15.01.23;Aktualisierung der Aufgaben;Teammitglieder halten ihren Fortschritt/ihre erledigten Aufgaben nicht in den Projects fest, dadurch verliert man den Überblick über erledigte Aufgaben und Aufgaben, die noch zu erledigen sind;geschäftlich;3;50;1,5;ED,KS,NA,JW,PB,HTT,VK;erneutes Ermahnen und erinnern an die Nutzung des Organisationstools, weiterhin halten wir uns dafür über Discord umso mehr auf dem Laufenden
+4;03;-;-;-;-;-;-;-;-
 4;03;-;-;-;-;-;-;-;-
