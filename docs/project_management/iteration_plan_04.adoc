@@ -14,7 +14,7 @@ include::../_includes/default-attributes.inc.adoc[]
 
 | Beginn der Iteration | 03.01.23
 | Wireframes ausarbeiten | 04.01.23
-| Treffen mit Auftraggeber | 06.01.23?
+| Treffen mit Auftraggeber | 06.01.23
 | Ende der Iteration | 16.01.23
 |===
 
