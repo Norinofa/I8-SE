@@ -156,7 +156,7 @@ class CSVStudentParser:
         return email[:6]
 
     def parse_title(self, title: str):
-        """Parst die Anrede aus den ersten 6 Zeichen der Email
+        """Parst die Anrede des Studenten
 
         :param title: Anrede des Studenten
         :type title: str
@@ -170,7 +170,7 @@ class CSVStudentParser:
         if title == "Herr":
             return "h"
         elif title == "Frau":
-            return = "f"
+            return "f"
         else:
             raise CSVStudentParserException("unknown title")
 
