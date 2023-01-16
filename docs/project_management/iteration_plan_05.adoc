@@ -1,4 +1,4 @@
-= Iteration Plan 06: I8 Erstellung und Verwaltung von Gruppen für Software Engineering Projekte
+= Iteration Plan 05: I8 Erstellung und Verwaltung von Gruppen für Software Engineering Projekte
 Vorname Nachname <email@domain.org>; Vorname2 Nachname2 <email2@domain.org>; Vorname3 Nachname3 <email3@domain.org>
 {localdatetime}
 include::../_includes/default-attributes.inc.adoc[]
@@ -12,19 +12,21 @@ include::../_includes/default-attributes.inc.adoc[]
 |===
 | Meilenstein | Datum
 
-| Beginn der Iteration | 28.11.22
-| ...| -
-| Ende der Iteration | 12.12.22
+| Beginn der Iteration | 16.01.23
+| Zwischenmeeting| 22.01.23
+| Meeting mit Auftraggeber/ Coach | ?
+| Ende der Iteration | 27.01.23
 |===
 
 
 == Wesentliche Ziele
 
 
-* Vison schreiben
-* Use Cases ausarbeiten
-* Iterationsplan schreiben
-* Prejektplan anfangen
+* Use Cases beenden und das Dokument verfeinern
+* auf Iterationspläne einigen und verfeinern
+* Projektplan beenden
+* Architecture Notebook zu Ende bringen 
+* die Belegabgabe auf Vollständigkeit, Sinnhaftigkeit und Rechschreibung prüfen
 
 
 == Aufgabenzuordnung
