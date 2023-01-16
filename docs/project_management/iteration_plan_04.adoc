@@ -51,7 +51,7 @@ _alternativ:_ Die folgenden Aufgaben werden in dieser Iteration bearbeitet:
 |===
 | Problem | Status | Notizen
 
-| x | x | x
+| Webseite funktioniert nicht | rot | externe Hilfe wurde angefodert, ist in Arbeit
 |===
 
 
