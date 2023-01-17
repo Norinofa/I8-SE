@@ -6,22 +6,24 @@ include::../_includes/default-attributes.inc.adoc[]
 
 
 == Allgemeine Informationen
-// ...
+Die Anordnung der Use Cases entspricht der Priorisierung in der Entwicklung.
+
+
+Da es sich hier um eine Weiterentwicklung eines bereits bestehenden Online-Tools handelt, haben wir Use Cases identifiziert, die bereits implementiert wurden. Auf Grund dessen werden einige der bereits implementierten Use Cases ignoriert, manche werden erweitert und andere werden neu hinzugefügt. Dies ist im Use Case Diagram anhand der Legende ersichtlich.
 
 
 == Identifizierte Use Cases
 // Liste aller identifizierten Use Cases (priorisiert)
 
-* *UC04*: Projekt bearbeiten (ID)
-* *UC03*: Projekt anlegen/ bearbeiten
+* *UC03* (04): Projekt verwalten
 * *UC02*: Fragebogen ausfüllen
 * *UC06*: Teams generieren
+* *UC09*: Backup erstellen/laden
+* *UC10*: Gesamtsystem zurücksetzen* 
 * *UC05*: Projekt löschen
 * *UC07*: Projektteams zurücksetzen
 * *UC08*: Teams manuell bearbeiten
-* *UC09*: Backup erstellen/laden
 * *UC01*: User login
-* *UC11*: Zurücksetzen für neues Semester
 
 
 == Use Case Diagramm
@@ -63,5 +65,5 @@ include::use_case_08.inc.adoc[]
 <<<
 include::use_case_09.inc.adoc[]
 
-//<<<
-//include::use_case_10.inc.adoc[]
+<<<
+include::use_case_10.inc.adoc[]

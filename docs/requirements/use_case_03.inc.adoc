@@ -1,30 +1,34 @@
 //Nutzen Sie dieses Template als Grundlage für die Spezifikation *einzelner* Use-Cases. Diese lassen sich dann per Include in das Use-Case Model Dokument einbinden (siehe Beispiel dort).
 
-== Use-Case: UC03 Projekt anlegen
+== Use-Case: UC03 Projekt verwalten
 
 === Kurzbeschreibung
-Es wird ein neues Projekt auf die Seite geladen.
+Der Use Case beschreibt den Prozess der Verwaltung von Projekten durch einen Dozenten.
 
 === Kurzbeschreibung der Akteure
 
 ==== Dozent
-Möchte ein neues Projekt erstellen.
+Möchte ein oder mehrere Projekte verwalten.
 
 === Vorbedingungen
 //Vorbedingungen müssen erfüllt, damit der Use Case beginnen kann, z.B. Benutzer ist angemeldet, Warenkorb ist nicht leer...
 
-=== Login 
-Der Dozent ist mittels seines HTW-Login angemeldet.
+* Der Dozent ist mittels seiner HTW-Logindaten angemeldet und hat sich auf die "Projektübersicht" navigiert.
 
 === Standardablauf (Basic Flow)
 //Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
 
-. Der Use Case beginnt, wenn der Akteur auf "Projekt hinzufügen" klickt
-. Er wird auf eine Seite weitergeleitet 
-. Es werden ihm verschiedene Felder abgezeigt die ausgefüllt werden möchten
-. wenn der Dozent mit dem eintragen der Informationen fertig kann er das Projekt speichern
-. bei dem betätigen des "Speichern" Buttons wird geprüft ob alle Pflichtfelder ausgefüllt sind
-. Das Projekt mit der dazugehörigen ID wird in der Datenbank gespeichert
+. Der Use Case beginnt, wenn der Dozent auf der "Projektübersicht" befindet.
+. Akteur klickt auf "Projekt hinzufügen" oder wählt das zu bearbeitende Projekt mit einem Klick auf den "Projekt bearbeiten"-Button aus.
+. Das System zeigt den bisherigen oder einen leeren Bearbeitungsstand des (neuen) Projekts an.
+. Die Felder "Projektname" und "Projektbeschreibung" können mit einer Textfunktion bearbeitet werden.
+. Die Felder "Projekt-ID" und "Projektlabels" zeigen eine Vorauswahl an.
+. Das Feld "Anhang" gibt dem Dozent die Möglichkeit ein Dokument anzuhängen.
+. Der Dozent nimmt die gewünschten Veränderungen vor und bestätigt seine Eingabe.
+. Der Dozent klickt den "Projekt speichern"-Button.
+. System prüft
+. Das System speichert den neuen Bearbeitungsstand des Projekts in der Datenbank ab.
+. Das System zeigt die neue Version der Projekts an.
 . Der Use Case ist abgeschlossen.
 
 === Alternative Abläufe

@@ -53,7 +53,7 @@ Wenn <Akteur> im Schritt <x> des Standardablauf <etwas macht>, dann
 
 === Nachbedingungen
 * Das Projekt wurde aus der Datenbank gelöscht.
-* Die Studenten und Dozenten können dieses Projekt in der Projektübersicht nicht mehr sehen.
+* Die Studierenden und Dozenten können dieses Projekt in der Projektübersicht nicht mehr sehen.
 
 === Besondere Anforderungen
 //Besondere Anforderungen können sich auf nicht-funktionale Anforderungen wie z.B. einzuhaltende Standards, Qualitätsanforderungen oder Anforderungen an die Benutzeroberfläche beziehen.
