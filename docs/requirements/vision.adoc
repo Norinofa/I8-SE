@@ -11,7 +11,7 @@ Der Zweck dieses Dokuments ist es, die wesentlichen Bedarfe und Funktionalitäte
 Der Zweck dieses Dokuments ist es, die wesentlichen Anforderungen an das System aus Sicht und mit den Begriffen der künftigen Anwender zu beschreiben.
 
 === Gültigkeitsbereich (Scope)
-Dieses Visions-Dokument bezieht sich auf das Online-Tool zur Erstellung und Verwaltung von Gruppen für Software Engineering Projekte, das von Team I8 entwickelt wird. Das System wird es dem Dozenten erlauben, auf Basis von durch Studierenden ausgefüllten Fragebögen, mit Hilfe eines Algorithmus Teams aus Studierenden generieren zu lassen. Diese Teams sind vorher erstellten Projekten zugeordnet.
+Dieses Visions-Dokument bezieht sich auf das Online-Tool zur Erstellung und Verwaltung von Gruppen für Software Engineering Projekte, das von Team I8 entwickelt wird. Das System wird es dem Dozenten erlauben, auf Basis von durch Studierenden ausgefüllten Fragebögen, mit Hilfe eines Algorithmus, Teams aus Studierenden generieren zu lassen. Diese Teams werden vorher erstellten Projekten zugeordnet.
 
 === Definitionen, Akronyme und Abkürzungen
 //Verweis passend zum Belegabgabe-Template se1_belegabgabe_t00.adoc
@@ -28,7 +28,10 @@ Möglicherweise Dokumente des Erstellerteams des Tools einfügen.
 === Fachliche Motivation
 //Erläutern Sie kurz den Hintergrund, in dem das Projekt angesiedelt ist. Welches Problem soll gelöst werden, wie ist es entstanden? Welche Verbesserung wird angestrebt. Achten Sie darauf, eine fachliche (organisatorische, betriebswirtschaftliche) Perspektive einzunehmen.
 
-Im Rahmen des Fachs Software Engineering werden interne (innerhalb der HTWD) und externe (Auftraggeber außerhalb der HTWD) Projekte in Teams aus teilnehmenden Studierenden realisiert. Die Studierenden stehen daher vor der Entscheidung an welchem Projekt sie im Semester mitwirken möchten. Um die Präferenzen, Fähigkeiten und Vorerfahrung jedes Studenten in die Teamerstellung einfließen zu lassen, füllen die Studierenden einen Fragebogen, in welchem diese abgefragt werden, aus. Die Teamerstellung bringt einige Probleme mit sich. Einerseits ist die Auswertung der Daten aus dem Fragebogen sehr zeitintensiv. Andererseits nehmen im Modul SE I neben verschiedenen Informatikstudiengängen auch Studierende des Wirtschaftsingenieurwesens teil, wobei die zweit genannten nach dem ersten Semester ausscheiden und im zweiten Semester ausschließlich die Studierenden der Informatik involviert sind. Gegebenfalls werden andere Studierende zum Semesterwechsel zusätzlich an SE II teilnehmen, z.B. aufgrund von Beurlaubung, Wiederholungsprüfung oder Auslandssemester Außerdem müssen folgenede Faktoren beachtet werden:
+Im Rahmen des Fachs Software Engineering werden interne (innerhalb der HTWD) und externe (Auftraggeber außerhalb der HTWD) Projekte in Teams aus teilnehmenden Studierenden realisiert. Die Studierenden stehen daher vor der Entscheidung an welchem Projekt sie im Semester mitwirken möchten. Um die Präferenzen, Fähigkeiten und Vorerfahrungen jedes Studierenden in die Teamerstellung einfließen zu lassen, füllen die Studierenden einen Fragebogen, in welchem diese abgefragt werden, aus. Die Teamerstellung bringt einige Probleme mit sich. Einerseits ist die Auswertung der Daten aus dem Fragebogen sehr zeitintensiv. Andererseits nehmen im Modul SE I neben Studierenden aus verschiedenen Informatikstudiengängen auch Studierende des Wirtschaftsingenieurwesens teil, wobei die zweit genannten nach dem ersten Semester ausscheiden und im zweiten Semester ausschließlich die Studierenden der Informatik involviert sind. Gegebenfalls werden andere Studierende zum Semesterwechsel zusätzlich an SE II teilnehmen, z.B. aufgrund von Beurlaubung, Wiederholungsprüfung oder Auslandssemester. 
+
+
+Außerdem müssen folgenede Faktoren beachtet werden:
 
 
 * Ausgewogene Interessen bzgl. der Rollenverteilung
@@ -192,12 +195,12 @@ Beispiel Produkt:
 [%header, cols="4,1,4,1"]
 |===
 | Bedarf | Priorität | Features | Geplantes Release
-| Überarbeitung bzw. Neugestaltung der Oberfläche | xx | schlanke, funktionale Oberfläche, einfachere Menüführung für Studenten- und Dozentenansicht, bessere Ausnutzung des Platzes, Labels/Begriffe vereinheitlichen und von den Begrifflichkeiten (ein-/mehrzahl, genderge­ rechte Begriffe) anpassen,  | xx
+| Überarbeitung bzw. Neugestaltung der Oberfläche | xx | schlanke, funktionale Oberfläche, einfachere Menüführung für Studierenden- und Dozentenansicht, bessere Ausnutzung des Platzes, Labels/Begriffe vereinheitlichen und von den Begrifflichkeiten (ein-/mehrzahl, genderge­ rechte Begriffe) anpassen,  | xx
 | Erweiterung der Projektverwaltung | xx | Projekt-ID (I1, E3) extra zum Thema erfassen, Labels zum Projekt erfassen und anzeigen (Techniken, intern/extern, Neuentwicklung/Wei­
 terentwicklung), Pflichtfelder anpassen und Standardwerte/-verhalten für leere Felder | xx
 | Erweiterung des Fragebogens und Zuordnungsalgorithmus | xx | Erfassung ob eine Fachinformatikausbildung oder ähnliche Qualifikation erfolgt ist. Diese
 sollen gleichmäßig auf die Teams verteilt werden, Möglichkeit der mehrfachen Vergabe von Themen (bspw. bei zu wenig Themen) | xx
-| Daten zurücksetzen für neues Semester | xx | Entfernen aller Daten (Projektthemen, Studenten, Umfragen, Teams) und Einstellungen
+| Daten zurücksetzen für neues Semester | xx | Entfernen aller Daten (Projektthemen, Studierenden, Umfragen, Teams) und Einstellungen
 (Sichtbarkeiten) für ein neues Semester | xx
 | Backup- und Wiederherstellung | xx | Datenbank SQL-Dump (down-/upload?), Einstellungen (wenn nicht in Datenbank vorhanden) | xx
 | Optimieren der Docker-Umgebung | xx | Passwörter auslagern (Umgebungsvariable statt fest im Code/Git), logfiles, file/folder permissions, ... | xx
