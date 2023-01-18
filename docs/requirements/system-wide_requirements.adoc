@@ -36,8 +36,7 @@ Zur Überprüfung
 //* Fragebogen nicht zu beachten
 //* zusätzliche Frage wegen Informatikausbildung (Fragebogen)
 
-* wenn bereits der Fragebogen bearbeitet wurde dann sollen die zwischengespeicherten Daten aufgerufen werden können
-//noch zu klären mit Team
+
 
 
 
@@ -105,7 +104,7 @@ Zur Überprüfung
 
 *NFAP-2:* Die Wechselzeit von verschiedenen Unterseiten sollte möglichst minimal verlaufen
 
-Überprüft werden die unterseiten in verschiedenen Zeitintervallen abgefragt und die Antwortzeit wird notiert
+Überprüft werden die Unterseiten in verschiedenen Zeitintervallen abgefragt und die Antwortzeit wird notiert
 
 *NFAP-3:* Die Zeit für die Teamerstellung soll möglichst klein beim erweiterten Zuordnungsalgorithmus gehalten werden.
 
