@@ -1,32 +1,31 @@
 //Nutzen Sie dieses Template als Grundlage für die Spezifikation *einzelner* Use-Cases. Diese lassen sich dann per Include in das Use-Case Model Dokument einbinden (siehe Beispiel dort).
 
-== Use-Case: UC05 Projekt löschen
+== Use-Case: UC05 Teams generieren
 
 === Kurzbeschreibung
-Der Use Case beschreibt den Prozess des Löschens von Projekten.
+Der Use Case beschreibt den Prozess der Generierung der Teams auf Grundlage der ausgefüllten Formulare der Studierenden.
 
 === Kurzbeschreibung der Akteure
 
 ==== Dozent
-Möchte ein bestehendes Projekt aus dem System löschen, sodass dieses nicht mehr angezeigt wird.
+Möchte die Teams der Projekte für das kommende Semester generieren.
+
+==== Studierende
+Geben die Formulare als Grundlage für die Generierung der Teams und warten auf die Veröffentlichung der Teams.
 
 === Vorbedingungen
 //Vorbedingungen müssen erfüllt, damit der Use Case beginnen kann, z.B. Benutzer ist angemeldet, Warenkorb ist nicht leer...
 
-* Der Dozent ist mittels seiner HTW-Logindaten angemeldet.
-* Das Projekt, welches gelöscht werden soll, wurde bereits angelegt.
+* Alle Studierende haben ein Formular ausgefüllt.
+* Algorithmus zur Teamgenerierung ist funktionsfähig.
 
 === Standardablauf (Basic Flow)
 //Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
 
-. Der Use Case beginnt, wenn der Dozent auf der "Projektübersicht" befindet.
-. Dozent wählt das zu bearbeitende Projekt mit einem Klick auf den "Projekt bearbeiten"-Button aus.
-. Dozent klickt auf den "Projekt löschen"-Button.
-. System zeigt ein Pop-Up an mit den Worten "Wollen Sie dieses Projekt wirklich löschen?" und den zwei Button "Ja" und "Nein".
-. Dozent bestätigt das Löschen des Projekts mit einem Klick auf den "Ja"-Button.
-. System entfernt das Projekt und alle hinterlegten Daten aus der Datenbank.
-. System gibt Rückmeldung in Form eines Pop-Up "Projekt xyz wurde erfolgreich gelöscht."
-. System zeigt das gelöschte Projekt nicht mehr an.
+. Der Use Case beginnt, wenn <akteur> <macht>…
+. <Standardablauf Schritt 1>
+. …
+. <Standardablauf Schritt n>
 . Der Use Case ist abgeschlossen.
 
 === Alternative Abläufe
@@ -48,12 +47,15 @@ Wenn <Akteur> im Schritt <x> des Standardablauf <etwas macht>, dann
 === Wesentliche Szenarios
 //Szenarios sind konkrete Instanzen eines Use Case, d.h. mit einem konkreten Akteur und einem konkreten Durchlauf der o.g. Flows. Szenarios können als Vorstufe für die Entwicklung von Flows und/oder zu deren Validierung verwendet werden.
 
-==== Löschen des Projekts I8 Teamverwaltung
-* Der Dozent möchte das Projekt "I8 Teamverwaltung" löschen. Der Dozent wählt das Projekt in der Projektübersicht aus und löscht dieses. Das Projekt "I8 Teamverwaltung" wird nun nicht mehr angezeigt.
+==== <Szenario 1>
+. <Szenario 1, Schritt 1>
+. …
+. <Szenario 1, Schritt n>
 
 === Nachbedingungen
-* Das Projekt wurde aus der Datenbank gelöscht.
-* Die Studenten und Dozenten können dieses Projekt in der Projektübersicht nicht mehr sehen.
+//Nachbedingungen beschreiben das Ergebnis des Use Case, z.B. einen bestimmten Systemzustand.
+
+==== <Nachbedingung 1>
 
 === Besondere Anforderungen
 //Besondere Anforderungen können sich auf nicht-funktionale Anforderungen wie z.B. einzuhaltende Standards, Qualitätsanforderungen oder Anforderungen an die Benutzeroberfläche beziehen.
