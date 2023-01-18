@@ -19,7 +19,7 @@ Da es sich hier um eine Weiterentwicklung eines bereits bestehenden Online-Tools
 * *UC02*: Fragebogen ausfüllen
 * *UC05*: Teams generieren
 * *UC08*: Backup erstellen/laden
-* *UC09*: Gesamtsystem zurücksetzen* 
+* *UC09*: Gesamtsystem zurücksetzen
 * *UC04*: Projekt löschen
 * *UC06*: Projektteams zurücksetzen
 * *UC07*: Teams manuell bearbeiten

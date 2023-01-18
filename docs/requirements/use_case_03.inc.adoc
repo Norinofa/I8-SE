@@ -19,33 +19,44 @@ Möchte ein oder mehrere Projekte verwalten.
 //Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
 
 . Der Use Case beginnt, wenn der Dozent auf der "Projektübersicht" befindet.
-. Akteur klickt auf "Projekt hinzufügen" oder wählt das zu bearbeitende Projekt mit einem Klick auf den "Projekt bearbeiten"-Button aus.
+. Der Dozent fügt ein Projekt hinzu oder wählt das zu bearbeitende Projekt aus.
 . Das System zeigt den bisherigen oder einen leeren Bearbeitungsstand des (neuen) Projekts an.
-. Die Felder "Projektname" und "Projektbeschreibung" können mit einer Textfunktion bearbeitet werden.
-. Die Felder "Projekt-ID" und "Projektlabels" zeigen eine Vorauswahl an.
-. Das Feld "Anhang" gibt dem Dozent die Möglichkeit ein Dokument anzuhängen.
-. Der Dozent nimmt die gewünschten Veränderungen vor und bestätigt seine Eingabe.
-. Der Dozent klickt den "Projekt speichern"-Button.
-. System prüft
-. Das System speichert den neuen Bearbeitungsstand des Projekts in der Datenbank ab.
-. Das System zeigt die neue Version der Projekts an.
+. WHILE Projektinformationen sind nicht vollständig
+.. In die Felder "Projektname" und "Projektbeschreibung" können per Texteingabe freie Wörter und Sätze eingetragen werden.
+.. Die Felder "Projekt-ID" und "Projektlabels" zeigen eine Vorauswahl an.
+.. Das Feld "Anhang" gibt dem Dozent die Möglichkeit ein PDF-Dokument hochzuladen.
+.. Der Dozent nimmt die gewünschten Veränderungen vor und bestätigt seine Eingabe.
+.. Der Dozent löst das speichern des Projektes aus.
+.. Das System prüft, ob alle Pflichtfelder entsprechend der Gültigkeitsregeln ausgefüllt wurden.
+.. Das System zeigt die neue Version der Projekts an.
+.. Das System speichert den neuen Bearbeitungsstand des Projekts in der Datenbank ab.
 . Der Use Case ist abgeschlossen.
 
 === Alternative Abläufe
 //Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
 
-==== Pflichtfelder
-.Wenn der Dozent im Schritt 5 des Standardablauf speichert und nicht alle Pflichtfelder ausgefüllt sind
-. wird eine Fehlermeldung zurück gesendet
-. es wird ein Pup angezeigt mit der Aufforderung alle Pflichtfelder auzufüllen
-. der Usecase wird an Schritt 3 weitergeführt.
+==== Angabe ungültiger Dateien
+* (3f) Das System prüft, ob alle Pflichtfelder entsprechend der Gültigkeitsregeln ausgefüllt wurden.
+* WHILE Prüfung der Pflichtfelder nicht erfolgreich
+... System fordert den Dozent auf, diese zu berichtigen.
+... Dozent berichtigt Angaben.
+... IF Prüfung erfolgreich
+.... Fortsetzung Standardablauf an Schritt (3 g).
+... ELSE
+.... System verhindert Abspeichern des Projekts.
+.... Fortsetzung an Schritt (3 f).
 
-=== Unterabläufe 
+==== Hochladen einer ungültigen Datei
+* (3f) Das System prüft, ob alle Pflichtfelder entsprechend der Gültigkeitsregeln ausgefüllt wurden.
+... IF Prüfung erfolgreich
+.... Fortsetzung Standardablauf an Schritt (3 g).
+... ELSE
+.... System fordert den Dozenten auf ein PDF-Dokument hochzuladen
+.... Fortsetzung an Schritt (3 f).
 
-==== Speichern
-. Wenn die Pflichtfelder alle ausgefüllt sind
-. werden die Antworten aus den Textfeldern in einer Datenbank gespeichert
-. Unterablauf abgeschlossen
+=== Unterabläufe (subflows)
+
+--- keine Unterabläufe ---
 
 === Wesentliche Szenarios
 //Szenarios sind konkrete Instanzen eines Use Case, d.h. mit einem konkreten Akteur und einem konkreten Durchlauf der o.g. Flows. Szenarios können als Vorstufe für die Entwicklung von Flows und/oder zu deren Validierung verwendet werden.
@@ -56,10 +67,10 @@ Möchte ein oder mehrere Projekte verwalten.
 === Nachbedingungen
 //Nachbedingungen beschreiben das Ergebnis des Use Case, z.B. einen bestimmten Systemzustand.
 
-* Eine neue Version des Projekts ist in der Datenbank hinterlegt.
-* Das bearbeitete Projekt wird nun aktualisiert angezeigt.
+* Eine neue Version eines (neuen) Projekts ist in der Datenbank hinterlegt.
+* Das bearbeitete (neu erstellte) Projekt wird nun aktualisiert angezeigt.
 
 === Besondere Anforderungen
 //Besondere Anforderungen können sich auf nicht-funktionale Anforderungen wie z.B. einzuhaltende Standards, Qualitätsanforderungen oder Anforderungen an die Benutzeroberfläche beziehen.
 
--- Keine Besondere Anforderungen
+--- Keine Besondere Anforderungen ---
