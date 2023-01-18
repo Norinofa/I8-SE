@@ -1,35 +1,41 @@
 //Nutzen Sie dieses Template als Grundlage für die Spezifikation *einzelner* Use-Cases. Diese lassen sich dann per Include in das Use-Case Model Dokument einbinden (siehe Beispiel dort).
 
-== Use-Case: UC07 Projektteams zurücksetzen
-// ADOC Seite noch zu bearbeiten oder bleibt leer
+== Use-Case: UC07 Teams manuell bearbeiten
 
 === Kurzbeschreibung
-Dozent setzt die Website in den Urpsrungszustand zurück.
+//<Kurze Beschreibung des Use Case>
+Der entsprechende Dozent oder Mitbetreuer des Moduls loggt sich in die Website ein und geht in den Bereich für Verwaltung rein. Dort wird mittels eines Sortieralgorithmus die Teamzuordnung generiert.
+Dort kann der Verantwortliche Dozent diese Teamzusammensetzung nochmals manuell bearbeiten.
 
 === Kurzbeschreibung der Akteure
 
-==== Dozent
-Möchte die Website zurücksetzen
+Dozent oder Mitbetreuer möchte die Teams verwalten.
+
+Dozent/Betreuer
 
 === Vorbedingungen
 //Vorbedingungen müssen erfüllt, damit der Use Case beginnen kann, z.B. Benutzer ist angemeldet, Warenkorb ist nicht leer...
 
-Der Dozent ist angemeldet und besitzt die nötigen Rechte um die Website zurückzusetzen. (Es sollte ein Backup vorhanden sein.)
+* Dozent muss die benötigten Rechte besitzen um die Projekte und Teamzuordnungen zu verwalten
+* Studierende müssen den Fragebogen schon ausgefüllt haben und gespeichert haben
+
 
 === Standardablauf (Basic Flow)
 //Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
 
-. Der Use Case beginnt, wenn der Dozent sich anmeldet und auf die Einstellungen wechselt.
-. Dozent erhält eine Sicherheitsabfrage 
-. Dozent stimmt dieser zu 
-. Website wird auf dem Werkzustand zurückgesetzt
-. Der Use Case ist abgeschlossen.
+. Der Use Case beginnt, wenn der Dozent sich anmeldet und in die manuelle Teamverwaltung aufruft
+. Der Dozent hat die Möglichkeit mittels (Wie funktioniert die Teamverwaltung???)
+. WHILE Dozent sich auf der Benutzeroberfläche befindet
+.. ...
+. Der Use Case endet hier
 
 === Alternative Abläufe
 //Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
-==== Dozent will die Seite doch nicht zurücksetzen 
-* (3.) Dozent lehnt ab
-. Vorgang wird abgebrochen
+
+==== <Alternativer Ablauf 1>
+Wenn <Akteur> im Schritt <x> des Standardablauf <etwas macht>, dann
+. <Ablauf beschreiben>
+. Der Use Case wird im Schritt <y> fortgesetzt.
 
 === Unterabläufe (subflows)
 //Nutzen Sie Unterabläufe, um wiederkehrende Schritte auszulagern
@@ -42,17 +48,15 @@ Der Dozent ist angemeldet und besitzt die nötigen Rechte um die Website zurück
 === Wesentliche Szenarios
 //Szenarios sind konkrete Instanzen eines Use Case, d.h. mit einem konkreten Akteur und einem konkreten Durchlauf der o.g. Flows. Szenarios können als Vorstufe für die Entwicklung von Flows und/oder zu deren Validierung verwendet werden.
 
-==== Erfolgreich 
-. Dozent setzt die Website erfolgreich in den Werkzustand zurück
-
-==== Ablehnung
-. Dozent lehnt bei der Sicherheitsabfrage ab und der Vorgang wird abgebrochen
+==== <Szenario 1>
+. <Szenario 1, Schritt 1>
+. …
+. <Szenario 1, Schritt n>
 
 === Nachbedingungen
 //Nachbedingungen beschreiben das Ergebnis des Use Case, z.B. einen bestimmten Systemzustand.
 
-* das System befindet sich wieder in ihren Ursprungszustand
-* Fragebögen und Teamzusammenstellungen wurden gelöscht
+* Teamkonstellation wurden manuell neu angepasst
 
 ==== <Nachbedingung 1>
 
