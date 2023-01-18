@@ -14,7 +14,7 @@ include::../_includes/default-attributes.inc.adoc[]
 
 | Beginn der Iteration | 16.01.23
 | Zwischenmeeting| 22.01.23
-| Meeting mit Auftraggeber/ Coach | ?
+| Meeting mit Auftraggeber/ Coach | 18.01.23
 | Ende der Iteration | 27.01.23
 |===
 
