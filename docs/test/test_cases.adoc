@@ -97,5 +97,40 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 * Pflichtfeld ausfüllen, bevor Speicherung erfolgen kann
 
 
-=== Test Case 02
+=== Test Case 02- Teams generieren
 
+Vorbedingung
+
+1.	Als Dozent eingeloggt
+2.	2. Öffnen des Menüpunktes ‘Teamsverwaltung‘
+3.	Öffnen des Unterpunktes ‘Teams generieren‘
+4.	Anzeige des Eingabefeldes zur Bestimmung der Teamgröße 
+
+Testablauf
+
+1.	Daten sind richtig eingegeben wurden (nur Zahlen)
+2.	Daten sind falsch eingegeben wurden (alles außer Zahlen)
+3.	Keine Daten werden eingegeben
+
+Eingabedaten
+
+1.	Richtige Beispieleingabe
+2.	Falsche Beispieleingabe
+3.	Keine Beispieleingabe
+
+Nachbedingungen
+
+1. 
+
+* Teams werden mit gewünschter Mitgliederanzahl generiert
+
+2. 
+
+* Fehlermeldung erscheint
+* Keine Generieurung der Teams
+* Eingabe mit richtigen Daten wiederholen
+
+3.
+
+* Fehlermeldung erscheint
+* Teamsgenerieung nach Eingabe richtiger Daten
