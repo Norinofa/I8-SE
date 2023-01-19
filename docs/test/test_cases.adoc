@@ -18,44 +18,80 @@ Die Nutzer müssen über das HTW Netzwerk im Online Tool angemeldet sein und ein
 === Test Case 01- Projekt erstellen
 
 
-==Vorbedingung
+== Vorbedingung
 
 1. Als Dozent eingeloggt
 2. Öffnen des Menüpunktes 'Projektverwaltung'
 3. Öffnen des Unterpunktes 'Projekt erstellen'
 4. Eingabeseite zur Erstellung eines Projektes 
 
-==Testablauf
+== Testablauf
 
 1. Daten werden vollständig und richtig eingegeben ohne inkonsistente Daten.
 2. Daten werden vollständig eingegeben, jedoch wurde die ID mehrfach versucht zu vergeben
 3. Pflichtfelder werden ausgelassen 
 
-==Eingabedaten
+== Eingabedaten
 
-1. fehlerfreie Beispieleingabe siehe
+*1. fehlerfreie Beispieleingabe*
 
+:imageTitle: TC1 Erfolgreich
 
-2. fehlerhafte Beispieleingabe mit inkosistenten Daten
+:imageFile: 1_ErfolgreicherCASE.png
+.{imageTitle}
+image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
+*2. fehlerhafte Beispieleingabe mit inkosistenten Daten*
 
-3. fehlerhafte Beispieleingabe mit freien Pflichtfeldern
+:imageTitle: TC2 Erfolgreich
 
-==Nachbedingungen
+:imageFile: 2_Pflichtfeldnichtausgefüllt_TC.png
+.{imageTitle}
+image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
-1.
+*3. fehlerhafte Beispieleingabe mit freien Pflichtfeldern*
+
+:imageTitle: TC3 Fehlermeldung
+
+:imageFile: 3_Fehlermeldung_TC.png
+.{imageTitle}
+image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
+
+== Nachbedingungen
+
+*1.*
+
 * Meldung über erfolgreiche Speicherung
 * Daten werden in der Datenbank erfasst
 
-2. 
+:imageTitle: TC4 erfolgreiche Speicherung
+
+:imageFile: 4_ErfolgreicheAbfrage_TC.png
+.{imageTitle}
+image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
+
+*2.*
+
 * Pop-Up mit Fehlermeldung wird angezeigt
 * Daten werden nicht gespeichert
 * Wahl einer neuen ID, die nicht existiert
 
-3. 
+:imageTitle: TC5 ID_Vergabe
+
+:imageFile: 5_ID_Vergabe_TC.png
+.{imageTitle}
+image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
+
+*3.*
+
 * Fehlermeldung nahe des frei gelassenen Pflichtfeldes wird angezeigt
 * Daten wurden nicht gespeichert
 * Pflichtfeld ausfüllen, bevor Speicherung erfolgen kann
 
+:imageTitle: TC6 Fehlermeldung_ID
+
+:imageFile: 6_Fehlermeldung_ID_TC.png
+.{imageTitle}
+image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
 === Test Case 02
