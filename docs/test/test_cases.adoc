@@ -114,9 +114,30 @@ Testablauf
 
 Eingabedaten
 
-1.	Richtige Beispieleingabe
-2.	Falsche Beispieleingabe
-3.	Keine Beispieleingabe
+*1.	Richtige Beispieleingabe*
+
+:imageTitle: TC2.1 richtige Generierung
+
+:imageFile: TC2.1_richtige_generierung_vonTeams.png
+.{imageTitle}
+image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
+
+
+*2. Falsche Beispieleingabe*
+
+:imageTitle: TC2.2 falsche Eingabe
+
+:imageFile: TC2.3_falscheEingabe_Fehlermeldung.png
+.{imageTitle}
+image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
+
+*3.	Keine Beispieleingabe*
+
+:imageTitle: TC2.4 falsche Eingabe
+
+:imageFile: TC2.4_leereEingabe.png
+.{imageTitle}
+image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
 Nachbedingungen
 
