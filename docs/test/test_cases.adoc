@@ -41,11 +41,23 @@ Die Nutzer müssen über das HTW Netzwerk im Online Tool angemeldet sein und ein
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
+:imageTitle: TC1.1 Erfolgreich
+
+:imageFile: 1.1_ErfolgreicheAbfrage_TC.png
+.{imageTitle}
+image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
+
 *2. fehlerhafte Beispieleingabe mit inkosistenten Daten*
 
 :imageTitle: TC2 Erfolgreich
 
-:imageFile: 2_Pflichtfeldnichtausgefüllt_TC.png
+:imageFile: 2_ID_Vergabe_TC.png
+.{imageTitle}
+image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
+
+:imageTitle: TC2 Erfolgreich
+
+:imageFile: 2.1_Fehlermeldung_ID_TC.png
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
@@ -53,7 +65,13 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
 :imageTitle: TC3 Fehlermeldung
 
-:imageFile: 3_Fehlermeldung_TC.png
+:imageFile: 3_Pflichtfeldnichtausgefüllt_TC.png
+.{imageTitle}
+image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
+
+:imageTitle: TC3.1 Fehlermeldung
+
+:imageFile: 3.1_Fehlermeldung_TC.png
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
@@ -64,11 +82,6 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 * Meldung über erfolgreiche Speicherung
 * Daten werden in der Datenbank erfasst
 
-:imageTitle: TC4 erfolgreiche Speicherung
-
-:imageFile: 4_ErfolgreicheAbfrage_TC.png
-.{imageTitle}
-image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
 *2.*
 
@@ -76,11 +89,6 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 * Daten werden nicht gespeichert
 * Wahl einer neuen ID, die nicht existiert
 
-:imageTitle: TC5 ID_Vergabe
-
-:imageFile: 5_ID_Vergabe_TC.png
-.{imageTitle}
-image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
 *3.*
 
@@ -88,10 +96,6 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 * Daten wurden nicht gespeichert
 * Pflichtfeld ausfüllen, bevor Speicherung erfolgen kann
 
-:imageTitle: TC6 Fehlermeldung_ID
-
-:imageFile: 6_Fehlermeldung_ID_TC.png
-.{imageTitle}
-image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
 === Test Case 02
+
