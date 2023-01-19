@@ -7,8 +7,55 @@ include::../_includes/default-attributes.inc.adoc[]
 
 == Allgemeine Informationen
 
+Die ausgewiesenen Test Cases überprüfen die Funktionalität des Online Tools und stellen einen reibungslosen Ablauf sicher.
+
 == Test Cases
 
-=== Test Case 01
+Vorbedingungen:
+
+Die Nutzer müssen über das HTW Netzwerk im Online Tool angemeldet sein und eine stabile Internetverbindung besitzen.
+
+=== Test Case 01- Projekt erstellen
+
+
+==Vorbedingung
+
+1. Als Dozent eingeloggt
+2. Öffnen des Menüpunktes 'Projektverwaltung'
+3. Öffnen des Unterpunktes 'Projekt erstellen'
+4. Eingabeseite zur Erstellung eines Projektes 
+
+==Testablauf
+
+1. Daten werden vollständig und richtig eingegeben ohne inkonsistente Daten.
+2. Daten werden vollständig eingegeben, jedoch wurde die ID mehrfach versucht zu vergeben
+3. Pflichtfelder werden ausgelassen 
+
+==Eingabedaten
+
+1. fehlerfreie Beispieleingabe siehe
+
+
+2. fehlerhafte Beispieleingabe mit inkosistenten Daten
+
+
+3. fehlerhafte Beispieleingabe mit freien Pflichtfeldern
+
+==Nachbedingungen
+
+1.
+* Meldung über erfolgreiche Speicherung
+* Daten werden in der Datenbank erfasst
+
+2. 
+* Pop-Up mit Fehlermeldung wird angezeigt
+* Daten werden nicht gespeichert
+* Wahl einer neuen ID, die nicht existiert
+
+3. 
+* Fehlermeldung nahe des frei gelassenen Pflichtfeldes wird angezeigt
+* Daten wurden nicht gespeichert
+* Pflichtfeld ausfüllen, bevor Speicherung erfolgen kann
+
 
 === Test Case 02
