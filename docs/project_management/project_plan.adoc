@@ -21,13 +21,37 @@ In der folgenden Tabelle werden die Teammitglieder und deren Rollenverteilung da
 
 |===
 | Name | Rolle | Studiengang | Informationen zur Person 
-| Evelyn Dietrich | Teamleiterin, Testerin | Wirtschaftsinformatik |
-| Kilian Luca Schinnerling | Analyst, Teamleiter | Wirtschaftsingenieurwesen |
-| Hieu Trung Thi | Analyst | Wirtschaftsinformatik |
-| Phil Benedikt Beck | Entwurf | Wirtschaftsinformatik |
-| Julius Wyrembek | Tester, Entwurf | Wirtschaftsinformatik |
-| Viktoria Karklin | Implementiererin | Informatik |
-| Nuha Alhamiidi | Implementiererin | Wirtschaftsinformatik |                                     
+| Evelyn Dietrich 
+| Teamleiterin, Testerin 
+| Wirtschaftsinformatik 
+|
+a|
+* SHK an der HTW Dresden
+* optimistisch
+| Kilian Luca Schinnerling 
+| Analyst, Teamleiter 
+| Wirtschaftsingenieurwesen 
+|
+| Hieu Trung Thi 
+| Analyst 
+| Wirtschaftsinformatik 
+|
+| Phil Benedikt Beck 
+| Entwurf 
+| Wirtschaftsinformatik 
+|
+| Julius Wyrembek 
+| Tester, Entwurf 
+| Wirtschaftsinformatik 
+|
+| Viktoria Karklin 
+| Implementiererin 
+| Informatik 
+|
+| Nuha Alhamiidi 
+| Implementiererin 
+| Wirtschaftsinformatik 
+|                                     
 |===
 
 
@@ -35,15 +59,15 @@ In der folgenden Tabelle werden die Teammitglieder und deren Rollenverteilung da
 == Praktiken und Bewertung
 //Describe or reference which management and technical practices will be used in the project, such as iterative development, continuous integration, independent testing and list any changes or particular configuration to the project. Specify how you will track progress in each practice. As an example, for iterative development the team may decide to use iteration assessments and iteration burndown reports and collect metrics such as velocity (completed work item points/ iteration).
 
-*Scrum Board einrichten?*
 
-Das komplette Projekt wird über Iterationsphasen erstellt. Dafür treffen wir uns aller 2 Wochen entweder persönlich oder online zu einem Meeting. Die wesentlichen Inhalte dieser Meetings sind: Haben wir unsere Iterationsziele geschafft? Falls nicht, was muss noch erledigt werden und bis wann? Welche Aufgaben müssen während der nächsten Iterationsphase erledigt werden? Diese Erkenntnisse werden protokolliert und in gesonderten Protokollen festgehalten. Die Aufgaben für die nächste Iteration werden nach den Meetings in der (Verweis Workitemslist) notiert, die von jedem Mitglied selbstständig aktualisiert wird. 
-
-Die Bearbeitung des Projektes beinhaltet vorgefertigte Dokumente, die mittels GitHub erstellt werden. ( Über die genutzte Funktion Issues werden ...)
-
-Unsere Kommunikation verläuft ausschließlich über Discord, da dort mehrere Chats themenorientiert eröffnen werden können und dies eine bessere Übersicht für die Teammitglieder über die jeweils zu erledigenden Anfoderungen bietet, im gegensatz zu unserem anfänglichen Tool Whatsapp. Weiterhin nutzen wir die Sprachchats um eine effektivere und schnellere Bearbeitung der Schwierigkeiten generieren zu können.
+Das komplette Projekt wird in Iterationsphasen eingeteilt. Dafür treffen wir uns aller 2 Wochen entweder persönlich oder online zu einem Meeting. Die wesentlichen Inhalte dieser Meetings sind: Haben wir unsere Iterationsziele geschafft? Falls nicht, was muss noch erledigt werden und bis wann? Welche Aufgaben müssen während der nächsten Iterationsphase erledigt werden? 
+Die Aufgaben für die nächste Iteration werden nach den Meetings in den Projects (Verweis) als Issues hinzugefügt, die von jedem Mitglied selbstständig aktualisiert wird. 
+Anfangs wurde die Organisation über eine selbstgeschriebene Work-Items-List gemanagt. Jedoch hat sich diese als unpraktisch erwiesen, da auf der einen Seite die Teammitglieder ihre Arbeitschritte dort nicht vermerkt haben und auf der anderen Seite kein analysierter Fortschritt zu erkennen war.
+In Projects hingegen wird die ganze Organisation verwaltet. Dort haben wir Einsicht über neue Aufgaben, noch zuerledigende Aufgaben und den Progressfortschritt, was die Organisation effektiver und übersichtlicher macht. 
 
 
+Unsere Kommunikation verläuft größtenteils über Discord. Dort können mehrere Chats themenorientiert eröffnen werden und dies bietet eine bessere Übersicht für die Teammitglieder über die zu erledigenden Anfoderungen. Jedoch nutzen wir für kurze Fragen und schnelle Antworten Whatsapp.
+Weiterhin halten wir unsere Gruppenmeetings meist online ab, weil sich in Präsenz zu treffen als schwierig erwiesen hat, durch die Fahrzeiten und die unterschiedlichen Stundenpläne. Für die Meetings eignen sich die Sprachchats bei Discord.  Die Bearbeitung der Dokumente wird überwiegend in Gruppen über Discord in Sprachchats erledigt, da man bequem seinen Bildschirm teilen kann und mehrere Meinungen abgedeckt werden können, um das bestmögliche Ergebnis zu erzielen.
 
 == Meilensteine und Ziele
 //Define and describe the high-level objectives for the iterations and define milestones. For example, use the following table to lay out the schedule. If needed you may group the iterations into phases and use a separate table for each phase
@@ -74,6 +98,25 @@ Unsere Kommunikation verläuft ausschließlich über Discord, da dort mehrere Ch
 * in vorherrschenden Code einarbeiten/ Docker verstehen
 | 28.11.22-16.12.22
 | 19
+
+| I3
+|
+* Use Case Model/Diagramm anpassen
+* Architecture Notebook aktualisieren
+| 16.12.22-03.01.23
+
+| I4
+|
+* Prototypvorstellung
+* Glossar, Domänenmodel ausarbeiten
+* Architecure Notebook vervollständigen
+| 03.01.23-16.01.23
+
+| I5
+|
+* alle Dokumente beenden
+* alle Dokumente auf Sinnhaftigkeit, Volsständigkeit und Rechtschreibung prüfen
+|16.01.23-27.01.23
 |===
 
 
