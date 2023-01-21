@@ -25,7 +25,6 @@ In der folgenden Tabelle werden die Teammitglieder und deren Rollenverteilung da
 | Teamleiterin, Testerin 
 | Wirtschaftsinformatik 
 |
-a|
 * SHK an der HTW Dresden
 * optimistisch
 | Kilian Luca Schinnerling 
@@ -104,6 +103,7 @@ Weiterhin halten wir unsere Gruppenmeetings meist online ab, weil sich in Präse
 * Use Case Model/Diagramm anpassen
 * Architecture Notebook aktualisieren
 | 16.12.22-03.01.23
+|18
 
 | I4
 |
@@ -111,12 +111,13 @@ Weiterhin halten wir unsere Gruppenmeetings meist online ab, weil sich in Präse
 * Glossar, Domänenmodel ausarbeiten
 * Architecure Notebook vervollständigen
 | 03.01.23-16.01.23
-
+|13
 | I5
 |
 * alle Dokumente beenden
 * alle Dokumente auf Sinnhaftigkeit, Volsständigkeit und Rechtschreibung prüfen
 |16.01.23-27.01.23
+|11
 |===
 
 
