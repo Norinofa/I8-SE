@@ -128,4 +128,7 @@ Weiterhin halten wir unsere Gruppenmeetings meist online ab, weil sich in Präse
 == Erkenntnisse (Lessons learned)
 //List lessons learned from the retrospective, with special emphasis on actions to be taken to improve, for example: the development environment, the process, or team collaboration.
 
-*Kommunikation zwischen den Mitgliedern und ständigen Kontakt zu den Steakholdern erleichtert die Arbeit
+* Kommunikation zwischen den Mitgliedern und ständigen Kontakt zu den Steakholdern erleichtert die Arbeit
+* wenn man einzelne Aufgaben in Gruppen bearbeitet, wird das Ergebnis qualitativ wertvoller
+* wenn man die Stärken und Schwächen der Teammitglieder von vornherein kennt, dann klappt die Verteilung der Aufgaben besser
+
