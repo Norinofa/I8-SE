@@ -1,9 +1,9 @@
 // --- 1. Projektthema -------------------------
 = SE I - Belegabgabe: {project-name}
 // --- 2. Teammitglieder -----------------------
-Vorname Nachname <s00000@htw-dresden.de>; Vorname Nachname <s00000@htw-dresden.de>; Vorname Nachname <s00000@htw-dresden.de>; Vorname Nachname <s00000@htw-dresden.de>; Vorname Nachname <s00000@htw-dresden.de>; Vorname Nachname <s00000@htw-dresden.de>
+Hieu Nachname <s00000@htw-dresden.de>; Kilian Nachname <s00000@htw-dresden.de>; Evelyn Nachname <s00000@htw-dresden.de>; Julius Nachname <s00000@htw-dresden.de>; Viktoria Nachname <s00000@htw-dresden.de>; Nuha Nachname <s00000@htw-dresden.de>
 // --- 3. Abgabedatum --------------------------
-01. Januar 2020
+27. Januar 2023
 // ---------------------------------------------
 :docs: ../docs
 include::{docs}/_includes/default-attributes.inc.adoc[]
@@ -79,13 +79,13 @@ include::{docs-project-management}/project_plan.adoc[lines=1..1;4..-1,leveloffse
 // Risikoliste
 include::{docs-project-management}/risk_list.adoc[lines=1..1;4..-1,leveloffset=+1]
 <<<
-// Iteration 1
-include::{docs-project-management}/iteration_plan_01.adoc[lines=1..1;4..-1,leveloffset=+1]
+// Iteration 4
+include::{docs-project-management}/iteration_plan_04.adoc[lines=1..1;4..-1,leveloffset=+1]
 <<<
-// Iteration 2
-//include::{docs-project-management}/iteration_plan_02.adoc[lines=1..1;4..-1,leveloffset=+1]
+// Iteration 5
+include::{docs-project-management}/iteration_plan_05.adoc[lines=1..1;4..-1,leveloffset=+1]
 <<<
-// Iteration 3
+// Iteration x
 //include::{docs-project-management}/iteration_plan_03.adoc[lines=1..1;4..-1,leveloffset=+1]
 <<<
 
@@ -93,7 +93,7 @@ include::{docs-project-management}/iteration_plan_01.adoc[lines=1..1;4..-1,level
 = Entwurfsdokumentation
 * Architektur-Notizbuch
 * Test Cases
-* Design
+// * Design
 
 // Architektur-Notizbuch
 :imagesdir: {docs-architecture}/images
@@ -104,8 +104,8 @@ include::{docs-architecture}/architecture_notebook.adoc[lines=1..1;4..-1,levelof
 include::{docs-test}/test_cases.adoc[lines=1..1;4..-1,leveloffset=+1]
 <<<
 // Design
-:imagesdir: {docs-development}/images
-include::{docs-development}/design.adoc[lines=1..1;4..-1,leveloffset=+1]
+// :imagesdir: {docs-development}/images
+// include::{docs-development}/design.adoc[lines=1..1;4..-1,leveloffset=+1]
 <<<
 
 // ---------------------------------------------

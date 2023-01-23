@@ -1,6 +1,4 @@
-= Projektplan: I8 Erstellung und Verwaltung von Gruppen für Software Engineering Projekte
-für Software Engineering Projekte
-
+= Projektplan: {project-name}
 Vorname Nachname <email@domain.org>; Vorname2 Nachname2 <email2@domain.org>; Vorname3 Nachname3 <email3@domain.org>
 {localdatetime}
 include::../_includes/default-attributes.inc.adoc[]
@@ -58,16 +56,19 @@ In der folgenden Tabelle werden die Teammitglieder und deren Rollenverteilung da
 == Praktiken und Bewertung
 //Describe or reference which management and technical practices will be used in the project, such as iterative development, continuous integration, independent testing and list any changes or particular configuration to the project. Specify how you will track progress in each practice. As an example, for iterative development the team may decide to use iteration assessments and iteration burndown reports and collect metrics such as velocity (completed work item points/ iteration).
 
-Das Team orientiert sich durchgehend am dem Open Unified Process (OpenUP). OpenUp ist ein agiler, vollständiger Softwareengineeringsprozess zum Erstellen eines Systems. Der OpenUP enthält vorgegebene Rollen, die wir von Anfang an, anhand von Stärken und Schwächen, aufgeteilt haben. Jedes einzelene Teammitglied trägt seine Hantierung mittels Mikroinkrementen bei. Durch die zyklische Arbeitsweise, werden in jeder Iteration unterschiedliche Mirkoinkremente bearbeitet, die dann im Laufe der nächsten Iteration aufeinander aufbauen und ein Gesamtbild erkennen lassen.
+Das Team orientiert sich durchgehend am dem Open Unified Process (OpenUP). OpenUP ist ein agiler, vollständiger Softwareentwicklungsprozess zum Erstellen eines Systems. Der OpenUP enthält vorgegebene Rollen, die wir von Anfang an, anhand von Stärken und Schwächen, aufgeteilt haben. Durch die zyklische Arbeitsweise, werden in jeder Iteration unterschiedliche Mirkoinkremente durch jedes einzelne Teammitglied erarbeitet, die dann im Laufe der nächsten Iteration aufeinander aufbauen und ein Gesamtbild erkennen lassen.
 
 Das komplette Projekt wird in Iterationsphasen eingeteilt. Dafür wird ein Treffen aller 2 Wochen festgelegt, entweder persönlich oder online. Die wesentlichen Inhalte dieser Meetings sind: Haben wir unsere Iterationsziele geschafft? Falls nicht, was muss noch erledigt werden und bis wann? Welche Aufgaben müssen während der nächsten Iterationsphase erledigt werden? 
-Die Aufgaben für die nächste Iteration werden nach den Meetings in den Projects (Verweis) als Issues hinzugefügt, die von jedem Mitglied selbstständig aktualisiert wird. Weiterhin findet man die zugewiesenen Aufgaben in dem jeweiligen Iterationsplan. Nach Ende der Iterationsphase werden die nicht erledigten Ziele in die neue Iterationsphase eingebunden.
+Die Aufgaben für die nächste Iteration werden nach den Meetings in den Projects als Issues https://github.com/users/Norinofa/projects/1[GitHub Project] hinzugefügt, die von jedem Mitglied selbstständig aktualisiert werden. Weiterhin findet man die zugewiesenen Aufgaben in dem jeweiligen Iterationsplan. Nach Ende der Iterationsphase werden die nicht erledigten Ziele in die neue Iterationsphase eingebunden.
 Anfangs wurde die gesamte Organisation über eine selbstgeschriebene Work-Items-List gemanagt. Jedoch hat sich diese als unpraktisch erwiesen, da die Teammitglieder ihre Arbeitschritte dort nicht vermerkt haben und generell kein analysierter Fortschritt zu erkennen war.
 In Projects hingegen wird die ganze Organisation verwaltet. Dort haben wir Einsicht über neue Aufgaben, noch zuerledigende Aufgaben und den Prozessfortschritt, was die Organisation effektiver und übersichtlicher macht. 
 
 
 Unsere Kommunikation verläuft größtenteils über Discord. Dort können mehrere Chats themenorientiert eröffnen werden und dies bietet eine bessere Übersicht für die Teammitglieder über die zu erledigenden Anfoderungen. Jedoch nutzen wir für kurze Fragen und schnelle Antworten Whatsapp.
-Weiterhin halten wir unsere Gruppenmeetings meist online ab, weil sich in Präsenz zu treffen als schwierig erwiesen hat, durch die Fahrzeiten und die unterschiedlichen Stundenpläne. Für die Meetings eignen sich die Sprachchats bei Discord. Die Bearbeitung der Dokumente wird überwiegend in Gruppen über Discord in den verschiedenen Sprachchats erledigt, da man bequem seinen Bildschirm teilen kann und mehrere Meinungen abgedeckt werden können, um das bestmögliche Ergebnis zu erzielen.
+
+//Hier Bild einfügen des Discords
+
+Weiterhin halten wir unsere Gruppenmeetings meist online ab, da sich durch längere Fahrzeiten und unterschiedliche Stundenpläne Terminfindung für Präsenzmeetings als schwierig erwiesen haben. Für die Onlinetreffen eignen sich die Sprachchats bei Discord. Die Bearbeitung der Dokumente wird überwiegend in Gruppen über Discord in den verschiedenen Sprachchats erledigt, weil man bequem seinen Bildschirm teilen kann und mehrere Meinungen abgedeckt werden können, um das bestmögliche Ergebnis zu erzielen.
 
 == Meilensteine und Ziele
 //Define and describe the high-level objectives for the iterations and define milestones. For example, use the following table to lay out the schedule. If needed you may group the iterations into phases and use a separate table for each phase
