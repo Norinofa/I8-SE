@@ -58,15 +58,16 @@ In der folgenden Tabelle werden die Teammitglieder und deren Rollenverteilung da
 == Praktiken und Bewertung
 //Describe or reference which management and technical practices will be used in the project, such as iterative development, continuous integration, independent testing and list any changes or particular configuration to the project. Specify how you will track progress in each practice. As an example, for iterative development the team may decide to use iteration assessments and iteration burndown reports and collect metrics such as velocity (completed work item points/ iteration).
 
+Das Team orientiert sich durchgehend am dem Open Unified Process (OpenUP). OpenUp ist ein agiler, vollständiger Softwareengineeringsprozess zum Erstellen eines Systems. Der OpenUP enthält vorgegebene Rollen, die wir von Anfang an, anhand von Stärken und Schwächen, aufgeteilt haben. Jedes einzelene Teammitglied trägt seine Hantierung mittels Mikroinkrementen bei. Durch die zyklische Arbeitsweise, werden in jeder Iteration unterschiedliche Mirkoinkremente bearbeitet, die dann im Laufe der nächsten Iteration aufeinander aufbauen und ein Gesamtbild erkennen lassen.
 
-Das komplette Projekt wird in Iterationsphasen eingeteilt. Dafür treffen wir uns aller 2 Wochen entweder persönlich oder online zu einem Meeting. Die wesentlichen Inhalte dieser Meetings sind: Haben wir unsere Iterationsziele geschafft? Falls nicht, was muss noch erledigt werden und bis wann? Welche Aufgaben müssen während der nächsten Iterationsphase erledigt werden? 
-Die Aufgaben für die nächste Iteration werden nach den Meetings in den Projects (Verweis) als Issues hinzugefügt, die von jedem Mitglied selbstständig aktualisiert wird. 
-Anfangs wurde die Organisation über eine selbstgeschriebene Work-Items-List gemanagt. Jedoch hat sich diese als unpraktisch erwiesen, da auf der einen Seite die Teammitglieder ihre Arbeitschritte dort nicht vermerkt haben und auf der anderen Seite kein analysierter Fortschritt zu erkennen war.
-In Projects hingegen wird die ganze Organisation verwaltet. Dort haben wir Einsicht über neue Aufgaben, noch zuerledigende Aufgaben und den Progressfortschritt, was die Organisation effektiver und übersichtlicher macht. 
+Das komplette Projekt wird in Iterationsphasen eingeteilt. Dafür wird ein Treffen aller 2 Wochen festgelegt, entweder persönlich oder online. Die wesentlichen Inhalte dieser Meetings sind: Haben wir unsere Iterationsziele geschafft? Falls nicht, was muss noch erledigt werden und bis wann? Welche Aufgaben müssen während der nächsten Iterationsphase erledigt werden? 
+Die Aufgaben für die nächste Iteration werden nach den Meetings in den Projects (Verweis) als Issues hinzugefügt, die von jedem Mitglied selbstständig aktualisiert wird. Weiterhin findet man die zugewiesenen Aufgaben in dem jeweiligen Iterationsplan. Nach Ende der Iterationsphase werden die nicht erledigten Ziele in die neue Iterationsphase eingebunden.
+Anfangs wurde die gesamte Organisation über eine selbstgeschriebene Work-Items-List gemanagt. Jedoch hat sich diese als unpraktisch erwiesen, da die Teammitglieder ihre Arbeitschritte dort nicht vermerkt haben und generell kein analysierter Fortschritt zu erkennen war.
+In Projects hingegen wird die ganze Organisation verwaltet. Dort haben wir Einsicht über neue Aufgaben, noch zuerledigende Aufgaben und den Prozessfortschritt, was die Organisation effektiver und übersichtlicher macht. 
 
 
 Unsere Kommunikation verläuft größtenteils über Discord. Dort können mehrere Chats themenorientiert eröffnen werden und dies bietet eine bessere Übersicht für die Teammitglieder über die zu erledigenden Anfoderungen. Jedoch nutzen wir für kurze Fragen und schnelle Antworten Whatsapp.
-Weiterhin halten wir unsere Gruppenmeetings meist online ab, weil sich in Präsenz zu treffen als schwierig erwiesen hat, durch die Fahrzeiten und die unterschiedlichen Stundenpläne. Für die Meetings eignen sich die Sprachchats bei Discord.  Die Bearbeitung der Dokumente wird überwiegend in Gruppen über Discord in Sprachchats erledigt, da man bequem seinen Bildschirm teilen kann und mehrere Meinungen abgedeckt werden können, um das bestmögliche Ergebnis zu erzielen.
+Weiterhin halten wir unsere Gruppenmeetings meist online ab, weil sich in Präsenz zu treffen als schwierig erwiesen hat, durch die Fahrzeiten und die unterschiedlichen Stundenpläne. Für die Meetings eignen sich die Sprachchats bei Discord. Die Bearbeitung der Dokumente wird überwiegend in Gruppen über Discord in den verschiedenen Sprachchats erledigt, da man bequem seinen Bildschirm teilen kann und mehrere Meinungen abgedeckt werden können, um das bestmögliche Ergebnis zu erzielen.
 
 == Meilensteine und Ziele
 //Define and describe the high-level objectives for the iterations and define milestones. For example, use the following table to lay out the schedule. If needed you may group the iterations into phases and use a separate table for each phase
@@ -115,7 +116,7 @@ Weiterhin halten wir unsere Gruppenmeetings meist online ab, weil sich in Präse
 | I5
 |
 * alle Dokumente beenden
-* alle Dokumente auf Sinnhaftigkeit, Volsständigkeit und Rechtschreibung prüfen
+* alle Dokumente auf Sinnhaftigkeit, Vollständigkeit und Rechtschreibung prüfen
 |16.01.23-27.01.23
 |11
 |===
@@ -131,4 +132,6 @@ Weiterhin halten wir unsere Gruppenmeetings meist online ab, weil sich in Präse
 * Kommunikation zwischen den Mitgliedern und ständigen Kontakt zu den Steakholdern erleichtert die Arbeit
 * wenn man einzelne Aufgaben in Gruppen bearbeitet, wird das Ergebnis qualitativ wertvoller
 * wenn man die Stärken und Schwächen der Teammitglieder von vornherein kennt, dann klappt die Verteilung der Aufgaben besser
+* besser zu viel als zu wenig fragen, egal ob es die Gruppe, den Couch oder den Auftraggeber betrifft
+* die Bearbeitung des Projektes direkt nach Erhalt der Aufgabenstellung anzufangen, war eine gute Entscheidung. Man konnte so dem zeitlichen Druck kurz vor der Abgabe entgehen und hatte noch genug Puffer um die Dokumente auf Sinnhaftigkeit, Vollständigkeit und Rechtschreibung zu überprüfen.
 
