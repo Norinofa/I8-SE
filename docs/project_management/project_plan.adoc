@@ -21,13 +21,36 @@ In der folgenden Tabelle werden die Teammitglieder und deren Rollenverteilung da
 
 |===
 | Name | Rolle | Studiengang | Informationen zur Person 
-| Evelyn Dietrich | Teamleiterin, Testerin | Wirtschaftsinformatik |
-| Kilian Luca Schinnerling | Analyst, Teamleiter | Wirtschaftsingenieurwesen |
-| Hieu Trung Thi | Analyst | Wirtschaftsinformatik |
-| Phil Benedikt Beck | Entwurf | Wirtschaftsinformatik |
-| Julius Wyrembek | Tester, Entwurf | Wirtschaftsinformatik |
-| Viktoria Karklin | Implementiererin | Informatik |
-| Nuha Alhamiidi | Implementiererin | Wirtschaftsinformatik |                                     
+| Evelyn Dietrich 
+| Teamleiterin, Testerin 
+| Wirtschaftsinformatik 
+|
+* SHK an der HTW Dresden
+* optimistisch
+| Kilian Luca Schinnerling 
+| Analyst, Teamleiter 
+| Wirtschaftsingenieurwesen 
+|
+| Hieu Trung Thi 
+| Analyst 
+| Wirtschaftsinformatik 
+|
+| Phil Benedikt Beck 
+| Entwurf 
+| Wirtschaftsinformatik 
+|
+| Julius Wyrembek 
+| Tester, Entwurf 
+| Wirtschaftsinformatik 
+|
+| Viktoria Karklin 
+| Implementiererin 
+| Informatik 
+|
+| Nuha Alhamiidi 
+| Implementiererin 
+| Wirtschaftsinformatik 
+|                                     
 |===
 
 
@@ -35,15 +58,16 @@ In der folgenden Tabelle werden die Teammitglieder und deren Rollenverteilung da
 == Praktiken und Bewertung
 //Describe or reference which management and technical practices will be used in the project, such as iterative development, continuous integration, independent testing and list any changes or particular configuration to the project. Specify how you will track progress in each practice. As an example, for iterative development the team may decide to use iteration assessments and iteration burndown reports and collect metrics such as velocity (completed work item points/ iteration).
 
-*Scrum Board einrichten?*
+Das Team orientiert sich durchgehend am dem Open Unified Process (OpenUP). OpenUp ist ein agiler, vollständiger Softwareengineeringsprozess zum Erstellen eines Systems. Der OpenUP enthält vorgegebene Rollen, die wir von Anfang an, anhand von Stärken und Schwächen, aufgeteilt haben. Jedes einzelene Teammitglied trägt seine Hantierung mittels Mikroinkrementen bei. Durch die zyklische Arbeitsweise, werden in jeder Iteration unterschiedliche Mirkoinkremente bearbeitet, die dann im Laufe der nächsten Iteration aufeinander aufbauen und ein Gesamtbild erkennen lassen.
 
-Das komplette Projekt wird über Iterationsphasen erstellt. Dafür treffen wir uns aller 2 Wochen entweder persönlich oder online zu einem Meeting. Die wesentlichen Inhalte dieser Meetings sind: Haben wir unsere Iterationsziele geschafft? Falls nicht, was muss noch erledigt werden und bis wann? Welche Aufgaben müssen während der nächsten Iterationsphase erledigt werden? Diese Erkenntnisse werden protokolliert und in gesonderten Protokollen festgehalten. Die Aufgaben für die nächste Iteration werden nach den Meetings in der (Verweis Workitemslist) notiert, die von jedem Mitglied selbstständig aktualisiert wird. 
+Das komplette Projekt wird in Iterationsphasen eingeteilt. Dafür wird ein Treffen aller 2 Wochen festgelegt, entweder persönlich oder online. Die wesentlichen Inhalte dieser Meetings sind: Haben wir unsere Iterationsziele geschafft? Falls nicht, was muss noch erledigt werden und bis wann? Welche Aufgaben müssen während der nächsten Iterationsphase erledigt werden? 
+Die Aufgaben für die nächste Iteration werden nach den Meetings in den Projects (Verweis) als Issues hinzugefügt, die von jedem Mitglied selbstständig aktualisiert wird. Weiterhin findet man die zugewiesenen Aufgaben in dem jeweiligen Iterationsplan. Nach Ende der Iterationsphase werden die nicht erledigten Ziele in die neue Iterationsphase eingebunden.
+Anfangs wurde die gesamte Organisation über eine selbstgeschriebene Work-Items-List gemanagt. Jedoch hat sich diese als unpraktisch erwiesen, da die Teammitglieder ihre Arbeitschritte dort nicht vermerkt haben und generell kein analysierter Fortschritt zu erkennen war.
+In Projects hingegen wird die ganze Organisation verwaltet. Dort haben wir Einsicht über neue Aufgaben, noch zuerledigende Aufgaben und den Prozessfortschritt, was die Organisation effektiver und übersichtlicher macht. 
 
-Die Bearbeitung des Projektes beinhaltet vorgefertigte Dokumente, die mittels GitHub erstellt werden. ( Über die genutzte Funktion Issues werden ...)
 
-Unsere Kommunikation verläuft ausschließlich über Discord, da dort mehrere Chats themenorientiert eröffnen werden können und dies eine bessere Übersicht für die Teammitglieder über die jeweils zu erledigenden Anfoderungen bietet, im gegensatz zu unserem anfänglichen Tool Whatsapp. Weiterhin nutzen wir die Sprachchats um eine effektivere und schnellere Bearbeitung der Schwierigkeiten generieren zu können.
-
-
+Unsere Kommunikation verläuft größtenteils über Discord. Dort können mehrere Chats themenorientiert eröffnen werden und dies bietet eine bessere Übersicht für die Teammitglieder über die zu erledigenden Anfoderungen. Jedoch nutzen wir für kurze Fragen und schnelle Antworten Whatsapp.
+Weiterhin halten wir unsere Gruppenmeetings meist online ab, weil sich in Präsenz zu treffen als schwierig erwiesen hat, durch die Fahrzeiten und die unterschiedlichen Stundenpläne. Für die Meetings eignen sich die Sprachchats bei Discord. Die Bearbeitung der Dokumente wird überwiegend in Gruppen über Discord in den verschiedenen Sprachchats erledigt, da man bequem seinen Bildschirm teilen kann und mehrere Meinungen abgedeckt werden können, um das bestmögliche Ergebnis zu erzielen.
 
 == Meilensteine und Ziele
 //Define and describe the high-level objectives for the iterations and define milestones. For example, use the following table to lay out the schedule. If needed you may group the iterations into phases and use a separate table for each phase
@@ -74,6 +98,27 @@ Unsere Kommunikation verläuft ausschließlich über Discord, da dort mehrere Ch
 * in vorherrschenden Code einarbeiten/ Docker verstehen
 | 28.11.22-16.12.22
 | 19
+
+| I3
+|
+* Use Case Model/Diagramm anpassen
+* Architecture Notebook aktualisieren
+| 16.12.22-03.01.23
+|18
+
+| I4
+|
+* Prototypvorstellung
+* Glossar, Domänenmodel ausarbeiten
+* Architecure Notebook vervollständigen
+| 03.01.23-16.01.23
+|13
+| I5
+|
+* alle Dokumente beenden
+* alle Dokumente auf Sinnhaftigkeit, Vollständigkeit und Rechtschreibung prüfen
+|16.01.23-27.01.23
+|11
 |===
 
 
@@ -84,4 +129,9 @@ Unsere Kommunikation verläuft ausschließlich über Discord, da dort mehrere Ch
 == Erkenntnisse (Lessons learned)
 //List lessons learned from the retrospective, with special emphasis on actions to be taken to improve, for example: the development environment, the process, or team collaboration.
 
-*Kommunikation zwischen den Mitgliedern und ständigen Kontakt zu den Steakholdern erleichtert die Arbeit
+* Kommunikation zwischen den Mitgliedern und ständigen Kontakt zu den Steakholdern erleichtert die Arbeit
+* wenn man einzelne Aufgaben in Gruppen bearbeitet, wird das Ergebnis qualitativ wertvoller
+* wenn man die Stärken und Schwächen der Teammitglieder von vornherein kennt, dann klappt die Verteilung der Aufgaben besser
+* besser zu viel als zu wenig fragen, egal ob es die Gruppe, den Couch oder den Auftraggeber betrifft
+* die Bearbeitung des Projektes direkt nach Erhalt der Aufgabenstellung anzufangen, war eine gute Entscheidung. Man konnte so dem zeitlichen Druck kurz vor der Abgabe entgehen und hatte noch genug Puffer um die Dokumente auf Sinnhaftigkeit, Vollständigkeit und Rechtschreibung zu überprüfen.
+

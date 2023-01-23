@@ -26,6 +26,7 @@ include::../_includes/default-attributes.inc.adoc[]
 * auf Iterationspläne einigen und verfeinern
 * Projektplan beenden
 * Architecture Notebook zu Ende bringen 
+* Test Cases ausarbeiten und beenden
 * die Belegabgabe auf Vollständigkeit, Sinnhaftigkeit und Rechschreibung prüfen
 
 
@@ -59,9 +60,9 @@ _alternativ:_ Die folgenden Aufgaben werden in dieser Iteration bearbeitet:
 
 Beispiele:
 
-* 97% der Testfälle auf Systemebene sind erfolgreich.
-* Gemeinsame Inspektion des Iterations-Ergebnisses (Inkrement) mit den Abteilungen X und Y ergibt positive Rückmeldung.
-* Technische Präsentation / Demo erhält positive Rückmeldungen.
+* Alle abzugebenen Dokumente sind vollständig, sinnvoll und grammatikalisch so wie von der Rechtschreibung korrekt
+* die gewählten Test Cases sind ausgearbeitet und mit Wireframes hinterlegt
+
 
 
 == Assessment
