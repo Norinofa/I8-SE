@@ -44,7 +44,7 @@ In der folgenden Tabelle werden die Teammitglieder und deren Rollenverteilung da
 | Viktoria Karklin 
 | Implementiererin 
 | Informatik 
-| Effiziente Studentin
+Effiziente Studentin
 |
 | Nuha Alhamiidi 
 | Implementiererin 
