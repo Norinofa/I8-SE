@@ -170,7 +170,7 @@ class CSVStudentParser:
         if title == "Herr":
             return "h"
         elif title == "Frau":
-            return = "f"
+            return "f"
         else:
             raise CSVStudentParserException("unknown title")
 

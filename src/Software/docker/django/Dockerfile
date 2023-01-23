@@ -3,6 +3,8 @@ FROM python:3.8
 WORKDIR /var/django/app
 COPY docker/django/requirements.txt .
 
+RUN apt update
+RUN pip install virtualenv
 RUN set -eux; \
 	apt-get update; \
 	apt-get install -y 	python3-mysqldb \

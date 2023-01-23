@@ -89,7 +89,7 @@ DATABASES = {
         'NAME': 'django',
         'HOST': 'db',
         'USER': 'dev',
-        'PASSWORD': 'Er3dyWTM#a8_HE#'
+        'PASSWORD': 'devpw'
     }
 }
 
