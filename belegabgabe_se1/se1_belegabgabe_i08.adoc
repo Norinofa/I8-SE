@@ -1,7 +1,7 @@
 // --- 1. Projektthema -------------------------
 = SE I - Belegabgabe: {project-name}
 // --- 2. Teammitglieder -----------------------
-Hieu Nachname <s00000@htw-dresden.de>; Kilian Nachname <s00000@htw-dresden.de>; Evelyn Nachname <s00000@htw-dresden.de>; Julius Nachname <s00000@htw-dresden.de>; Viktoria Nachname <s00000@htw-dresden.de>; Nuha Nachname <s00000@htw-dresden.de>
+Hieu Nachname <s00000@htw-dresden.de>; Kilian Nachname <s00000@htw-dresden.de>; Evelyn Nachname <s00000@htw-dresden.de>; Julius Nachname <s00000@htw-dresden.de>; Viktoria Karklin <s83774@htw-dresden.de>; Nuha Nachname <s00000@htw-dresden.de>
 // --- 3. Abgabedatum --------------------------
 27. Januar 2023
 // ---------------------------------------------
