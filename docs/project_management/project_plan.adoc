@@ -126,7 +126,7 @@ Weiterhin halten wir unsere Gruppenmeetings meist online ab, da sich durch läng
 
 == Deployment
 //Outline the strategy for deploying the software (and its updates) into the production environment.
-
+Die bisherigen Fortschritte und Ergebnisse der Dokumente wurden mittels eines mitgebrachten Laptops über Visual Studio Code oder GitHub dem Auftraggeber präsentiert. Visualisierte Dateien wurden über Visual Paradigm vorgezeigt um gewünschte Änderungen ggf. direkt anpassen zu können. 
 
 == Erkenntnisse (Lessons learned)
 //List lessons learned from the retrospective, with special emphasis on actions to be taken to improve, for example: the development environment, the process, or team collaboration.
