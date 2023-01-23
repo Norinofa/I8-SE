@@ -1,5 +1,5 @@
 // Meta
-:project-name: <I8 Erstellung und Verwaltung von Gruppen für Software Engineering Projekte>
+:project-name: Erstellung und Verwaltung von Gruppen für Software Engineering Projekte (I08)
 // Settings:
 :toc:
 :toc-title: Inhaltsverzeichnis
