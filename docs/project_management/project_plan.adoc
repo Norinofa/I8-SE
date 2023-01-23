@@ -46,7 +46,6 @@ In der folgenden Tabelle werden die Teammitglieder und deren Rollenverteilung da
 | Informatik 
 |
 *Effiziente Studentin
-|
 | Nuha Alhamiidi 
 | Implementiererin 
 | Wirtschaftsinformatik 
