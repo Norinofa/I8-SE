@@ -13,6 +13,7 @@ In diesem Projektplan der Gruppe "I8 Erstellung und Verwaltung von Gruppen für 
 
 == Projektorganisation
 //Introduce the project team, team members, and roles that they play during this project. If applicable, introduce work areas, domains, or technical work packages that are assigned to team members. Introduce neighboring projects, relationships, and communication channels. If the project is introduced somewhere else, reference that location with a link.
+
 In der folgenden Tabelle werden die Teammitglieder und deren Rollenverteilung dargestellt. Die Aufgaben wurden zum Teil doppelt verteilt. Die Rolle, die zuerst benannt wird, weist darauf hin, dass die Person die Hauptverantwortung in dieser Position trägt. Jedoch haben wir uns als Team darauf geeinigt, jeden Bereich zu unterstützen. 
 
 [%header, cols="1,1,1,1"]
@@ -22,34 +23,34 @@ In der folgenden Tabelle werden die Teammitglieder und deren Rollenverteilung da
 | Evelyn Dietrich 
 | Teamleiterin, Testerin 
 | Wirtschaftsinformatik 
-|
+a|
 * SHK an der HTW Dresden
 * optimistisch
 | Kilian Luca Schinnerling 
 | Analyst, Teamleiter 
 | Wirtschaftsingenieurwesen 
-|
+a|
 | Hieu Trung Thi 
 | Analyst 
 | Wirtschaftsinformatik 
-|
+a|
 | Phil Benedikt Beck 
 | Entwurf 
 | Wirtschaftsinformatik 
-|
+a|
 | Julius Wyrembek 
 | Tester, Entwurf 
 | Wirtschaftsinformatik 
-|
+a|
 | Viktoria Karklin 
 | Implementiererin 
 | Informatik 
-|
-*Effiziente Studentin
+a|
+* Effiziente Studentin
 | Nuha Alhamiidi 
 | Implementiererin 
 | Wirtschaftsinformatik 
-|                                     
+a|                                     
 |===
 
 
@@ -60,7 +61,7 @@ In der folgenden Tabelle werden die Teammitglieder und deren Rollenverteilung da
 Das Team orientiert sich durchgehend am dem Open Unified Process (OpenUP). OpenUP ist ein agiler, vollständiger Softwareentwicklungsprozess zum Erstellen eines Systems. Der OpenUP enthält vorgegebene Rollen, die wir von Anfang an, anhand von Stärken und Schwächen, aufgeteilt haben. Durch die zyklische Arbeitsweise, werden in jeder Iteration unterschiedliche Mirkoinkremente durch jedes einzelne Teammitglied erarbeitet, die dann im Laufe der nächsten Iteration aufeinander aufbauen und ein Gesamtbild erkennen lassen.
 
 Das komplette Projekt wird in Iterationsphasen eingeteilt. Dafür wird ein Treffen aller 2 Wochen festgelegt, entweder persönlich oder online. Die wesentlichen Inhalte dieser Meetings sind: Haben wir unsere Iterationsziele geschafft? Falls nicht, was muss noch erledigt werden und bis wann? Welche Aufgaben müssen während der nächsten Iterationsphase erledigt werden? 
-Die Aufgaben für die nächste Iteration werden nach den Meetings in den Projects als Issues https://github.com/users/Norinofa/projects/1[GitHub Project] hinzugefügt, die von jedem Mitglied selbstständig aktualisiert werden. Weiterhin findet man die zugewiesenen Aufgaben in dem jeweiligen Iterationsplan. Nach Ende der Iterationsphase werden die nicht erledigten Ziele in die neue Iterationsphase eingebunden.
+Die Aufgaben für die nächste Iteration werden nach den Meetings in unserem https://github.com/users/Norinofa/projects/1[GitHub Project] als Issues  hinzugefügt, die von jedem Mitglied selbstständig aktualisiert werden. Weiterhin findet man die zugewiesenen Aufgaben in dem jeweiligen Iterationsplan. Nach Ende der Iterationsphase werden die nicht erledigten Ziele in die neue Iterationsphase eingebunden.
 Anfangs wurde die gesamte Organisation über eine selbstgeschriebene Work-Items-List gemanagt. Jedoch hat sich diese als unpraktisch erwiesen, da die Teammitglieder ihre Arbeitschritte dort nicht vermerkt haben und generell kein analysierter Fortschritt zu erkennen war.
 In Projects hingegen wird die ganze Organisation verwaltet. Dort haben wir Einsicht über neue Aufgaben, noch zuerledigende Aufgaben und den Prozessfortschritt, was die Organisation effektiver und übersichtlicher macht. 
 
@@ -86,39 +87,41 @@ Weiterhin halten wir unsere Gruppenmeetings meist online ab, da sich durch läng
 |
 * Kennenlernen der Gruppe 
 * Rollen verteilen/ mit Aufgaben vertraut machen
-* Repo Url senden
-* Meeting mit Auftraggeber/ Coach wahrnehmen
-* Kommunikationweg finden
+* Ziele des Auftraggeber verstehen (Durchführen von mindestens einem Meeting)
+* Meeting mit Coach um erste Hinweise und Hilfestellungen zu erhalten
+* Vorgehensweise des OpenUP kennenlernen und erstmals anwenden
+* Einigung auf einen verlässlichen Kommunikationsweg
 | 17.11.22-28.11.22
 | 11
 
 | I2
 |
 * Use Cases ausarbeiten
+* Projektplan beginnen zu erstellen
 * Vision schreiben
-* Projektplan anfangen
-* in vorherrschenden Code einarbeiten/ Docker verstehen
+* in vorhandenen Code einarbeiten/ Docker verstehen
+* virtuelle Maschine beantragen
+* Architecure Notebook anfangen
 | 28.11.22-16.12.22
 | 19
 
 | I3
 |
-* Use Case Model/Diagramm anpassen
+* SSL beantragen
+* Use Case Model/ Diagramm (ggf.) anpassen
 * Architecture Notebook aktualisieren
+* Projects in GitHub erstellen
 | 16.12.22-03.01.23
 |18
 
 | I4
 |
-* Prototypvorstellung
-* Glossar, Domänenmodel ausarbeiten
-* Architecure Notebook vervollständigen
+<<#iteration_plan_04, Iterationsplan 04>>
 | 03.01.23-16.01.23
 |13
 | I5
 |
-* alle Dokumente beenden
-* alle Dokumente auf Sinnhaftigkeit, Vollständigkeit und Rechtschreibung prüfen
+<<#iteration_plan_05, Iterationsplan 05>>
 |16.01.23-27.01.23
 |11
 |===
@@ -126,14 +129,14 @@ Weiterhin halten wir unsere Gruppenmeetings meist online ab, da sich durch läng
 
 == Deployment
 //Outline the strategy for deploying the software (and its updates) into the production environment.
-Die bisherigen Fortschritte und Ergebnisse der Dokumente wurden mittels eines mitgebrachten Laptops über Visual Studio Code oder GitHub dem Auftraggeber präsentiert. Visualisierte Dateien wurden über Visual Paradigm vorgezeigt um gewünschte Änderungen ggf. direkt anpassen zu können. 
+Die bisherigen Fortschritte und Ergebnisse der Dokumente wurden mittels eines mitgebrachten Laptops über Visual Studio Code oder GitHub dem Auftraggeber präsentiert. Visualisierte Dateien wurden über Visual Paradigm vorgezeigt um gewünschte Änderungen ggf. direkt anpassen zu können.
 
 == Erkenntnisse (Lessons learned)
 //List lessons learned from the retrospective, with special emphasis on actions to be taken to improve, for example: the development environment, the process, or team collaboration.
 
-* Kommunikation zwischen den Mitgliedern und ständigen Kontakt zu den Steakholdern erleichtert die Arbeit
-* wenn man einzelne Aufgaben in Gruppen bearbeitet, wird das Ergebnis qualitativ wertvoller
-* wenn man die Stärken und Schwächen der Teammitglieder von vornherein kennt, dann klappt die Verteilung der Aufgaben besser
-* besser zu viel als zu wenig fragen, egal ob es die Gruppe, den Couch oder den Auftraggeber betrifft
-* die Bearbeitung des Projektes direkt nach Erhalt der Aufgabenstellung anzufangen, war eine gute Entscheidung. Man konnte so dem zeitlichen Druck kurz vor der Abgabe entgehen und hatte noch genug Puffer um die Dokumente auf Sinnhaftigkeit, Vollständigkeit und Rechtschreibung zu überprüfen.
-
+* Offene und ehrliche Kommunikation zwischen den Mitgliedern und ständiger Kontakt zu den Stakeholdern führt zu einer effizienten Zielerreichung.
+* Bearbeitung einzelner Aufgaben durch eine Gruppe von Teammitglieder führt zu einem qualitativ wertvollerem Ergebnis.
+* Sind die Stärken und Schwächen der Teammitglieder von vornherein bekannt, so klappt die Verteilung der Aufgaben besser.
+* Keine Frage ist zu viel - dabei spielt es keine Rolle an wen (die Gruppe, den Coach oder den Auftraggeber) die Frage gerichtet ist.
+* Iterative Vorgehensweise nach OpenUP ist extrem effektiv, muss jedoch zu Beginn des Projekts verstanden und konsequent über die gesamte Dauer angewandt werden.
+* Bearbeitung des Projektes direkt nach Erhalt der Aufgabenstellung anzufangen, war eine gute Entscheidung. Resultierend daraus konnte man dem zeitlichen Druck kurz vor der Abgabe entgehen und es waren ausreichend Ressourcen übrig um die Dokumente auf Sinnhaftigkeit, Vollständigkeit und Rechtschreibung zu überprüfen.
