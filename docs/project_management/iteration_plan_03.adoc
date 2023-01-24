@@ -23,7 +23,6 @@ include::../_includes/default-attributes.inc.adoc[]
 
 * SSL beantragen
 * Use Case Model/ Diagramm (ggf.) anpassen
-* Iterationsplan schreiben
 * Architecture Notebook aktualisieren
 * Projects in GitHub erstellen
 

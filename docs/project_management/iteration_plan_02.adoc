@@ -20,10 +20,9 @@ include::../_includes/default-attributes.inc.adoc[]
 == Wesentliche Ziele
 
 * Use Cases ausarbeiten
-* Iterationsplan fertigstellen
-* Projektplan schreiben
+* Projektplan beginnen zu erstellen
 * Vision schreiben
-* Mit dem Code vertrau machen
+* in vorhandenen Code einarbeiten/ Docker verstehen
 * virtuelle Maschine beantragen
 * Architecure Notebook anfangen
 
@@ -52,8 +51,6 @@ Die in dieser Iteration geplanten Aufgaben sind in der Work Items List dargestel
 == Bewertungskriterien
 //Eine kurze Beschreibung, wie Erfüllung die o.g. Ziele bewertet werden sollen.
 
-
-* erste Iteration soll vollständig ausgearbeitet sein
 * die Vision wurde fertigggestellt und kann dem AUftraggeber vorgelegt werden
 * die Use Cases sind identifieziert wurden und können dem Auftraggeber vorgelegt werden
 * der Code wurde im Groben verstanden
