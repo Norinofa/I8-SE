@@ -128,7 +128,7 @@ Dokumentation, die Webseite zu veröffentlichen und dann wieder offline zu stell
 
 	*NFAU-1.2:* Einfache Gestaltung der Layouts mit weiterverlinkungen innerhalb der Webseite, Damit eine einfache Navigation innerhalb der Website für den Benutzer gewährleistet wird. 
 
-    Zur Überprüfung..
+    Zur Überprüfung
 
 	*NFAU-1.3:* Ein Konsistentes Layout der Website sollte gegeben werden als auch für Begrifflichkeiten (Labels/Begriffe) und angemessene Nutzung des textuellen-Platzes.
 	Damit alles relevanten Informationen auf einer Webseite Sichtbar sind.

@@ -31,9 +31,10 @@ a|
 | Wirtschaftsingenieurwesen 
 a|
 | Hieu Trung Thi 
-| Analyst 
+| Analyst, Tester
 | Wirtschaftsinformatik 
 a|
+*Effektiver  Student
 | Phil Benedikt Beck 
 | Entwurf 
 | Wirtschaftsinformatik 
