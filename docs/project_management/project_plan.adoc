@@ -30,9 +30,10 @@ In der folgenden Tabelle werden die Teammitglieder und deren Rollenverteilung da
 | Wirtschaftsingenieurwesen 
 |
 | Hieu Trung Thi 
-| Analyst 
+| Analyst, Tester
 | Wirtschaftsinformatik 
 |
+*Effektiver  Student
 | Phil Benedikt Beck 
 | Entwurf 
 | Wirtschaftsinformatik 
