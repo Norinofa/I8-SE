@@ -72,7 +72,8 @@ In Projects hingegen wird die ganze Organisation verwaltet. Dort haben wir Einsi
 
 Unsere Kommunikation verläuft größtenteils über Discord. Dort können mehrere Chats themenorientiert eröffnen werden und dies bietet eine bessere Übersicht für die Teammitglieder über die zu erledigenden Anfoderungen. Jedoch nutzen wir für kurze Fragen und schnelle Antworten Whatsapp.
 
-//Hier Bild einfügen des Discords
+.Überblick über unseren Discord-Server
+image::Überblick Discord Server.JPG[]
 
 Weiterhin halten wir unsere Gruppenmeetings meist online ab, da sich durch längere Fahrzeiten und unterschiedliche Stundenpläne Terminfindung für Präsenzmeetings als schwierig erwiesen haben. Für die Onlinetreffen eignen sich die Sprachchats bei Discord. Die Bearbeitung der Dokumente wird überwiegend in Gruppen über Discord in den verschiedenen Sprachchats erledigt, weil man bequem seinen Bildschirm teilen kann und mehrere Meinungen abgedeckt werden können, um das bestmögliche Ergebnis zu erzielen.
 
