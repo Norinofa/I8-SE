@@ -58,9 +58,9 @@ Bild hier einfügen
 //Eine kurze Beschreibung, wie Erfüllung die o.g. Ziele bewertet werden sollen.
 
 
-* Wireframes, Use Case Model, Use Cases wurden vom Auftraggeber akzeptiert und als gut empfunden
-* Glossar, Domänenmodell, Architecture Notebook wurden so ausgearbeitet, dass nur noch Feinheiten fehlen
-* eine Implementierung wurde vorgenommen und soweit ausgearbeitet, dass sie dem Auftraggeber vorgelegt werden kann
+* Wireframes, Use Case Model, Use Cases wurden vom Auftraggeber akzeptiert und als gut empfunden.
+* Glossar, Domänenmodell, Architecture Notebook wurden so ausgearbeitet, dass nur noch Feinheiten fehlen.
+* Eine Implementierung wurde vorgenommen und soweit ausgearbeitet, dass sie dem Auftraggeber vorgelegt werden kann.
 
 
 == Assessment
