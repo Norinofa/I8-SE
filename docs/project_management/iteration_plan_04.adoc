@@ -86,8 +86,8 @@ Bild hier einfügen
 
 *Verschobene und hinzugefügte Aufgaben*
 
-* Das Domänenmodell und das Glosssar wurden bisher nur sporadisch begonnen.
-* Die Test Cases wudern verschoben und werden in der Iteration 05 angefangen und zu Ende gebracht.
+* Das Domänenmodell und das Glosssar wurden bisher nur sporadisch begonnen und daher zur Fertigstellung in die Iteration 05 verschoben.
+* Die Test Cases wurden verschoben und werden in der Iteration 05 angefangen und zu Ende gebracht.
 //Zusammenfassung, ob alle für die Iteration geplanten Aufgaben bearbeitet wurden und welche Aufgaben verschoben oder hinzugefügt wurden.
 
 *Beurteilung im Vergleich zu den Bewertungskriterien*
