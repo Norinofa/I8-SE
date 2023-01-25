@@ -139,7 +139,7 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
-Nachbedingungen
+== Nachbedingungen
 
 1. 
 
