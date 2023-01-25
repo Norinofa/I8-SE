@@ -76,12 +76,12 @@ Bild hier einfügen
 |===
 
 
-* Beurteilung im Vergleich zu den Zielen *
-" Ziel 1 " wurde erreicht. Der Prototyp wurde erstellt und am 16.01.23 vorgestellt. 
-" Ziel 2 " wurde erreicht. Die Systemweiten Anforderungen wurden beendet. 
-" Ziel 3 und 4 " wurden nicht erreicht. 
-" Ziel 5 " wurde erreicht. 
-" Ziel 6 " wurde nicht erreicht. 
+*Beurteilung im Vergleich zu den Zielen*
+"Ziel 1" wurde erreicht. Der Prototyp wurde erstellt und am 16.01.23 vorgestellt. 
+"Ziel 2" wurde erreicht. Die Systemweiten Anforderungen wurden beendet. 
+"Ziel 3 und 4" wurden nicht erreicht. 
+"Ziel 5" wurde erreicht. 
+"Ziel 6" wurde nicht erreicht. 
 
 
 
