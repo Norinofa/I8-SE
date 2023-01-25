@@ -33,7 +33,7 @@ Die Nutzer müssen über das HTW Netzwerk im Online Tool angemeldet sein und ein
 
 == Eingabedaten
 
-* 1. Fehlerfreie Beispieleingabe mit korrekter Befüllung aller Felder *
+*1. Fehlerfreie Beispieleingabe mit korrekter Befüllung aller Felder*
 
 :imageTitle: TC1 Erfolgreich
 
