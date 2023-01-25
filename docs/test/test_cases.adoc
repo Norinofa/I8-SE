@@ -20,20 +20,20 @@ Die Nutzer müssen über das HTW Netzwerk im Online Tool angemeldet sein und ein
 
 == Vorbedingung
 
-1. Als Dozent eingeloggt
-2. Öffnen des Menüpunktes 'Projektverwaltung'
-3. Öffnen des Unterpunktes 'Projekt erstellen'
-4. Eingabeseite zur Erstellung eines Projektes ist geöffnet
+. Als Dozent eingeloggt
+. Öffnen des Menüpunktes 'Projektverwaltung'
+. Öffnen des Unterpunktes 'Projekt erstellen'
+. Eingabeseite zur Erstellung eines Projektes ist geöffnet
 
 == Testablauf
 
-1. Daten werden vollständig und richtig eingegeben ohne inkonsistente Daten.
-2. Daten werden vollständig eingegeben, jedoch wurde die ID mehrfach versucht zu vergeben
-3. Pflichtfelder werden ausgelassen 
+. Daten werden vollständig und richtig eingegeben ohne inkonsistente Daten.
+. Daten werden vollständig eingegeben, jedoch wurde die ID mehrfach versucht zu vergeben
+. Pflichtfelder werden ausgelassen 
 
 == Eingabedaten
 
-*1. Fehlerfreie Beispieleingabe mit korrekter Befüllung aller Felder *
+* 1. Fehlerfreie Beispieleingabe mit korrekter Befüllung aller Felder *
 
 :imageTitle: TC1 Erfolgreich
 
