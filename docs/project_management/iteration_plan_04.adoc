@@ -26,6 +26,7 @@ include::../_includes/default-attributes.inc.adoc[]
 . Ausarbeitung der systemweiten Anforderungen
 . Ausarbeitung des Glossars
 . Ausarbeitung des Domänenmodells 
+. Fertigstellung des Use Case Models und der Use Cases mit Abnahme durch Auftraggeber
 . Vervollständigung des Architecture Notebooks 
 . Beginnen der Test Cases 
 
@@ -82,7 +83,8 @@ Bild hier einfügen
 * _Ziel 2_ wurde erreicht. Die Systemweiten Anforderungen wurden beendet. 
 * _Ziel 3 und 4_ wurden nicht erreicht. 
 * _Ziel 5_ wurde erreicht. 
-* _Ziel 6_ wurde nicht erreicht. 
+* _Ziel 6_ wurde teilweise erreicht. Dem Auftraggeber wurden die Ergebnisse präsentiert, jedoch hatte dieser Änderungswünsche. 
+* _Ziel 7_ wurde nicht erreicht. 
 
 *Verschobene und hinzugefügte Aufgaben*
 
@@ -92,9 +94,10 @@ Bild hier einfügen
 
 *Beurteilung im Vergleich zu den Bewertungskriterien*
 
-* Wireframes, Use Case Model und Use Cases wurden vom Auftraggeber als ausbaufähig wahrgenommen und die Verbesserungswünsche wurden im restlichen Verlauf der Iteration 04 bestmöglich umgesetzt. Diese werden dem Auftraggeber in Iterion 05 präsentiert.
+* _Ziel 1:_ Der Prototyp wurde in der Präsentation am 16.01.23 vorgestellt. Die Korrektheit des Prototypen an sich wurde umkommentiert gelassen, jedoch wurde die Neuimplementierung, statt der Weiterentwicklung, thematisiert. Es wurde klargestellt, dass die uns gegebene Webseite nicht funktioniert und daher auf die Notlösung zurückgegriffen wurde. 
 
-* Der Prototyp wurde in der Präsentation am 16.01.23 vorgestellt. Die Korrektheit des Prototypen an sich wurde umkommentiert gelassen, jedoch wurde die Neuimplementierung, statt der Weiterentwicklung, thematisiert. Es wurde klargestellt, dass die uns gegebene Webseite nicht funktioniert und daher auf die Notlösung zurückgegriffen wurde. 
+* _Ziel 6:_ Wireframes, Use Case Model und Use Cases wurden vom Auftraggeber als ausbaufähig wahrgenommen und die Verbesserungswünsche wurden im restlichen Verlauf der Iteration 04 bestmöglich umgesetzt. Diese werden dem Auftraggeber in Iterion 05 präsentiert.
+
 //Document whether you met the evaluation criteria as specified in the Iteration Plan.
 //Geben Sie an, ob Sie die o.g. Bewertungskriterien erfüllt haben. Das kann z.B. folgende Informationen enthalten: “Demo for Department X was well-received, with some concerns raised around usability,” or “495 test cases were automated with a 98% pass rate. 9 test cases were deferred because the corresponding Work Items were postponed.”
 
