@@ -93,8 +93,6 @@ Zur Oberflächengestaltung werden HTML und CSS verwendet.
 
 == Architektur-relevante Anforderungen
 
-//Fügen Sie eine Referenz / Link zu den Anforderungen ein, die
-implementiert werden müssen, um die Architektur zu erzeugen.
 
 Functional:
 
