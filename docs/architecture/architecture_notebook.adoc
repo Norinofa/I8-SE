@@ -109,7 +109,9 @@ mögliche Pflichtfelder müssen berücksichtigt werden.
 
 .. Datenbanken basierend auf MySQl
 
-.. Programmiersprache Python, Java Script und CSS .. Bibliotheken und Framework von Django
+.. Programmiersprache Python, Java Script und CSS 
+
+.. Bibliotheken und Framework von Django
 
 .. Konfiguration über Docker
 
