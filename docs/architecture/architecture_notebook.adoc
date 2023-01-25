@@ -126,7 +126,6 @@ mögliche Pflichtfelder müssen berücksichtigt werden.
 //Beschreiben Sie den Zweck, Eigenschaften und Funktion der Architekturmechanismen.
 
 . System Management - Erreichbarkeit
-
 Da die Website bereits für Linux erstellt wurde, haben wir uns dazu entschieden dies zu übernehmen, sodass die Website auch in Zukunft im HTW-Netzwerk über Linux laufen wird.
 Abrufbar ist die Website jedoch von jedem Browser auf jedem Betriebssystem, während man sich in dem HTW-Netzwerk befindet.
 
