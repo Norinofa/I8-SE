@@ -206,7 +206,16 @@ physische und logische Sicht persistenter Daten beschrieben werden, wenn
 es diesen Aspekt im System gibt. Dies ist ein hier dokumentierter
 Teilaspekt des Entwurfs.
 
-Unser System, welches für eine Nutzung im HTW Netzwerk vorgesehen ist, besteht weitestgehend aus internen Verbindung. Wie im unten anliegenden C4 Model zu sehen ist die einzige Schnittstelle nach außen, die Verbindung zu dem LDAP Server der HTW Dresden. Jener gibt uns die Möglichkeit ,die Authentifizierung für unser Website über den bereits bestehenden HTW Login zu gestalten. Diese Entscheidung ist auch wieder mit der Nutzer Freundlichkeit aber auch der Sicherheit zu begründen, einerseits muss keine externe Seite verwendet werden und zum anderen muss kein neuer Login angelegt werden. Dies lässt den Nutzer die Website sofort verwenden ohne auf eine Bestätigungsemail oder ähnliches zu warten. 
+Unser System, welches für eine Nutzung im HTW Netzwerk vorgesehen ist, 
+besteht weitestgehend aus internen Verbindung. Wie im unten anliegenden 
+C4 Model zu sehen ist die einzige Schnittstelle nach außen, die 
+Verbindung zu dem LDAP Server der HTW Dresden. Jener gibt uns die Möglichkeit,
+die Authentifizierung für unser Website über den bereits bestehenden HTW Login
+zu gestalten. Diese Entscheidung ist auch wieder mit der Nutzer Freundlichkeit
+aber auch der Sicherheit zu begründen, einerseits muss keine externe Seite 
+verwendet werden und zum anderen muss kein neuer Login angelegt werden. 
+Dies lässt den Nutzer die Website sofort verwenden ohne auf eine 
+Bestätigungsemail oder ähnliches zu warten. 
 
 === Physische Sicht (Betriebssicht)
 
