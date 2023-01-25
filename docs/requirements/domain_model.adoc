@@ -4,8 +4,6 @@ Vorname Nachname <email@domain.org>; Vorname2 Nachname2 <email2@domain.org>; Vor
 include::../_includes/default-attributes.inc.adoc[]
 // Platzhalter für weitere Dokumenten-Attribute
 
+In diesem Diagramm ist das Domänenmodell für das Projekt {project-name} zu sehen. Es zeigt die wesentlichen fachlichen Gegenstände und Konzepte sowie ihre Eigenschaften und Zusammenhänge.
 
-== Allgemeine Informationen
 
-
-== ...
