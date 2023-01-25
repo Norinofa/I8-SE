@@ -173,6 +173,15 @@ anlegt, Teams generiert und im Zweifel die Teams manuell bearbeitet.
 
 In der Rolle des Besuchers. Von ihm werden auf der Studentwebsite
 Antworten verlangt die später bei der Teamerstellung verwendet werden.
+Er als Nutzer enthält Daten:
+
+... Name 
+... Vorname
+... s-Nummer
+... Studiengang
+
+Da er sich vor dem bearbeiten des Fragebogens auf der Website mit seinem HTW-Login einlogt,
+können die Daten somit abgeglichen werden.
 
 == Schichten oder Architektur-Framework
 
