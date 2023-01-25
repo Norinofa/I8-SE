@@ -65,6 +65,7 @@ Abhängigkeiten:
 fertige Website über deren Server laufen wird
 
 * Unser Projekt ist anhängig von dem LDAP Login Server der HTW Dresden da unsere Website nur mittels des HTW Logins zu erreichen ist 
+
 == Architektur-relevante Anforderungen
 
 //Fügen Sie eine Referenz / Link zu den Anforderungen ein, die implementiert werden müssen, um die Architektur zu erzeugen.
