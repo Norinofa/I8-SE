@@ -146,7 +146,6 @@ Es soll es die Möglichkeit geben über einen Speicher eine bestimmte Version vo
 
 == Wesentliche Abstraktionen
 
-//[List and briefly describe the key abstractions of the system. This should be a relatively short list of the critical concepts that define the system. The key abstractions will usually translate to the initial analysis classes and important patterns.]
 
 . Teamstabelle
 
@@ -168,13 +167,6 @@ Antworten verlangt die später bei der Teamerstellung verwendet werden.
 
 == Schichten oder Architektur-Framework
 
-//[Describe the architectural pattern that you will use or how the
-architecture will be consistent and uniform. This could be a simple
-reference to an existing or well-known architectural pattern, such as
-the Layer framework, a reference to a high-level model of the framework,
-or a description of how the major system components should be put
-together.]
-
 Model-View-Controller(MVC)
 
 Im Model arbeiten wir mit Docker ein Open-Source Tool welches uns eine
@@ -188,13 +180,6 @@ Zuletzt zum Controller dort verwenden wir OpenSSH für einen sicheren
 Zugriff auf das Netzwerk. Außerdem benutzen wir nginx als Webserver.
 
 == Architektursichten (Views)
-
-//[Describe the architectural views that you will use to describe the
-software architecture. This illustrates the different perspectives that
-you will make available to review and to document architectural
-decisions.]
-
-Folgende Sichten werden empfohlen:
 
 === Logische Sicht
 
