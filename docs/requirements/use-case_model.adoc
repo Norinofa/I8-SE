@@ -15,19 +15,23 @@ Da es sich hier um eine Weiterentwicklung eines bereits bestehenden Online-Tools
 == Identifizierte Use Cases
 // Liste aller identifizierten Use Cases (priorisiert)
 
-* *UC03*: Projekt verwalten
-* *UC02*: Fragebogen ausfüllen
-* *UC05*: Teams generieren
-* *UC08*: Backup erstellen/laden
-* *UC09*: Gesamtsystem zurücksetzen
-* *UC04*: Projekt löschen
-* *UC06*: Projektteams zurücksetzen
-* *UC07*: Teams manuell bearbeiten
-* *UC01*: User login
+* *UC03*: Projekt verwalten (bereits vorhanden - wird weiterentwickelt)
+* *UC02*: Fragebogen ausfüllen (bereits vorhanden - wird weiterentwickelt)
+* *UC05*: Teams generieren (bereits vorhanden - wird weiterentwickelt)
+* *UC08*: Backup erstellen/laden (neu)
+* *UC09*: Gesamtsystem zurücksetzen (neu)
+* *UC04*: Projekt löschen (bereits vorhanden)
+* *UC06*: Projektteams zurücksetzen (bereits vorhanden)
+* *UC07*: Teams manuell bearbeiten (bereits vorhanden)
+* *UC01*: User login (bereits vorhanden)
 
 
 == Use Case Diagramm
-// ...
+
+Auf diesem Diagramm entspricht die Reihenfolge nicht der Priorisierung der Use Cases. Die Priorisierung ist dem Überschrift "Identifizierte Use Cases" zu entnehmen.
+
+.Use Case Diagramm
+image::Use Case Diagramm.JPG[]
 
 //Fügen Sie nachfolgend alle detaillierten Use-Cases per Include ein.
 //Dafür sollten Sie pro Use-Case eine Datei anlegen, die auf dem use_case_01.inc.adoc Template basiert.
