@@ -128,6 +128,7 @@ mögliche Pflichtfelder müssen berücksichtigt werden.
 *System Management* - Erreichbarkeit
 
 Da die Website bereits für Linux erstellt wurde, haben wir uns dazu entschieden dies zu übernehmen, sodass die Website auch in Zukunft im HTW-Netzwerk über Linux laufen wird.
+
 Abrufbar ist die Website jedoch von jedem Browser auf jedem Betriebssystem, während man sich in dem HTW-Netzwerk befindet.
 
 *Security* - Zugangsberechtigung
@@ -155,20 +156,20 @@ Es soll es die Möglichkeit geben über einen Speicher eine bestimmte Version vo
 == Wesentliche Abstraktionen
 
 
-. Teamstabelle
+*Teamstabelle*
 
 Darstellung der fertig generierten Teams und deren Thema. Diese wird vom Dozenten betrachtet. Es zeigt die Teams mit ihren Projektleiter.
 
-. Projekttabelle
+*Projekttabelle*
 
 Zeigt die Projekte mit der wesentlichen Beschreibung und deren Ansprechpartner. Sortiert sind die Projekte nach ihrer ID welche vom Dozenten manuell vergeben wird. Abgebildet wird sie für den Dozent, aber auch oberhalb des Fragebogens ist sie für die Studenten einsehbar.
 
-. Dozent:
+*Dozent*
 
 In der Rolle des Admins welcher auf der Dozentenwebsite die Projekte
 anlegt, Teams generiert und im Zweifel die Teams manuell bearbeitet.
 
-. Student:
+*Student*
 
 In der Rolle des Besuchers. Von ihm werden auf der Studentwebsite
 Antworten verlangt die später bei der Teamerstellung verwendet werden.
