@@ -21,14 +21,14 @@ include::../_includes/default-attributes.inc.adoc[]
 
 == Wesentliche Ziele
 
-* Glossar fertiggestellen
-* Domänenmodell fertigstellen
-* Use Case Model vervollständigen
-* zu präsentierende Dokumente für den Beleg auswählen
-* Projektplan fertigstellen
-* Architecture Notebook fertigstellen
-* Test Cases ausarbeiten
-* Belegabgabe auf Vollständigkeit, Sinnhaftigkeit und Rechtschreibung prüfen
+. Glossar fertiggestellen
+. Domänenmodell fertigstellen
+. Use Case Model vervollständigen
+. Zu präsentierende Dokumente für den Beleg auswählen
+. Projektplan fertigstellen
+. Architecture Notebook fertigstellen
+. Test Cases ausarbeiten
+. Belegabgabe auf Vollständigkeit, Sinnhaftigkeit und Rechtschreibung prüfen
 
 
 == Aufgabenzuordnung
@@ -56,7 +56,7 @@ Bild einfügen
 | 
 * Das Architecture Notebook weist Lücken und Formatierungsprobleme auf.
 * Dies behindert die Überprüfung der Datei lediglich auf Rechtschreibung und Grammatik.
-* Es muss dringend auf Inhalt und Logik geprüft und überarbeitet werden. Diese Aufgabe wird den Architekten zugeteilt und muss bis 26.01.23 fertiggestellt werden, um eine Korrekturlesung zu gewährleisten.
+* Es muss dringend auf Inhalt und Logik geprüft und überarbeitet werden. Diese Aufgabe wird den Architekten zugeteilt und muss bis zum 26.01.23 fertiggestellt werden, um eine Korrekturlesung zu gewährleisten.
 
 |===
 
@@ -64,8 +64,10 @@ Bild einfügen
 == Bewertungskriterien
 //Eine kurze Beschreibung, wie Erfüllung die o.g. Ziele bewertet werden sollen.
 
+* Das Use Case Model wurde vom Auftraggeber als sinnvoll erachtet.
 * Alle abzugebenen Dokumente sind vollständig, sinnvoll und grammatikalisch, sowie von der Rechtschreibung korrekt.
-* Die gewählten Test Cases sind ausgearbeitet und mit Wireframes hinterlegt.
+* Die gewählten Test Cases sind ausgearbeitet und mit einer Visualisierung hinterlegt.
+* Es wurden 2 Iterationspläne zur Abgabe gewählt und zur Abgabe vorbereitet.
 
 == Assessment
 //In diesem Abschnitt werden die Ergebnisse und Maßnahmen der Bewertung erfasst und kommuniziert. Die Bewertung wird üblicherweise am Ende jeder Iteration durchgeführt. Wenn Sie diese Bewertungen nicht machen, ist das Team möglicherweise nicht in der Lage, die eigene Arbeitsweise ("Way of Working") zu verbessern.
@@ -76,18 +78,28 @@ Bild einfügen
 
 | Assessment Datum | 24.01.2023
 | Teilnehmer | Evelyn Dietrich, Kilian Schinnerling
-| Projektstatus	| grün
+| Projektstatus	| gelb
 |===
 
-* Beurteilung im Vergleich zu den Zielen
+//*Beurteilung im Vergleich zu den Zielen*
 //Dokumentieren Sie, ob die angestrebten Ziele des Iterationsplans erreicht wurden.
 
-* Geplante vs. erledigte Aufgaben
-//Zusammenfassung, ob alle für die Iteration geplanten Aufgaben bearbeitet wurden und welche Aufgaben verschoben oder hinzugefügt wurden.
-
-* Beurteilung im Vergleich zu den Bewertungskriterien
+*Beurteilung im Vergleich zu den Bewertungskriterien
 //Document whether you met the evaluation criteria as specified in the Iteration Plan.
 //Geben Sie an, ob Sie die o.g. Bewertungskriterien erfüllt haben. Das kann z.B. folgende Informationen enthalten: “Demo for Department X was well-received, with some concerns raised around usability,” or “495 test cases were automated with a 98% pass rate. 9 test cases were deferred because the corresponding Work Items were postponed.”
+
+* _Ziel 1_ wurde erreicht.
+* _Ziel 2_ wurde erreicht.
+* _Ziel 3_ wurde erreicht. Der Auftraggeber hat das Use Case Model für den derzeitigen Stand als richtig erachtet, jedoch angemerkt, dass das sich die Prisosierung der Use Cases im Verlauf des Projektes ändern kann.
+* _Ziel 4_ wurde erreicht. Die Iterationspläne beinhalten alle wesentlichen Aspekte, die in der Iterationsphase vorgefallen sind.
+* _Ziel 5_ wurde erreicht. Der Projektplan spiegelt die genaue Arbeitsweise des Teams wieder und wurde auf auf Vollständigkeit und Richtigkeit geprüft. 
+* _Ziel 6_ wurde größtenteils erreicht. Durch die verspätete Kontrollierung auf Sinnhaftigkeit und wenig Kommunikation mit dem Auftraggeber unserer Seits, besteht die Chance auf mangelnde Kenntnisse und demzufolge fehlerhafte Vervollständigung des Architecture Notebooks.
+* _Ziel 7_ wurde erreicht. Die Test Cases wurden mit einer visualisierten Darstellung hinterlegt, die nur zu Veranschaulichung dienen soll, jedoch noch keinen Endzustand darstellt.
+* _Ziel 8_ wurde größtenteils erreicht. Aus unserer Sicht wurden die Dokumente als vollständig, sinnvoll und grammtikalisch sowie von der Rechtschreibung als richtig angesehen. Trotzdessen bestehen Zweifel am Architecture Note, wie bereits angemerkt.
+
+//* Geplante vs. erledigte Aufgaben
+//Zusammenfassung, ob alle für die Iteration geplanten Aufgaben bearbeitet wurden und welche Aufgaben verschoben oder hinzugefügt wurden.
+
 
 * Andere Belange und Abweichungen
 //Führen Sie weitere Themen auf, für die eine Bewertung durchgeführt wurde. Beispiele sind Finanzen, Zeitabweichungen oder Feedback von Stakeholdern, die nicht bereits an anderer Stelle dokumentiert wurden.
