@@ -11,7 +11,7 @@ Der Zweck dieses Dokuments ist es, die wesentlichen Bedarfe und Funktionalitäte
 Der Zweck dieses Dokuments ist es, die wesentlichen Anforderungen an das System aus Sicht und mit den Begriffen der künftigen Anwender zu beschreiben.
 
 === Gültigkeitsbereich (Scope)
-Dieses Visions-Dokument bezieht sich auf das Online-Tool zur Erstellung und Verwaltung von Gruppen für Software Engineering Projekte, das von Team I8 entwickelt wird. Das System wird es dem Dozenten erlauben, auf Basis von durch Studierenden ausgefüllten Fragebögen, mit Hilfe eines Algorithmus, Teams aus Studierenden generieren zu lassen. Diese Teams werden vorher erstellten Projekten zugeordnet.
+Dieses Visions-Dokument bezieht sich auf das Online-Tool zur Erstellung und Verwaltung von Gruppen für Software Engineering Projekte, das von Team I08 entwickelt wird. Das System wird es dem Dozenten erlauben, auf Basis von durch Studierenden ausgefüllten Fragebögen, mit Hilfe eines Algorithmus, Teams aus Studierenden generieren zu lassen. Diese Teams werden vorher erstellten Projekten zugeordnet.
 
 === Definitionen, Akronyme und Abkürzungen
 //Verweis passend zum Belegabgabe-Template se1_belegabgabe_t00.adoc
@@ -29,10 +29,10 @@ https://www2.htw-dresden.de/~anke/openup/index.htm[Dokumentation zum Open Unifie
 === Fachliche Motivation
 //Erläutern Sie kurz den Hintergrund, in dem das Projekt angesiedelt ist. Welches Problem soll gelöst werden, wie ist es entstanden? Welche Verbesserung wird angestrebt. Achten Sie darauf, eine fachliche (organisatorische, betriebswirtschaftliche) Perspektive einzunehmen.
 
-Im Rahmen des Fachs Software Engineering werden interne (innerhalb der HTWD) und externe (Auftraggeber außerhalb der HTWD) Projekte in Teams aus teilnehmenden Studierenden realisiert. Die Studierenden stehen daher vor der Entscheidung an welchem Projekt sie im Semester mitwirken möchten. Um die Präferenzen, Fähigkeiten und Vorerfahrungen jedes Studierenden in die Teamerstellung einfließen zu lassen, füllen die Studierenden einen Fragebogen, in welchem diese abgefragt werden, aus. Die Teamerstellung bringt einige Probleme mit sich. Einerseits ist die Auswertung der Daten aus dem Fragebogen sehr zeitintensiv. Andererseits nehmen im Modul SE I neben Studierenden aus verschiedenen Informatikstudiengängen auch Studierende des Wirtschaftsingenieurwesens teil, wobei die zweit genannten nach dem ersten Semester ausscheiden und im zweiten Semester ausschließlich die Studierenden der Informatik involviert sind. Gegebenfalls werden andere Studierende zum Semesterwechsel zusätzlich an SE II teilnehmen, z.B. aufgrund von Beurlaubung, Wiederholungsprüfung oder Auslandssemester. 
+Im Rahmen des Fachs Software Engineering werden interne (innerhalb der HTWD) und externe (Auftraggeber außerhalb der HTWD) Projekte in Teams aus teilnehmenden Studierenden realisiert. Die Studierenden stehen daher vor der Entscheidung, an welchem Projekt sie im Semester mitwirken möchten. Um die Präferenzen, Fähigkeiten und Vorerfahrungen jedes Studierenden in die Teamgenerierung einfließen zu lassen, füllen die Studierenden einen Fragebogen, in welchem diese abgefragt werden, aus. Die Teamgenerierung bringt einige Probleme mit sich. Einerseits ist die Auswertung der Daten aus dem Fragebogen sehr zeitintensiv. Andererseits nehmen im Modul SE I neben Studierenden aus verschiedenen Informatikstudiengängen auch Studierende des Wirtschaftsingenieurwesens teil, wobei die Zweitgenannten nach dem ersten Semester ausscheiden und im zweiten Semester ausschließlich die Studierenden der Informatik involviert sind. Gegebenenfalls werden andere Studierende zum Semesterwechsel zusätzlich an SE II teilnehmen, z.B. aufgrund von Beurlaubung, Wiederholungsprüfung oder Auslandssemester. 
 
 
-Außerdem müssen folgenede Faktoren beachtet werden:
+Außerdem müssen folgende Faktoren beachtet werden:
 
 
 * Ausgewogene Interessen bzgl. der Rollenverteilung
@@ -60,18 +60,18 @@ Die aktuelle Softwarelösung ist von den Studierenden der letzten beiden Semeste
 | bisheriges Online-Tool erfüllt zwar den gewünschten Zweck der Teamgenerierung, jedoch ist die Handhabung und die Oberfläche in vielen Bereichen nicht ausgereift, außerdem fehlen Informationen im Fragebogen
 
 | betrifft
-| die Studierenden und Dozenten des Moduls Software Engineering, sowie den Kunden Herrn Zirkelbach
+| die Studierenden und Dozenten des Moduls Software Engineering, sowie den Auftraggeber Herrn Zirkelbach
 
 
 | die Auswirkung davon ist 
 a|
 * unnötiger Zeitaufwand bei der Verwaltung der Projekte
 * unübersichtliche Menüführung für Studierende und Dozenten
-* schlechte Platzausnutzung auf der Webseite
+* schlechte Platzausnutzung der Webseite
 * Teamgenerierung ist nicht ideal (fehlende Erfassung von abgeschlossener Fachinformatikerausbildung)
 
 | eine erfolgreiche Lösung wäre
-| eine Weiterentwicklung des bestehnden Online-Tools, dass die Kernfunktion (Zuordnungsalgorithmus und damit verbundene Teamgenerierung) beibehält, wobei die Beachtung von einer abgeschlossenen Fachinformatikerausbildung ergänzt wird. Eine Oberfläche, die ein intuitiveres Bedienen durch die Studierenden ermöglicht. Eine effizientere Projektverwaltung durch Features wie der Zuordnung von Projekt-ID's und Labels.
+| eine Weiterentwicklung des bestehenden Online-Tools, dass die Kernfunktion (Zuordnungsalgorithmus und damit verbundene Teamgenerierung) beibehält, wobei die Beachtung von einer abgeschlossenen Fachinformatikerausbildung ergänzt wird. Eine Oberfläche, die ein intuitiveres Bedienen durch die Studierenden ermöglicht. Eine effizientere Projektverwaltung durch Features, wie der Zuordnung von Projekt-ID's und Labels.
 |===
 
 ////
@@ -93,7 +93,7 @@ Beispiel:
 [cols="1,3"]
 |===
 | Für | Studierende des Moduls SE
-| die | gemäß ihrem Interesse in ein Team für ein Projekt zugeteilt werden wollen
+| die | gemäß ihrem Interesse einem Team für ein Projekt zugeteilt werden wollen
 | Das Produkt / die Lösung ist eine | Erweiterung des "Online-Tools der Teamerstellung"
 | Welche | ein intuitives Ausfüllen des Fragebogens ermöglicht
 | Im Gegensatz zu | dem bisherigen Online-Tool
@@ -107,7 +107,7 @@ Beispiel:
 | Das Produkt / die Lösung ist eine | Erweiterung des "Online-Tools der Teamerstellung"
 | Welche | die ideale Generierung der Teams und das Erstellen, sowie die Verwaltung von Projekten mit erweiterten Funktionalitäten ermöglicht 
 | Im Gegensatz zu | dem bisherigen Online-Tool
-| Unser Produkt | ermöglicht durch eine überarbeitete Oberfläche und bessere Strukturierung der Projekte durch Projekt-ID's (I3 und E3) und Labels (Neuentwicklung/ Weiterentwicklung) ein angenehmeres Verwalten der Projekte und Teams. [Nach Möglichkeit weiterer Satz bzgl. Zurücksetzen und Backup- und Wiederherstellung]
+| Unser Produkt | ermöglicht durch eine überarbeitete Oberfläche und bessere Strukturierung der Projekte durch Projekt-ID's (z.B. I3 und E3) und Labels (Neuentwicklung/ Weiterentwicklung) ein angenehmeres Verwalten der Projekte und Teams. Zusätzlich dazu wird die Funktion zum Zurücksetzen des Gesamtsystems und die Funktion der Backup- und Wiederherstellung hinzugefügt.
 |===
 
 ////
@@ -156,13 +156,13 @@ Beispiel Produkt:
 
 * Die Anzahl der Nutzer beläuft sich derzeit auf zwei Dozenten
 
-* Der vorhandener Dozenten-Login wird von allen Dozenten geteilt
+* Der vorhandene Dozenten-Login wird von allen Dozenten geteilt
 
 * Datenhaltung erfolgt in einer MySQL Datenbank, Anbindung hierzu erforderlich
 
 * Software läuft über Docker Container auf einem Server
 
-* Bearbeitungszeit ist abhängig von der Anzahl der zu verwaltenden Projekten und Schnelligkeit des Algorithmus
+* Bearbeitungszeit ist abhängig von der Anzahl der zu verwaltenden Projekte und Schnelligkeit des Algorithmus
 
 ==== Für Studierende
 
@@ -175,8 +175,6 @@ Beispiel Produkt:
 * Lediglich Studierende, welche zuvor vom Dozenten hinzugefügt wurden (also jene, die am Modul SE teilnehmen), können sich anmelden
 
 * Studierende verwenden hierfür ihre individuellen HTW-Logindaten
-
-* Die Beantwortung des Fragebogens sollte circa 20 Minuten in Anspruch nehmen
 
 * Mobile Version des Online-Tools ist wünschenswert
 
@@ -196,10 +194,10 @@ Beispiel Produkt:
 [%header, cols="4,1,4,1"]
 |===
 | Bedarf | Priorität | Features | Geplantes Release
-| Überarbeitung bzw. Neugestaltung der Oberfläche | Hoch | schlanke, funktionale Oberfläche, einfachere Menüführung für Studierenden- und Dozentenansicht, bessere Ausnutzung des Platzes, Labels/Begriffe vereinheitlichen und von den Begrifflichkeiten (ein-/mehrzahl, genderge­ rechte Begriffe) anpassen,  | xx
-| Erweiterung der Projektverwaltung | Hoch | Projekt-ID (I1, E3) extra zum Thema erfassen, Labels zum Projekt erfassen und anzeigen (Techniken, intern/extern, Neuentwicklung/Wei­
-terentwicklung), Pflichtfelder anpassen und Standardwerte/-verhalten für leere Felder | xx
-| Erweiterung des Fragebogens und Zuordnungsalgorithmus | Hoch | Erfassung ob eine Fachinformatikausbildung oder ähnliche Qualifikation erfolgt ist. Diese
+| Überarbeitung bzw. Neugestaltung der Oberfläche | Hoch | schlanke, funktionale Oberfläche, einfachere Menüführung für Studierenden- und Dozentenansicht, bessere Ausnutzung des Platzes der Website, Labels/Begriffe vereinheitlichen und von den Begrifflichkeiten (Ein-/ Mehrzahl, gendergerechte Begriffe) anpassen  | xx
+| Erweiterung der Projektverwaltung | Hoch | Projekt-ID extra zum Thema, sowie Labels zum Projekt erfassen und anzeigen (Techniken, intern/extern, Neuentwicklung/Wei­
+terentwicklung), Pflichtfelder und Standardwerte/ -verhalten für leere Felder anpassen| xx
+| Erweiterung des Fragebogens und des Zuordnungsalgorithmus | Hoch | Erfassen, ob eine Fachinformatikausbildung oder ähnliche Qualifikation erfolgt ist. Diese
 sollen gleichmäßig auf die Teams verteilt werden, Möglichkeit der mehrfachen Vergabe von Themen (bspw. bei zu wenig Themen) | xx
 | Daten zurücksetzen für neues Semester | Mittel | Entfernen aller Daten (Projektthemen, Studierenden, Umfragen, Teams) und Einstellungen
 (Sichtbarkeiten) für ein neues Semester | xx
