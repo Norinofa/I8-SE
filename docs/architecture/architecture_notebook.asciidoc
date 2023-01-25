@@ -139,14 +139,6 @@ gespeicherte Daten verloren gehen.
 
 == Entscheidungen, Nebenbedingungen und Begründungen
 
-//[List the decisions that have been made regarding architectural
-approaches and the constraints being placed on the way that the
-developers build the system. These will serve as guidelines for defining
-architecturally significant parts of the system. Justify each decision
-or constraint so that developers understand the importance of building
-the system according to the context created by those decisions and
-constraints. This may include a list of DOs and DON’Ts to guide the
-developers in building the system.]
 
 . Aufbauend auf der bereits verwendeten Website haben wir uns
 Entschieden folgende Punkte zu übernehmen:
@@ -165,11 +157,7 @@ bereits von der bestehenden Website benutzt wurde.
 
 https://www2.htw-dresden.de/~anke/openup/core.tech.common.extend_supp/guidances/
 concepts/arch_mechanism_2932DFB6.html[Doku "Concept: Architectural
-Mechanism"] //[List the architectural mechanisms and describe the
-current state of each one. Initially, each mechanism may be only name
-and a brief description. They will evolve until the mechanism is a
-collaboration or pattern that can be directly applied to some aspect of
-the design.]
+Mechanism"] 
 
 //Beispiele: relationales DBMS, Messaging-Dienste, Transaktionsserver,
 Webserver, Publish-Subscribe Mechanismus
@@ -221,10 +209,6 @@ ausgewählten Zeitpunkt wieder herzustellen.
 
 == Wesentliche Abstraktionen
 
-//[List and briefly describe the key abstractions of the system. This
-should be a relatively short list of the critical concepts that define
-the system. The key abstractions will usually translate to the initial
-analysis classes and important patterns.]
 
 . Teamstabelle
 
@@ -250,12 +234,6 @@ Antworten verlangt die später bei der Teamerstellung verwendet werden.
 
 == Schichten oder Architektur-Framework
 
-//[Describe the architectural pattern that you will use or how the
-architecture will be consistent and uniform. This could be a simple
-reference to an existing or well-known architectural pattern, such as
-the Layer framework, a reference to a high-level model of the framework,
-or a description of how the major system components should be put
-together.]
 
 Model-View-Controller(MVC)
 
@@ -271,10 +249,7 @@ Zugriff auf das Netzwerk. Außerdem benutzen wir nginx als Webserver.
 
 == Architektursichten (Views)
 
-//[Describe the architectural views that you will use to describe the
-software architecture. This illustrates the different perspectives that
-you will make available to review and to document architectural
-decisions.]
+
 
 Folgende Sichten werden empfohlen:
 
