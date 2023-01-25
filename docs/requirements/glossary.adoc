@@ -6,14 +6,39 @@ include::../_includes/default-attributes.inc.adoc[]
 
 
 == Einführung
-In diesem Dokument werden die wesentlichen Begriffe aus dem Anwendungsgebiet (Fachdomäne) der <Projektthema-Systems> definiert. Zur besseren Übersichtlichkeit sind Begriffe, Abkürzungen und Datendefinitionen gesondert aufgeführt.
+In diesem Dokument werden die wesentlichen Begriffe aus dem Anwendungsgebiet
+Webentwicklung und Frontend-Design des Projektes I08 Erstellung und Verwaltung von Gruppen für Software Engineering Projekte definiert und erläutert.
+Zur besseren Übersichtlichkeit sind Begriffe, Abkürzungen und Datendefinitionen gesondert
+aufgeführt.
 
 == Begriffe
 [%header]
 |===
 | Begriff | Definition und Erläuterung | Synonyme
 //| Kommissionierung | Bereitstellung von Waren aus einem Lager entsprechend eines Kundenauftrags | (keine)
-| xx | xx | xx
+| Auftraggeber | * Auftraggeber ist Hr. Zirkelbach welche in mehreren Rollen agiert | Dozent, Coach, Ansprechpartner, Kunde
+|Dozent  | xx     | xx
+|Dozentenansicht  | xx  | xx
+|Projektverwaltung  |  xx | xx
+|Stakeholder  | xx | xx
+|Student  | xx  | xx
+|Backup  | xx  | xx
+|Zuordnungsalgorithmus  | xx  | xx
+|Backup  | xx  | xx
+|Open Unified Process  
+| • Vorgehensmodell
+
+• siehe Open Unified Process
+
+• OpenUP is a lean Unified Process
+that applies iterative and
+incremental approaches within a
+structured lifecycle  | • Vorgehendmodell
+• OpenUP
+
+|Gendern  | xx  | xx
+|Pflichtfelder  |  xx | xx
+|Framework  | xx  | xx
 |===
 
 
@@ -22,6 +47,10 @@ In diesem Dokument werden die wesentlichen Begriffe aus dem Anwendungsgebiet (Fa
 |===
 | Abkürzung | Bedeutung | Erläuterung
 //| UP | Unified Process | Vorgehensmodell für die Softwareentwicklung
+| UC | Use Case | funktionale Anforderung eines Systems
+| OpenUP| Open Unified Process | siehe Term Open Unified Process
+| xx | xx | xx
+| xx | xx | xx
 | xx | xx | xx
 |===
 
@@ -41,5 +70,6 @@ In diesem Dokument werden die wesentlichen Begriffe aus dem Anwendungsgebiet (Fa
 | xx
 | xx
 | xx
+//kommt vllt. nächstes Semester mehr dazu c:<
 |===
 
