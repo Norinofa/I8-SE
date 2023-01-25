@@ -14,25 +14,26 @@ Möchte den Fragebogen ausfüllen und einreichen.
 === Vorbedingungen
 //Vorbedingungen müssen erfüllt, damit der Use Case beginnen kann, z.B. Benutzer ist angemeldet, Warenkorb ist nicht leer...
 
-Studierender ist eingeloggt.
+Der Studierende ist mittels seiner HTWD-Logindaten angemeldet und hat sich auf den "Fragebogen" navigiert.
 
 === Standardablauf (Basic Flow)
 //Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
 
-. Der Use Case beginnt, wenn der Studierende nach dem Klick auf den "Anmelden"-Button erfolgreich weitergeleitet wird.
+. Der Use Case beginnt, wenn der Studierende nach dem Anmelden erfolgreich weitergeleitet wird.
 . Das System prüft in der Datenbank ob der Studierende bereits einen Fragebogen ausgefüllt und abgespeichert hat.
 . IF gespeicherter Fragebogen gefunden
 .. Das System lädt den bisherigen Speicherstand des, dem Studierenden zugeordneten, Fragebogens.
 .. Dem Studierender wird der bereits ausgefüllte Fragebogen angezeigt.
 . ELSE
 .. Dem Studierender wird ein neuer, leerer Fragebogen angezeigt.
-. Studierender setzt Häckchen bei den Multiple-Choice-Fragen
-. Bei Textfragen wird dem Studierenden ein Textfeld angezeigt, in dem er seine Antwort eingeben kann.
-. Der Studierende klickt auf den "Fragebogen speichern"-Button.
+. Studierender setzt Häckchen bei den Multiple-Choice-Fragen zu seiner Projektpräferenz und Tätigkeitsschwerpunkt
+. Bei der Einschätzung eigener Fähigkeiten wird zusätzlich zu den bisherigen Fragen eine weitere Frage sein, ob er eine Fachinformatikerausbildung (oder eine ähnliche Qualifikation) erfolgt ist
+. Der Studierende löst das Speichern des Projekts aus.
 . Der Studierende möchte den Fragebogen einreichen.
 . Der Studierende klickt auf den "Fragebogen einreichen"-Button.
 . Das System fragt den Studierenden mit einem Pop-Up ob er seine Eingaben überprüft hat und wirklich einreichen will.
 . Der Studierende bestätigt seine Eingabe mit dem Klick auf den "Ja"-Button.
+. Das System speichert den neuen Bearbeitungsstand des Fragebogen in der Datenbank ab, zugeordnet zu der jeweiligen s-Nummer
 . Der Use Case ist abgeschlossen.
 
 === Alternative Abläufe
@@ -46,8 +47,13 @@ pass:[#] Studierender bricht den Vorgang durch Schließen des Browsers oder durc
 
 === Unterabläufe (subflows)
 //Nutzen Sie Unterabläufe, um wiederkehrende Schritte auszulagern
-==== Speichern
-(7) Fragebogen wird auf Änderungen geprüft, wenn der Studierende Änderungen vorgenommen hat, werden diese zu der jeweiligen s-Nummer zugeordnet in der Datenbank gespeichert. 
+
+--- nicht vorhanden ---
+
+//==== <Unterablauf 1>
+//. <Unterablauf 1, Schritt 1>
+//. …
+//. <Unterablauf 1, Schritt n>
 
 === Wesentliche Szenarios
 //Szenarios sind konkrete Instanzen eines Use Case, d.h. mit einem konkreten Akteur und einem konkreten Durchlauf der o.g. Flows. Szenarios können als Vorstufe für die Entwicklung von Flows und/oder zu deren Validierung verwendet werden.
@@ -59,6 +65,7 @@ Studierender X der HTWD füllt alle Felder des Fragebogens ordnungsgemäß aus. 
 //Nachbedingungen beschreiben das Ergebnis des Use Case, z.B. einen bestimmten Systemzustand.
 Das System hat den vollständigen Fragebogen gespeichert und wird nun bei der Teamgenerierung beachtet.
 
-
 === Besondere Anforderungen
 //Besondere Anforderungen können sich auf nicht-funktionale Anforderungen wie z.B. einzuhaltende Standards, Qualitätsanforderungen oder Anforderungen an die Benutzeroberfläche beziehen.
+
+--- nicht vorhanden ---

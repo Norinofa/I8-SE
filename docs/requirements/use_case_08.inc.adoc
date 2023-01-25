@@ -5,18 +5,17 @@
 === Kurzbeschreibung
 //<Kurze Beschreibung des Use Case>
 
-Dozent möchte ein Backup erstellen oder laden.
+Der Use Case beschreibt den Prozess des Erstellens oder Ladens eines Backups durch einen Dozenten.
 
 === Kurzbeschreibung der Akteure
 
-Dozent oder Mitbetreuer
+--- nicht vorhanden ---
 
-==== <Akteur 1 Name>
+//==== <Akteur 1 Name>
 
 === Vorbedingungen
-Dozent ist angemeldet, begibt sich auf die Einstellungen und Besitzt die nötigen Rechte.
-Es ist noch kein Backup vorhanden. (Backup erstellen)
-Es sollte mindestens ein Backups vorhanden sein. (Backup laden)
+* Der Dozent ist mittels seiner HTWD-Logindaten angemeldet und hat sich auf die "Einstellungen" navigiert.
+* Im Fall, dass ein Backup geladen werden soll, muss ein in der Vergangenheit erstelltes Backup vorhanden sein.
 
 
 === Standardablauf (Basic Flow)
@@ -35,49 +34,45 @@ Es sollte mindestens ein Backups vorhanden sein. (Backup laden)
 .. Sicherheitsabfragefenster schließt sich
 .. Basic Flow befindet sich wieder auf Schritt 1.
 
-
-
 === Alternative Abläufe
 //Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
-Wiederherstellungsfenster
-Backup ist korrupt
 
+--- nicht vorhanden ---
 
-==== <Alternativer Ablauf 1>
-Wenn <Akteur> im Schritt <x> des Standardablauf <etwas macht>, dann
-. <Ablauf beschreiben>
-. Der Use Case wird im Schritt <y> fortgesetzt.
+//==== <Alternativer Ablauf 1>
+//Wenn <Akteur> im Schritt <x> des Standardablauf <etwas macht>, dann
+//. <Ablauf beschreiben>
+//. Der Use Case wird im Schritt <y> fortgesetzt.
 
 === Unterabläufe (subflows)
 //Nutzen Sie Unterabläufe, um wiederkehrende Schritte auszulagern
 
-==== <Unterablauf 1>
-. <Unterablauf 1, Schritt 1>
-. …
-. <Unterablauf 1, Schritt n>
+--- nicht vorhanden ---
+
+//==== <Unterablauf 1>
+//. <Unterablauf 1, Schritt 1>
+//. …
+//. <Unterablauf 1, Schritt n>
 
 === Wesentliche Szenarios
 //Szenarios sind konkrete Instanzen eines Use Case, d.h. mit einem konkreten Akteur und einem konkreten Durchlauf der o.g. Flows. Szenarios können als Vorstufe für die Entwicklung von Flows und/oder zu deren Validierung verwendet werden.
 
-==== <Szenario 1>
-. Erfolgreiches Backup wird angelegt
-. Sc1. Dozent wählt den Button aus um ein Backup jetzt zu erstellen. Er bestätigt die Sicherheitsabfrage für das Backup und der Prozess beginnt. Das Backup wird erfolgreich abgeschlossen.
-//Sollte man diese zusammenfassen????
-. Erfolgreiches laden eines Backups
-
+--- nicht vorhanden ---
 
 === Nachbedingungen
 //Nachbedingungen beschreiben das Ergebnis des Use Case, z.B. einen bestimmten Systemzustand.
 
-* Backup mit Datum und Uhrzeit wird angezeigt
-* System wurde in die Momentaufnahme des Backups zurückgesetzt
+--- nicht vorhanden ---
 
-==== <Nachbedingung 1>
+//==== <Nachbedingung 1>
 
 === Besondere Anforderungen
 //Besondere Anforderungen können sich auf nicht-funktionale Anforderungen wie z.B. einzuhaltende Standards, Qualitätsanforderungen oder Anforderungen an die Benutzeroberfläche beziehen.
 
 
-==== <Besondere Anforderung 1>
+=== Besondere Anforderungen
+//Besondere Anforderungen können sich auf nicht-funktionale Anforderungen wie z.B. einzuhaltende Standards, Qualitätsanforderungen oder Anforderungen an die Benutzeroberfläche beziehen.
 
--- Keine besonderen Anforderungen 
+--- nicht vorhanden ---
+
+//==== <Besondere Anforderung 1>

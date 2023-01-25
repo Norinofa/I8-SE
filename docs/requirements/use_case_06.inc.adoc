@@ -4,59 +4,65 @@
 // ADOC Seite noch zu bearbeiten oder bleibt leer
 
 === Kurzbeschreibung
-Dozent setzt die Website in den Urpsrungszustand zurück.
+Der Use Case beschreibt den Prozess des Zurücksetzens der Projektteams durch einen Dozenten.
 
 === Kurzbeschreibung der Akteure
 
 ==== Dozent
-Möchte die Website zurücksetzen
+Möchte die generierten Projektteams zurücksetzen.
 
 === Vorbedingungen
 //Vorbedingungen müssen erfüllt, damit der Use Case beginnen kann, z.B. Benutzer ist angemeldet, Warenkorb ist nicht leer...
 
-Der Dozent ist angemeldet und besitzt die nötigen Rechte um die Website zurückzusetzen. (Es sollte ein Backup vorhanden sein.)
+--- nicht vorhanden ---
 
 === Standardablauf (Basic Flow)
 //Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
 
-. Der Use Case beginnt, wenn der Dozent sich anmeldet und auf die Einstellungen wechselt.
-. Dozent erhält eine Sicherheitsabfrage 
-. Dozent stimmt dieser zu 
-. Website wird auf dem Werkzustand zurückgesetzt
-. Der Use Case ist abgeschlossen.
+--- nicht vorhanden ---
 
 === Alternative Abläufe
 //Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
-==== Dozent will die Seite doch nicht zurücksetzen 
-* (3.) Dozent lehnt ab
-. Vorgang wird abgebrochen
+
+--- nicht vorhanden ---
+
+//==== <Alternativer Ablauf 1>
+// Wenn <Akteur> im Schritt <x> des Standardablauf <etwas macht>, dann
+// . <Ablauf beschreiben>
+// . Der Use Case wird im Schritt <y> fortgesetzt.
+
+--- nicht vorhanden ---
 
 === Unterabläufe (subflows)
 //Nutzen Sie Unterabläufe, um wiederkehrende Schritte auszulagern
 
-==== <Unterablauf 1>
-. <Unterablauf 1, Schritt 1>
-. …
-. <Unterablauf 1, Schritt n>
+--- keine vorhanden ---
+
+//==== <Unterablauf 1>
+//. <Unterablauf 1, Schritt 1>
+//. …
+//. <Unterablauf 1, Schritt n>
 
 === Wesentliche Szenarios
 //Szenarios sind konkrete Instanzen eines Use Case, d.h. mit einem konkreten Akteur und einem konkreten Durchlauf der o.g. Flows. Szenarios können als Vorstufe für die Entwicklung von Flows und/oder zu deren Validierung verwendet werden.
 
-==== Erfolgreich 
-. Dozent setzt die Website erfolgreich in den Werkzustand zurück
+--- nicht vorhanden ---
 
-==== Ablehnung
-. Dozent lehnt bei der Sicherheitsabfrage ab und der Vorgang wird abgebrochen
+//==== <Szenario 1>
+//. <Szenario 1, Schritt 1>
+//. …
+//. <Szenario 1, Schritt n>
 
 === Nachbedingungen
 //Nachbedingungen beschreiben das Ergebnis des Use Case, z.B. einen bestimmten Systemzustand.
 
-* das System befindet sich wieder in ihren Ursprungszustand
-* Fragebögen und Teamzusammenstellungen wurden gelöscht
+--- nicht vorhanden ---
 
-==== <Nachbedingung 1>
+//==== <Nachbedingung 1>
 
 === Besondere Anforderungen
 //Besondere Anforderungen können sich auf nicht-funktionale Anforderungen wie z.B. einzuhaltende Standards, Qualitätsanforderungen oder Anforderungen an die Benutzeroberfläche beziehen.
 
-==== <Besondere Anforderung 1>
+--- nicht vorhanden ---
+
+//==== <Besondere Anforderung 1>

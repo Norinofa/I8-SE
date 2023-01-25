@@ -13,7 +13,7 @@ Möchte ein bestehendes Projekt aus dem System löschen, sodass dieses nicht meh
 === Vorbedingungen
 //Vorbedingungen müssen erfüllt, damit der Use Case beginnen kann, z.B. Benutzer ist angemeldet, Warenkorb ist nicht leer...
 
-* Der Dozent ist mittels seiner HTW-Logindaten angemeldet.
+* Der Dozent ist mittels seiner HTWD-Logindaten angemeldet und hat sich auf die "Projektübersicht" navigiert.
 * Das Projekt, welches gelöscht werden soll, wurde bereits angelegt.
 
 === Standardablauf (Basic Flow)
@@ -22,7 +22,7 @@ Möchte ein bestehendes Projekt aus dem System löschen, sodass dieses nicht meh
 . Der Use Case beginnt, wenn der Dozent auf der "Projektübersicht" befindet.
 . Dozent wählt das zu bearbeitende Projekt mit einem Klick auf den "Projekt bearbeiten"-Button aus.
 . Dozent klickt auf den "Projekt löschen"-Button.
-. System zeigt ein Pop-Up an mit den Worten "Wollen Sie dieses Projekt wirklich löschen?" und den zwei Button "Ja" und "Nein".
+. System zeigt ein Pop-Up an mit den Worten "Wollen Sie dieses Projekt wirklich löschen?"
 . Dozent bestätigt das Löschen des Projekts mit einem Klick auf den "Ja"-Button.
 . System entfernt das Projekt und alle hinterlegten Daten aus der Datenbank.
 . System gibt Rückmeldung in Form eines Pop-Up "Projekt xyz wurde erfolgreich gelöscht."
@@ -32,24 +32,28 @@ Möchte ein bestehendes Projekt aus dem System löschen, sodass dieses nicht meh
 === Alternative Abläufe
 //Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
 
-==== <Alternativer Ablauf 1>
-Wenn <Akteur> im Schritt <x> des Standardablauf <etwas macht>, dann
-. <Ablauf beschreiben>
-. Der Use Case wird im Schritt <y> fortgesetzt.
+--- keine vorhanden ---
+
+//==== <Alternativer Ablauf 1>
+//Wenn <Akteur> im Schritt <x> des Standardablauf <etwas macht>, dann
+//. <Ablauf beschreiben>
+//. Der Use Case wird im Schritt <y> fortgesetzt.
 
 === Unterabläufe (subflows)
 //Nutzen Sie Unterabläufe, um wiederkehrende Schritte auszulagern
 
-==== <Unterablauf 1>
-. <Unterablauf 1, Schritt 1>
-. …
-. <Unterablauf 1, Schritt n>
+--- keine vorhanden ---
+
+//==== <Unterablauf 1>
+//. <Unterablauf 1, Schritt 1>
+//. …
+//. <Unterablauf 1, Schritt n>
 
 === Wesentliche Szenarios
 //Szenarios sind konkrete Instanzen eines Use Case, d.h. mit einem konkreten Akteur und einem konkreten Durchlauf der o.g. Flows. Szenarios können als Vorstufe für die Entwicklung von Flows und/oder zu deren Validierung verwendet werden.
 
 ==== Löschen des Projekts I8 Teamverwaltung
-* Der Dozent möchte das Projekt "I8 Teamverwaltung" löschen. Der Dozent wählt das Projekt in der Projektübersicht aus und löscht dieses. Das Projekt "I8 Teamverwaltung" wird nun nicht mehr angezeigt.
+Der Dozent möchte das Projekt "I8 Teamverwaltung" löschen. Der Dozent wählt das Projekt in der Projektübersicht aus und löscht dieses. Das Projekt "I8 Teamverwaltung" wird nun nicht mehr angezeigt.
 
 === Nachbedingungen
 * Das Projekt wurde aus der Datenbank gelöscht.
@@ -58,4 +62,6 @@ Wenn <Akteur> im Schritt <x> des Standardablauf <etwas macht>, dann
 === Besondere Anforderungen
 //Besondere Anforderungen können sich auf nicht-funktionale Anforderungen wie z.B. einzuhaltende Standards, Qualitätsanforderungen oder Anforderungen an die Benutzeroberfläche beziehen.
 
-==== <Besondere Anforderung 1>
+--- keine vorhanden ---
+
+//==== <Besondere Anforderung 1>

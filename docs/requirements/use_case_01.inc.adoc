@@ -4,7 +4,7 @@
 
 === Kurzbeschreibung
 //<Kurze Beschreibung des Use Case>
-Der Use Case beschreibt den Login-Prozess eines Studierenden oder eines Dozenten mittels seiner HTWD-Login-Daten.
+Der Use Case beschreibt den Login-Prozess eines Studierenden oder eines Dozenten mittels seiner HTWD-Logindaten.
 
 === Kurzbeschreibung der Akteure
 
@@ -17,7 +17,7 @@ Möchte sich einloggen um weitere Schritte vorzunehmen.
 === Vorbedingungen
 //Vorbedingungen müssen erfüllt, damit der Use Case beginnen kann, z.B. Benutzer ist angemeldet, Warenkorb ist nicht leer...
 
-* User besitzt und kennt seine HTWD-Login-Daten.
+* User besitzt und kennt seine HTWD-Logindaten.
 * User ist nicht eingeloggt.
 
 === Standardablauf (Basic Flow)
@@ -36,19 +36,21 @@ Möchte sich einloggen um weitere Schritte vorzunehmen.
 === Alternative Abläufe
 //Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
 
-==== HTWD-Login-Daten sind ungültig
-* (6.) Prüfung nicht erfolgreich
+==== HTWD-Logindaten sind ungültig
+* (6) Prüfung nicht erfolgreich
 . System teilt dem User mit, dass die Login-Daten inkorrekt sind und fordert ihn auf diese zu berichtigen.
-. User berichtigt seine HTWD-Login-Daten.
-. Fortsetzen bei Schritt 5.
+. User berichtigt seine HTWD-Logindaten.
+. Fortsetzen bei Schritt (5).
 
 === Unterabläufe (subflows)
 //Nutzen Sie Unterabläufe, um wiederkehrende Schritte auszulagern.
 
-==== <Unterablauf 1>
-. <Unterablauf 1, Schritt 1>
-. …
-. <Unterablauf 1, Schritt n>
+--- nicht vorhanden ---
+
+//==== <Unterablauf 1>
+//. <Unterablauf 1, Schritt 1>
+//. …
+//. <Unterablauf 1, Schritt n>
 
 === Wesentliche Szenarios
 //Szenarios sind konkrete Instanzen eines Use Case, d.h. mit einem konkreten Akteur und einem konkreten Durchlauf der o.g. Flows. Szenarios können als Vorstufe für die Entwicklung von Flows und/oder zu deren Validierung verwendet werden.
@@ -66,9 +68,6 @@ Der User ist eingeloggt und kann weitere Schritte auf der Webseite vornehmen.
 
 === Besondere Anforderungen
 //Besondere Anforderungen können sich auf nicht-funktionale Anforderungen wie z.B. einzuhaltende Standards, Qualitätsanforderungen oder Anforderungen an die Benutzeroberfläche beziehen.
-
-==== Usability
-Der Use Case ist der erste Schritt des gesamten Prozesses und damit die Grundlage aus Sicht des Studierenden und des Dozenten und verlangt daher eine intuitive Bedienung.
 
 ==== Verbesserung der bisherigen Lösung
 Das bisherige System zeigt dem User den Fragebogen unabhängig vom Login-Zustand (Ob und aus welcher Sicht eingeloggt) bereits an. Dies gilt es zu eliminieren, sodass der erste Schritt immer ein Login ist und der User danach auf die ihm entsprechende Seite weitergeleitet wird.
