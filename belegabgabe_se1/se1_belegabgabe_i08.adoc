@@ -1,7 +1,7 @@
 // --- 1. Projektthema -------------------------
 = SE I - Belegabgabe: {project-name}
 // --- 2. Teammitglieder -----------------------
-Hieu Nachname <s00000@htw-dresden.de>; Kilian_Luca Schinnerling <kilianluca.schinnerling@htw-dresden.de>; Evelyn Dietrich <s83781@htw-dresden.de>; Julius Nachname <s00000@htw-dresden.de>; Viktoria Karklin <s83774@htw-dresden.de>; Nuha Nachname <s00000@htw-dresden.de>
+Nuha Alhamiidi <nuha.alhamiidi@stud.htw-dresden.de>; Phil Benedikt Beck <philbenedikt.beck@stud.htw-dresden.de>; Evelyn Dietrich <evelyn.dietrich@stud.htw-dresden.de>; Viktoria Karklin <viktoria.karklin@stud.htw-dresden.de>; Kilian Luca Schinnerling <kilianluca.schinnerling@stud.htw-dresden.de>; Hieu Trung Thi <hieutrung.thi@stud.htw-dresden.de>; Julius Wyrembek <julius.wyrembek@stud.htw-dresden.de>;
 // --- 3. Abgabedatum --------------------------
 27. Januar 2023
 // ---------------------------------------------
