@@ -22,12 +22,12 @@ include::../_includes/default-attributes.inc.adoc[]
 
 == Wesentliche Ziele
 
-* Prototyp erstellen
-* Systemweite Anforderungen ausarbeiten
-* Glossar ausarbeiten
-* Domänenmodell ausarbeiten
-* Architecture Notebook vervollständigen
-* Test Cases beginnen
+. Erstellung des Prototypen 
+. Ausarbeitung der systemweiten Anforderungen
+. Ausarbeitung des Glossars
+. Ausarbeitung des Domänenmodells 
+. Vervollständigung des Architecture Notebooks 
+. Beginnen der Test Cases 
 
 
 == Aufgabenzuordnung
@@ -40,11 +40,17 @@ Bild hier einfügen
 == Probleme
 //Optional: Führen Sie alle Probleme auf, die in dieser Iteration adressiert werden sollen. Aktualisieren Sie den Status, wenn neue Probleme bei den täglichen / regelmäßigen Abstimmungen berichtet werden.
 
-[%header, cols="2,1,3"]
+[%header, cols="2,1,3a"]
 |===
 | Problem | Status | Notizen
 
-| Webseite funktioniert nicht | rot | externe Hilfe wurde angefodert, ist in Arbeit
+| Webseite funktioniert nicht 
+| rot 
+| 
+* Der Webserver wartet in einem Startskript vergeblich auf die Datenbank, was dazu führt, dass der Zugriff auf die Webseite nicht möglich ist. 
+* Intern wurde versucht das Problem zu beheben. Ebenfalls vergeblich.
+* Die angefoderte externe Hilfe konnte auch keine Lösung finden. Jedoch wurde Hilfe von den Entwicklern des Codes angefordert. Dieser Prozess ist in Arbeit und die letzte Möglichkeit das Problem zu beheben.
+* Sollte dies nicht funktionieren, bleibt nur die Option eine Neuimplementierung auf Basis der vorgegebenen Webseite zu erstellen. Dies wurde dem Auftraggeber mitgeteilt und bewilligt.
 |===
 
 
@@ -69,8 +75,15 @@ Bild hier einfügen
 | Projektstatus	| gelb
 |===
 
-* Die Hauptziele dieser Iteration wurden errreicht. Jedoch fehlen Kleinigkeiten.
-//Dokumentieren Sie, ob die angestrebten Ziele des Iterationsplans erreicht wurden.
+
+* Beurteilung im Vergleich zu den Zielen *
+" Ziel 1 " wurde erreicht. Der Prototyp wurde erstellt und am 16.01.23 vorgestellt. 
+" Ziel 2 " wurde erreicht. Die Systemweiten Anforderungen wurden beendet. 
+" Ziel 3 und 4 " wurden nicht erreicht. 
+" Ziel 5 " wurde erreicht. 
+" Ziel 6 " wurde nicht erreicht. 
+
+
 
 * Das Domänenmodell und das Glosssar wurden bisher nur sporadisch begonnen. Die Test Cases werden in der Iteration 05 angefangen und zu Ende gebracht.
 //Zusammenfassung, ob alle für die Iteration geplanten Aufgaben bearbeitet wurden und welche Aufgaben verschoben oder hinzugefügt wurden.
