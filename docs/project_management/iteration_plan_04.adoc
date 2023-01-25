@@ -22,12 +22,12 @@ include::../_includes/default-attributes.inc.adoc[]
 
 == Wesentliche Ziele
 
-. Prototyp erstellen
-. stemweite Anforderungen ausarbeiten
-. Glossar ausarbeiten
-. Domänenmodell ausarbeiten
-. Architecture Notebook vervollständigen
-. Test Cases beginnen
+. Erstellung des Prototypen 
+. Ausarbeitung der systemweiten Anforderungen
+. Ausarbeitung des Glossars
+. Ausarbeitung des Domänenmodells 
+. Vervollständigung des Architecture Notebooks 
+. Beginnen der Test Cases 
 
 
 == Aufgabenzuordnung
@@ -77,9 +77,13 @@ Bild hier einfügen
 
 
 * Beurteilung im Vergleich zu den Zielen *
+" Ziel 1 " wurde erreicht. Der Prototyp wurde erstellt und am 16.01.23 vorgestellt. 
+" Ziel 2 " wurde erreicht. Die Systemweiten Anforderungen wurden beendet. 
+" Ziel 3 und 4 " wurden nicht erreicht. 
+" Ziel 5 " wurde erreicht. 
+" Ziel 6 " wurde nicht erreicht. 
 
-* Die Hauptziele dieser Iteration wurden errreicht. Jedoch fehlen Kleinigkeiten.
-//Dokumentieren Sie, ob die angestrebten Ziele des Iterationsplans erreicht wurden.
+
 
 * Das Domänenmodell und das Glosssar wurden bisher nur sporadisch begonnen. Die Test Cases werden in der Iteration 05 angefangen und zu Ende gebracht.
 //Zusammenfassung, ob alle für die Iteration geplanten Aufgaben bearbeitet wurden und welche Aufgaben verschoben oder hinzugefügt wurden.
