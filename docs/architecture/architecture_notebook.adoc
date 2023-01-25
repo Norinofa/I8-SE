@@ -146,7 +146,6 @@ Es soll es die Möglichkeit geben über einen Speicher eine bestimmte Version vo
 
 == Wesentliche Abstraktionen
 
-//[List and briefly describe the key abstractions of the system. This should be a relatively short list of the critical concepts that define the system. The key abstractions will usually translate to the initial analysis classes and important patterns.]
 
 . Teamstabelle
 
@@ -168,13 +167,6 @@ Antworten verlangt die später bei der Teamerstellung verwendet werden.
 
 == Schichten oder Architektur-Framework
 
-//[Describe the architectural pattern that you will use or how the
-architecture will be consistent and uniform. This could be a simple
-reference to an existing or well-known architectural pattern, such as
-the Layer framework, a reference to a high-level model of the framework,
-or a description of how the major system components should be put
-together.]
-
 Model-View-Controller(MVC)
 
 Im Model arbeiten wir mit Docker ein Open-Source Tool welches uns eine
@@ -189,22 +181,18 @@ Zugriff auf das Netzwerk. Außerdem benutzen wir nginx als Webserver.
 
 == Architektursichten (Views)
 
-//[Describe the architectural views that you will use to describe the
-software architecture. This illustrates the different perspectives that
-you will make available to review and to document architectural
-decisions.]
-
-Folgende Sichten werden empfohlen:
-
 === Logische Sicht
 
-//Beschreibt die Struktur und das Verhalten Systemteilen, die hohen
-Einfluss auf die Architektur haben. Dies kann die Paketstruktur,
-kritische Schnittstellen, wichtige Klassen und Subsysteme sowie die
-Beziehungen zwischen diesen Elementen enthalten. Zudem sollten die
-physische und logische Sicht persistenter Daten beschrieben werden, wenn
-es diesen Aspekt im System gibt. Dies ist ein hier dokumentierter
-Teilaspekt des Entwurfs.
+Unser System, welches für eine Nutzung im HTW Netzwerk vorgesehen ist, 
+besteht weitestgehend aus internen Verbindung. Wie im unten anliegenden 
+C4 Model zu sehen ist die einzige Schnittstelle nach außen, die 
+Verbindung zu dem LDAP Server der HTW Dresden. Jener gibt uns die Möglichkeit,
+die Authentifizierung für unser Website über den bereits bestehenden HTW Login
+zu gestalten. Diese Entscheidung ist auch wieder mit der Nutzer Freundlichkeit
+aber auch der Sicherheit zu begründen, einerseits muss keine externe Seite 
+verwendet werden und zum anderen muss kein neuer Login angelegt werden. 
+Dies lässt den Nutzer die Website sofort verwenden ohne auf eine 
+Bestätigungsemail oder ähnliches zu warten. 
 
 === Physische Sicht (Betriebssicht)
 

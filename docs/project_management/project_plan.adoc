@@ -46,6 +46,9 @@ a|
 | Tester, Entwurf 
 | Wirtschaftsinformatik 
 a|
+* organisiert
+* pünktlich
+
 | Viktoria Karklin 
 | Implementiererin 
 | Informatik 

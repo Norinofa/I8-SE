@@ -38,6 +38,29 @@ Die in dieser Iteration geplanten/ fertiggestellten Aufgaben sind als Issues in 
 
 Bild einfügen
 
+== Probleme
+//Optional: Führen Sie alle Probleme auf, die in dieser Iteration adressiert werden sollen. Aktualisieren Sie den Status, wenn neue Probleme bei den täglichen / regelmäßigen Abstimmungen berichtet werden.
+
+[%header, cols="2,1,3a"]
+|===
+| Problem | Status | Notizen
+
+| Einbindung des Glossars in gesamte Projektlaufzeit
+| rot
+| 
+* Das Team hat das Glossar während des Projektes vernachlässigt, was jetzt einen intensiven Zeitaufwand beansprucht.
+* Dies betrifft alle Mitglieder des Teams. 
+* Das Glossar ist von den Hauptverantwortlichen der einzelenen Dokumente bis zum 26.01.23 zu ergänzen.
+| Architecture Notebook wurde nicht überprüft
+| rot
+| 
+* Das Architecture Notebook weist Lücken und Formatierungsprobleme auf.
+* Dies behindert die Überprüfung der Datei lediglich auf Rechtschreibung und Grammatik.
+* Es muss dringend auf Inhalt und Logik geprüft und überarbeitet werden. Diese Aufgabe wird den Architekten zugeteilt und muss bis 26.01.23 fertiggestellt werden, um eine Korrekturlesung zu gewährleisten.
+
+|===
+
+
 == Bewertungskriterien
 //Eine kurze Beschreibung, wie Erfüllung die o.g. Ziele bewertet werden sollen.
 
