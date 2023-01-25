@@ -23,7 +23,7 @@ Die Nutzer müssen über das HTW Netzwerk im Online Tool angemeldet sein und ein
 1. Als Dozent eingeloggt
 2. Öffnen des Menüpunktes 'Projektverwaltung'
 3. Öffnen des Unterpunktes 'Projekt erstellen'
-4. Eingabeseite zur Erstellung eines Projektes 
+4. Eingabeseite zur Erstellung eines Projektes ist geöffnet
 
 == Testablauf
 
@@ -33,7 +33,7 @@ Die Nutzer müssen über das HTW Netzwerk im Online Tool angemeldet sein und ein
 
 == Eingabedaten
 
-*1. fehlerfreie Beispieleingabe*
+*1. Fehlerfreie Beispieleingabe mit korrekter Befüllung aller Felder *
 
 :imageTitle: TC1 Erfolgreich
 
@@ -47,7 +47,7 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
-*2. fehlerhafte Beispieleingabe mit inkosistenten Daten*
+*2. Fehlerhafte Beispieleingabe mit erneut gewählter ID "E1"*
 
 :imageTitle: TC2 Erfolgreich
 
@@ -61,7 +61,7 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
-*3. fehlerhafte Beispieleingabe mit freien Pflichtfeldern*
+*3. Fehlerhafte Beispieleingabe mit leerem Pflichtfeld "Ansprechpartner"*
 
 :imageTitle: TC3 Fehlermeldung
 
@@ -87,7 +87,7 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
 * Pop-Up mit Fehlermeldung wird angezeigt
 * Daten werden nicht gespeichert
-* Wahl einer neuen ID, die nicht existiert
+* Wahl einer neuen ID, die nicht bereits existiert
 
 
 *3.*
@@ -99,22 +99,22 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
 === Test Case 02- Teams generieren
 
-Vorbedingung
+== Vorbedingung
 
-1.	Als Dozent eingeloggt
-2.	2. Öffnen des Menüpunktes ‘Teamsverwaltung‘
-3.	Öffnen des Unterpunktes ‘Teams generieren‘
-4.	Anzeige des Eingabefeldes zur Bestimmung der Teamgröße 
+.	Als Dozent eingeloggt
+. Öffnen des Menüpunktes ‘Teamverwaltung‘
+.	Öffnen des Unterpunktes ‘Teams generieren‘
+.	Anzeige des Eingabefeldes zur Bestimmung der Teamgröße 
 
-Testablauf
+== Testablauf
 
-1.	Daten sind richtig eingegeben wurden (nur Zahlen)
-2.	Daten sind falsch eingegeben wurden (alles außer Zahlen)
-3.	Keine Daten werden eingegeben
+.	Daten sind richtig eingegeben wurden (nur Zahlen)
+.	Daten sind falsch eingegeben wurden (alles außer Zahlen)
+.	Keine Daten werden eingegeben
 
-Eingabedaten
+== Eingabedaten
 
-*1.	Richtige Beispieleingabe*
+*1.	Richtige Beispieleingabe mit 7 zu generierenden Teams*
 
 :imageTitle: TC2.1 richtige Generierung
 
@@ -123,7 +123,7 @@ Eingabedaten
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
 
-*2. Falsche Beispieleingabe*
+*2. Falsche Beispieleingabe mit Belegung des Feldes durch Buchstabe "F"*
 
 :imageTitle: TC2.2 falsche Eingabe
 
@@ -131,7 +131,7 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
-*3.	Keine Beispieleingabe*
+*3.	Keine Beispieleingabe, da Felder freigelassen werden*
 
 :imageTitle: TC2.4 falsche Eingabe
 
