@@ -219,7 +219,7 @@ Threads und Komponenten, die in diesen Knoten ausgeführt werden. Diese
 Sicht wird nicht benötigt, wenn das System in einem einzelnen Prozess
 oder Thread ausgeführt wird.
 
-=== Use cases
+=== C4 Modelle 
 
-//Eine Liste oder ein Diagramm der Use Cases, die architektur-relevante
-Anforderungne enthalten.
+::image C41.jpg[]
+::image C42.jpg[]
