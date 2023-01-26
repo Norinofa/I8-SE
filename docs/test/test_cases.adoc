@@ -129,20 +129,20 @@ Ansprechpartner: Herr Müller HTW Dresden
 
 === Nachbedingungen
 
-*Testablauf 1: Fehlerfreie Beispieleingabe mit korrekter Befüllung aller Felder*
+*Testablauf 1: Fehlerfreie Beispieleingabe*
 
 * Meldung über erfolgreiche Speicherung
 * Daten werden in der Datenbank erfasst
 
 
-*Testablauf 2: Fehlerhafte Beispieleingabe mit erneut gewählter ID "E1"*
+*Testablauf 2: Fehlerhafte Beispieleingabe mit erneut gewählter ID*
 
 * Pop-Up mit Fehlermeldung wird angezeigt
 * Daten werden nicht gespeichert
 * Wahl einer neuen ID, die nicht bereits existiert
 
 
-*Testablauf 3: Fehlerhafte Beispieleingabe mit leerem Pflichtfeld "Ansprechpartner"*
+*Testablauf 3: Fehlerhafte Beispieleingabe mit leerem Pflichtfeld*
 
 * Fehlermeldung nahe des frei gelassenen Pflichtfeldes wird angezeigt
 * Daten wurden nicht gespeichert
