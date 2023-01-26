@@ -33,7 +33,7 @@ Die Nutzer müssen über das HTW Netzwerk im Online Tool angemeldet sein und ein
 
 Daten werden vollständig und richtig eingegeben ohne inkonsistente Daten.
 
-_Eingabedaten:_
+*Eingabedaten:*
 
 ID: I2
 
@@ -43,12 +43,12 @@ Beschreibung: Erstellung der Teams für SE2
 
 Ansprechpartner: Herr Müller HTW Dresden
 
-:imageTitle: TC1 Erfolgreich
-:imageFile: 1_ErfolgreicherCASE.png
+:imageTitle: TC1.1 Erfolgreich
+:imageFile: TC01TA01.png
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
-:imageTitle: TC1.1 Erfolgreich
+:imageTitle: TC1.2 Erfolgreich
 :imageFile: 1.1_ErfolgreicheAbfrage_TC.png
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
@@ -57,7 +57,7 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
 Basierend auf dem erfolgreichen Speichern des Testablaufs 01 wird versucht ein neues Projekt mit derselben ID anzulegen.
 
-_Eingabedaten:_
+*Eingabedaten:*
 
 ID: I2
 
@@ -67,13 +67,13 @@ Beschreibung: Dokumentierung von Baumfarben
 
 Ansprechpartner: Herr Baumgartner
 
-:imageTitle: TC2 Erfolgreich
-:imageFile: 2_ID_Vergabe_TC.png
+:imageTitle: TC2.1 erneut gewählte ID
+:imageFile: TC01TA01.png
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
-:imageTitle: TC2 Erfolgreich
-:imageFile: 2.1_Fehlermeldung_ID_TC.png
+:imageTitle: TC2.2 erneut gewählte ID 
+:imageFile: TC01TA02.2.png
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
@@ -81,7 +81,7 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
 Ein Pflichtfeld wird freigelassen. Diese Fehlermeldung wird für die freigelassenen Pflichtfelder ID, Titel und Ansprechpartner angezeigt. Die Visualisierung bezieht sich nur auf das freigelassene Feld Ansprechpartner und steht nicht im Bezug zu den Testabläufen 01 und 02.
 
-_Eingabedaten:_
+*Eingabedaten:*
 
 ID: I2
 
@@ -91,20 +91,20 @@ Beschreibung: Erstellung der Teams für SE1
 
 Anprechpartner:
 
-:imageTitle: TC3 Fehlermeldung
-:imageFile: 3_Pflichtfeldnichtausgefüllt_TC.png
+:imageTitle: TC3.1 leeres Pflichtfeld
+:imageFile: TC01TA03.1.png
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
-:imageTitle: TC3.1 Fehlermeldung
-:imageFile: 3.1_Fehlermeldung_TC.png
+:imageTitle: TC3.2 leeres Pflichtfeld
+:imageFile: TC01TA03.2.png
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
 
-*Leeres Pflichtfeld ID*
+*_Leeres Pflichtfeld ID_*
 
-_Eingabedaten:_
+*Eingabedaten:*
 
 ID:
 
@@ -114,9 +114,11 @@ Beschreibung: Erstellung der Teams für SE1
 
 Ansprechpartner: Herr Müller HTW Dresden
 
-*Leeres Pflichtfeld Titel*
 
-_Eingabedaten:_
+
+*_Leeres Pflichtfeld Titel_*
+
+*Eingabedaten:*
 
 ID: I2
 
@@ -126,22 +128,26 @@ Beschreibung: Erstellung der Teams für SE1
 
 Ansprechpartner: Herr Müller HTW Dresden
 
+
 === Nachbedingungen
 
-*Testablauf 1: Fehlerfreie Beispieleingabe mit korrekter Befüllung aller Felder*
+*Testablauf 1: Fehlerfreie Beispieleingabe*
 
 * Meldung über erfolgreiche Speicherung
 * Daten werden in der Datenbank erfasst
 
 
-*Testablauf 2: Fehlerhafte Beispieleingabe mit erneut gewählter ID "E1"*
+
+
+*Testablauf 2: Fehlerhafte Beispieleingabe mit erneut gewählter ID*
 
 * Pop-Up mit Fehlermeldung wird angezeigt
 * Daten werden nicht gespeichert
 * Wahl einer neuen ID, die nicht bereits existiert
 
 
-*Testablauf 3: Fehlerhafte Beispieleingabe mit leerem Pflichtfeld "Ansprechpartner"*
+
+*Testablauf 3: Fehlerhafte Beispieleingabe mit leerem Pflichtfeld*
 
 * Fehlermeldung nahe des frei gelassenen Pflichtfeldes wird angezeigt
 * Daten wurden nicht gespeichert
@@ -163,17 +169,16 @@ Ansprechpartner: Herr Müller HTW Dresden
 .	Keine Daten werden eingegeben
 ////
 
-=== Testablauf 1: Richtige Beispieleingabe mit 7 zu generierenden Teams
+=== Testablauf 1: Richtige Beispieleingabe 
 
 Die richtige Eingabe erfolgt bei einer ganzen Zahl.
 
-_Eingabedaten:_
+*Eingabedaten:*
 
 mindest Anzahl an Studenten pro Team: 7
 
-:imageTitle: TC2.1 richtige Generierung
-
-:imageFile: TC2.1_richtige_generierung_vonTeams.png
+:imageTitle: TC1 erfolgreiche Eingabe
+:imageFile: TC02TA01.png
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
@@ -181,13 +186,13 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
 Eine falsche Einagbe findet statt, bei Buchstaben und Sonderzeichen, ebenso wie bei Kommazahlen.
 
-_Eingabedaten:_
+*Eingabedaten:*
 
 mindest Anzahl an Studenten pro Team: D
 
 :imageTitle: TC2.2 falsche Eingabe
 
-:imageFile: TC2.3_falscheEingabe_Fehlermeldung.png
+:imageFile: TC02TA02.png
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
@@ -195,29 +200,29 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
 Es wird keine Anzahl an mindest Studenten pro Team bestimmt. 
 
-_Eingabedaten:_
+*Eingabedaten:*
 
 mindest Anzahl an Studenten pro Team:
 
-:imageTitle: TC2.4 falsche Eingabe
+:imageTitle: TC2.3 keine Eingabe
 
-:imageFile: TC2.4_leereEingabe.png
+:imageFile: TC02TA03.png
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
 === Nachbedingungen
 
-*Testfablauf 1: Richtige Beispieleingabe*
+*Testablauf 1: Richtige Beispieleingabe*
 
 * Teams werden mit gewünschter Mitgliederanzahl generiert
 
 *Testablauf 2: Falsche Beispieleingabe*
 
 * Fehlermeldung erscheint
-* Keine Generieurung der Teams
-* Eingabe mit richtigen Daten wiederholen
+* Keine Generierung der Teams
+* Eingabe mit richtigen Daten wiederholen, ansonsten können keine Teams generiert werden
 
 *Testablauf 3: Keine Beispieleingabe*
 
 * Fehlermeldung erscheint
-* Teamsgenerieung erfolgt erst nach Eingabe richtiger Daten, ansonsten können keine Teams generiert werden
+* Teamsgenerieung erfolgt erst nach Eingabe richtiger Daten

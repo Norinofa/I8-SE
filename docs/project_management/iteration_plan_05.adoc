@@ -87,7 +87,7 @@ image::Projects Iteration 5.JPG[]
 
 * _Ziel 1_ wurde erreicht.
 * _Ziel 2_ wurde erreicht.
-* _Ziel 3_ wurde erreicht. Der Auftraggeber hat das Use Case Model für den derzeitigen Stand als richtig erachtet, jedoch angemerkt, dass sich die Prisosierung der Use Cases im Verlauf des Projektes ändern kann.
+* _Ziel 3_ wurde erreicht. 
 * _Ziel 4_ wurde erreicht. Die Iterationspläne beinhalten alle wesentlichen Aspekte, die in der Iterationsphase vorgefallen sind.
 * _Ziel 5_ wurde erreicht. Der Projektplan spiegelt die genaue Arbeitsweise des Teams wieder und wurde auf auf Vollständigkeit und Richtigkeit geprüft. 
 * _Ziel 6_ wurde größtenteils erreicht.
