@@ -36,7 +36,8 @@ include::../_includes/default-attributes.inc.adoc[]
 
 Die in dieser Iteration geplanten/ fertiggestellten Aufgaben sind als Issues in unserem https://github.com/users/Norinofa/projects/1/views/13[GitHub Project] dargestellt.
 
-Bild einfügen
+.Iteration 5 - GitHub Project (Issues)
+image::Projects Iteration 5.JPG[]
 
 == Probleme
 //Optional: Führen Sie alle Probleme auf, die in dieser Iteration adressiert werden sollen. Aktualisieren Sie den Status, wenn neue Probleme bei den täglichen / regelmäßigen Abstimmungen berichtet werden.
@@ -104,3 +105,10 @@ Bild einfügen
 
 * Andere Belange und Abweichungen
 //Führen Sie weitere Themen auf, für die eine Bewertung durchgeführt wurde. Beispiele sind Finanzen, Zeitabweichungen oder Feedback von Stakeholdern, die nicht bereits an anderer Stelle dokumentiert wurden.
+
+== Essence Navigator
+
+Das Team hat folgenden Stand, gemessen anhand der Alpha States im Essence Navigator, in dieser Iteration erreicht.
+
+.Iteration 5 - Essence Navigator
+image::Essence5.PNG[]
