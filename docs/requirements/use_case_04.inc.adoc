@@ -32,7 +32,7 @@ Möchte ein bestehendes Projekt aus dem System löschen, sodass dieses nicht meh
 === Alternative Abläufe
 //Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
 
---- keine vorhanden ---
+--- nicht vorhanden ---
 
 //==== <Alternativer Ablauf 1>
 //Wenn <Akteur> im Schritt <x> des Standardablauf <etwas macht>, dann
@@ -42,7 +42,7 @@ Möchte ein bestehendes Projekt aus dem System löschen, sodass dieses nicht meh
 === Unterabläufe (subflows)
 //Nutzen Sie Unterabläufe, um wiederkehrende Schritte auszulagern
 
---- keine vorhanden ---
+--- nicht vorhanden ---
 
 //==== <Unterablauf 1>
 //. <Unterablauf 1, Schritt 1>
@@ -62,6 +62,6 @@ Der Dozent möchte das Projekt "I8 Teamverwaltung" löschen. Der Dozent wählt d
 === Besondere Anforderungen
 //Besondere Anforderungen können sich auf nicht-funktionale Anforderungen wie z.B. einzuhaltende Standards, Qualitätsanforderungen oder Anforderungen an die Benutzeroberfläche beziehen.
 
---- keine vorhanden ---
+--- nicht vorhanden ---
 
 //==== <Besondere Anforderung 1>
