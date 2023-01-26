@@ -47,10 +47,12 @@ aufgeführt.
 |===
 | Abkürzung | Bedeutung | Erläuterung
 //| UP | Unified Process | Vorgehensmodell für die Softwareentwicklung
-| UC | Use Case | funktionale Anforderung eines Systems
-| OpenUP| Open Unified Process | siehe Term Open Unified Process
-| VPN | Virtual Private Network | ermöglicht sichere und private Verbindung zu einem entferneten Netzwerk
-| LDAP | Lightweight Directory Access Protocol | Netzwerkprotokoll für die Verwaltung von Verzeichnissen sowie die Abfrage von Informationen
+| LDAP | Lightweight Directory Access Protocol | Netzwerkprotokoll für die Verwaltung von Verzeichnissen, sowie die Abfrage von Informationen.
+| OpenUP| Open Unified Process | ist eine vereinfachte Variante des UP unter Open Source-Lizenz, der iterative-inkrementelle Entwicklung in einem strukturierten Lebenszyklusmodell anwendet.
+| SE | Software Engineering | Bezeichnet die Bereitstellung und systematische Verwendung von Prinzipien, Methoden und Werkzeugen für die arbeitsteilige, ingenieurmäßige Entwicklung und Anwendung von umfangreichen Softwaresystemen unter Berücksichtigung von Zielen wie Kosten, Zeit und Qualität.
+| UC | Use Case | Funktionale Anforderung eines Systems.
+| VPN | Virtual Private Network | Ermöglicht sichere und private Verbindung zu einem entferneten Netzwerk.
+| WING | Wirtschaftsingenieurwesen | Studiengang der Wirtschaft und Technik verbindet.
 |===
 
 == Verzeichnis der Datenstrukturen
