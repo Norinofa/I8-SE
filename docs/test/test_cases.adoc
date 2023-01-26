@@ -33,7 +33,7 @@ Die Nutzer müssen über das HTW Netzwerk im Online Tool angemeldet sein und ein
 
 Daten werden vollständig und richtig eingegeben ohne inkonsistente Daten.
 
-_Eingabedaten:_
+*Eingabedaten:*
 
 ID: I2
 
@@ -57,7 +57,7 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
 Basierend auf dem erfolgreichen Speichern des Testablaufs 01 wird versucht ein neues Projekt mit derselben ID anzulegen.
 
-_Eingabedaten:_
+*Eingabedaten:*
 
 ID: I2
 
@@ -81,7 +81,7 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
 Ein Pflichtfeld wird freigelassen. Diese Fehlermeldung wird für die freigelassenen Pflichtfelder ID, Titel und Ansprechpartner angezeigt. Die Visualisierung bezieht sich nur auf das freigelassene Feld Ansprechpartner und steht nicht im Bezug zu den Testabläufen 01 und 02.
 
-_Eingabedaten:_
+*Eingabedaten:*
 
 ID: I2
 
@@ -102,9 +102,9 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
 
-*Leeres Pflichtfeld ID*
+*_Leeres Pflichtfeld ID_*
 
-_Eingabedaten:_
+*Eingabedaten:*
 
 ID:
 
@@ -114,9 +114,10 @@ Beschreibung: Erstellung der Teams für SE1
 
 Ansprechpartner: Herr Müller HTW Dresden
 
-*Leeres Pflichtfeld Titel*
 
-_Eingabedaten:_
+*_Leeres Pflichtfeld Titel_*
+
+*Eingabedaten:*
 
 ID: I2
 
@@ -163,11 +164,11 @@ Ansprechpartner: Herr Müller HTW Dresden
 .	Keine Daten werden eingegeben
 ////
 
-=== Testablauf 1: Richtige Beispieleingabe mit 7 zu generierenden Teams
+=== Testablauf 1: Richtige Beispieleingabe 
 
 Die richtige Eingabe erfolgt bei einer ganzen Zahl.
 
-_Eingabedaten:_
+*Eingabedaten:*
 
 mindest Anzahl an Studenten pro Team: 7
 
@@ -181,7 +182,7 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
 Eine falsche Einagbe findet statt, bei Buchstaben und Sonderzeichen, ebenso wie bei Kommazahlen.
 
-_Eingabedaten:_
+*Eingabedaten:*
 
 mindest Anzahl an Studenten pro Team: D
 
@@ -195,7 +196,7 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
 Es wird keine Anzahl an mindest Studenten pro Team bestimmt. 
 
-_Eingabedaten:_
+*Eingabedaten:*
 
 mindest Anzahl an Studenten pro Team:
 
@@ -207,17 +208,17 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
 === Nachbedingungen
 
-*Testfablauf 1: Richtige Beispieleingabe*
+*Testablauf 1: Richtige Beispieleingabe*
 
 * Teams werden mit gewünschter Mitgliederanzahl generiert
 
 *Testablauf 2: Falsche Beispieleingabe*
 
 * Fehlermeldung erscheint
-* Keine Generieurung der Teams
-* Eingabe mit richtigen Daten wiederholen
+* Keine Generierung der Teams
+* Eingabe mit richtigen Daten wiederholen, ansonsten können keine Teams generiert werden
 
 *Testablauf 3: Keine Beispieleingabe*
 
 * Fehlermeldung erscheint
-* Teamsgenerieung erfolgt erst nach Eingabe richtiger Daten, ansonsten können keine Teams generiert werden
+* Teamsgenerieung erfolgt erst nach Eingabe richtiger Daten
