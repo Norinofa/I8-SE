@@ -31,7 +31,12 @@ Die Nutzer müssen über das HTW Netzwerk im Online Tool angemeldet sein und ein
 
 === Testablauf 01: Fehlerfreie Beispieleingabe mit korrekter Befüllung aller Felder
 
-. Daten werden vollständig und richtig eingegeben ohne inkonsistente Daten.
+Daten werden vollständig und richtig eingegeben ohne inkonsistente Daten.
+Eingegebene Daten:
+ID: I2
+Titel: Teamverwaltung
+Beschreibung: Erstellung der Teams für SE2
+Ansprechpartner: Herr Müller HTW Dresden
 
 :imageTitle: TC1 Erfolgreich
 :imageFile: 1_ErfolgreicherCASE.png
@@ -45,6 +50,13 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
 === 2. Testablauf: Fehlerhafte Beispieleingabe mit erneut gewählter ID "E1"
 
+Basierend auf dem erfolgreichen Speichern des Testablaufs 01 wird versucht ein neues Projekt mit derselben ID anzulegen.
+
+ID: I2
+Titel: Geo-Experiment
+Beschreibung: Dokumentierung von Baumfarben
+Ansprechpartner: Herr Baumgartner
+
 :imageTitle: TC2 Erfolgreich
 :imageFile: 2_ID_Vergabe_TC.png
 .{imageTitle}
@@ -57,6 +69,13 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
 ===  3. Testablauf: Fehlerhafte Beispieleingabe mit leerem Pflichtfeld "Ansprechpartner"
 
+Ein Pflichtfeld wird freigelassen. Diese Fehlermeldung wird für die freigelassenen Pflichtfelder ID, Titel und Ansprechpartner angezeigt. Die Visualisierung bezieht sich nur auf das freigelassene Feld Ansprechpartner und steht nicht im Bezug zu den Testabläufen 01 und 02.
+
+ID: I2
+Titel: Teamverwaltung
+Beschreibung: Erstellung der Teams für SE1
+Anprechpartner:
+
 :imageTitle: TC3 Fehlermeldung
 :imageFile: 3_Pflichtfeldnichtausgefüllt_TC.png
 .{imageTitle}
@@ -66,6 +85,20 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 :imageFile: 3.1_Fehlermeldung_TC.png
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
+
+Leeres Pflichtfeld ID
+
+ID:
+Titel: Teamverwaltung
+Beschreibung: Erstellung der Teams für SE1
+Ansprechpartner: Herr Müller HTW Dresden
+
+Leere Pflichtfeld Titel
+
+ID: I2
+Titel:
+Beschreibung: Erstellung der Teams für SE1
+Ansprechpartner: Herr Müller HTW Dresden
 
 === Nachbedingungen
 
