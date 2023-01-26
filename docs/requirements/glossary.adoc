@@ -6,8 +6,7 @@ include::../_includes/default-attributes.inc.adoc[]
 
 
 == Einführung
-In diesem Dokument werden die wesentlichen Begriffe aus dem Anwendungsgebiet
-Webentwicklung und Frontend-Design des Projektes I08 Erstellung und Verwaltung von Gruppen für Software Engineering Projekte definiert und erläutert.
+In diesem Dokument werden die wesentlichen Begriffe aus dem Anwendungsgebiet (Fachdomäne) des Projektes I08 - Erstellung und Verwaltung von Gruppen für Software Engineering Projekte definiert und erläutert.
 Zur besseren Übersichtlichkeit sind Begriffe, Abkürzungen und Datendefinitionen gesondert
 aufgeführt.
 
@@ -15,45 +14,31 @@ aufgeführt.
 [%header]
 |===
 | Begriff | Definition und Erläuterung | Synonyme
-//| Kommissionierung | Bereitstellung von Waren aus einem Lager entsprechend eines Kundenauftrags | (keine)
-| Auftraggeber | • Auftraggeber ist Hr. Zirkelbach welche in mehreren Rollen agiert | Dozent, Coach, Ansprechpartner, Kunde
-|Dozent  | Nutzer welcher die Rechte besitze auf die Dozentenansicht zuzugreifen     | xx
-|Dozentenansicht  | spezieller Bereich in welcher der Dozent die Teamzuordnung und den Zustand der Webseite bearbeitet  | xx
-|Projektverwaltung  |  Beinhaltet verschiedene Funktionalitäten| xx
-|Stakeholder  | eine Interessengruppe deren Anforderungen und Erwartungen mithilfe des Projektes so gut wie möglich zufriedengestellt wird  | Dozent, Student
-|Student  | Hauptnutzer welcher im Rahmen der Weiterführung des Projektes eine schnellere   | xx
-|Backup  | • Sicherheitskopie aller Dateien und Daten welche bei unvorhergesehenen Ereignissen zum Einsatz kommen  | xx
-|Zuordnungsalgorithmus  | • Algorithmus welcher durch Berücksichtigung des Fragebogens ausgewogene Teams in Bezug auf Fähigkeiten und Teamgröße erstellt  | xx
-|Backup  | xx  | xx
-|Teams generieren  | • es sollen Teams entstehen welche etwa gleichgroß sind sowie ähnliche Fähigkeiten haben
-
-• Anzahl an Teams ist durch die gewünschte Teamgröße abhängig | xx
-|Teams zurücksetzen  | • Teamzusammenstellung soll gelöscht werden um neue Teams erstellen zu können | xx
-|Fragebogen  | • Fragen zu Wünschen und Fähigkeiten der einzelnen Studenten um durch den Zuordnungsalgorithmus ausgeglichene Teams zu erstellen | xx
-|Projektteam  | • Team welche aus Studenten mit unterschiedlichen Fähigkeiten eine Aufgabe bearbeitet | xx
-|Projekt  | • Aufgabe welche von einem ausgewogenen Team bearbeitet wird | xx
-|Open Unified Process  
-| • Vorgehensmodell
-
-• siehe Open Unified Process
-
-• OpenUP is a lean Unified Process
-that applies iterative and
-incremental approaches within a
-structured lifecycle  | • Vorgehendmodell
-• OpenUP
-
-|Gendern  | • Berücksichtigt die Verwendung von Sprache um die Gleichstellung von Geschlechtern und Vielfalt  | xx
-|Pflichtfelder  |  xx | xx
-|Frontend | • Benutzeroberfläche einer Anwendung
-
-• ermöglicht die Interaktion mit dem Benutzer | xx
-|Backend | • verarbeitet die Geschäftslogik, verwaltet Daten und steuert die Kommunikation mit anderen Systemen
-
-• wird nicht vom Benutzer wahrgenommen
-|Framework  | • vorgefertigte Struktur für die Entwicklung von Software
-
-• erleichtert die Arbeit und fördert die Wiederverwendbarkeit von Code | xx
+| Algorithmus | Code, welcher durch Berücksichtigung des Fragebogens ausgewogene Teams in Bezug auf Fähigkeiten und Teamgröße erstellt. | Zuordnungsalorithmus
+| Backup | Sicherheitskopie aller Dateien und Daten. | xx
+| Backend | Verarbeitet die Geschäftslogik, verwaltet Daten und steuert die Kommunikation mit anderen Systemen. | Code, Software
+| Bearbeitungsstand | Bisheriger Status/ Inhalt des jeweiligen Produkts (Projekt, Fragebogen) | xx
+| Dozent | Nutzer, welcher auf die Projektübersicht zugreift, sowie die Projekte und die Studierenden verwaltet. | Professor
+| Dozenten-Login | Zugang/ Zugangsdaten für die Dozenten, welcher vorher im Code bereits hinterlegt ist, bestehend aus Benutzname und Passwort. | xx
+| Fragebogen | Zusammenstellung von Fragen zu Präferenzen, Fähigkeiten und Vorerfahrungen der Studenten mit diversen Antwortmöglichkeiten, welcher im Code statisch festgelegt wird. | Fragenkatalog
+| Frontend | Benutzeroberfläche des Online-Tools für die Nutzer. Ermöglicht die Interaktion des Nutzers mit dem Backend. | Webseite/ Website, Oberfläche
+| Framework  | Vorgefertigte Struktur für die Entwicklung von Software. Erleichtert die Arbeit und fördert die Wiederverwendbarkeit des Codes. | xx
+| Fähigkeiten | Relevante Information über die Fähigkeiten im Kontext "Informatik" der Studenten im Fragebogen | xx
+| Gültigkeitsregeln | Bezieht sich auf die Pflichtfelder. Festlegung von unzulässigen Zeichen, Dateitypen und Eingaben. | xx
+| HTW-Login | Zugang/ Zugangsdaten eines jeden einzelnen Studierenden, bestehend aus s-Nummer und Passwort. | HTW-Logindaten, HTWD-Login, HTWD-Logindaten
+| Nutzer | Alle Akteure, die das Online-Tool aktiv nutzen/ beeinflussen. | xx
+| Online-Tool | Zu erstellendes Produkt/ Kernelement dieses Projekts, das tatsächlich von den Nutzern verwendet wird. | Webanwendung, Anwendung, Software-Lösung, Lösung
+| Projekt | Problemstellung/ Aufgabe mit Wünschen und Anforderungen, die von einem Auftraggeber gestellt wird und von einem Team bearbeitet werden soll. | xx
+| Projektübersicht | Bereich, der die erstellten Projekte anzeigt | xx
+| Projektansicht | Ansicht auf die erstellten Projekte, welche von der Projektübersicht ausgegeben wird, für die Studierenden.| xx
+| Projektlabel | Begriff, zur schnellen Erfassung der Aufgabe des jeweiligen Projekts (intern/extern, Neuentwicklung/Weiterentwicklung) | Label
+| Projekt-ID | Nummerierung der Projekte in Kurzform | ID
+| Präferenzen | Wünsche des Studierenden bezüglich der Auswahl der Projekte im Fragebogen. | xx
+| Pflichtfeld | Für die Vollständigkeit des jeweiligen Produkts (z.B. Projekt) notwendige Eingabe. | xx
+| Studierender | Nutzer bzw. ein Teilnehmer des Moduls SE I/ RE, der einem Projekt/ Team zugeordnet werden möchte und einen Fragebogen ausfüllt. Besitzt individuellen Namen und s-Nummer. | Student, Nutzer
+| Team | Zusammenschluss von Studierenden, bestehend aus einem Leiter und mehreren Mitgliedern, welcher einem Projekt zugeordnet ist. | Projektteam, Gruppe
+| Teamgenerierung | Prozess, der Erstellung von Teams durch den Zuordnungsalgorithmus.| Teamzusammenstellung
+| Vorerfahrungen | Angaben von vorherigen Ausbildungen oder andere (zB. Fachinformatikerausbildung) der Studierenden im Fragebogen | Qualifaktionen
 |===
 
 
