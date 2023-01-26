@@ -54,8 +54,8 @@ Bild einfügen
 | Architecture Notebook wurde nicht überprüft
 | rot
 | 
-* Das Architecture Notebook weist Lücken und Formatierungsprobleme auf.
-* Dies behindert die Überprüfung der Datei lediglich auf Rechtschreibung und Grammatik.
+* Das Architecture Notebook weist Lücken und Formatierungsprobleme auf. Die Formatierungsprobleme entstehen worwiegend durch das Einfügen des Dokumentes in Word. Hier muss verschärft darauf geachtet werden, dass das Dokument, direkt nach dem Einfügen in GitHub, nach Angaben von Asciidoc formatiert wird.
+* Die Probleme behindern die Überprüfung der Datei lediglich auf Rechtschreibung und Grammatik.
 * Es muss dringend auf Inhalt und Logik geprüft und überarbeitet werden. Diese Aufgabe wird den Architekten zugeteilt und muss bis zum 26.01.23 fertiggestellt werden, um eine Korrekturlesung zu gewährleisten.
 
 |===
