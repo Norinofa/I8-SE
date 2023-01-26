@@ -221,4 +221,4 @@ oder Thread ausgeführt wird.
 
 === C4 Modelle 
 
-src="https://github.com/Norinofa/I8-SE/edit/main/docs/architecture/image/C41.png">
+src="https://github.com/Norinofa/I8-SE/blob/main/docs/architecture/images/C41.png">
