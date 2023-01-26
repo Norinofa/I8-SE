@@ -5,7 +5,7 @@ include::../_includes/default-attributes.inc.adoc[]
 include::path/to/file.html[]
 
 // Platzhalter für weitere Dokumenten-Attribute
-
+<html>
 
 == Zweck
 Dieses Dokument beschreibt die Philosophie, Entscheidungen, Nebenbedingungen, Begründungen, wesentliche Elemente und andere übergreifende Aspekte des Systems, die Einfluss auf Entwurf und Implementierung haben. Die für die Architektur getroffenen Entscheidungen und Ihre Hintergründe werden hier festgehalten.
@@ -224,3 +224,4 @@ oder Thread ausgeführt wird.
 === C4 Modelle 
 <img 
 src="https://github.com/Norinofa/I8-SE/blob/main/docs/architecture/images/C41.png">
+</html>
