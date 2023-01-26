@@ -84,18 +84,19 @@ Bild einfügen
 //*Beurteilung im Vergleich zu den Zielen*
 //Dokumentieren Sie, ob die angestrebten Ziele des Iterationsplans erreicht wurden.
 
-*Beurteilung im Vergleich zu den Bewertungskriterien
-//Document whether you met the evaluation criteria as specified in the Iteration Plan.
-//Geben Sie an, ob Sie die o.g. Bewertungskriterien erfüllt haben. Das kann z.B. folgende Informationen enthalten: “Demo for Department X was well-received, with some concerns raised around usability,” or “495 test cases were automated with a 98% pass rate. 9 test cases were deferred because the corresponding Work Items were postponed.”
-
 * _Ziel 1_ wurde erreicht.
 * _Ziel 2_ wurde erreicht.
 * _Ziel 3_ wurde erreicht. Der Auftraggeber hat das Use Case Model für den derzeitigen Stand als richtig erachtet, jedoch angemerkt, dass das sich die Prisosierung der Use Cases im Verlauf des Projektes ändern kann.
 * _Ziel 4_ wurde erreicht. Die Iterationspläne beinhalten alle wesentlichen Aspekte, die in der Iterationsphase vorgefallen sind.
 * _Ziel 5_ wurde erreicht. Der Projektplan spiegelt die genaue Arbeitsweise des Teams wieder und wurde auf auf Vollständigkeit und Richtigkeit geprüft. 
-* _Ziel 6_ wurde größtenteils erreicht. Durch die verspätete Kontrollierung auf Sinnhaftigkeit und wenig Kommunikation mit dem Auftraggeber unserer Seits, besteht die Chance auf mangelnde Kenntnisse und demzufolge fehlerhafte Vervollständigung des Architecture Notebooks.
+* _Ziel 6_ wurde größtenteils erreicht. Durch die verspätete Kontrollierung auf Sinnhaftigkeit und wenig Kommunikation mit dem Auftraggeber unsererseits, besteht die Chance auf mangelnde Kenntnisse und demzufolge fehlerhafte Vervollständigung des Architecture Notebooks.
 * _Ziel 7_ wurde erreicht. Die Test Cases wurden mit einer visualisierten Darstellung hinterlegt, die nur zu Veranschaulichung dienen soll, jedoch noch keinen Endzustand darstellt.
 * _Ziel 8_ wurde größtenteils erreicht. Aus unserer Sicht wurden die Dokumente als vollständig, sinnvoll und grammtikalisch sowie von der Rechtschreibung als richtig angesehen. Trotzdessen bestehen Zweifel am Architecture Note, wie bereits angemerkt.
+
+*Beurteilung im Vergleich zu den Bewertungskriterien*
+//Document whether you met the evaluation criteria as specified in the Iteration Plan.
+//Geben Sie an, ob Sie die o.g. Bewertungskriterien erfüllt haben. Das kann z.B. folgende Informationen enthalten: “Demo for Department X was well-received, with some concerns raised around usability,” or “495 test cases were automated with a 98% pass rate. 9 test cases were deferred because the corresponding Work Items were postponed.”
+
 
 //* Geplante vs. erledigte Aufgaben
 //Zusammenfassung, ob alle für die Iteration geplanten Aufgaben bearbeitet wurden und welche Aufgaben verschoben oder hinzugefügt wurden.
