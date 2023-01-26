@@ -3,118 +3,108 @@ Vorname Nachname <email@domain.org>; Vorname2 Nachname2 <email2@domain.org>; Vor
 {localdatetime}
 include::../_includes/default-attributes.inc.adoc[]
 // Platzhalter für weitere Dokumenten-Attribute
-
+:toclevels: 20
 
 == Allgemeine Informationen
 
 Die ausgewiesenen Test Cases überprüfen die Funktionalität des Online Tools und stellen einen reibungslosen Ablauf sicher.
 
-== Test Cases
-
-Vorbedingungen:
+=== Vorbedingungen
 
 Die Nutzer müssen über das HTW Netzwerk im Online Tool angemeldet sein und eine stabile Internetverbindung besitzen.
 
-=== Test Case 01- Projekt erstellen
+== Test Case 01 - Projekt erstellen
 
-
-== Vorbedingung
+=== Vorbedingung
 
 . Als Dozent eingeloggt
-. Öffnen des Menüpunktes 'Projektverwaltung'
-. Öffnen des Unterpunktes 'Projekt erstellen'
+. Öffnen des Menüpunktes "Projektverwaltung"
+. Öffnen des Unterpunktes "Projekt erstellen"
 . Eingabeseite zur Erstellung eines Projektes ist geöffnet
 
-== Testablauf
+////
+=== Testablauf
 
-. Daten werden vollständig und richtig eingegeben ohne inkonsistente Daten.
 . Daten werden vollständig eingegeben, jedoch wurde die ID mehrfach versucht zu vergeben
 . Pflichtfelder werden ausgelassen 
+////
 
-== Eingabedaten
+=== Testablauf 01: Fehlerfreie Beispieleingabe mit korrekter Befüllung aller Felder
 
-*1. Fehlerfreie Beispieleingabe mit korrekter Befüllung aller Felder*
+. Daten werden vollständig und richtig eingegeben ohne inkonsistente Daten.
 
 :imageTitle: TC1 Erfolgreich
-
 :imageFile: 1_ErfolgreicherCASE.png
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
 :imageTitle: TC1.1 Erfolgreich
-
 :imageFile: 1.1_ErfolgreicheAbfrage_TC.png
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
-*2. Fehlerhafte Beispieleingabe mit erneut gewählter ID "E1"*
+=== 2. Testablauf: Fehlerhafte Beispieleingabe mit erneut gewählter ID "E1"
 
 :imageTitle: TC2 Erfolgreich
-
 :imageFile: 2_ID_Vergabe_TC.png
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
 :imageTitle: TC2 Erfolgreich
-
 :imageFile: 2.1_Fehlermeldung_ID_TC.png
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
-*3. Fehlerhafte Beispieleingabe mit leerem Pflichtfeld "Ansprechpartner"*
+===  3. Testablauf: Fehlerhafte Beispieleingabe mit leerem Pflichtfeld "Ansprechpartner"
 
 :imageTitle: TC3 Fehlermeldung
-
 :imageFile: 3_Pflichtfeldnichtausgefüllt_TC.png
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
 :imageTitle: TC3.1 Fehlermeldung
-
 :imageFile: 3.1_Fehlermeldung_TC.png
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
-== Nachbedingungen
+=== Nachbedingungen
 
-*1.*
+*Testablauf 1: Fehlerfreie Beispieleingabe mit korrekter Befüllung aller Felder*
 
 * Meldung über erfolgreiche Speicherung
 * Daten werden in der Datenbank erfasst
 
 
-*2.*
+*Testablauf 2: Fehlerhafte Beispieleingabe mit erneut gewählter ID "E1"*
 
 * Pop-Up mit Fehlermeldung wird angezeigt
 * Daten werden nicht gespeichert
 * Wahl einer neuen ID, die nicht bereits existiert
 
 
-*3.*
+*Testablauf 3: Fehlerhafte Beispieleingabe mit leerem Pflichtfeld "Ansprechpartner"*
 
 * Fehlermeldung nahe des frei gelassenen Pflichtfeldes wird angezeigt
 * Daten wurden nicht gespeichert
 * Pflichtfeld ausfüllen, bevor Speicherung erfolgen kann
 
 
-=== Test Case 02- Teams generieren
+== Test Case 02 - Teams generieren
 
-== Vorbedingung
+=== Vorbedingung
 
 .	Als Dozent eingeloggt
-. Öffnen des Menüpunktes ‘Teamverwaltung‘
-.	Öffnen des Unterpunktes ‘Teams generieren‘
+. Öffnen des Menüpunktes "Teamverwaltung"
+.	Öffnen des Unterpunktes "Teams generieren"
 .	Anzeige des Eingabefeldes zur Bestimmung der Teamgröße 
-
-== Testablauf
-
+////
+=== Testablauf
 .	Daten sind richtig eingegeben wurden (nur Zahlen)
 .	Daten sind falsch eingegeben wurden (alles außer Zahlen)
 .	Keine Daten werden eingegeben
+////
 
-== Eingabedaten
-
-*1.	Richtige Beispieleingabe mit 7 zu generierenden Teams*
+=== Testablauf 1: Richtige Beispieleingabe mit 7 zu generierenden Teams
 
 :imageTitle: TC2.1 richtige Generierung
 
@@ -122,8 +112,7 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
-
-*2. Falsche Beispieleingabe mit Belegung des Feldes durch Buchstabe "F"*
+=== Testablauf 2: Falsche Beispieleingabe mit Belegung des Feldes durch Buchstabe "F"
 
 :imageTitle: TC2.2 falsche Eingabe
 
@@ -131,7 +120,7 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
-*3.	Keine Beispieleingabe, da Felder freigelassen werden*
+=== Testablauf 3: Keine Beispieleingabe, da Felder freigelassen werden
 
 :imageTitle: TC2.4 falsche Eingabe
 
@@ -139,19 +128,19 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
-== Nachbedingungen
+=== Nachbedingungen
 
-1. 
+*Testfablauf 1: Richtige Beispieleingabe mit 7 zu generierenden Teams*
 
 * Teams werden mit gewünschter Mitgliederanzahl generiert
 
-2. 
+*Testablauf 2: Falsche Beispieleingabe mit Belegung des Feldes durch Buchstabe "F"*
 
 * Fehlermeldung erscheint
 * Keine Generieurung der Teams
 * Eingabe mit richtigen Daten wiederholen
 
-3.
+*Testablauf 3: Keine Beispieleingabe, da Felder freigelassen werden*
 
 * Fehlermeldung erscheint
 * Teamsgenerieung nach Eingabe richtiger Daten
