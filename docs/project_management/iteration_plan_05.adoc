@@ -81,7 +81,7 @@ Bild einfügen
 | Projektstatus	| gelb
 |===
 
-//*Beurteilung im Vergleich zu den Zielen*
+*Beurteilung im Vergleich zu den Zielen*
 //Dokumentieren Sie, ob die angestrebten Ziele des Iterationsplans erreicht wurden.
 
 * _Ziel 1_ wurde erreicht.
@@ -89,18 +89,23 @@ Bild einfügen
 * _Ziel 3_ wurde erreicht. Der Auftraggeber hat das Use Case Model für den derzeitigen Stand als richtig erachtet, jedoch angemerkt, dass das sich die Prisosierung der Use Cases im Verlauf des Projektes ändern kann.
 * _Ziel 4_ wurde erreicht. Die Iterationspläne beinhalten alle wesentlichen Aspekte, die in der Iterationsphase vorgefallen sind.
 * _Ziel 5_ wurde erreicht. Der Projektplan spiegelt die genaue Arbeitsweise des Teams wieder und wurde auf auf Vollständigkeit und Richtigkeit geprüft. 
-* _Ziel 6_ wurde größtenteils erreicht. Durch die verspätete Kontrollierung auf Sinnhaftigkeit und wenig Kommunikation mit dem Auftraggeber unsererseits, besteht die Chance auf mangelnde Kenntnisse und demzufolge fehlerhafte Vervollständigung des Architecture Notebooks.
-* _Ziel 7_ wurde erreicht. Die Test Cases wurden mit einer visualisierten Darstellung hinterlegt, die nur zu Veranschaulichung dienen soll, jedoch noch keinen Endzustand darstellt.
-* _Ziel 8_ wurde größtenteils erreicht. Aus unserer Sicht wurden die Dokumente als vollständig, sinnvoll und grammtikalisch sowie von der Rechtschreibung als richtig angesehen. Trotzdessen bestehen Zweifel am Architecture Note, wie bereits angemerkt.
+* _Ziel 6_ wurde größtenteils erreicht.
+* _Ziel 7_ wurde erreicht.
+* _Ziel 8_ wurde größtenteils erreicht. Aus unserer Sicht wurden die Dokumente als vollständig, sinnvoll und grammatikalisch sowie von der Rechtschreibung als richtig angesehen. Trotzdessen bestehen Zweifel am Architecture Note, wie bereits angemerkt.
 
 *Beurteilung im Vergleich zu den Bewertungskriterien*
 //Document whether you met the evaluation criteria as specified in the Iteration Plan.
 //Geben Sie an, ob Sie die o.g. Bewertungskriterien erfüllt haben. Das kann z.B. folgende Informationen enthalten: “Demo for Department X was well-received, with some concerns raised around usability,” or “495 test cases were automated with a 98% pass rate. 9 test cases were deferred because the corresponding Work Items were postponed.”
 
+* _Ziel 3:_ Der Auftraggeber hat das Use Case Model für den derzeitigen Stand als richtig erachtet, jedoch angemerkt, dass das sich die Prisosierung der Use Cases im Verlauf des Projektes ändern kann.
+* _Ziel 6:_ Durch die verspätete Kontrollierung auf Sinnhaftigkeit und wenig Kommunikation mit dem Auftraggeber unsererseits, besteht die Chance auf mangelnde Kenntnisse und demzufolge fehlerhafte Vervollständigung des Architecture Notebooks.
+* _Ziel 7:_  Die Test Cases wurden zusätzlich mit einer visualisierten Darstellung hinterlegt, die nur zu Veranschaulichung dienen soll, jedoch noch keinen Endzustand darstellt. Der Caoch hat diese spontan am 26.01.23 überprüft und die Darstellung akzeptiert, als auch Verbesserungen vorgeschlage, die im Nachhinein brücksichtigt wurden.
 
-//* Geplante vs. erledigte Aufgaben
+
+//* Geplante vs. erledigte Aufgaben*
 //Zusammenfassung, ob alle für die Iteration geplanten Aufgaben bearbeitet wurden und welche Aufgaben verschoben oder hinzugefügt wurden.
 
 
-* Andere Belange und Abweichungen
+*Andere Belange und Abweichungen*
 //Führen Sie weitere Themen auf, für die eine Bewertung durchgeführt wurde. Beispiele sind Finanzen, Zeitabweichungen oder Feedback von Stakeholdern, die nicht bereits an anderer Stelle dokumentiert wurden.
+* Bewertung der Arbeitsweise: Auf das gesamte Projekt bezogen wurde an einigen Stellen lückenhaft gearbeitet, sodass extreme Zeitabweichungen bei der Korrektur der Belegarbeit entstanden sind. Letzte Fragen konnten kurzfristig mit dem Coach abgeklärt werden. Dies ist keine dauerhafte Arbeitsweise und muss in den nächsten Iteration Verbesserungen aufzeigen. Dafür muss jedes Teammitglied den OpenUP nochmal verinnerlichen und bei Fragen rechtzeitig den Coach, Auftraggeber oder externe Hilfe um Antworten bitten. 
