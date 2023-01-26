@@ -24,7 +24,6 @@ aufgeführt.
 |Student  | Hauptnutzer welcher im Rahmen der Weiterführung des Projektes eine schnellere   | xx
 |Backup  | • Sicherheitskopie aller Dateien und Daten welche im falle von unvorhergesehenen Ereignissen zum Einsatz kommen  | xx
 |Zuordnungsalgorithmus  | • Algorithmus welcher durch Berücksichtigung des Fragebogens ausgewogene Teams in Bezug auf Fähigkeiten und Teamgröße erstellt  | xx
-|Backup  | xx  | xx
 |Teams generieren  | • es sollen Teams entstehen welche etwa gleichgroß sind sowie ähnliche Fähigkeiten haben
 
 • Anzahl an Teams ist durch die gewünschte Teamgröße abhängig | xx
