@@ -43,9 +43,17 @@ incremental approaches within a
 structured lifecycle  | • Vorgehendmodell
 • OpenUP
 
-|Gendern  | Berücksichtigt die Verwendung von Sprache um die Gleichstellung von Geschlechtern und Vielfalt  | xx
+|Gendern  | • Berücksichtigt die Verwendung von Sprache um die Gleichstellung von Geschlechtern und Vielfalt  | xx
 |Pflichtfelder  |  xx | xx
-|Framework  | xx  | xx
+|Frontend | • Benutzeroberfläche einer Anwendung
+
+• ermöglicht die Interaktion mit dem Benutzer | xx
+|Backend | • verarbeitet die Geschäftslogik, verwaltet Daten und steuert die Kommunikation mit anderen Systemen
+
+• wird nicht vom Benutzer wahrgenommen
+|Framework  | • vorgefertigte Struktur für die Entwicklung von Software
+
+• erleichtert die Arbeit und fördert die Wiederverwendbarkeit von Code | xx
 |===
 
 
@@ -56,9 +64,8 @@ structured lifecycle  | • Vorgehendmodell
 //| UP | Unified Process | Vorgehensmodell für die Softwareentwicklung
 | UC | Use Case | funktionale Anforderung eines Systems
 | OpenUP| Open Unified Process | siehe Term Open Unified Process
-| xx | xx | xx
-| xx | xx | xx
-| xx | xx | xx
+| VPN | Virtual Private Network | ermöglicht sichere und private Verbindung zu einem entferneten Netzwerk
+| LDAP | Lightweight Directory Access Protocol | Netzwerkprotokoll für die Verwaltung von Verzeichnissen sowie die Abfrage von Informationen
 |===
 
 == Verzeichnis der Datenstrukturen
