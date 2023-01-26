@@ -36,7 +36,8 @@ include::../_includes/default-attributes.inc.adoc[]
 
 Die in dieser Iteration geplanten/ fertiggestellten Aufgaben sind als Issues in unserem https://github.com/users/Norinofa/projects/1/views/13[GitHub Project] dargestellt.
 
-Bild hier einfügen
+.Iteration 4 - GitHub Project (Issues)
+image::Projects Iteration 4.JPG[]
 
 == Probleme
 //Optional: Führen Sie alle Probleme auf, die in dieser Iteration adressiert werden sollen. Aktualisieren Sie den Status, wenn neue Probleme bei den täglichen / regelmäßigen Abstimmungen berichtet werden.
@@ -103,3 +104,11 @@ Bild hier einfügen
 //Geben Sie an, ob Sie die o.g. Bewertungskriterien erfüllt haben. Das kann z.B. folgende Informationen enthalten: “Demo for Department X was well-received, with some concerns raised around usability,” or “495 test cases were automated with a 98% pass rate. 9 test cases were deferred because the corresponding Work Items were postponed.”
 
 //Führen Sie weitere Themen auf, für die eine Bewertung durchgeführt wurde. Beispiele sind Finanzen, Zeitabweichungen oder Feedback von Stakeholdern, die nicht bereits an anderer Stelle dokumentiert wurden.
+
+
+== Essence Navigator
+
+Das Team hat folgenden Stand, gemessen anhand der Alpha States im Essence Navigator, in dieser Iteration erreicht.
+
+.Iteration 4 - Essence Navigator
+image::Essence4.PNG[]
