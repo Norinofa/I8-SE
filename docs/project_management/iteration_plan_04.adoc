@@ -63,6 +63,7 @@ image::Projects Iteration 4.JPG[]
 * Wireframes, Use Case Model, Use Cases wurden vom Auftraggeber akzeptiert und als gut empfunden.
 * Glossar, Domänenmodell, Architecture Notebook wurden so ausgearbeitet, dass nur noch Feinheiten fehlen.
 * Eine Implementierung wurde vorgenommen und soweit ausgearbeitet, dass sie präsentiert werden kann.
+* Es soll eine Übersicht über die zu erstellenden Test Cases vorhanden sein.
 
 
 == Assessment
@@ -90,15 +91,16 @@ image::Projects Iteration 4.JPG[]
 *Verschobene und hinzugefügte Aufgaben*
 
 * _Ziel 3 und 4:_ Das Domänenmodell und das Glosssar wurden zur Fertigstellung in die Iteration 05 verschoben.
-* _Ziel 7:_ Die Test Cases wurden verschoben und werden in der Iteration 05 angefangen und zu Ende gebracht.
+* _Ziel 7:_ Die Test Cases wurden verschoben, da erstmal die Verbsserungswünsche des Auftraggebers bezüglich der Use Cases in Angriff genommen wurde. Daher werden diese verschoben und in der Iteration 05 angefangen und zu Ende gebracht.
 //Zusammenfassung, ob alle für die Iteration geplanten Aufgaben bearbeitet wurden und welche Aufgaben verschoben oder hinzugefügt wurden.
 
 *Beurteilung im Vergleich zu den Bewertungskriterien*
 
 * _Ziel 1:_ Der Prototyp wurde in der Präsentation am 16.01.23 vorgestellt. Die Korrektheit des Prototypen an sich wurde umkommentiert gelassen, jedoch wurde die Neuimplementierung, statt der Weiterentwicklung, thematisiert. Es wurde klargestellt, dass die uns gegebene Webseite nicht funktioniert und daher auf die Notlösung zurückgegriffen wurde. 
 
-* _Ziel 3 und 4:_ wurden nicht erreicht, da die Ausarbeitung nur zur 10% erfolgte. Sie wurden bisher nur sporadisch begonnen und es bedarf nooch einem erhöhten Arbeitsaufdaher entsprechen sie nicht den Bewertungskriterien
-* _Ziel 6:_ Wireframes, Use Case Model und Use Cases wurden vom Auftraggeber als ausbaufähig wahrgenommen und die Verbesserungswünsche wurden im restlichen Verlauf der Iteration 04 bestmöglich umgesetzt. Diese werden dem Auftraggeber in Iterion 05 präsentiert.
+* _Ziel 3 und 4:_ wurden nicht erreicht, da die Ausarbeitung nur zur 10% erfolgte. Sie wurden bisher nur sporadisch begonnen, da die Gruppe das Glossar vernachlässigt hat. 
+* _Ziel 6:_ Wireframes, Use Case Model und Use Cases wurden vom Auftraggeber als ausbaufähig wahrgenommen. Die Prisorisierung des Use Cases 'Projekte verwalten' wurde im Meeting vom Auftraggeber als sehr hoch eingeschätzt und soll stärker vertieft werden.  Die Verbesserungswünsche wurden im restlichen Verlauf der Iteration 04 bestmöglich umgesetzt. Diese werden dem Auftraggeber in Iteration 05 präsentiert.
+
 
 //Document whether you met the evaluation criteria as specified in the Iteration Plan.
 //Geben Sie an, ob Sie die o.g. Bewertungskriterien erfüllt haben. Das kann z.B. folgende Informationen enthalten: “Demo for Department X was well-received, with some concerns raised around usability,” or “495 test cases were automated with a 98% pass rate. 9 test cases were deferred because the corresponding Work Items were postponed.”
