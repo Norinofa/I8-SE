@@ -66,7 +66,7 @@ Bild einfügen
 
 * Das Use Case Model wurde vom Auftraggeber als sinnvoll erachtet.
 * Alle abzugebenen Dokumente sind vollständig, sinnvoll und grammatikalisch, sowie von der Rechtschreibung korrekt.
-* Die gewählten Test Cases sind ausgearbeitet und mit einer Visualisierung hinterlegt.
+* Die Test Cases sind vollständig ausgearbeitet.
 * Es wurden 2 Iterationspläne zur Abgabe gewählt und zur Abgabe vorbereitet.
 
 == Assessment
