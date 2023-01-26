@@ -12,68 +12,37 @@ In diesem Dokument werden die systemweiten Anforderungen für das Projekt Erstel
 * Qualitätsanforderungen für Benutzbarkeit, Zuverlässigkeit, Effizienz und Wartbarkeit (URPS) sowie
 * zusätzliche Anforderungen (+) für technische, rechtliche, organisatorische Randbedingungen
 
-NOTE: Die funktionalen Anforderungen, die sich aus der Interaktion von Nutzern mit dem System ergeben, sind als Use Cases in einem separaten Dokument festgehalten. [hier ggf. Verweis einfügen]
+NOTE: Die funktionalen Anforderungen, die sich aus der Interaktion von Nutzern mit dem System ergeben, sind als Use Cases in einem separaten Dokument festgehalten. [<<#use-case_model.adoc, Use Case Model>>]
 
 
 == Systemweite funktionale Anforderungen
 //Angabe von system-weiten funktionalen Anforderungen, die nicht als Use Cases ausgedrückt werden können. Beispiele sind Drucken, Berichte, Authentifizierung, Änderungsverfolgung (Auditing), zeitgesteuerte Aktivitäten (Scheduling), Sicherheit / Maßnahmen zum Datenschutz
 
-*SWFA-1:* Der Dozent soll die Möglichkeit haben manuell erstellte Backups aus einer Cloud auf der Website neu zu laden
+*SWFA-1:* Der Dozent soll die Möglichkeit haben manuell erstellte Backups aus einer Datenbank auf der Website neu zu laden. Zur Überprüfung soll selbst ein Backup erstellt und geladen werden können.
 
-Zur Überprüfung soll selbst ein Backup erstellt werden und geladen werden.
+*SWFA-2:* Projekte sollen eine ID zugeordnet bekommen, die konsequent auf der Webseite erkennbar ist.
 
-*SWFA-2:* Projekte sollen innerhalb der Webseite eine ID-Nr. besitzen die eineindeutig auf der Webseite zuordnerbar ist.
+*SWFA-3:* Das System soll die Möglichkeit besitzen alle Daten der Projektthemen, Studenten, Antworten des Fragebogens, Teams, Einstellungen (Sichtbarkeiten), auch als Backup, zu löschen.
 
-Zur Überprüfung
+*SWFA-4:* Die Webseite soll eine Fehlermeldung anzeigen, falls unvollständige oder inkonsistente Daten eingegeben werden.
 
-*SWFA-3:* Das System soll die Möglichkeit besitzen alle Daten der Projektthemen, Studenten, Umfragen, Teams, Einstellungen (Sichtbarkeiten) als auch Backups zu löschen
-
-*SWFA-4:* Die Webseite soll Fehlermeldung anzeigen, falls unvollständige oder inkonsistente Daten eingegeben wurden.
-
-
-*SWFA-5:* Der Dozent soll die Möglichkeit haben zu bestimmen wieviele Projektgruppen es geben soll. Daraufhin soll bei wenigen Projekten gefragte doppelt verwendet werden und bei zuvielen Projekten sollen nur die gefragtesten verwendet werden
-
-//* Fragebogen nicht zu beachten
-//* zusätzliche Frage wegen Informatikausbildung (Fragebogen)
-
-
-
-
-
-//das hier und Reliability nochmals anschauen
-//Testcases noch zu bearbeiten
+*SWFA-5:* Der Dozent soll bestimmen können, wieviele Projektgruppen zugeordnet werden sollen. Bei wenigen Projekten, werden den beliebtesten Projekten mehrere Teams zugeordnet und bei zu vielen Projekten sollen nur die Beliebtesten beachtet werden.
 
 == Qualitätsanforderungen für das Gesamtsystem
 //Qualitätsanforderungen repräsentieren das "URPS" im FURPS+ zu Klassifikation von Anforderungen
 
-
-
 === Benutzbarkeit (Usability)
 //Beschreiben Sie Anforderungen für Eigenschaften wie einfache Bedienung, einfaches Erlernen, Standards für die Benutzerfreundlichkeit, Lokalisierung (landesspezifische Anpassungen von Sprache, Datumsformaten, Währungen usw.)
 
-*NFAU-1:* Die Benutzeroberfläche muss möglichst intuitiv, simple, eindeutig und Angemessene Gestaltung von Schrift und Farbe besitzen
+*NFAU-1:* Die Benutzeroberfläche muss möglichst intuitiv, simpel, eindeutig und eine angemessene Gestaltung von Schrift und Farbe besitzen.
 
-*NFAU-1.1:* Das Design der Website sollte für den Studenten möglichst Intuitiv sein und gewünschte Interaktionen oder Inhalte sollen schnell zu finden  sein.
-	
-Zur Überprüfung
+*NFAU-1.1:* Das Design der Webseite sollte für den Studenten möglichst intuitiv sein und gewünschte Interaktionen oder Inhalte sollen schnell zu finden sein.
 
-*NFAU-1.2:* Einfache Gestaltung der Layouts mit weiterverlinkungen innerhalb der Webseite, Damit eine einfache Navigation innerhalb der Website für den Benutzer gewährleistet wird. 
+*NFAU-1.2:* Einfache Gestaltung der Layouts mit Weiterverlinkungen innerhalb der Webseite, damit eine einfache Navigation innerhalb der Webseite für den Benutzer gewährleistet wird.
 
-Zur Überprüfung..
+*NFAU-1.3:* Ein konsistentes Layout der Webseite und Begrifflichkeiten (Labels/ Begriffe) sollte gegeben sein. Angemessene Nutzung des textuellen Platzes, damit alle relevanten Informationen konzentriert sichtbar sind.
 
-*NFAU-1.3:* Ein Konsistentes Layout der Website sollte gegeben werden als auch für Begrifflichkeiten (Labels/Begriffe) und angemessene Nutzung des textuellen-Platzes.
-	Damit alles relevanten Informationen auf einer Webseite Sichtbar sind.
-
-Zur Überprüfung 
-
-*NFAU-1.4:* Die Farben und Schriftarten sollen auf die Website so angepasst werden, sodass sie gut Lesbar ist (Hell/Dunkel Format beachten)
-
-Zur Überprüfung
-
-
-*NFAU-2:* Gender gerechte Wortwahl um die Misskommunikation zu verhindern
-
-
+*NFAU-2:* Gendergerechte Wortwahl um Misskommunikation zu verhindern.
 
 === Zuverlässigkeit (Reliability)
 // Zuverlässigkeit beinhaltet die Fähigkeit des Produkts und/oder des Systems unter Stress und ungünstigen Bedingungen am laufen zu bleiben. Spezifizieren Sie Anforderungen für zuverlässige Akzeptanzstufen, und wie diese gemessen und evaluiert werden. Vorgeschlagene Themen sind Verfügbarkeit, Häufigkeit und Schwere von Fehlern und Wiederherstellbarkeit.
@@ -118,7 +87,7 @@ Eine gute Dokumentation soll gegeben sein, um das veröffentlichen und das Offli
 Zur Überprüfung wird ein Dozent gebeten ohne jegliche Hilfestellung, nur mit der gegebenen
 Dokumentation, die Webseite zu veröffentlichen und dann wieder offline zu stellen
 
-*NFAS-2:* Die Website sollte mit verschiedenen Webbrowsern kompatible sein:
+*NFAS-2:* Die Webseite sollte mit verschiedenen Webbrowsern kompatible sein:
 
 Website:
 * Edge
