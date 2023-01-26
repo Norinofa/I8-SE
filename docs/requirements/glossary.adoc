@@ -16,13 +16,13 @@ aufgeführt.
 |===
 | Begriff | Definition und Erläuterung | Synonyme
 //| Kommissionierung | Bereitstellung von Waren aus einem Lager entsprechend eines Kundenauftrags | (keine)
-| Auftraggeber | • Auftraggeber ist Hr. Zirkelbach welche in mehreren Rollen agiert | Dozent, Coach, Ansprechpartner, Kunde
+| Auftraggeber | • Auftraggeber ist Hr. Zirkelbach welche in mehreren Rollen agiert | Dozent, Coach, Ansprechpartner
 |Dozent  | Nutzer welcher die Rechte besitze auf die Dozentenansicht zuzugreifen     | xx
 |Dozentenansicht  | spezieller Bereich in welcher der Dozent die Teamzuordnung und den Zustand der Webseite bearbeitet  | xx
 |Projektverwaltung  |  Beinhaltet verschiedene Funktionalitäten| xx
 |Stakeholder  | eine Interessengruppe deren Anforderungen und Erwartungen mithilfe des Projektes so gut wie möglich zufriedengestellt wird  | Dozent, Student
 |Student  | Hauptnutzer welcher im Rahmen der Weiterführung des Projektes eine schnellere   | xx
-|Backup  | • Sicherheitskopie aller Dateien und Daten welche bei unvorhergesehenen Ereignissen zum Einsatz kommen  | xx
+|Backup  | • Sicherheitskopie aller Dateien und Daten welche im falle von unvorhergesehenen Ereignissen zum Einsatz kommen  | xx
 |Zuordnungsalgorithmus  | • Algorithmus welcher durch Berücksichtigung des Fragebogens ausgewogene Teams in Bezug auf Fähigkeiten und Teamgröße erstellt  | xx
 |Backup  | xx  | xx
 |Teams generieren  | • es sollen Teams entstehen welche etwa gleichgroß sind sowie ähnliche Fähigkeiten haben
@@ -44,7 +44,6 @@ structured lifecycle  | • Vorgehendmodell
 • OpenUP
 
 |Gendern  | • Berücksichtigt die Verwendung von Sprache um die Gleichstellung von Geschlechtern und Vielfalt  | xx
-|Pflichtfelder  |  xx | xx
 |Frontend | • Benutzeroberfläche einer Anwendung
 
 • ermöglicht die Interaktion mit dem Benutzer | xx
