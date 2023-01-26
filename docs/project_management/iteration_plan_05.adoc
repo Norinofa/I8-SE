@@ -108,4 +108,5 @@ Bild einfügen
 
 *Andere Belange und Abweichungen*
 //Führen Sie weitere Themen auf, für die eine Bewertung durchgeführt wurde. Beispiele sind Finanzen, Zeitabweichungen oder Feedback von Stakeholdern, die nicht bereits an anderer Stelle dokumentiert wurden.
+
 * Bewertung der Arbeitsweise: Auf das gesamte Projekt bezogen wurde an einigen Stellen lückenhaft gearbeitet, sodass extreme Zeitabweichungen bei der Korrektur der Belegarbeit entstanden sind. Letzte Fragen konnten kurzfristig mit dem Coach abgeklärt werden. Dies ist keine dauerhafte Arbeitsweise und muss in den nächsten Iteration Verbesserungen aufzeigen. Dafür muss jedes Teammitglied den OpenUP nochmal verinnerlichen und bei Fragen rechtzeitig den Coach, Auftraggeber oder externe Hilfe um Antworten bitten. 
