@@ -16,13 +16,13 @@ aufgeführt.
 |===
 | Begriff | Definition und Erläuterung | Synonyme
 //| Kommissionierung | Bereitstellung von Waren aus einem Lager entsprechend eines Kundenauftrags | (keine)
-| Auftraggeber | * Auftraggeber ist Hr. Zirkelbach welche in mehreren Rollen agiert | Dozent, Coach, Ansprechpartner, Kunde
-|Dozent  | xx     | xx
-|Dozentenansicht  | xx  | xx
-|Projektverwaltung  |  xx | xx
-|Stakeholder  | xx | xx
-|Student  | xx  | xx
-|Backup  | • Kopie der Daten(Teamzusammenstellung)  | xx
+| Auftraggeber | • Auftraggeber ist Hr. Zirkelbach welche in mehreren Rollen agiert | Dozent, Coach, Ansprechpartner, Kunde
+|Dozent  | Nutzer welcher die Rechte besitze auf die Dozentenansicht zuzugreifen     | xx
+|Dozentenansicht  | spezieller Bereich in welcher der Dozent die Teamzuordnung und den Zustand der Webseite bearbeitet  | xx
+|Projektverwaltung  |  Beinhaltet verschiedene Funktionalitäten| xx
+|Stakeholder  | eine Interessengruppe deren Anforderungen und Erwartungen mithilfe des Projektes so gut wie möglich zufriedengestellt wird  | Dozent, Student
+|Student  | Hauptnutzer welcher im Rahmen der Weiterführung des Projektes eine schnellere   | xx
+|Backup  | • Sicherheitskopie aller Dateien und Daten welche bei unvorhergesehenen Ereignissen zum Einsatz kommen  | xx
 |Zuordnungsalgorithmus  | • Algorithmus welcher durch Berücksichtigung des Fragebogens ausgewogene Teams in Bezug auf Fähigkeiten und Teamgröße erstellt  | xx
 |Backup  | xx  | xx
 |Teams generieren  | • es sollen Teams entstehen welche etwa gleichgroß sind sowie ähnliche Fähigkeiten haben
@@ -43,9 +43,17 @@ incremental approaches within a
 structured lifecycle  | • Vorgehendmodell
 • OpenUP
 
-|Gendern  | xx  | xx
+|Gendern  | • Berücksichtigt die Verwendung von Sprache um die Gleichstellung von Geschlechtern und Vielfalt  | xx
 |Pflichtfelder  |  xx | xx
-|Framework  | xx  | xx
+|Frontend | • Benutzeroberfläche einer Anwendung
+
+• ermöglicht die Interaktion mit dem Benutzer | xx
+|Backend | • verarbeitet die Geschäftslogik, verwaltet Daten und steuert die Kommunikation mit anderen Systemen
+
+• wird nicht vom Benutzer wahrgenommen
+|Framework  | • vorgefertigte Struktur für die Entwicklung von Software
+
+• erleichtert die Arbeit und fördert die Wiederverwendbarkeit von Code | xx
 |===
 
 
@@ -56,9 +64,8 @@ structured lifecycle  | • Vorgehendmodell
 //| UP | Unified Process | Vorgehensmodell für die Softwareentwicklung
 | UC | Use Case | funktionale Anforderung eines Systems
 | OpenUP| Open Unified Process | siehe Term Open Unified Process
-| xx | xx | xx
-| xx | xx | xx
-| xx | xx | xx
+| VPN | Virtual Private Network | ermöglicht sichere und private Verbindung zu einem entferneten Netzwerk
+| LDAP | Lightweight Directory Access Protocol | Netzwerkprotokoll für die Verwaltung von Verzeichnissen sowie die Abfrage von Informationen
 |===
 
 == Verzeichnis der Datenstrukturen
