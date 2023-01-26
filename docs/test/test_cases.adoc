@@ -53,7 +53,7 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
-=== 2. Testablauf: Fehlerhafte Beispieleingabe mit erneut gewählter ID 
+=== Testablauf 02: Fehlerhafte Beispieleingabe mit erneut gewählter ID 
 
 Basierend auf dem erfolgreichen Speichern des Testablaufs 01 wird versucht ein neues Projekt mit derselben ID anzulegen.
 
@@ -77,7 +77,7 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
-===  3. Testablauf: Fehlerhafte Beispieleingabe mit leerem Pflichtfeld
+=== Testablauf 03: Fehlerhafte Beispieleingabe mit leerem Pflichtfeld
 
 Ein Pflichtfeld wird freigelassen. Diese Fehlermeldung wird für die freigelassenen Pflichtfelder ID, Titel und Ansprechpartner angezeigt. Die Visualisierung bezieht sich nur auf das freigelassene Feld Ansprechpartner und steht nicht im Bezug zu den Testabläufen 01 und 02.
 
@@ -131,7 +131,7 @@ Ansprechpartner: Herr Müller HTW Dresden
 
 === Nachbedingungen
 
-*Testablauf 1: Fehlerfreie Beispieleingabe*
+*Testablauf 01: Fehlerfreie Beispieleingabe*
 
 * Meldung über erfolgreiche Speicherung
 * Daten werden in der Datenbank erfasst
@@ -139,7 +139,7 @@ Ansprechpartner: Herr Müller HTW Dresden
 
 
 
-*Testablauf 2: Fehlerhafte Beispieleingabe mit erneut gewählter ID*
+*Testablauf 02: Fehlerhafte Beispieleingabe mit erneut gewählter ID*
 
 * Pop-Up mit Fehlermeldung wird angezeigt
 * Daten werden nicht gespeichert
@@ -147,7 +147,7 @@ Ansprechpartner: Herr Müller HTW Dresden
 
 
 
-*Testablauf 3: Fehlerhafte Beispieleingabe mit leerem Pflichtfeld*
+*Testablauf 03: Fehlerhafte Beispieleingabe mit leerem Pflichtfeld*
 
 * Fehlermeldung nahe des frei gelassenen Pflichtfeldes wird angezeigt
 * Daten wurden nicht gespeichert
@@ -169,7 +169,7 @@ Ansprechpartner: Herr Müller HTW Dresden
 .	Keine Daten werden eingegeben
 ////
 
-=== Testablauf 1: Richtige Beispieleingabe 
+=== Testablauf 01: Richtige Beispieleingabe 
 
 Die richtige Eingabe erfolgt bei einer ganzen Zahl.
 
@@ -182,7 +182,7 @@ mindest Anzahl an Studenten pro Team: 7
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
-=== Testablauf 2: Falsche Beispieleingabe 
+=== Testablauf 02: Falsche Beispieleingabe 
 
 Eine falsche Einagbe findet statt, bei Buchstaben und Sonderzeichen, ebenso wie bei Kommazahlen.
 
@@ -196,7 +196,7 @@ mindest Anzahl an Studenten pro Team: D
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
-=== Testablauf 3: Keine Beispieleingabe
+=== Testablauf 03: Keine Beispieleingabe
 
 Es wird keine Anzahl an mindest Studenten pro Team bestimmt. 
 
