@@ -221,5 +221,4 @@ oder Thread ausgeführt wird.
 
 === C4 Modelle 
 
-::image C41.jpg[]
-::image C42.jpg[]
+src="https://github.com/Norinofa/I8-SE/edit/main/docs/architecture/image/C41.png">
