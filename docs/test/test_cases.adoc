@@ -29,13 +29,18 @@ Die Nutzer müssen über das HTW Netzwerk im Online Tool angemeldet sein und ein
 . Pflichtfelder werden ausgelassen 
 ////
 
-=== Testablauf 01: Fehlerfreie Beispieleingabe mit korrekter Befüllung aller Felder
+=== Testablauf 01: Fehlerfreie Beispieleingabe 
 
 Daten werden vollständig und richtig eingegeben ohne inkonsistente Daten.
-Eingegebene Daten:
+
+_Eingabedaten:_
+
 ID: I2
+
 Titel: Teamverwaltung
+
 Beschreibung: Erstellung der Teams für SE2
+
 Ansprechpartner: Herr Müller HTW Dresden
 
 :imageTitle: TC1 Erfolgreich
@@ -48,13 +53,18 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
-=== 2. Testablauf: Fehlerhafte Beispieleingabe mit erneut gewählter ID "E1"
+=== 2. Testablauf: Fehlerhafte Beispieleingabe mit erneut gewählter ID 
 
 Basierend auf dem erfolgreichen Speichern des Testablaufs 01 wird versucht ein neues Projekt mit derselben ID anzulegen.
 
+_Eingabedaten:_
+
 ID: I2
+
 Titel: Geo-Experiment
+
 Beschreibung: Dokumentierung von Baumfarben
+
 Ansprechpartner: Herr Baumgartner
 
 :imageTitle: TC2 Erfolgreich
@@ -67,13 +77,18 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
-===  3. Testablauf: Fehlerhafte Beispieleingabe mit leerem Pflichtfeld "Ansprechpartner"
+===  3. Testablauf: Fehlerhafte Beispieleingabe mit leerem Pflichtfeld
 
 Ein Pflichtfeld wird freigelassen. Diese Fehlermeldung wird für die freigelassenen Pflichtfelder ID, Titel und Ansprechpartner angezeigt. Die Visualisierung bezieht sich nur auf das freigelassene Feld Ansprechpartner und steht nicht im Bezug zu den Testabläufen 01 und 02.
 
+_Eingabedaten:_
+
 ID: I2
+
 Titel: Teamverwaltung
+
 Beschreibung: Erstellung der Teams für SE1
+
 Anprechpartner:
 
 :imageTitle: TC3 Fehlermeldung
@@ -86,18 +101,29 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
-Leeres Pflichtfeld ID
+
+*Leeres Pflichtfeld ID*
+
+_Eingabedaten:_
 
 ID:
+
 Titel: Teamverwaltung
+
 Beschreibung: Erstellung der Teams für SE1
+
 Ansprechpartner: Herr Müller HTW Dresden
 
-Leere Pflichtfeld Titel
+*Leeres Pflichtfeld Titel*
+
+_Eingabedaten:_
 
 ID: I2
+
 Titel:
+
 Beschreibung: Erstellung der Teams für SE1
+
 Ansprechpartner: Herr Müller HTW Dresden
 
 === Nachbedingungen
@@ -139,13 +165,25 @@ Ansprechpartner: Herr Müller HTW Dresden
 
 === Testablauf 1: Richtige Beispieleingabe mit 7 zu generierenden Teams
 
+Die richtige Eingabe erfolgt bei einer ganzen Zahl.
+
+_Eingabedaten:_
+
+mindest Anzahl an Studenten pro Team: 7
+
 :imageTitle: TC2.1 richtige Generierung
 
 :imageFile: TC2.1_richtige_generierung_vonTeams.png
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
-=== Testablauf 2: Falsche Beispieleingabe mit Belegung des Feldes durch Buchstabe "F"
+=== Testablauf 2: Falsche Beispieleingabe 
+
+Eine falsche Einagbe findet statt, bei Buchstaben und Sonderzeichen, ebenso wie bei Kommazahlen.
+
+_Eingabedaten:_
+
+mindest Anzahl an Studenten pro Team: D
 
 :imageTitle: TC2.2 falsche Eingabe
 
@@ -153,7 +191,13 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 .{imageTitle}
 image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
-=== Testablauf 3: Keine Beispieleingabe, da Felder freigelassen werden
+=== Testablauf 3: Keine Beispieleingabe
+
+Es wird keine Anzahl an mindest Studenten pro Team bestimmt. 
+
+_Eingabedaten:_
+
+mindest Anzahl an Studenten pro Team:
 
 :imageTitle: TC2.4 falsche Eingabe
 
@@ -163,17 +207,17 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
 === Nachbedingungen
 
-*Testfablauf 1: Richtige Beispieleingabe mit 7 zu generierenden Teams*
+*Testfablauf 1: Richtige Beispieleingabe*
 
 * Teams werden mit gewünschter Mitgliederanzahl generiert
 
-*Testablauf 2: Falsche Beispieleingabe mit Belegung des Feldes durch Buchstabe "F"*
+*Testablauf 2: Falsche Beispieleingabe*
 
 * Fehlermeldung erscheint
 * Keine Generieurung der Teams
 * Eingabe mit richtigen Daten wiederholen
 
-*Testablauf 3: Keine Beispieleingabe, da Felder freigelassen werden*
+*Testablauf 3: Keine Beispieleingabe*
 
 * Fehlermeldung erscheint
-* Teamsgenerieung nach Eingabe richtiger Daten
+* Teamsgenerieung erfolgt erst nach Eingabe richtiger Daten, ansonsten können keine Teams generiert werden
