@@ -216,10 +216,16 @@ Bestätigungsemail oder ähnliches zu warten.
 
 === Physische Sicht (Betriebssicht)
 
-//Beschreibt die physischen Knoten (Rechner) des Systems, der Prozesse,
-Threads und Komponenten, die in diesen Knoten ausgeführt werden. Diese
-Sicht wird nicht benötigt, wenn das System in einem einzelnen Prozess
-oder Thread ausgeführt wird.
+Im zweitem Level unseres C4-Modeles wird die Grundstruktur und der Aufbau unseres Projektes deutlich. 
+Auf unserem Server für das Programm laufen mittels Docker mehrere Container:
+•	Webserver: welcher am Ende die Website im Internet anzeigt
+•	Django:	 greift auf die Daten aus der Datenbank zu und managt diese mit abstrahierten Funktionen 
+•	Datenbank: hier werden alle eingegebenen Daten gespeichert und persistent gehalten  
+Als Tool welche all diese Punkte verbindet benutzen wir, wie auch die Gruppe vor uns Docker. 
+Docker gibt uns die Möglichkeit die Datenbank und Django als Server zu betreiben. 
+Gearbeitet wird hier mit Container, dies gibt uns die Möglichkeit das jeder einzelne Komponente 
+in ihrem eigenen Prozess laufen kann. Bezeichnen kann man diese Container als virtuelle Knoten, 
+die mit einander kommunizieren. Django kommuniziert mit der Datenbank und der Webserver mit der Django. 
 
 === C4 Modelle 
 .C4 1
