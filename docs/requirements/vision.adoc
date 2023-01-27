@@ -5,13 +5,13 @@ include::../_includes/default-attributes.inc.adoc[]
 // Platzhalter für weitere Dokumenten-Attribute
 
 == Einführung
-Der Zweck dieses Dokuments ist es, die wesentlichen Bedarfe und Funktionalitäten des Online-Tool zur Erstellung und Verwaltung von Gruppen für Software Engineering Projekte zu sammeln, zu analysieren und zu definieren. Der Fokus liegt auf den Fähigkeiten, die von Stakeholdern und adressierten Nutzern benötigt werden, und der Begründung dieser Bedarfe. Die  Details, wie das Online-Tool diese Bedarfe erfüllt, werden in dem <<#use-case_model.adoc, Use-Case Model>> und <<#system-wide_requirement.adoc, System-Wide Requirements>> beschrieben.
+Der Zweck dieses Dokuments ist es, die wesentlichen Bedarfe und Funktionalitäten des Online-Tool zur Erstellung und Verwaltung von Gruppen für Software Engineering Projekte zu sammeln, zu analysieren und zu definieren. Der Fokus liegt auf den Fähigkeiten, die von Stakeholdern und adressierten Nutzern benötigt werden, und der Begründung dieser Bedarfe. Die  Details, wie das Online-Tool diese Bedarfe erfüllt, werden in dem <<#use-case_model.adoc, Use-Case Model>> und den <<#system-wide_requirement.adoc, System-Wide Requirements>> beschrieben.
 
 === Zweck
 Der Zweck dieses Dokuments ist es, die wesentlichen Anforderungen an das System aus Sicht und mit den Begriffen der künftigen Anwender zu beschreiben.
 
 === Gültigkeitsbereich (Scope)
-Dieses Visions-Dokument bezieht sich auf das Online-Tool zur Erstellung und Verwaltung von Gruppen für Software Engineering Projekte, das von Team I08 entwickelt wird. Das System wird es dem Dozenten erlauben, auf Basis von durch Studierenden ausgefüllten Fragebögen, mit Hilfe eines Algorithmus, Teams aus Studierenden generieren zu lassen. Diese Teams werden vorher erstellten Projekten zugeordnet.
+Dieses Visions-Dokument bezieht sich auf das Online-Tool zur Erstellung und Verwaltung von Gruppen für Software Engineering Projekte, welches vom Team I08 entwickelt wird. Das System wird es dem Dozenten erlauben, auf Basis von durch Studierenden ausgefüllten Fragebögen, mit Hilfe eines Algorithmus, Teams aus Studierenden generieren zu lassen. Diese Teams werden vorher erstellten Projekten zugeordnet.
 
 === Definitionen, Akronyme und Abkürzungen
 //Verweis passend zum Belegabgabe-Template se1_belegabgabe_t00.adoc
@@ -107,7 +107,7 @@ Beispiel:
 | Das Produkt / die Lösung ist eine | Erweiterung des "Online-Tools der Teamerstellung"
 | Welche | die ideale Generierung der Teams und das Erstellen, sowie die Verwaltung von Projekten mit erweiterten Funktionalitäten ermöglicht 
 | Im Gegensatz zu | dem bisherigen Online-Tool
-| Unser Produkt | ermöglicht durch eine überarbeitete Oberfläche und bessere Strukturierung der Projekte durch Projekt-ID's (z.B. I3 und E3) und Labels (Neuentwicklung/ Weiterentwicklung) ein angenehmeres Verwalten der Projekte und Teams. Zusätzlich dazu wird die Funktion zum Zurücksetzen des Gesamtsystems und die Funktion der Backup- und Wiederherstellung hinzugefügt.
+| Unser Produkt | ermöglicht durch eine überarbeitete Oberfläche und bessere Strukturierung der Projekte durch Projekt-ID's (z.B. I3 und E3) und Labels (z.B. Neuentwicklung/ Weiterentwicklung) ein angenehmeres Verwalten der Projekte und Teams. Zusätzlich dazu wird die Funktion zum Zurücksetzen des Gesamtsystems und die Funktion der Backup- und Wiederherstellung hinzugefügt.
 |===
 
 ////
@@ -130,7 +130,7 @@ Beispiel Produkt:
 |===
 | Name | Beschreibung | Verantwortlichkeiten
 
-| Studierende | Kursteilnehmer im Modul SE1 (Wirtschaftsinformatiker, Wirtschftsingenieure, Informatiker, Verwaltungsinformatiker) | Endnutzer des Produktes, beantworten den Fragebogen
+| Studierende | Kursteilnehmer im Modul SE I (Wirtschaftsinformatiker, Wirtschftsingenieure, Informatiker, Verwaltungsinformatiker) | Endnutzer des Produktes, beantworten den Fragebogen
 | Dozenten
 | Herr Prof. Dr.-Ing. Anke, Herr Zirkelbach
 | Endnutzer des Produktes, ist für die Verwaltung zuständig

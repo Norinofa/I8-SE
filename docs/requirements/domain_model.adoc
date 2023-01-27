@@ -6,4 +6,5 @@ include::../_includes/default-attributes.inc.adoc[]
 
 In diesem Diagramm ist das Domänenmodell für das Projekt {project-name} zu sehen. Es zeigt die wesentlichen fachlichen Gegenstände und Konzepte sowie ihre Eigenschaften und Zusammenhänge.
 
-
+.Domain Model Erstellung und Verwaltung von Gruppen für Software Engineering Projekte (zuletzt aktualisiert am 26.01.2022)
+image::Domain Model.JPG[]

@@ -3,15 +3,14 @@ Vorname Nachname <email@domain.org>; Vorname2 Nachname2 <email2@domain.org>; Vor
 {localdatetime}
 include::../_includes/default-attributes.inc.adoc[]
 // Platzhalter für weitere Dokumenten-Attribute
-:toclevels: 20
 
 == Allgemeine Informationen
 
-Die ausgewiesenen Test Cases überprüfen die Funktionalität des Online Tools und stellen einen reibungslosen Ablauf sicher.
+Die ausgewiesenen Test Cases überprüfen die Funktionalität des Online-Tools und stellen einen reibungslosen Ablauf sicher.
 
 === Vorbedingungen
 
-Die Nutzer müssen über das HTW Netzwerk im Online Tool angemeldet sein und eine stabile Internetverbindung besitzen.
+Die Nutzer müssen über das HTW-Netzwerk im Online Tool angemeldet sein und eine stabile Internetverbindung besitzen.
 
 == Test Case 01 - Projekt erstellen
 
@@ -143,7 +142,7 @@ Ansprechpartner: Herr Müller HTW Dresden
 
 * Pop-Up mit Fehlermeldung wird angezeigt
 * Daten werden nicht gespeichert
-* Wahl einer neuen ID, die nicht bereits existiert
+* Wahl einer neuen ID, die noch nicht existiert
 
 
 
@@ -198,11 +197,11 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
 === Testablauf 03: Keine Beispieleingabe
 
-Es wird keine Anzahl an mindest Studenten pro Team bestimmt. 
+Es wird keine Mindestanzahl an Studenten pro Team bestimmt. 
 
 *Eingabedaten:*
 
-mindest Anzahl an Studenten pro Team:
+Mindestanzahl an Studenten pro Team:
 
 :imageTitle: TC2.3 keine Eingabe
 

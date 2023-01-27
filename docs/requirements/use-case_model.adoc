@@ -6,7 +6,7 @@ include::../_includes/default-attributes.inc.adoc[]
 
 
 == Allgemeine Informationen
-Die Anordnung der Use Cases entspricht der Priorisierung in der Entwicklung.
+Die folgende Anordnung der Use Cases entspricht der Priorisierung in der Entwicklung.
 
 
 Da es sich hier um eine Weiterentwicklung eines bereits bestehenden Online-Tools handelt, haben wir Use Cases identifiziert, die bereits implementiert wurden. Auf Grund dessen werden einige der bereits implementierten Use Cases ignoriert, manche werden erweitert und andere werden neu hinzugefügt. Dies ist im Use Case Diagram anhand der Legende ersichtlich.
@@ -28,9 +28,9 @@ Vor allem das Use Case Modell ist ein Paradebeispiel für unser Versagen bei der
 * *UC01*: User login (bereits vorhanden)
 
 
-== Use Case Diagramm
+== Use Case Diagram
 
-Auf diesem Diagramm entspricht die Reihenfolge nicht der Priorisierung der Use Cases. Die Priorisierung ist dem Überschrift "Identifizierte Use Cases" zu entnehmen.
+Auf diesem Diagramm entspricht die Reihenfolge nicht der Priorisierung der Use Cases. Die Priorisierung ist dem Punkt "Identifizierte Use Cases" zu entnehmen.
 
 .Use Case Diagramm
 image::Use Case Diagramm.JPG[]

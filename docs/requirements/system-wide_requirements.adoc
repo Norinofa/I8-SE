@@ -47,55 +47,37 @@ NOTE: Die funktionalen Anforderungen, die sich aus der Interaktion von Nutzern m
 === Zuverlässigkeit (Reliability)
 // Zuverlässigkeit beinhaltet die Fähigkeit des Produkts und/oder des Systems unter Stress und ungünstigen Bedingungen am laufen zu bleiben. Spezifizieren Sie Anforderungen für zuverlässige Akzeptanzstufen, und wie diese gemessen und evaluiert werden. Vorgeschlagene Themen sind Verfügbarkeit, Häufigkeit und Schwere von Fehlern und Wiederherstellbarkeit.
 
-*NFAR-1:* Das Webseite soll Robust gegen Fehler und Abstürzen sein
+*NFAR-1:* Das Webseite soll robust gegenüber Fehler und Abstürzen sein. Zur Überprüfung soll ein Simulieren vom Netzverkehr (Wireshark) durchgeführt werden.
 
-Zur Überprüfung soll durch das Simulieren vom Netzverkehr (Wireshark)
+*NFAR-2:* Die Webseite soll sicher sein und den Zugang von unbefugten Nutzern schützen.
 
-*NFAR-2:* Die Webseite soll sicher sein und den Zugang von unbefugten Nutzern schützen
-
-*NFAR-2.1:* Die Webseite sollte nur die nötigsten Rechte für bestimmte Rollen vergeben um unbefugten Zugang in bestimmte Bereich zu vermeiden
-Zur Überprüfung 
-- Passwort, 
-- Zugriffsrechte
+*NFAR-2.1:* Die Webseite sollte nur die nötigsten Rechte für bestimmte Rollen vergeben um unbefugten Zugang in bestimmte Bereich zu vermeiden. Zur Überprüfung:
+* Passwort
+* Zugriffsrechte
 
 *NFAR-2.2:* Die Webseite sollte über eine sichere Verbindung verfügen
-
-
 
 === Effizienz (Performance)
 // Die Performanz Charakteristiken des Systems sollten in diesem Bereich ausgeführt werden. Beispiele sind Antwortzeit, Durchsatz, Kapazität und Zeiten zum Starten oder Beenden.
 
-*NFAP-1:* Die Nutzbarkeit muss gewährleistet sein, für den unwahrscheinlichen Fall falls 20 Nutzer gleichzeitig die Webseite nutzen
+*NFAP-1:* Die Nutzbarkeit muss gewährleistet sein, für den unwahrscheinlichen Fall, dass beispielweise 10 Nutzer die Webseite gleichzeitig nutzen. Überprüft wird dies durch einen Stresstest mit 10 Nutzern.
 
-Überprüft wird dies durch einen Stresstest mit 10 Nutzern.
+*NFAP-2:* Die Wechselzeit von verschiedenen Unterseiten sollte möglichst kurz sein.
 
-*NFAP-2:* Die Wechselzeit von verschiedenen Unterseiten sollte möglichst minimal verlaufen
-
-Überprüft werden die Unterseiten in verschiedenen Zeitintervallen abgefragt und die Antwortzeit wird notiert
-
-*NFAP-3:* Die Zeit für die Teamerstellung soll möglichst klein beim erweiterten Zuordnungsalgorithmus gehalten werden.
-
-Zur Überprüfung soll der erweiterte Zuordnungsalgorithmus mit ähnlichen Testdaten und dem alten Zuordnungsalgorithmus verglichen werden
+*NFAP-3:* Die Zeit für die Teamerstellung beim erweiterten Zuordnungsalgorithmus soll möglichst kurz gehalten werden. Zur Überprüfung soll der erweiterte Zuordnungsalgorithmus mit ähnlichen Testdaten und dem alten Zuordnungsalgorithmus verglichen werden.
 
 === Wartbarkeit (Supportability)
 // Dieser Bereich beschreibt sämtliche Anforderungen welche die Supportfähigkeit oder Wartbarkeit des zu entwickelnden Systems verbessern, einschließlich Anpassungsfähigkeit und Erweiterbarkeit, Kompatibilität, Skalierbarkeit und Anforderungen bezüglich der System Installation sowie Maß an Support und Wartbarkeit.
 
-*NFAS-1:* Ausreichende Dokumentierung, um das veröffentlichen/schließen der Webseite durch Dozenten zu garantieren
+*NFAS-1:* Ausreichende Dokumentierung, um das Veröffentlichen/ Schließen der Webseite durch Dozenten zu garantieren. Zur Überprüfung wird ein Dozent gebeten ohne jegliche Hilfestellung, nur mit der gegebenen Dokumentation, die Webseite zu veröffentlichen und dann wieder offline zu stellen.
 
-Eine gute Dokumentation soll gegeben sein, um das veröffentlichen und das Offline stellen der Webseite zu gewährleisten
-
-Zur Überprüfung wird ein Dozent gebeten ohne jegliche Hilfestellung, nur mit der gegebenen
-Dokumentation, die Webseite zu veröffentlichen und dann wieder offline zu stellen
-
-*NFAS-2:* Die Webseite sollte mit verschiedenen Webbrowsern kompatible sein:
-
-Website:
+*NFAS-2:* Die Webseite sollte mit verschiedenen Webbrowsern kompatibel sein:
 * Edge
 * Chrome
 * Firefox
 * Safari
-* Zur Überprüfung muss Website in allen Browsern mit der aktuellen Version (wenn
-nicht anders spezifiziert), getestet werden.
+Zur Überprüfung muss die Website in allen Browsern mit der aktuellen Version, wenn
+nicht anders spezifiziert, getestet werden.
 
 == Zusätzliche Anforderungen
 
@@ -108,16 +90,13 @@ nicht anders spezifiziert), getestet werden.
 // * Physische Begrenzungen für Hardware, auf der das System betrieben werden soll 
 
 * Die Verwaltung des Sourcecodes und der Dokumentation muss mittels GitHub erfolgen.
-* Die Website soll auf allen gängigen Browsern nutzbar sein.
-* Bildschirm soll je nach Endgerät angepasst sein
 
 * Folgende Programmiersprachen und Tools sind weiterhin vorgegeben:
-
-	* Python mit Django
-	* MySQL Datenbank
-	* HTML, CSS und JavaScript (jquery)
-	* Oberflächen-Frameworks
-	* Docker Container
+** Python mit Django
+** MySQL Datenbank
+** HTML, CSS und JavaScript (jquery)
+** Oberflächen-Frameworks
+** Docker Container
 //siehe PDF teamverwaltung
 
 === Organisatorische Randbedingungen
@@ -125,10 +104,9 @@ nicht anders spezifiziert), getestet werden.
 // * Anforderungen an Betrieb, Management und Wartung der Anwendung
 // * zu beachtende Standards, Normen und Regeln
 
-* Die Website soll effektiv die Einsichtnahme von bestimmten Inhalten vor unbefugten schützen
-* Der Zugriff des Studentenbereichs darf nur bei erfolgreicher und sicherer Identifizierung des
-Nutzers (z.B. über sNummer) geschehen
-* Der Zugriff geschieht bei erfolgreicher Identifizierung des jeweiligen Nutzers
+* Die Website soll effektiv die Einsichtnahme von bestimmten Inhalten vor Unbefugten schützen.
+* Der Zugriff des Studierendenbereichs darf nur bei erfolgreicher und sicherer Identifizierung des Nutzers (z.B. über die s-Nummer) geschehen.
+* Der Zugriff geschieht bei erfolgreicher Identifizierung des jeweiligen Nutzers.
 
 === Rechtliche Anforderungen
 //Angaben ergänzen, nicht relevante Unterpunkte streichen oder auskommentieren
@@ -136,5 +114,4 @@ Nutzers (z.B. über sNummer) geschehen
 //* Datenschutz
 
 * Das System muss den Datenschutzanforderungen der HTW Dresden und der DSGVO entsprechen.
-* Die Verarbeitung der Daten darf nur entsprechend der Sächsischen Hochschulpersonendatenverordnung erfolgen
-
+* Die Verarbeitung der Daten darf nur entsprechend der sächsischen Hochschulpersonendatenverordnung erfolgen.
