@@ -25,8 +25,7 @@ ist somit als Weiterentwicklung zu betrachten. Unsere Schwerpunkte bei der Archi
 Weitere Ziele, die die Architektur in Bezug auf Struktur und Verhalten
 erreichen soll, sind:
 
-* Es muss die Möglichkeit bestehen, das Programm über mehrere Semester
-zu verwenden.
+* Möglichkeit der Verwendung des Programms über mehrere Semester
 
 * Das Zurücksetzen und Neuerstellen der Website 
 
@@ -66,7 +65,7 @@ Engineering Projekten und des Fragebogens der Studenten.
 * Unser Projekt ist abhängig von dem Rechenzentrum der HTW Dresden, da die 
 fertige Website über deren Server laufen wird
 
-* Unser Projekt ist anhängig von dem LDAP Login Server der HTW Dresden da unsere Website nur mittels des HTW Logins zu erreichen ist 
+* Unser Projekt ist abhängig von dem LDAP Login Server der HTW Dresden, da unsere Website nur mittels des HTW Logins zu erreichen ist 
 
 == Architektur-relevante Anforderungen
 
@@ -78,12 +77,12 @@ fertige Website über deren Server laufen wird
 
 *SWFA-1*
 
-* Um das Speichern von inkonsistenten Daten zu verhindern soll bei dem Speichervorgang eine Überprüfung der eingegebenen Daten stattfinden. Auch
+* Um das Speichern von inkonsistenten Daten zu verhindern, soll bei dem Speichervorgang eine Überprüfung der eingegebenen Daten stattfinden. Auch
 mögliche Pflichtfelder müssen berücksichtigt werden.
 
 *SWFA-4*
 
-* Um faire Teams erstellen zu können, soll der Dozent die Möglichkeit haben, durch ein Eingabefeld festzulegen wie viele Personen in ein Team mindestens sein müssen. Hierfür muss der Algorithmus mit einer variablen Anzahl an Teams arbeiten können. 
+* Um faire Teams erstellen zu können, soll der Dozent die Möglichkeit haben, durch ein Eingabefeld festzulegen wie viele Personen mindestens in ein Team sein müssen. Hierfür muss der Algorithmus mit einer variablen Anzahl an Teams arbeiten können. 
 
 *SWFA-5*
 
@@ -91,13 +90,13 @@ mögliche Pflichtfelder müssen berücksichtigt werden.
 
 * NFAF-2 Das System muss sicherstellen, dass die Anwendung nur im Netzwerk der HTW Dresden funktioniert.
 
-* Die Nutzbarkeit muss gewährleistet sein, für den unwahrscheinlichen Fall, dass 20 Nutzer gleichzeitig die Webseite nutzen.
+* Die Nutzbarkeit muss gewährleistet sein, für den unwahrscheinlichen Fall, dass 20 Nutzer gleichzeitig die Website nutzen.
 
 * Die Performance unserer Seite kann mittels einem Hosting über die HTW, als auch mit der Verminderung unnötigem Traffics gewährleistet werden.
 
 *NFAP-1*, *NFAR-1*
 
-* Ausreichende Dokumentierung, um das Veröffentlichen/ Schließen der Webseite durch Dozenten zu garantieren.
+* Ausreichende Dokumentierung, um das Veröffentlichen/ Schließen der Website durch Dozenten zu garantieren.
 
 * Hierfür wird bei dem Beenden der Website eine Meldung auftauchen, ob man die Seite wirklich verlassen möchte, wodurch möglicherweise nicht gespeicherte Daten verloren gehen.
 
@@ -117,7 +116,7 @@ mögliche Pflichtfelder müssen berücksichtigt werden.
 
 .. Konfiguration über Docker
 
-. Als Schnittstelle der Website verwenden wir ngnix, da auch diese bereits von der bestehenden Website benutzt wurde.
+. Als Schnittstelle der Website verwenden wir ngnix
 
 == Architekturmechanismen
 
@@ -141,62 +140,62 @@ Das Ausfüllen des Fragebogens außerhalb der HTW ist mittels eines VPN möglich
 
 *Communication* - Problem adaption
 
-Wenn es zu der Situation kommen sollte das es in einem Semester zu wenig oder zu viele Projektthemen geben sollte, hat der Dozent die Möglichkeit die Anzahl der Teammitglieder festzulegen.
+Wenn es zu der Situation kommen sollte, dass es in einem Semester zu wenig oder zu viele Projektthemen geben sollte, hat der Dozent die Möglichkeit die Anzahl der Teammitglieder festzulegen.
 
-Daraufhin soll der Algorithmus eine Konstellation erstellen bei der die meist gefragtesten Themen priorisiert oder doppelt verwendet werden sollen.
+Daraufhin soll der Algorithmus eine Konstellation erstellen, bei der die beliebtesten Themen doppelt verwendet werden.
 
 Diese einzelnen Szenarien müssen in dem Algorithmus beachtet werden.
 
 *Archiving* - Sicherheitsabfrage
 
-Wenn man die Website verlässt oder zu einem Unterpunkt der Website navigiert, wird der Benutzer der Dozentenansicht gefragt, ob die ausgefüllten Daten gespeichert werden sollen.
+Beim Verlassen einer Website oder beim Navigieren zu einem anderen Menüpunkt, ohne Speicherung der Daten, soll der Benutzer der Dozentenansicht gefragt werden, ob dieser die Website verlassen möchte.
 
-*Memory Management* - Wiederherstellung der Webseite
+*Memory Management* - Wiederherstellung der Website
 
-Es soll es die Möglichkeit geben über einen Speicher eine bestimmte Version von einem ausgewählten Zeitpunkt wieder herzustellen, im Falle von Komplikationen oder Fehlern auf der Webseite.
+Es soll die Möglichkeit geben mittels Backups eine gespeicherte Version zu einem ausgewählten Zeitpunkt wiederherzustellen, für den Fall von Komplikationen oder Fehlern auf der Website.
 
 == Wesentliche Abstraktionen
 
 
-*Teamstabelle*
+*Teamübersicht*
 
-Darstellung der fertig generierten Teams und deren Thema. Diese wird vom Dozenten betrachtet. Es zeigt die Teams mit ihren Projektleiter.
+Darstellung der fertig generierten Teams und deren Thema. Diese wird vom Dozenten betrachtet. Es zeigt die Teams mit dem zugehörigen Projektleiter an.
 
-*Projekttabelle*
+*Projektübersicht*
 
-Zeigt die Projekte mit der wesentlichen Beschreibung und deren Ansprechpartner. Sortiert sind die Projekte nach ihrer ID welche vom Dozenten manuell vergeben wird. Abgebildet wird sie für den Dozent, aber auch oberhalb des Fragebogens ist sie für die Studenten einsehbar.
+Zeigt die Projekte mit der wesentlichen Beschreibung und deren Ansprechpartner. Sortiert sind die Projekte nach ihrer ID welche vom Dozenten manuell vergeben wird. Abgebildet wird sie für den Dozenten, aber auch oberhalb des Fragebogens ist sie für die Studenten einsehbar.
 
 *Dozent*
 
-In der Rolle des Admins welcher auf der Dozentenwebsite die Projekte
+In der Rolle des Admins, welcher auf der Dozentenwebsite die Projekte
 anlegt, Teams generiert und im Zweifel die Teams manuell bearbeitet.
 
 *Student*
 
-In der Rolle des Besuchers. Von ihm werden auf der Studentwebsite
-Antworten verlangt die später bei der Teamerstellung verwendet werden.
-Er als Nutzer enthält Daten:
+In der Rolle des Besuchers. Von ihm werden auf der Studentenansicht
+Antworten verlangt, die später bei der Teamerstellung verwendet werden.
+Er als Nutzer enthält folgende Daten:
 
 ... Name 
 ... Vorname
 ... s-Nummer
 ... Studiengang
 
-Da er sich vor dem bearbeiten des Fragebogens auf der Website mit seinem HTW-Login einlogt,
+Da er sich vor dem Ausfüllen des Fragebogens auf der Website mit seinem HTW-Login anmeldet,
 können die Daten somit abgeglichen werden.
 
 == Schichten oder Architektur-Framework
 
 Model-View-Controller(MVC)
 
-Im Model arbeiten wir mit Docker ein Open-Source Tool welches uns eine
-portable und konsistente Laufzeitumgebung für unsere Software bietet,
-zudem arbeiten wir auch noch mit dem Webframework Django.
+Im Model arbeiten wir mit Docker ein Open-Source Tool, welches uns eine
+portable und konsistente Laufzeitumgebung für unsere Software bietet.
+Zudem arbeiten wir ebenfalls mit dem Webframework Django.
 
 In der View arbeiten wir mit HTML und CSS, mittelfristig wollen wir
 dafür auch ein Template benutzen.
 
-Zuletzt zum Controller dort verwenden wir OpenSSH für einen sicheren
+Beim Controller verwenden wir OpenSSH für einen sicheren
 Zugriff auf das Netzwerk. Außerdem benutzen wir nginx als Webserver.
 
 == Architektursichten (Views)
@@ -204,14 +203,14 @@ Zugriff auf das Netzwerk. Außerdem benutzen wir nginx als Webserver.
 === Logische Sicht
 
 Unser System, welches für eine Nutzung im HTW Netzwerk vorgesehen ist, 
-besteht weitestgehend aus internen Verbindung. Wie im unten anliegenden 
-C4 Model zu sehen ist die einzige Schnittstelle nach außen, die 
+besteht weitestgehend aus internen Verbindungen. Wie im unten anliegenden 
+C4 Model zu sehen, ist die einzige Schnittstelle nach außen die 
 Verbindung zu dem LDAP Server der HTW Dresden. Jener gibt uns die Möglichkeit,
-die Authentifizierung für unser Website über den bereits bestehenden HTW Login
-zu gestalten. Diese Entscheidung ist auch wieder mit der Nutzer Freundlichkeit
+die Authentifizierung für unsere Website über den bereits bestehenden HTW Login
+zu gestalten. Diese Entscheidung ist auch wieder mit der Nutzerfreundlichkeit,
 aber auch der Sicherheit zu begründen, einerseits muss keine externe Seite 
 verwendet werden und zum anderen muss kein neuer Login angelegt werden. 
-Dies lässt den Nutzer die Website sofort verwenden ohne auf eine 
+Dies lässt den Nutzer die Website sofort verwenden, ohne auf eine 
 Bestätigungsemail oder ähnliches zu warten. 
 
 === Physische Sicht (Betriebssicht)
@@ -225,11 +224,11 @@ Auf unserem Server für das Programm laufen mittels Docker mehrere Container:
 
 *	Datenbank: hier werden alle eingegebenen Daten gespeichert und persistent gehalten  
 
-Als Tool welche all diese Punkte verbindet benutzen wir, wie auch die Gruppe vor uns Docker. 
+Als Tool, welche all diese Punkte verbindet, benutzen wir, wie auch die Gruppe vor uns, Docker. 
 Docker gibt uns die Möglichkeit die Datenbank und Django als Server zu betreiben. 
-Gearbeitet wird hier mit Container, dies gibt uns die Möglichkeit das jeder einzelne Komponente 
+Gearbeitet wird hier mit Containern. Dies gibt uns die Möglichkeit, dass jede einzelne Komponente 
 in ihrem eigenen Prozess laufen kann. Bezeichnen kann man diese Container als virtuelle Knoten, 
-die mit einander kommunizieren. Django kommuniziert mit der Datenbank und der Webserver mit der Django. 
+die mit einander kommunizieren. Django kommuniziert mit der Datenbank und der Webserver mit Django. 
 
 === C4 Modelle 
 .C4 1
