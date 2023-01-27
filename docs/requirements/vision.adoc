@@ -67,7 +67,7 @@ Die aktuelle Softwarelösung ist von den Studierenden der letzten beiden Semeste
 a|
 * unnötiger Zeitaufwand bei der Verwaltung der Projekte
 * unübersichtliche Menüführung für Studierende und Dozenten
-* schlechte Platzausnutzung der Webseite
+* schlechte Platzausnutzung der Website
 * Teamgenerierung ist nicht ideal (fehlende Erfassung von abgeschlossener Fachinformatikerausbildung)
 
 | eine erfolgreiche Lösung wäre

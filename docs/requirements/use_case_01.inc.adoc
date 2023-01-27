@@ -64,7 +64,7 @@ Dozent X der HTWD ruft das Online-Tool auf und öffnet das Anmeldefenster. Er gi
 === Nachbedingungen
 //Nachbedingungen beschreiben das Ergebnis des Use Case, z.B. einen bestimmten Systemzustand.
 
-Der User ist eingeloggt und kann weitere Schritte auf der Webseite vornehmen.
+Der User ist eingeloggt und kann weitere Schritte auf der Website vornehmen.
 
 === Besondere Anforderungen
 //Besondere Anforderungen können sich auf nicht-funktionale Anforderungen wie z.B. einzuhaltende Standards, Qualitätsanforderungen oder Anforderungen an die Benutzeroberfläche beziehen.

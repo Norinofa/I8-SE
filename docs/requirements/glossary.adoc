@@ -21,7 +21,7 @@ aufgeführt.
 | Dozent | Nutzer, welcher auf die Projektübersicht zugreift, sowie die Projekte und die Studierenden verwaltet. | Professor
 | Dozenten-Login | Zugang/ Zugangsdaten für die Dozenten, welcher vorher im Code bereits hinterlegt ist, bestehend aus Benutzname und Passwort. | xx
 | Fragebogen | Zusammenstellung von Fragen zu Präferenzen, Fähigkeiten und Vorerfahrungen der Studenten mit diversen Antwortmöglichkeiten, welcher im Code statisch festgelegt wird. | Fragenkatalog
-| Frontend | Benutzeroberfläche des Online-Tools für die Nutzer. Ermöglicht die Interaktion des Nutzers mit dem Backend. | Webseite/ Website, Oberfläche
+| Frontend | Benutzeroberfläche des Online-Tools für die Nutzer. Ermöglicht die Interaktion des Nutzers mit dem Backend. | Website/ Website, Oberfläche
 | Framework  | Vorgefertigte Struktur für die Entwicklung von Software. Erleichtert die Arbeit und fördert die Wiederverwendbarkeit des Codes. | xx
 | Fähigkeiten | Relevante Information über die Fähigkeiten im Kontext "Informatik" der Studenten im Fragebogen | xx
 | Gültigkeitsregeln | Bezieht sich auf die Pflichtfelder. Festlegung von unzulässigen Zeichen, Dateitypen und Eingaben. | xx

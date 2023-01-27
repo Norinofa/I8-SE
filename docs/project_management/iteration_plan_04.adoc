@@ -46,13 +46,13 @@ image::Projects Iteration 4.JPG[]
 |===
 | Problem | Status | Notizen
 
-| Webseite funktioniert nicht 
+| Website funktioniert nicht 
 | rot 
 | 
-* Der Webserver wartet in einem Startskript vergeblich auf die Datenbank, was dazu führt, dass der Zugriff auf die Webseite nicht möglich ist. 
+* Der Webserver wartet in einem Startskript vergeblich auf die Datenbank, was dazu führt, dass der Zugriff auf die Website nicht möglich ist. 
 * Intern wurde versucht das Problem zu beheben, jedoch vergeblich.
 * Die angeforderte externe Hilfe konnte auch keine Lösung finden. Jedoch wurde Hilfe von den Entwicklern des Codes angefordert. Dieser Prozess ist in Arbeit und die letzte Möglichkeit das Problem zu beheben.
-* Sollte dies nicht funktionieren, bleibt nur die Option eine Neuimplementierung auf Basis der vorgegebenen Webseite zu erstellen. Dies wurde dem Auftraggeber mitgeteilt und bewilligt.
+* Sollte dies nicht funktionieren, bleibt nur die Option eine Neuimplementierung auf Basis der vorgegebenen Website zu erstellen. Dies wurde dem Auftraggeber mitgeteilt und bewilligt.
 |===
 
 
@@ -96,7 +96,7 @@ image::Projects Iteration 4.JPG[]
 
 *Beurteilung im Vergleich zu den Bewertungskriterien*
 
-* _Ziel 1:_ Der Prototyp wurde in der Präsentation am 16.01.23 vorgestellt. Die Korrektheit des Prototypen an sich wurde umkommentiert gelassen, jedoch wurde die Neuimplementierung, statt der Weiterentwicklung, thematisiert. Es wurde klargestellt, dass die uns gegebene Webseite nicht funktioniert und daher auf die Notlösung zurückgegriffen wurde. 
+* _Ziel 1:_ Der Prototyp wurde in der Präsentation am 16.01.23 vorgestellt. Die Korrektheit des Prototypen an sich wurde umkommentiert gelassen, jedoch wurde die Neuimplementierung, statt der Weiterentwicklung, thematisiert. Es wurde klargestellt, dass die uns gegebene Website nicht funktioniert und daher auf die Notlösung zurückgegriffen wurde. 
 
 * _Ziel 3 und 4:_ Wurden nicht erreicht, da die Ausarbeitung nur zur 10% erfolgte. Sie wurden bisher nur sporadisch begonnen, da die Gruppe das Glossar vernachlässigt hat. 
 * _Ziel 6:_ Wireframes, Use Case Model und Use Cases wurden vom Auftraggeber als ausbaufähig wahrgenommen. Die Priorisierung des Use Cases 'Projekte verwalten' wurde im Meeting vom Auftraggeber als sehr hoch eingeschätzt und soll stärker vertieft werden.  Die Verbesserungswünsche wurden im restlichen Verlauf der Iteration 04 bestmöglich umgesetzt. Diese werden dem Auftraggeber in Iteration 05 präsentiert.

@@ -18,8 +18,8 @@ Dieses Dokument beschreibt die Philosophie, Entscheidungen, Nebenbedingungen, Be
 
 //Formulieren Sie eine Reihe von Zielen, die die Architektur in ihrer Struktur und ihrem Verhalten erfüllen muss. Identifizieren Sie kritische Fragen, die von der Architektur adressiert werden müssen, z.B. besondere Hardware-Abhängigkeiten, die vom Rest des Systems isoliert werden sollten oder Sicherstellung der Funktionsfähigkeit unter besonderen Bedingungen (z.B. Offline-Nutzung).
 
-Die Architektur muss eine Webanwendung für Studenten und Professoren, welche es ermöglicht Teams mit der gleichen Anzahl der Studenten jedoch unterschiedlicher Rollen in verschiedenen Projekten aufzuteilen, verwirklichen. Diese basiert auf einer bereits bestehenden Anwendung und
-ist somit als Weiterentwicklung zu betrachten. Unsere Schwerpunkte bei der Architektur der Weiterentwicklung liegen auf der Nutzerfreundlichkeit für Studenten, sowie Projektadministrator und der Erweiterung des bereits vorhandenen Algorithmus.
+Die Architektur muss eine Webanwendung für Studierenden und Professoren, welche es ermöglicht Teams mit der gleichen Anzahl der Studierenden jedoch unterschiedlicher Rollen in verschiedenen Projekten aufzuteilen, verwirklichen. Diese basiert auf einer bereits bestehenden Anwendung und
+ist somit als Weiterentwicklung zu betrachten. Unsere Schwerpunkte bei der Architektur der Weiterentwicklung liegen auf der Nutzerfreundlichkeit für Studierenden, sowie Projektadministrator und der Erweiterung des bereits vorhandenen Algorithmus.
 
 Weitere Ziele, die die Architektur in Bezug auf Struktur und Verhalten
 erreichen soll, sind:
@@ -41,7 +41,7 @@ erreichen soll, sind:
 * Die Weiterentwicklung eines bestehenden Systems
 
 * Ein System zur Erstellung und Verwaltung von Gruppen in Software
-Engineering Projekten und des Fragebogens der Studenten.
+Engineering Projekten und des Fragebogens der Studierenden.
 
 * Python ist als Programmiersprache für das Backend zu verwenden.
 
@@ -85,7 +85,7 @@ mögliche Pflichtfelder müssen berücksichtigt werden.
 
 *SWFA-5*
 
-* NFAF-1 Das System muss den Fragebogen der Studenten, die Accountdaten, sowie die Projektdaten des Professors speichern.
+* NFAF-1 Das System muss den Fragebogen der Studierenden, die Accountdaten, sowie die Projektdaten des Professors speichern.
 
 * NFAF-2 Das System muss sicherstellen, dass die Anwendung nur im Netzwerk der HTW Dresden funktioniert.
 
@@ -133,7 +133,7 @@ Abrufbar ist die Website jedoch von jedem Browser auf jedem Betriebssystem, wäh
 
 *Security* - Zugangsberechtigung
 
-Zugang zum Fragebogen sollen nur jene Studenten haben, welche sich in OPAL für den Beleg eingeschrieben haben. Dafür haben wir einen Login im HTW-Account, welcher nur im HTW-Netzwerk funktioniert.
+Zugang zum Fragebogen sollen nur jene Studierende haben, welche sich in OPAL für den Beleg eingeschrieben haben. Dafür haben wir einen Login im HTW-Account, welcher nur im HTW-Netzwerk funktioniert.
 
 Das Ausfüllen des Fragebogens außerhalb der HTW ist mittels eines VPN möglich.
 
@@ -162,7 +162,7 @@ Darstellung der fertig generierten Teams und deren Thema. Diese wird vom Dozente
 
 *Projektübersicht*
 
-Zeigt die Projekte mit der wesentlichen Beschreibung und deren Ansprechpartner. Sortiert sind die Projekte nach ihrer ID welche vom Dozenten manuell vergeben wird. Abgebildet wird sie für den Dozenten, aber auch oberhalb des Fragebogens ist sie für die Studenten einsehbar.
+Zeigt die Projekte mit der wesentlichen Beschreibung und deren Ansprechpartner. Sortiert sind die Projekte nach ihrer ID welche vom Dozenten manuell vergeben wird. Abgebildet wird sie für den Dozenten, aber auch oberhalb des Fragebogens ist sie für die Studierenden einsehbar.
 
 *Dozent*
 
@@ -171,7 +171,7 @@ anlegt, Teams generiert und im Zweifel die Teams manuell bearbeitet.
 
 *Student*
 
-In der Rolle des Besuchers. Von ihm werden auf der Studentenansicht
+In der Rolle des Besuchers. Von ihm werden auf der Studierendenansicht
 Antworten verlangt, die später bei der Teamerstellung verwendet werden.
 Er als Nutzer enthält folgende Daten:
 

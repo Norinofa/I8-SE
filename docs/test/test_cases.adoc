@@ -174,7 +174,7 @@ Die richtige Eingabe erfolgt bei einer ganzen Zahl.
 
 *Eingabedaten:*
 
-mindest Anzahl an Studenten pro Team: 7
+Mindestanzahl an Studierenden pro Team: 7
 
 :imageTitle: TC1 erfolgreiche Eingabe
 :imageFile: TC02TA01.png
@@ -187,7 +187,7 @@ Eine falsche Einagbe findet statt, bei Buchstaben und Sonderzeichen, ebenso wie 
 
 *Eingabedaten:*
 
-mindest Anzahl an Studenten pro Team: D
+Mindestanzahl an Studierenden pro Team: D
 
 :imageTitle: TC2.2 falsche Eingabe
 
@@ -197,11 +197,11 @@ image::{imageFile}["{imageTitle}", width=800, link="{imagesdir}/{imageFile}"]
 
 === Testablauf 03: Keine Beispieleingabe
 
-Es wird keine Mindestanzahl an Studenten pro Team bestimmt. 
+Es wird keine Mindestanzahl an Studierenden pro Team bestimmt. 
 
 *Eingabedaten:*
 
-Mindestanzahl an Studenten pro Team:
+Mindestanzahl an Studierenden pro Team:
 
 :imageTitle: TC2.3 keine Eingabe
 

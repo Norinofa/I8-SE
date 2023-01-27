@@ -13,7 +13,7 @@ include::../_includes/default-attributes.inc.adoc[]
 | Meilenstein | Datum
 
 | Beginn der Iteration | 16.12.22
-| Termin mit Couch/ (Auftraggeber)| 20.12.22
+| Termin mit Coach/ (Auftraggeber)| 20.12.22
 | Ende der Iteration | 03.01.23
 |===
 
@@ -57,7 +57,7 @@ _alternativ:_ Die folgenden Aufgaben werden in dieser Iteration bearbeitet:
 //Eine kurze Beschreibung, wie Erfüllung die o.g. Ziele bewertet werden sollen.
 
 
-* der Couch/ Auftraggeber ist mit den ausgearbeiteten Use Cases einverstanden
+* der Coach/ Auftraggeber ist mit den ausgearbeiteten Use Cases einverstanden
 * eine Zertifizierung wurde erlangt
 * Projects ist ein Bestandteil für die Organisation der Gruppenarbeit geworden
 
@@ -79,7 +79,7 @@ _alternativ:_ Die folgenden Aufgaben werden in dieser Iteration bearbeitet:
 
 * Nicht alle Aufgaben wurden bearbeitet, jedoch der Großteil
 //Zusammenfassung, ob alle für die Iteration geplanten Aufgaben bearbeitet wurden und welche Aufgaben verschoben oder hinzugefügt wurden.
-* Der Couch war mit der Ausarbeitung der Use Cases nicht ganz einverstanden, da viele identifizierte Use Cases bereits in der uns gegebenen Vorlage beinhaltet sind
+* Der Coach war mit der Ausarbeitung der Use Cases nicht ganz einverstanden, da viele identifizierte Use Cases bereits in der uns gegebenen Vorlage beinhaltet sind
 * Die Zertifizierung wurde nicht beantragt und soll am 04.01.23 beantragt
 //Document whether you met the evaluation criteria as specified in the Iteration Plan.
 //Geben Sie an, ob Sie die o.g. Bewertungskriterien erfüllt haben. Das kann z.B. folgende Informationen enthalten: “Demo for Department X was well-received, with some concerns raised around usability,” or “495 test cases were automated with a 98% pass rate. 9 test cases were deferred because the corresponding Work Items were postponed.”
