@@ -1,0 +1,95 @@
+    1  history > history.txt
+    2  ls
+    3  ./history txt
+    4  ./history.txt
+    5  vim ./history.txt
+    6  vi ./history.txt
+    7  rm seproject
+    8  ls
+    9  sudo apt install docker -y
+   10  sudo curl -L "https://github.com/docker/compose/releases/download/v2.6.0/docker-
+   11  compose-linux-x86_64" -o /usr/local/bin/docker-compose
+   12  sudo mkdir -p /etc/apt/keyrings
+   13  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+   14  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu
+   15  [200~echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+   16  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+   17  sudo chmod +x /usr/local/bin/docker-compose
+   18  chmod 774 Software
+   19  ls
+   20  cd Software
+   21  docker-compose up --build -d
+   22  sudo snap install docker
+   23  docker-compose up --build -d
+   24  ls
+   25  chmod +x fix_permissions.sh
+   26  ./fix_permissions.sh
+   27  docker-compose up --build -d
+   28  ls
+   29  sudo apt install docker -y
+   30  sudo apt install curl -y
+   31  cd docker
+   32  cd ssl
+   33  openssl genrsa -aes256 -passout pass:gsahdg -out server.pass.key 4096
+   34  openssl rsa -passin pass:gsahdg -in server.pass.key -out server.key
+   35  rm server.pass.key
+   36  openssl req -new -key server.key -out server.csr
+   37  openssl x509 -req -sha256 -days 365 -in server.csr -signkey server.key -out server.cr
+   38  cd..
+   39  cd.
+   40  cd
+   41  cd Software
+   42  ls
+   43  chmod +x fix_permissions.sh
+   44  ./fix_permissions.sh
+   45  ls
+   46  chmod +x ./start.sh
+   47  chmod +x ./stop.sh
+   48  start.sh#
+   49  start.sh
+   50  ./start
+   51  ./start.sh
+   52  sudo docker ps
+   53  chmod 775 *.sh
+   54  ./fix_permissions.sh
+   55  ./stop.sh
+   56  ./start.sh --reset
+   57  sudo docker ps
+   58  ./stop.sh
+   59  ./start.sh --reset
+   60  sudo docker ps
+   61  ls -la
+   62  vi .env
+   63  sudo docker ps
+   64  ./stop.sh
+   65  ./start.sh --reset
+   66  sudo docker ps
+   67  ./start.sh --reset
+   68  sudo docker ps
+   69  ack 'ssl'
+   70  sudo apt install ack
+   71  ack 'ssl'
+   72  sudo docker ps
+   73  ./stop.sh
+   74  ./start.sh --reset
+   75  sudo docker ps
+   76  ./fix_permissions
+   77  ./fix_permission
+   78  ./fix_permisions
+   79  ls
+   80  ./fix_permissions.sh
+   81  sudo docker ps
+   82  ./stop.sh
+   83  ls
+   84  exit
+   85  sudo docker ps
+   86  ./fix_permissions.sh
+   87  chmod 775 *.sh
+   88  chmod +x fix_permissions.sh
+   89  cd Software
+   90  chmod 775 *.sh
+   91  ./fix_permissions.sh
+   92  sudo docker ps
+   93  ./start.sh --reset
+   94  sudo docker ps
+   95  history > history.txt
