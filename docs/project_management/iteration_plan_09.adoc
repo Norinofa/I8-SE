@@ -1,4 +1,4 @@
-= Iteration Plan 03: I8 Erstellung und Verwaltung von Gruppen für Software Engineering Projekte
+= Iteration Plan 09: I8 Erstellung und Verwaltung von Gruppen für Software Engineering Projekte
 Vorname Nachname <email@domain.org>; Vorname2 Nachname2 <email2@domain.org>; Vorname3 Nachname3 <email3@domain.org>
 {localdatetime}
 include::../_includes/default-attributes.inc.adoc[]
@@ -12,24 +12,29 @@ include::../_includes/default-attributes.inc.adoc[]
 |===
 | Meilenstein | Datum
 
-| Beginn der Iteration | 28.11.22
-| Ende der Iteration | 12.12.22
+| Beginn der Iteration | 23.04.23
+| Treffen mit Coach | 
+| Ende der Iteration | 07.05.23
 |===
 
 
 == Wesentliche Ziele
 
-* Vision schreiben
-* mit dem Code vertraut machen
-* Use Cases ausarbeiten
-* virtuelle Maschine beantragen
-* Architecture Notebook anfangen
+* Datenbank mit bisherigen Code verbinden
+* klären, wie mit dem Login weiterverfahren werden soll (SSL beantragen)
+* Mit den Dokumentationen vertraut machen, kontinuierlich (stichpunktartig) Fortschritte aufschreiben
+
+
 
 
 == Aufgabenzuordnung
 //Dieser Abschnitt sollte einen Verweis auf die Work Items List enthalten, die die für diese Iteration vorgesehenen Aufgaben dokumentiert sowie die Zuordnung dieser Aufgaben zu Teammitgliedern. Alternativ können die Aufgaben für die Iteration und die Zuordnung zu Teammitgliedern in nachfolgender Tabelle dokumentiert werden - je nach dem, was einfacher für die Projektbeteiligten einfacher zu finden ist.
 
-Verweis zu Projects 
+Aufgabenzuordnung bezüglich der Dokumente:
+Andwenderdoku: Evelyn
+Betriebsdoku: Viktoria, Nuha
+Entwicklerdoku: Vincent, Phil
+Test: Julius, Evelyn
 
 
 
@@ -40,8 +45,7 @@ Verweis zu Projects
 |===
 | Problem | Status | Notizen
 
-| für nächsten geplanten Schritt (Archtecture Notebook) noch kein Praktikum | gelb | wird daher erst nur angefangen
-| wenig Zeit durch laufende Projekte in anderen Modulen | gelb | so weit wie möglich Aufgaben ausarbeiten
+| 
 |===
 
 
@@ -49,11 +53,6 @@ Verweis zu Projects
 //Eine kurze Beschreibung, wie Erfüllung die o.g. Ziele bewertet werden sollen.
 
 
-* die Vision wurde Fertiggestellt und kann dem Auftraggeber vorgelegt werden
-* die Use Cases sind identifiziert wurden und können dem Auftraggeber vorgelegt werden
-* der Code wurde im Groben verstanden
-* das Architecture Notebook ist parallel zu den Use Cases ausgearbeitet
-* eine virtuelle Maschine ist vorhanden
 
 
 == Assessment
