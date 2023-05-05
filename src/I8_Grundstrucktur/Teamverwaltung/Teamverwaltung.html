@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projekt I8 Teamverwaltung</title>
+    <link rel="stylesheet" type="text/css" href="Teamverwaltung.css">
+    <link rel="stylesheet" type="text/css" href="../Allgemein/style.css">
+    <script type="text/javascript" src="Teamverwaltung.js"></script>
+    <script type="text/javascript" src="../Allgemein/script.js"></script>
+</head>
+
+<body>
+	<header>
+		<nav class="nav">
+			<a href="../Projektverwaltung/Projektverwaltung.html">Projektverwaltung</a>
+			<a href="#" class="active">Teams verwalten</a>
+			<a href="../Einstellungen/Einstellungen.html">Einstellungen</a>
+            <a href="../Login/login.html">
+				<button class="login-btn">LogOut</button>
+			</a>
+        </nav>
+    </header>
+
+    <h4>folgende Teams wurden generiert.</h4>
+    <p>Die Teamgröße ist: <span id="size"></span></p>
+        
+     <script>
+    // Parameter aus der URL abrufen
+      var urlParams = new URLSearchParams(window.location.search);
+      var size = urlParams.get('size');
+          
+      // Ergebnis in das HTML-Element einfügen
+     document.getElementById("size").innerHTML = size;
+    </script>
+
+
+<div class="container">
+    <table>
+      <thead style="background-color: #aab2f8;">
+        <tr>
+            <th style="border: 1px solid black; text-align: center; width: 5%;">ID</th>
+            <th style="border: 1px solid black;">Projektname</th>
+            <th style="border: 1px solid black; text-align: center; width: 15%;">Projektleiter</th>
+            <th style="border: 1px solid black; text-align: center; width: 35%;">Projektmitglieder</th>
+            <th style="border: 1px solid black; text-align: center; width: 5%;">Bearbeiten</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>I1</td>
+            <td style="text-align: left;">Projektverwaltung</td>
+            <td>Frank N. Stein</td>
+            <td>Jana Türlich, Rainer Wahnsinn, Andi Arbeit, Mario Ahner, Sergej Fährlich</td>
+            <td><button class="bearbeiten">x</button></td>
+        </tr>   
+        <tr>
+            <td>I2</td>
+            <td style="text-align: left;">Datenbankmodelierung</td>
+            <td>Don R. Wetter</td>
+            <td>Ernst Haft, Medih Kament, Mario Nette, Peter Silie, Theo Retisch</td>
+            <td><button class="bearbeiten">x</button></td>
+        </tr>         
+    </tbody>
+    </table> 
+    </div>
+
+</body>
+</html>

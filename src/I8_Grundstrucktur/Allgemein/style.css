@@ -1,0 +1,60 @@
+/* Zentrieren der Navigation */
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #eee;
+}
+
+/* Styling für die Links */
+.nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    margin-Top: 5px;
+    margin-Bottom: 5px;
+}
+
+/* Styling für den aktiven Link */
+.nav a.active {
+    color: #a9c5eb;
+}
+
+/* Styling für den Login-Button */
+.login-btn {
+    background-color: #3788f1;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center;
+    margin-Top: 5px;
+    margin-Bottom: 5px;
+}
+
+/* Hover-Effekt für den Login-Button */
+.login-btn:hover {
+    background-color: #74aaf0;
+}    
+
+
+/* Media Query für kleinere Bildschirme  */
+@media screen and (max-width: 768px) {
+    /* Ändern der Navigation auf ein Spalten-Layout */
+    .nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    /* Verschieben des Login-Buttons nach unten */
+    .login-btn {
+    margin-top: 20px;
+    }
+}
