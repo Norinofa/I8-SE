@@ -1,0 +1,2 @@
+FROM nginx:alpine
+COPY /home/s83774/Desktop/HTW/4.Semester/I8/I8-SE/src/Viktoria/I8_Grundstrucktur/index.html /home/s83774/Desktop/HTW/4.Semester/I8/I8-SE/src/Viktoria/I8_Grundstrucktur/index.html

@@ -1,0 +1,16 @@
+version: "20.10.12"
+
+services:
+
+  backend:
+    image: mybackend
+
+  db(Postman?):
+    image: mypostman
+
+  springboot(admin):
+    image: myadmin
+
+  frontend:
+    image: myfrontend
+
