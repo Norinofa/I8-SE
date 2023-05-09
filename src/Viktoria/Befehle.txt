@@ -20,3 +20,6 @@ Then, run the commands to build and run the Docker image:
 Visit http://localhost:8080 and you will see It works!
 
 ####################################### Apache ###########################################
+
+bash Start.sh
+bash Stop.sh
