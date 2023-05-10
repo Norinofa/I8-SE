@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projekt I8 Teamverwaltung</title>
+    <link rel="stylesheet" type="text/css" href="/Einstellungen.css">
+    <link rel="stylesheet" type="text/css" href="/Allgemein/style.css">
+    <script type="text/javascript" src="/Einstellungen.js"></script>
+    <script type="text/javascript" src="/Allgemein/script.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.6.0/jszip.min.js"></script>
+</head>
+
+<body>
+	<header>
+		<nav class="nav">
+			<a href="../Projektverwaltung/Projektverwaltung.html">Projektverwaltung</a>
+			<a href="../Teamverwaltung/Teams_generieren.html">Teams verwalten</a>
+			<a href="#" class="active">Einstellungen</a>
+            <a href="../Login/login.html">
+				<button class="login-btn">LogOut</button>
+			</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="box">
+          <h2>Backup</h2>
+          <p>Bakcup erstellen oder einfügen</p>
+          <button onclick="downloadAll()">Backup erstellen</button>
+
+        </div>
+        <div class="box">
+          <h2>Daten hinzufügen</h2>
+          <p>Daten per Exel Datei einfügen</p>
+          <button onclick="openFile()">Datei auswählen</button>
+        </div>
+        <div class="box">
+          <h2>Seite zurücksetzen</h2>
+          <p>Seite zurücksetzen</p>
+          <button onclick="openPopup()">Seite zurücksetzen</button>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="popup-overlay" id="popup-overlay">
+		<div class="popup" id="popup">
+			<h2>Seite zurücksetzen</h2>
+			<p>Achtung, Seite wird vollständig zurück gesetzt</p>
+			<button onclick="closePopup()">Abbruch</button>
+			<button onclick="alert('Seite wird zurückgesetzt!')">Bestätigen</button>
+		</div>
+	</div>
+
+
+</body>
+</html>
