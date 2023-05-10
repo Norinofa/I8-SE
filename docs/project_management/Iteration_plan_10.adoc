@@ -54,6 +54,9 @@ Aufgabenzuordnung s. Issues für Iteration 10 bei Projects
 == Bewertungskriterien
 //Eine kurze Beschreibung, wie Erfüllung die o.g. Ziele bewertet werden sollen.
 
+* Die CSV Datei muss ausgelesen werden können
+* Der Fragebogen ist um eine Frage erweitert wurden und der Algorithmus kann diese Information aufnehmen
+* (gegebenenfalls Überprüfung des Algorithmus für den Fragebogen durch Test) 
 
 
 
