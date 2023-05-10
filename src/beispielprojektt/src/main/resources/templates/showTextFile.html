@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Text</title>
+</head>
+<body>
+<h1>Datei erfolgreich hochgeladen</h1>
+<p>Die Datei wurde erfolgreich hochgeladen und in C:/uploads/ gespeichert.</p>
+
+<h1>Textdatei</h1>
+<ul>
+    <li th:each="line : ${lines}" th:text="${line}"></li>
+</ul>
+</body>
+</html>
