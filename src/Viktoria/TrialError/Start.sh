@@ -1,5 +1,4 @@
 #!/bin/bash
 
-docker pull httpd
-docker build -t my-apache2 .
-docker run -dit --name beispielprojektt -p 8080:80 my-apache2
+docker build --build-arg JAR_FILE=beispielprojektt/src/target/*.jar -t myorg/myapp ..
+docker run -p 8080:8080 myorg/myapp

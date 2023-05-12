@@ -23,3 +23,7 @@ Visit http://localhost:8080 and you will see It works!
 
 bash Start.sh
 bash Stop.sh
+
+##################################### Springboot #############################################
+
+$ docker build -t myorg/myapp .
