@@ -1,20 +1,18 @@
-version: "3.3"
+version: "3.9"
 
 services:
   db:
-    image: mysql
-    restart: on-failure
-    volumes:
-      - ./sql/mysql/test.sql:/docker-entrypoint-initdb.d/test.sql:rw
-      - mysql-data:/var/lib/mysql:rw
+    image: mysql:8
+    restart: always
     environment:
-      MYSQL_DATABASE: "test"
-      MYSQL_USER: "Nuha"
-      MYSQL_PASSWORD: "123"
-      MYSQL_ROOT_PASSWORD: "123"
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: studentdb
+      MYSQL_USER: Nuha
+      MYSQL_PASSWORD: 123
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
 
 volumes:
-  static_volume:
-  mysql-data:
-ports:
-      - "3306:3306"
+  db_data:
