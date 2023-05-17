@@ -22,8 +22,8 @@ include::../_includes/default-attributes.inc.adoc[]
 
 == Wesentliche Ziele
 
-* den übergebenen Code verstehen
-* 
+* Den übergebenen Code verstehen
+* ID Feld implementieren
 
 
 
@@ -55,7 +55,8 @@ Aufgabenzuordnung bezüglich der Dokumente:
 == Bewertungskriterien
 //Eine kurze Beschreibung, wie Erfüllung die o.g. Ziele bewertet werden sollen.
 
-* die Mitglieder haben den Code soweit verstanden, dass jeder eine Weiterimplementierung ansteuern kann
+* Die Mitglieder haben den Code soweit verstanden, dass jeder eine Weiterimplementierung ansteuern kann
+* Die Projekterstellung wurde um das Feld "ID" erweitert und kann in der Datenbank gespeichert werden
 
 
 == Assessment
@@ -71,7 +72,7 @@ Aufgabenzuordnung bezüglich der Dokumente:
 | Problem | Zeitmanagement außer Acht gelassen/ Erkenntnis für Neuentwicklung kam zu spät 
 |===
 
-* Die Aufgaben wurden nicht erfüllt
+* Die Aufgaben wurden nicht erfüllt. Die Teammitglieder haben den Code nicht gut genug verstanden, um eine Weiterentwicklung in Angriff nehmen zu können.
 //Dokumentieren Sie, ob die angestrebten Ziele des Iterationsplans erreicht wurden.
 
 
