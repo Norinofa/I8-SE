@@ -74,5 +74,7 @@ Aufgabenzuordnung s. Issues für Iteration 10 bei Projects
 
 
 //Dokumentieren Sie, ob die angestrebten Ziele des Iterationsplans erreicht wurden.
+* der Algorithmus kann die Daten noch nicht auffassen aus der Datenbank. 
+* ansonsten wurden alle Aufgaben erledigt
 
 //Zusammenfassung, ob alle für die Iteration geplanten Aufgaben bearbeitet wurden und welche Aufgaben verschoben oder hinzugefügt wurden.
