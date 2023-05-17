@@ -13,7 +13,7 @@ include::../_includes/default-attributes.inc.adoc[]
 | Meilenstein | Datum
 
 | Beginn der Iteration | 23.04.23
-| Treffen mit Coach | 
+| Treffen mit Coach | 04.05.23
 | Ende der Iteration | 07.05.23
 |===
 
