@@ -1,5 +1,5 @@
 
-= Iteration Plan 11: I8 Erstellung und Verwaltung von Gruppen für Software Engineering Projekte
+= Iteration Plan 12: I8 Erstellung und Verwaltung von Gruppen für Software Engineering Projekte
 Vorname Nachname <email@domain.org>; Vorname2 Nachname2 <email2@domain.org>; Vorname3 Nachname3 <email3@domain.org>
 {localdatetime}
 include::../_includes/default-attributes.inc.adoc[]
@@ -14,13 +14,16 @@ include::../_includes/default-attributes.inc.adoc[]
 | Meilenstein | Datum
 
 | Beginn der Iteration | 18.05.2023
-| Treffen mit Auftraggeber | ?
+| Treffen mit Auftraggeber | 25.05.23
 | Zusammentreff zur Bearbeitung der Aufgaben  | 24.05.2023
 | Ende der Iteration | 24.05.2023
 |===
 
 
 == Wesentliche Ziele
+
+* Den Login für die Studenten erstellen
+* Algorithmus für die Teamsgenerierung 
 
 
 
@@ -54,6 +57,9 @@ Aufgabenzuordnung s. Issues für Iteration 10 bei Projects
 
 == Bewertungskriterien
 //Eine kurze Beschreibung, wie Erfüllung die o.g. Ziele bewertet werden sollen.
+
+* Ein Student muss sich mit seiner SNummer und seinem Passwort einloggen können
+* Das System kann Teams generieren
 
 
 
