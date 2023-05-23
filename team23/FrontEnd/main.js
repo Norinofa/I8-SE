@@ -112,6 +112,7 @@ savebtn.addEventListener("click" , saveanswers);
 
 function saveanswers() {
   console.log(ids.length)
+ let uid = parseInt(sessionStorage.getItem("userid"));
   let rolesdata = []
 let senddata = []
 let skilldata = []
@@ -129,7 +130,7 @@ let skilldata = []
     let obj ={
       score : rating ,
         projectid : i ,
-        userid : 1   
+        userid : uid  
     }
     senddata.push(obj)
     console.log(obj)
@@ -157,7 +158,7 @@ for( let i of Roleids )
     let obj ={
       score : rating ,
         projectid : i ,
-        userid : 1   
+        userid : uid    
     }
     rolesdata.push(obj)
     console.log(obj)
@@ -186,7 +187,7 @@ for( let i of skillids )
     let obj ={
       score : rating ,
       skillid : i ,
-        userid : 1   
+        userid : uid  
     }
     skilldata.push(obj)
     console.log(obj)
@@ -205,6 +206,8 @@ for( let i of skillids )
 
 }
 
+
+document.getElementById("username").innerHTML  = sessionStorage.getItem("username");
 
 // loop through your list of projects and create the necessary HTML elements
 
