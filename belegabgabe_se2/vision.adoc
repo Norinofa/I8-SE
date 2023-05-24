@@ -1,0 +1,231 @@
+= Vision: {project-name}
+Vorname Nachname <email@domain.org>; Vorname2 Nachname2 <email2@domain.org>; Vorname3 Nachname3 <email3@domain.org>
+{localdatetime}
+include::../_includes/default-attributes.inc.adoc[]
+// Platzhalter für weitere Dokumenten-Attribute
+
+== Einführung
+Der Zweck dieses Dokuments ist es, die wesentlichen Bedarfe und Funktionalitäten des Online-Tool zur Erstellung und Verwaltung von Gruppen für Software Engineering Projekte zu sammeln, zu analysieren und zu definieren. Der Fokus liegt auf den Fähigkeiten, die von Stakeholdern und adressierten Nutzern benötigt werden, und der Begründung dieser Bedarfe. Die  Details, wie das Online-Tool diese Bedarfe erfüllt, werden in dem <<#use-case_model.adoc, Use-Case Model>> und den <<#system-wide_requirement.adoc, System-Wide Requirements>> beschrieben.
+
+=== Zweck
+Der Zweck dieses Dokuments ist es, die wesentlichen Anforderungen an das System aus Sicht und mit den Begriffen der künftigen Anwender zu beschreiben.
+
+=== Gültigkeitsbereich (Scope)
+Dieses Visions-Dokument bezieht sich auf das Online-Tool zur Erstellung und Verwaltung von Gruppen für Software Engineering Projekte, welches vom Team I08 entwickelt wird. Das System wird es dem Dozenten erlauben, auf Basis von durch Studierenden ausgefüllten Fragebögen, mit Hilfe eines Algorithmus, Teams aus Studierenden generieren zu lassen. Diese Teams werden vorher erstellten Projekten zugeordnet.
+
+=== Definitionen, Akronyme und Abkürzungen
+//Verweis passend zum Belegabgabe-Template se1_belegabgabe_t00.adoc
+Siehe <<#glossary, Glossar>>.
+
+=== Referenzen
+//(hier externe Verweise zu anderen Dokumenten, Quellen, Standards etc. einfügen, sofern notwendig)
+
+https://docs.asciidoctor.org[Asciidoc Dokumentation]
+
+https://www2.htw-dresden.de/~anke/openup/index.htm[Dokumentation zum Open Unified Process]
+
+== Positionierung
+
+=== Fachliche Motivation
+//Erläutern Sie kurz den Hintergrund, in dem das Projekt angesiedelt ist. Welches Problem soll gelöst werden, wie ist es entstanden? Welche Verbesserung wird angestrebt. Achten Sie darauf, eine fachliche (organisatorische, betriebswirtschaftliche) Perspektive einzunehmen.
+
+Im Rahmen des Fachs Software Engineering werden interne (innerhalb der HTWD) und externe (Auftraggeber außerhalb der HTWD) Projekte in Teams aus teilnehmenden Studierenden realisiert. Die Studierenden stehen daher vor der Entscheidung, an welchem Projekt sie im Semester mitwirken möchten. Um die Präferenzen, Fähigkeiten und Vorerfahrungen jedes Studierenden in die Teamgenerierung einfließen zu lassen, füllen die Studierenden einen Fragebogen, in welchem diese abgefragt werden, aus. Die Teamgenerierung bringt einige Probleme mit sich. Einerseits ist die Auswertung der Daten aus dem Fragebogen sehr zeitintensiv. Andererseits nehmen im Modul SE I neben Studierenden aus verschiedenen Informatikstudiengängen auch Studierende des Wirtschaftsingenieurwesens teil, wobei die Zweitgenannten nach dem ersten Semester ausscheiden und im zweiten Semester ausschließlich die Studierenden der Informatik involviert sind. Gegebenenfalls werden andere Studierende zum Semesterwechsel zusätzlich an SE II teilnehmen, z.B. aufgrund von Beurlaubung, Wiederholungsprüfung oder Auslandssemester. 
+
+
+Außerdem müssen folgende Faktoren beachtet werden:
+
+
+* Ausgewogene Interessen bzgl. der Rollenverteilung
+* Nutzung vorhandener Fähigkeiten, v.a. im technischen Bereich
+* Gleichmäßige Verteilung der WING-Studierenden auf die Teams
+* Möglichst gleiche Größe der Teams (initial 7-10 Teammitglieder)
+
+
+Die aktuelle Softwarelösung ist von den Studierenden der letzten beiden Semester erstellt worden, wobei diese im aktuellen Semester erstmals getestet wurde. Jedoch sind hierbei einige Probleme aufgetreten, beziehungsweise Verbesserungswünsche vom Auftraggeber geäußert worden. Diese lauten wie folgt:
+
+
+* Überarbeitung bzw. Neugestaltung der Oberfläche
+* Erweiterung der Projektverwaltung
+* Erweiterung des Fragebogens und Zuordnungsalgorithmus
+* Daten zurücksetzen für ein neues Semester
+* Backup- und Wiederherstellung
+* Optimieren der Docker-Umgebung
+* Hard gecodeter Code der Vorgänger
+* andere Expertise als die Vorgänger
+
+=== Problem Statement
+//Stellen Sie zusammenfassend das Problem dar, das mit diesem Projekt gelöst werden soll. Das folgende Format kann dazu verwendet werden:
+
+[cols="1,3"]
+|===
+| Das Problem
+| bisheriges Online-Tool erfüllt zwar den gewünschten Zweck der Teamgenerierung, jedoch ist die Handhabung und die Oberfläche in vielen Bereichen nicht ausgereift, außerdem fehlen Informationen im Fragebogen
+
+| betrifft
+| die Studierenden und Dozenten des Moduls Software Engineering, sowie den Auftraggeber Herrn Zirkelbach
+
+
+| die Auswirkung davon ist 
+a|
+* unnötiger Zeitaufwand bei der Verwaltung der Projekte
+* unübersichtliche Menüführung für Studierende und Dozenten
+* schlechte Platzausnutzung der Website
+* Teamgenerierung ist nicht ideal (fehlende Erfassung von abgeschlossener Fachinformatikerausbildung)
+
+| eine erfolgreiche Lösung wäre
+| so ziemlich alles neu zu machen, bis auf den Zuordnungsalgorithmuses und die damit verbundene Teamgenerierung, wobei die Beachtung von einer abgeschlossenen Fachinformatikerausbildung ergänzt wird. Eine Oberfläche, die ein intuitiveres Bedienen durch die Studierenden ermöglicht. Eine effizientere Projektverwaltung durch Features, wie der Zuordnung von Projekt-ID's und Labels.
+|===
+
+////
+Beispiel:
+[cols="1,3"]
+|===
+|Das Problem | aktuelle Informationen zum Stundenplan und Noten einfach zu erhalten
+|betrifft | Studierende der HTW Dresden
+|die Auswirkung davon ist | umständliche und aufwändige Suche nach Noten, Zeiten und Räumen
+|eine erfolgreiche Lösung wäre | die Zusammenführung und benutzer-individuelle Darstellung auf einem mobilen Endgerät
+|===
+////
+
+=== Positionierung des Produkts
+//Ein Positionierung des Produkts beschreibt das Einsatzziel der Anwendung und die Bedeutung das Projekts an alle beteiligten Mitarbeiter.
+
+//Geben Sie in knapper Form übersichtsartig die Positionierung der angestrebten Lösung im Vergleich zu verfügbaren Alternativen dar. Das folgende Format kann dazu verwendet werden:
+
+[cols="1,3"]
+|===
+| Für | Studierende des Moduls SE
+| die | gemäß ihrem Interesse einem Team für ein Projekt zugeteilt werden wollen
+| Das Produkt / die Lösung ist eine | Erweiterung des "Online-Tools der Teamerstellung"
+| Welche | ein intuitives Ausfüllen des Fragebogens ermöglicht
+| Im Gegensatz zu | dem bisherigen Online-Tool
+| Unser Produkt | ermöglicht durch eine überarbeitete Oberfläche ein angenehmeres Ausfüllen des Fragebogens, was durch die Beachtung des Vorhandenseins einer Fachinformatikerausbildung zu einer idealen Teamgenerierung führt
+|===
+
+[cols="1,3"]
+|===
+| Für | Dozenten des Moduls SE
+| die | Teams für die Software Engineering Projekte erstellen
+| Das Produkt / die Lösung ist eine | Erweiterung des "Online-Tools der Teamerstellung"
+| Welche | die ideale Generierung der Teams und das Erstellen, sowie die Verwaltung von Projekten mit erweiterten Funktionalitäten ermöglicht 
+| Im Gegensatz zu | dem bisherigen Online-Tool
+| Unser Produkt | ermöglicht durch eine überarbeitete Oberfläche und bessere Strukturierung der Projekte durch Projekt-ID's (z.B. I3 und E3) und Labels (z.B. Neuentwicklung/ Weiterentwicklung) ein angenehmeres Verwalten der Projekte und Teams. Zusätzlich dazu wird die Funktion zum Zurücksetzen des Gesamtsystems und die Funktion der Backup- und Wiederherstellung hinzugefügt.
+|===
+
+////
+Beispiel Produkt:
+|===
+| Für | Studierende der HTW
+| die | die ihren Studienalltag effizienter organisieren möchten
+| Das Produkt ist eine | mobile App für Smartphones
+| Die | für den Nutzer Informationen zum Stundenplan und Noten darstellt
+| Im Gegensatz zu | Stundenplänen der Website und HIS-Noteneinsicht
+| Unser Produkt | zeigt nur die für den Nutzer relevanten Informationen komfortabel auf dem Smartphone an.
+|===
+////
+
+
+== Stakeholder Beschreibungen
+
+
+[%header, cols="1,3,3"]
+|===
+| Name | Beschreibung | Verantwortlichkeiten
+
+| Studierende | Kursteilnehmer im Modul SE I (Wirtschaftsinformatiker, Wirtschftsingenieure, Informatiker, Verwaltungsinformatiker) | Endnutzer des Produktes, beantworten den Fragebogen
+| Dozenten
+| Herr Prof. Dr.-Ing. Anke, Herr Zirkelbach
+| Endnutzer des Produktes, ist für die Verwaltung zuständig
+| Auftraggeber
+| Herr Zirkelbach
+| Ansprechpartner und gibt die Anforderungen vor 
+| Rechenzentrum der HTW
+| betreibt zentrale Server und Dienste der HTW
+| stellt Zertifikat bereit
+| 
+|===
+
+=== Benutzerumgebung
+
+
+//Zutreffendes angeben, nicht zutreffendes streichen oder auskommentieren
+
+==== Für Dozent
+
+* Eine neue Webanwendung soll erstellt werden
+
+* Bereitstellung des Online-Tools als Web-Applikation im HTW-Netz
+
+* Die Anzahl der Nutzer beläuft sich derzeit auf zwei Dozenten
+
+* Der vorhandene Dozenten-Login wird von allen Dozenten geteilt
+
+* Datenhaltung erfolgt in einer MySQL Datenbank, Anbindung hierzu erforderlich
+
+* Software läuft über Docker Container auf einem Server
+
+* Bearbeitungszeit ist abhängig von der Anzahl der zu verwaltenden Projekte und Schnelligkeit des Algorithmus
+
+==== Für Studierende
+
+* Eine neue Webanwendung soll erstellt werden
+
+* Bereitstellung des Online-Tools als Web-Applikation im HTW-Netz
+
+* Die Anzahl der Nutzer beläuft sich auf ungefähr 100 Studierende
+
+* Lediglich Studierende, welche zuvor vom Dozenten hinzugefügt wurden (also jene, die am Modul SE teilnehmen), können sich anmelden
+
+* Studierende verwenden hierfür ihre individuellen HTW-Logindaten
+
+* Mobile Version des Online-Tools ist wünschenswert
+
+//. Wie lange dauert die Bearbeitung der Aufgabe? Wie viel Zeit wird für jeden Arbeitsschritt benötigt? Ändert sich das?
+//. Gibt es besondere Umgebungsbedingungen, z.B. mobil, offline, Außeneinsatz, Touchbedienung, Nutzung durch seh- oder hörbeeinträchtigte Personen?
+//. Welche Systemplattformen werden heute eingesetzt? Welche sind es ggf. zukünftig?
+//. Welche anderen Anwendungen sind im Einsatz? Muss ihre Anwendung mit diesen integriert werden?
+
+//Hier können zudem bei Bedarf Teile des Unternehmensmodells (Prozesse, Organigramme, IT-Landschaft, ...) eingefügt werden, um die beteiligten Aufgaben und Rollen zu skizzieren.
+
+
+== Produkt-/Lösungsüberblick
+
+=== Bedarfe und Hauptfunktionen
+//Vermeiden Sie Angaben zum Entwurf. Nennen wesentliche Features (Produktmerkmale) auf allgemeiner Ebene. Fokussieren Sie sich auf die benötigten Fähigkeiten des Systems und warum (nicht wie!) diese realisiert werden sollen. Geben Sie die von den Stakeholdern vorgegebenen Prioritäten und das geplante Release für die Veröffentlichung der Features an.
+
+[%header, cols="4,1,4,1"]
+|===
+| Bedarf | Priorität | Features | Geplantes Release
+| Neugestaltung der Oberfläche | Hoch | schlanke, funktionale Oberfläche, einfachere Menüführung für Studierenden- und Dozentenansicht, bessere Ausnutzung des Platzes der Website, Labels/Begriffe vereinheitlichen und von den Begrifflichkeiten (Ein-/ Mehrzahl, gendergerechte Begriffe) anpassen  | xx
+| Erweiterung der Projektverwaltung | Hoch | Projekt-ID extra zum Thema, sowie Labels zum Projekt erfassen und anzeigen (Techniken, intern/extern, Neuentwicklung/Wei­
+terentwicklung), Pflichtfelder und Standardwerte/ -verhalten für leere Felder anpassen| xx
+| Erweiterung des Fragebogens und des Zuordnungsalgorithmus | Hoch | Erfassen, ob eine Fachinformatikausbildung oder ähnliche Qualifikation erfolgt ist. Diese
+sollen gleichmäßig auf die Teams verteilt werden, Möglichkeit der mehrfachen Vergabe von Themen (bspw. bei zu wenig Themen) | xx
+| Daten zurücksetzen für neues Semester | Mittel | Entfernen aller Daten (Projektthemen, Studierenden, Umfragen, Teams) und Einstellungen
+(Sichtbarkeiten) für ein neues Semester | xx
+| Backup- und Wiederherstellung | Mittel | Datenbank SQL-Dump (down-/upload?), Einstellungen (wenn nicht in Datenbank vorhanden) | xx
+| Optimieren der Docker-Umgebung | Mittel | Passwörter auslagern (Umgebungsvariable statt fest im Code/Git), logfiles, file/folder permissions, ... | xx
+|===
+
+
+== Zusätzliche Produktanforderungen
+//Zutreffendes angeben, nicht zutreffendes streichen oder auskommentieren
+// Hinweise:
+
+//. Führen Sie die wesentlichen anzuwendenden Standards, Hardware oder andere Plattformanforderungen, Leistungsanforderungen und Umgebungsanforderungen auf
+//. Definieren Sie grob die Qualitätsanforderungen für Leistung, Robustheit, Ausfalltoleranz, Benutzbarkeit und ähnliche Merkmale, die nicht von den genannten Features erfasst werden.
+//. Notieren Sie alle Entwurfseinschränkungen, externe Einschränkungen, Annahmen oder andere Abhängigkeiten, die wenn Sie geändert werden, das Visions-Dokument beeinflussen. Ein Beispiel wäre die Annahme, dass ein bestimmtes Betriebssystem für die vom System erforderliche Hardware verfügbar ist. Ist das Betriebssystem nicht verfügbar, muss das Visions-Dokument angepasst werden.
+//. Definieren Sie alle Dokumentationsanforderugen, inkl. Benutzerhandbücher, Onlinehilfe, Installations-, Kennzeichnungs- und Auslieferungsanforderungen-
+//. Definieren Sie die Priorität für diese zusätzlichen Produktanforderungen. Ergänzen Sie, falls sinnvoll, Angaben zu Stabilität, Nutzen, Aufwand und Risiko für diese Anforderungen.
+
+[%header, cols="4,1,1"]
+|===
+| Anforderung | Priorität | Geplantes Release
+| Online-Tool soll intuitiv bedienbar sein | Hoch | xx
+| Online-Tool soll zuverlässig sein | Hoch | xx
+| Zurücksetzen der Primärschlüssel | Mittel | xx     
+| hell/ dunkel Modus | Niedrig | xx
+|===
+
+//sehr vage formuliert und rest kann noch ergänzt werden
+//zu beachten sind noch die Verlinkungen für später
