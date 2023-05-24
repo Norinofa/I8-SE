@@ -50,7 +50,7 @@ Die aktuelle Softwarelösung ist von den Studierenden der letzten beiden Semeste
 * Daten zurücksetzen für ein neues Semester
 * Backup- und Wiederherstellung
 * Optimieren der Docker-Umgebung
-* Hard gecodeter Code der Vorgänger
+* Soft coden
 * andere Expertise als die Vorgänger
 
 === Problem Statement
