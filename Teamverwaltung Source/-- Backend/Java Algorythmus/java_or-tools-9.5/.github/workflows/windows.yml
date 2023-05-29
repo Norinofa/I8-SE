@@ -1,0 +1,20 @@
+name: Windows
+
+on: [push, pull_request]
+
+jobs:
+  # Building using the github runner environement directly.
+  build:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Check java
+      run: java -version
+    - name: Check maven
+      run: mvn --version
+    - name: Compile
+      run: mvn compile
+    - name: Test
+      run: mvn exec:java
+    - name: Package
+      run: mvn package

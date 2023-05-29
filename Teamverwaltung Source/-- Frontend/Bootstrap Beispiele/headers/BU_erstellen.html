@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Projekt I8 Teamverwaltung</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+	<script src="zuruecksetzen.js"></script>
+</head>
+<body>
+	<header>
+		<nav class="nav">
+			<a href="Projektverwaltung.html">Projektverwaltung</a>
+			<a href="generieren.html">Teams verwalten</a>
+			<div class="dropdown">
+				<a href="#">Einstellungen</a>
+				<div class="dropdown-content">
+					<a href="#" class="active">Backup erstellen</a>
+					<a href="BU_laden.html">Backup laden</a>
+					<a href="add_Data.html">Daten hinzufügen</a>
+					<a href="#" onclick="openPopup()">Seite zurücksetzen</a>
+				</div>
+			</div>
+            <a href="login.html">
+				<button class="login-btn">LogOut</button>
+			</a>
+
+        </nav>
+    </header>
+
+	<button id="download-btn">Backup herunterladen</button>
+
+
+
+	<div class="popup-overlay" id="popup-overlay">
+		<div class="popup" id="popup">
+			<h2>Seite zurücksetzen</h2>
+			<p>Achtung, Seite wird vollständig zurück gesetzt</p>
+			<button onclick="closePopup()">Abbruch</button>
+			<button onclick="alert('Seite wird zurückgesetzt!')">Bestätigen</button>
+		</div>
+	</div>
+
+</body>
+</html>
+

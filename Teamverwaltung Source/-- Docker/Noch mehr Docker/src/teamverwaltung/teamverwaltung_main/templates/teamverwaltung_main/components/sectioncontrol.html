@@ -1,0 +1,121 @@
+<div class="sectioncontroll" style="margin-bottom: 5px;">
+    Startseiten-Bereiche:
+    <div class="scthemen">
+        <h4>Projekte</h4>
+        <input type="checkbox" class="checkbox" id="switchThemen" name="themen"/>
+        <label class="label" for="switchThemen">
+            <i class="fas fa-check" id="switchcheck"></i>
+            <i class="fa-solid fa-xmark"></i>
+            <div class="ball"></div>
+        </label>
+    </div>
+    <div class="scfragebogen">
+        <h4>Fragebogen</h4>
+        <input type="checkbox" class="checkbox" id="switchFragebogen" name="fragebogen"/>
+        <label class="label" for="switchFragebogen">
+            <i class="fas fa-check" id="switchcheck"></i>
+            <i class="fa-solid fa-xmark"></i>
+            <div class="ball"></div>
+        </label>
+    </div>
+    <div class="scfragebogen">
+        <h4>Fragebogen - schreibgeschützt:</h4>
+        <input type="checkbox" class="checkbox" id="switchFragebogenReadOnly" name="fragebogen_readonly"/>
+        <label class="label" for="switchFragebogenReadOnly">
+            <i class="fas fa-check" id="switchcheck"></i>
+            <i class="fa-solid fa-xmark"></i>
+            <div class="ball"></div>
+        </label>
+    </div>
+    <div class="scteams">
+        <h4>Teams</h4>
+        <input type="checkbox" class="checkbox" id="switchTeams" name="teams"/>
+        <label class="label" for="switchTeams">
+            <i class="fas fa-check" id="switchcheck"></i>
+            <i class="fa-solid fa-xmark"></i>
+            <div class="ball"></div>
+        </label>
+    </div>
+</div>
+
+<script>
+    var switchThemen = $("#switchThemen");
+    var switchFragebogen = $("#switchFragebogen");
+    var switchFragebogenReadOnly = $("#switchFragebogenReadOnly");
+    var switchTeams = $("#switchTeams");
+
+    $(document).ready(function(){
+        $.ajax({
+            url: "sectioncontrol",
+            type: "GET",
+            data: {},
+            success: function(response){
+                var sections = JSON.parse(response.sections);
+                switchThemen.prop("checked", sections.themen);
+                switchFragebogen.prop("checked", sections.fragebogen);
+                switchTeams.prop("checked", sections.teams);
+                switchFragebogenReadOnly.prop("checked", sections.fragebogen_readonly);
+            }
+        });
+    })
+
+    switchThemen.bind("change", function(){
+        $.ajax({
+            url: "sectioncontrol",
+            type: "POST",
+            data: {
+                section: "themen",
+                activated: this.checked,
+                csrfmiddlewaretoken: getCookie('csrftoken')
+            },
+            success: {
+
+            }
+        });
+    });
+
+    switchFragebogen.bind("change", function(){
+        $.ajax({
+            url: "sectioncontrol",
+            type: "POST",
+            data: {
+                section: "fragebogen",
+                activated: this.checked,
+                csrfmiddlewaretoken: getCookie('csrftoken')
+            },
+            success: {
+
+            }
+        });
+    });
+
+    switchTeams.bind("change", function(){
+        $.ajax({
+            url: "sectioncontrol",
+            type: "POST",
+            data: {
+                section: "teams",
+                activated: this.checked,
+                csrfmiddlewaretoken: getCookie('csrftoken')
+            },
+            success: {
+
+            }
+        });
+    });
+
+    switchFragebogenReadOnly.bind("change", function(){
+        $.ajax({
+            url: "sectioncontrol",
+            type: "POST",
+            data: {
+                section: "fragebogen_readonly",
+                activated: this.checked,
+                csrfmiddlewaretoken: getCookie('csrftoken')
+            },
+            success: {
+
+            }
+        });
+    });
+</script>

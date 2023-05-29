@@ -1,0 +1,17 @@
+wheel
+django
+mysqlclient
+django-mysql
+django-widget-tweaks
+ortools
+# install required libraries for django-auth-ldap:
+# sudo apt-get install libsasl2-dev libldap2-dev libssl-dev
+django-auth-ldap
+gunicorn
+
+# Docs
+sphinx
+sphinx-rtd-theme
+
+# DEBUG
+django-debug-toolbar
