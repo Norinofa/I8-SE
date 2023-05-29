@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-
-python manage.py collectstatic --noinput
-gunicorn teamverwaltung.wsgi -c /var/gunicorn/gunicorn.py
