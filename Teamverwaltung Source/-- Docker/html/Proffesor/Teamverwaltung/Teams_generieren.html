@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projekt I8 Teamverwaltung</title>
+    <link rel="stylesheet" type="text/css" href="Teamverwaltung.css">
+    <link rel="stylesheet" type="text/css" href="../Allgemein/style.css">
+    <script type="text/javascript" src="Teamverwaltung.js"></script>
+    <script type="text/javascript" src="../Allgemein/script.js"></script>
+</head>
+
+<body>
+	<header>
+		<nav class="nav">
+			<a href="../Projektverwaltung/Projektverwaltung.html">Projektverwaltung</a>
+			<a href="#" class="active">Teams verwalten</a>
+			<a href="../Einstellungen/Einstellungen.html">Einstellungen</a>
+			<a href="../../index.html">
+				<button class="login-btn">LogOut</button>
+			</a>
+        </nav>
+    </header>
+
+    <div>
+		<h4>Es sind noch keine Teams vorhanden</h4>
+		<label for="min">Mindest Anzahl:</label>
+		<input type="number" id="min" name="min"><br><br>
+		<label for="max">Maximale Anzahl:</label>
+		<input type="number" id="max" name="max"><br><br>
+
+		<button onclick="generieren()">Teams generieren</button>
+  	</div>    
+
+
+</body>
+</html>

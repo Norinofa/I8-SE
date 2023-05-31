@@ -1,6 +1,13 @@
 version: "3.9"
 
 services:
+  web:
+    image: nginx:alpine
+    ports:
+      - 80:80
+    volumes:
+      - ./html:/usr/share/nginx/html
+
   db:
     image: mysql:8
     restart: always
@@ -16,3 +23,4 @@ services:
 
 volumes:
   db_data:
+
