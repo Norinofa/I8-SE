@@ -41,29 +41,34 @@ erreichen soll, sind:
 
 *Grundannahme*
 
-* Jeder Benutzer hat eine Zugriff auf das HTW- Netzwerk.
+* Jeder Benutzer hat einen Zugriff auf das HTW- Netzwerk.
 
 * Jeder Student besitzt einen HTW-Login.
+
+* Für Studenten herrscht eine Einschreibung im Modul Software Engineering I vor.
+
+* Es herrscht eine stabile Verbindung zum Internet vor.
+
 
 //* Die Neuentwicklung auf Basis eines bestehenden Systems
 
 //* Ein System zur Erstellung und Verwaltung von Gruppen in Software Engineering Projekten und des Fragebogens der Studierenden.
 
-* Java ist als Programmiersprache für das Backend zu verwenden.
+//* Java ist als Programmiersprache für das Backend zu verwenden.
 
-* Das Framework für das Backend ist Java Spring.
+//* Das Framework für das Backend ist Java Spring.
 
-* Die Software wird über eine virtuelle Maschine, Docker Container, betrieben.
+//* Die Software wird über eine virtuelle Maschine, Docker Container, betrieben.
 
-* Die virtuelle Maschine läuft über Linux.
+//* Die virtuelle Maschine läuft über Linux.
 
-* Als Datenbank wird MySQL verwendet.
+//* Als Datenbank wird MySQL verwendet.
 
-* Die Anmeldung erfolgt über den HTW-Login.
+//* Die Anmeldung erfolgt über den HTW-Login.
 
-* Für das Frontend wird als Programmiersprache JavaScript verwendet.
+//* Für das Frontend wird als Programmiersprache JavaScript verwendet.
 
-* Zur Oberflächengestaltung werden HTML und CSS verwendet.
+//* Zur Oberflächengestaltung werden HTML und CSS verwendet.
 
 *Abhängigkeiten*
 
