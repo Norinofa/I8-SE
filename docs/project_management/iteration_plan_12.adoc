@@ -41,7 +41,7 @@ Aufgabenzuordnung bezüglich der Dokumente:
 * Entwicklerdoku: Vincent, Phil
 * Test: Julius, Evelyn
 
-Aufgabenzuordnung s. Issues für Iteration 10 bei Projects
+Aufgabenzuordnung s. Issues für Iteration 12 bei Projects
 
 
 == Probleme (optional)
