@@ -18,11 +18,14 @@ Dieses Dokument beschreibt die Philosophie, Entscheidungen, Nebenbedingungen, Be
 
 //Formulieren Sie eine Reihe von Zielen, die die Architektur in ihrer Struktur und ihrem Verhalten erfüllen muss. Identifizieren Sie kritische Fragen, die von der Architektur adressiert werden müssen, z.B. besondere Hardware-Abhängigkeiten, die vom Rest des Systems isoliert werden sollten oder Sicherstellung der Funktionsfähigkeit unter besonderen Bedingungen (z.B. Offline-Nutzung).
 
-Die Architektur muss eine Webanwendung für Studierenden und Professoren, welche es ermöglicht Teams mit der gleichen Anzahl der Studierenden jedoch unterschiedlicher Rollen in verschiedenen Projekten aufzuteilen, verwirklichen. Diese basiert auf einer bereits bestehenden Anwendung und
-ist somit als Weiterentwicklung zu betrachten. Unsere Schwerpunkte bei der Architektur der Weiterentwicklung liegen auf der Nutzerfreundlichkeit für Studierenden, sowie Projektadministrator und der Erweiterung des bereits vorhandenen Algorithmus.
+Die Architektur muss eine Webanwendung für Studierenden und Professoren, welche es ermöglicht Teams mit der gleichen Anzahl der Studierenden jedoch unterschiedlicher Rollen in verschiedenen Projekten aufzuteilen, verwirklichen. Diese basiert ursprünglich auf einer bereits bestehenden Anwendung, wird jedoch als Neuentwicklung angesetzt und übernimmt den grundlegenden Inhalt der Vorgängerstruktur. Unsere Schwerpunkte bei der Architektur der Weiterentwicklung liegen auf der Nutzerfreundlichkeit für Studierenden, sowie Projektadministrator und der Anpassung der Programmiersprache und Erweiterung des bereits vorhandenen Algorithmus.
 
 Weitere Ziele, die die Architektur in Bezug auf Struktur und Verhalten
 erreichen soll, sind:
+
+* Login für Studierende und Dozenten
+
+* Das Ausfüllen eines Fragebogens
 
 * Möglichkeit der Verwendung des Programms über mehrere Semester
 
@@ -38,14 +41,18 @@ erreichen soll, sind:
 
 *Grundannahme*
 
-* Die Weiterentwicklung eines bestehenden Systems
+* Jeder Benutzer hat eine Zugriff auf das HTW- Netzwerk.
 
-* Ein System zur Erstellung und Verwaltung von Gruppen in Software
+* Jeder Student besitzt einen HTW-Login.
+
+//* Die Neuentwicklung auf Basis eines bestehenden Systems
+
+//* Ein System zur Erstellung und Verwaltung von Gruppen in Software
 Engineering Projekten und des Fragebogens der Studierenden.
 
-* Python ist als Programmiersprache für das Backend zu verwenden.
+* Java ist als Programmiersprache für das Backend zu verwenden.
 
-* Das Framework für das Backend ist Django.
+* Das Framework für das Backend ist Java Spring.
 
 * Die Software wird über eine virtuelle Maschine, Docker Container, betrieben.
 
@@ -81,7 +88,7 @@ mögliche Pflichtfelder müssen berücksichtigt werden.
 
 *SWFA-4*
 
-* Um faire Teams erstellen zu können, soll der Dozent die Möglichkeit haben, durch ein Eingabefeld festzulegen wie viele Personen mindestens in ein Team sein müssen. Hierfür muss der Algorithmus mit einer variablen Anzahl an Teams arbeiten können. 
+* Um faire Teams erstellen zu können, soll der Dozent die Möglichkeit haben, durch ein Eingabefeld festzulegen wie viele Personen mindestens in einem Team sein müssen. Hierfür muss der Algorithmus mit einer variablen Anzahl an Teams arbeiten können. 
 
 *SWFA-5*
 
@@ -107,15 +114,19 @@ mögliche Pflichtfelder müssen berücksichtigt werden.
 
 . Aufbauend auf der bereits verwendeten Website haben wir uns entschieden folgende Punkte zu übernehmen:
 
-.. Datenbanken basierend auf MySQl
-
-.. Programmiersprache Python, Java Script und CSS 
-
-.. Bibliotheken und Framework von Django
+.. Datenbanken basierend auf MySQl, da die es eine breite Anwendung hat und gut dokumentiert ist
 
 .. Konfiguration über Docker
 
-. Als Schnittstelle der Website verwenden wir ngnix
+. Neue Entscheidungen:
+
+.. Als Backend benutzen wir Java, da die Programmiersprache für unsere Kenntisse besser geeignet ist
+
+.. Als Framework Spring Boot, da Sping Boot passend zur Programmiersprache Java agiert
+
+.. Als Frontend benutzen wir Java Script und CSS, ebenfalls wegen der Kompatibilität 
+
+
 
 == Architekturmechanismen
 
