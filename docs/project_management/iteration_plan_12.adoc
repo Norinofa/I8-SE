@@ -73,12 +73,11 @@ Aufgabenzuordnung s. Issues für Iteration 10 bei Projects
 | Assessment Ziel | Das kann die gesamte Iteration oder eine spezifische Komponente sein
 
 | Assessment Datum | 12.12.22
-| Teilnehmer | 
+| Teilnehmer | ED
 | Projektstatus	|gelb
 |===
 
 
 //Dokumentieren Sie, ob die angestrebten Ziele des Iterationsplans erreicht wurden.
-
-
+Die Ziele wurden nicht erfüllt. Problematisch ist die Implementierung des LPAD- Servers. Herr Zirkelbach hat uns einen neuen Lösungsansatz geliefert, der in der nächsten Iteration ausgeführt wird.
 //Zusammenfassung, ob alle für die Iteration geplanten Aufgaben bearbeitet wurden und welche Aufgaben verschoben oder hinzugefügt wurden.
