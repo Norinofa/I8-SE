@@ -26,6 +26,7 @@ include::../_includes/default-attributes.inc.adoc[]
 * bisherigen Code mit Frontend verbinden
 * Grundordnung bei GitHub herstellen
 * Algorithmus anpassen für Teamsgenerierung und Fragestellung im Code
+* LDAP Server Verbindung herstellen
 
 
 
@@ -62,7 +63,7 @@ Aufgabenzuordnung s. Issues für Iteration 10 bei Projects
 
 * Das System muss eine zeigbare Oberfläche besitzen
 * Teams können generiert werden 
-
+* Ein Student kann sich über den LDAP Server anmelden
 
 
 
@@ -76,12 +77,14 @@ Aufgabenzuordnung s. Issues für Iteration 10 bei Projects
 | Assessment Ziel | Das kann die gesamte Iteration oder eine spezifische Komponente sein
 
 | Assessment Datum | 12.12.22
-| Teilnehmer | 
+| Teilnehmer | ED
 | Projektstatus	|gelb
 |===
 
 
 //Dokumentieren Sie, ob die angestrebten Ziele des Iterationsplans erreicht wurden.
-
+* Das System hat eine sporadische Oberfläche, sodass man einzelne Funktionen präsentieren kann. 
+* Der Algorithmus für die Teamsgenerierung ist in Arbeit, aber nicht ausgereift.
+* Die Implementierung des LDAP Servers war nicht erfolgreich. Zur weiteren Bearbeitung des Problems werden in der nächsten Iteration die Hinweise von Herr Zirkelbach ausprobiert.
 
 //Zusammenfassung, ob alle für die Iteration geplanten Aufgaben bearbeitet wurden und welche Aufgaben verschoben oder hinzugefügt wurden.
