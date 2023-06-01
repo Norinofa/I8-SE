@@ -47,8 +47,7 @@ erreichen soll, sind:
 
 //* Die Neuentwicklung auf Basis eines bestehenden Systems
 
-//* Ein System zur Erstellung und Verwaltung von Gruppen in Software
-Engineering Projekten und des Fragebogens der Studierenden.
+//* Ein System zur Erstellung und Verwaltung von Gruppen in Software Engineering Projekten und des Fragebogens der Studierenden.
 
 * Java ist als Programmiersprache für das Backend zu verwenden.
 
