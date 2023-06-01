@@ -79,5 +79,5 @@ Aufgabenzuordnung s. Issues für Iteration 10 bei Projects
 
 
 //Dokumentieren Sie, ob die angestrebten Ziele des Iterationsplans erreicht wurden.
-Die Ziele wurden nicht erfüllt. Problematisch ist die Implementierung des LPAD- Servers. Herr Zirkelbach hat uns einen neuen Lösungsansatz geliefert, der in der nächsten Iteration ausgeführt wird.
+Die Ziele wurden nicht erfüllt. Problematisch ist die Implementierung des LPAD- Servers. Dieses wird in die nächste Iteration mitgenommen.
 //Zusammenfassung, ob alle für die Iteration geplanten Aufgaben bearbeitet wurden und welche Aufgaben verschoben oder hinzugefügt wurden.
