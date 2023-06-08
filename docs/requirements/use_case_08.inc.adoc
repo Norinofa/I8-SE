@@ -11,7 +11,7 @@ Der Use Case beschreibt den Prozess des Erstellens oder Ladens eines Backups dur
 
 ==== Dozent
 
-möchte ein Backup erstellen/ laden
+Möchte ein Backup erstellen oder laden.
 
 //==== <Akteur 1 Name>
 
