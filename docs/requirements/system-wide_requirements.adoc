@@ -91,11 +91,8 @@ nicht anders spezifiziert, getestet werden.
 
 * Die Verwaltung des Sourcecodes und der Dokumentation muss mittels GitHub erfolgen.
 
-* Folgende Programmiersprachen und Tools sind weiterhin vorgegeben:
-** Python mit Django
-** MySQL Datenbank
-** HTML, CSS und JavaScript (jquery)
-** Oberflächen-Frameworks
+* Folgende Tools sind weiterhin vorgegeben:
+** Oberflächen-Framework
 ** Docker Container
 //siehe PDF teamverwaltung
 
