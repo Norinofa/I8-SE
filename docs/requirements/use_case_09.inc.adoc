@@ -5,13 +5,13 @@
 === Kurzbeschreibung
 //<Kurze Beschreibung des Use Case>
 
-Der Use Case beschreibt den Prozess des Zürücksetzens der Projektteams, zudem werden auch alle Nutzerdaten der Studenten aus der Datenbank gelöscht. 
+Der Use Case beschreibt den Prozess des Zürücksetzens der Nutzerdaten sowie die Anwendung auf Standardeinstellungen zurücksetzen. 
 
 === Kurzbeschreibung der Akteure
 
 ==== Dozent
 
-Möchte alle Projektteams zurücksetzen und alle Nutzerdaten löschen.
+Möchte alle Nutzerdaten löschen und die Anwendung auf Standardeinstellungen zurücksetzen.
 
 //==== <Akteur 1 Name>
 
