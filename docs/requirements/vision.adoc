@@ -71,7 +71,7 @@ a|
 * Teamgenerierung ist nicht ideal (fehlende Erfassung von abgeschlossener Fachinformatikerausbildung)
 
 | eine erfolgreiche Lösung wäre
-| eine Weiterentwicklung des bestehenden Online-Tools, dass die Kernfunktion (Zuordnungsalgorithmus und damit verbundene Teamgenerierung) beibehält, wobei die Beachtung von einer abgeschlossenen Fachinformatikerausbildung ergänzt wird. Eine Oberfläche, die ein intuitiveres Bedienen durch die Studierenden ermöglicht. Eine effizientere Projektverwaltung durch Features, wie der Zuordnung von Projekt-ID's und Labels.
+| so ziemlich alles neu zu machen, bis auf den Zuordnungsalgirthmuses und die damit verbundene Teamgenerierung, wobei die Beachtung von einer abgeschlossenen Fachinformatikerausbildung ergänzt wird. Eine Oberfläche, die ein intuitiveres Bedienen durch die Studierenden ermöglicht. Eine effizientere Projektverwaltung durch Features, wie der Zuordnung von Projekt-ID's und Labels.
 |===
 
 ////
@@ -150,7 +150,7 @@ Beispiel Produkt:
 
 ==== Für Dozent
 
-* Bisherige Webanwendung soll verwendet werden (bekannt und etabliert)
+* Eine neue Webanwendung soll erstellt werden
 
 * Bereitstellung des Online-Tools als Web-Applikation im HTW-Netz
 
@@ -166,7 +166,7 @@ Beispiel Produkt:
 
 ==== Für Studierende
 
-* Bisherige Webanwendung soll verwendet werden (bekannt und etabliert)
+* Eine neue Webanwendung soll erstellt werden
 
 * Bereitstellung des Online-Tools als Web-Applikation im HTW-Netz
 
