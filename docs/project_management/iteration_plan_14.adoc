@@ -84,7 +84,7 @@ Aufgabenzuordnung s. Issues für Iteration 14 bei Projects
 * die Implementierung des LDAP Servers ist noch nicht gelungen, jedoch wurde dieser erfolgreich in einen Prototypen implementiert
 * die Dokumentationen wurden größtenteils auf den neusten Stand gebracht und werden in der nächsten Iteration zu Ende gebracht
 * im Projektbericht wurde der Aspekt 'Planung' zu ende gebracht und mit der Durchführung wurde begonnen
-
+* für das Testen wurde ein Testprotokoll erstellt und die zu testenden Fälle wurden ausgearbeitet und werden in der nächsten Iteration getestet
 
 
 //Zusammenfassung, ob alle für die Iteration geplanten Aufgaben bearbeitet wurden und welche Aufgaben verschoben oder hinzugefügt wurden.
