@@ -14,7 +14,7 @@ include::../_includes/default-attributes.inc.adoc[]
 
 | Beginn der Iteration | 08.06.2023
 | Treffen mit Auftraggeber/Caoch | 09.06.23
-| online Meeting | 
+| online Meeting | 10.06.23
 | Zusammentreff zur Bearbeitung der Aufgaben  | 14.06.2023
 | Ende der Iteration | 14.06.2023
 |===
@@ -25,8 +25,11 @@ include::../_includes/default-attributes.inc.adoc[]
 
 * Algorithmus auf die neue Fragestellung im Code anpassen
 * LDAP Server Verbindung herstellen
-* Dokumentationen zu Ende bringen 
-* Unittests und manuelle Test starten, 
+* Dokumentationen schreiben 
+* Unittests und manuelle Test starten- Testen des Speicherns der Projektdaten
+* System auf virtuelle Mschine übertragen 
+* Durchführung des Projektberichts zu Ende bringen
+* Oberfläche des Systems anpassen
 
 
 
@@ -59,10 +62,11 @@ Aufgabenzuordnung s. Issues für Iteration 15 bei Projects
 == Bewertungskriterien
 //Eine kurze Beschreibung, wie Erfüllung die o.g. Ziele bewertet werden sollen.
 
-* Teams können generiert werden 
-* Ein Student kann sich über den LDAP Server anmelden
-* Die Dokumentationen entsprechen dem Stand und der Tools der Gruppe
-
+* Die Oberfläche wurde so gestalet, dass sie dem Auftraggeber vorgestellt werden kann
+* Die Dokumentetionen sind in soweit bearbeitet wurden, dass sie in der nächsten Iteration fertiggestellt werden können
+* Ein Student kann mit seinen HTW Logindaten auf die Webseite zugreifen
+* Das Speichern der Prjektdaten wurde getestet und ist erfolgreich
+* Das System läuft auf der virtuellen Maschine
 
 
 
