@@ -15,32 +15,31 @@
 			<a href="#" class="active">Projektverwaltung</a>
 			<a href="../Teamverwaltung/Teams_generieren.html">Teams verwalten</a>
 			<a href="../Einstellungen/Einstellungen.html">Einstellungen</a>
-			<a href="../algo/Algo.html">algo</a>
+			<a href="#">algo</a>
             <a href="../../index.html">
 				<button class="login-btn">LogOut</button>
 			</a>
         </nav>
     </header>
+<div>
+	<h1> total student</h1>
+	<h1 id="nums"> 30</h1>
+	<button > Run algo</button>
+</div>
 
 
-	<button onclick="window.location.href='Projekt_generieren.html';">Projekt hinzufügen</button>
-    
-    <form>
-		<label>ID:</label>
-		<input type="text" id="id-field" required>
-		<label>Name:</label>
-		<input type="text" id="name-field" required>
-		<label>Beschreibung:</label>
-		<textarea id="long-desc-field" required></textarea>
-		<label>Ansprechpartner:</label>
-		<textarea id="short-desc-field" required></textarea>
-		<br>
-		<button type="button" id="reset-btn" class="btn">Loeschen</button>
-		<button type="button" id="save-btn" class="btn">Speichern</button>
-	</form>
-	<div id="info-container"></div>
+	<div id="info-container">
 
-	<script src="Projektverwaltung.js"></script>
+		<table>
+			<th>name</th>
+			<th>Role</th>
+			<th>Project</th>
+			<th>team</th>
+<tbody id="result"></tbody>
+		</table>
+	</div>
+
+	<script src="algo.js"></script>
 
 
 </body>
