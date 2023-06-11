@@ -23,9 +23,10 @@ include::../_includes/default-attributes.inc.adoc[]
 == Wesentliche Ziele
 
 
-* Algorithmus anpassen für Teamsgenerierung und Fragestellung im Code
+* Algorithmus auf die neue Fragestellung im Code anpassen
 * LDAP Server Verbindung herstellen
-* Dokumente aus dem letzten Semester ( AN, Use Cases, Systemweite Anforderungen) auf den neusten Stand bringen
+* Dokumentationen zu Ende bringen 
+* Unittests und manuelle Test starten, 
 
 
 
