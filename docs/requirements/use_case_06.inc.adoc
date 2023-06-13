@@ -9,15 +9,23 @@ Der Use Case beschreibt den Prozess des Zurücksetzens der Projektteams durch ei
 === Kurzbeschreibung der Akteure
 
 ==== Dozent
-Möchte die generierten Projektteams zurücksetzen.
+Möchte die bestehenden Teams zurücksetzen, sodass er neue Teams generieren kann.
 
 === Vorbedingungen
-//Vorbedingungen müssen erfüllt, damit der Use Case beginnen kann, z.B. Benutzer ist angemeldet, Warenkorb ist nicht leer...
 
---- nicht vorhanden ---
+* Der Dozent ist mittels seiner HTWD-Logindaten angemeldet und befindet sich auf der "Projektübersicht".
+* Es wurden bereits Teams erstellt.
 
 === Standardablauf (Basic Flow)
-//Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
+
+. Der Use Case beginnt, wenn der Dozent sich auf der "Projektübersicht" befindet.
+. Der Dozent klickt auf den "Teams zurücksetzen"-Button.
+. Es erscheint ein Pop-Up-Fenster mit der Meldung "Wollen Sie die Teams wirklich zurücksetzen?".
+. Dozent bestätigt das Löschen des Projekts mit einem Klick auf den "Ja"-Button.
+. Das System löscht alle bereits zugeordenten Studenten aus den Teams, damit in keinem Team ein Student ist.
+. Das System gibt eine positive Rückmeldung in Form eines Pup-Up-Fensters "Alle Teams wurden erfolgreich zurückgesetzt.
+. Es werden keine Studenten mehr in den Teams angezeigt, welche somit jeweils 0 Mitglieder haben.
+. Der Use Case ist abgeschlossen.
 
 --- nicht vorhanden ---
 
