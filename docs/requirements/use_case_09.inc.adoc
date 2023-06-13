@@ -5,27 +5,34 @@
 === Kurzbeschreibung
 //<Kurze Beschreibung des Use Case>
 
-Der Use Case beschreibt den Prozess des Zürücksetzens der Nutzerdaten sowie die Anwendung auf Standardeinstellungen zurücksetzen. 
+Der Use Case beschreibt den Prozess des Zurücksetzen der Teams, das Löschen aller Projekte sowie alle Einstellungen welche nicht der Standardeinstellung entsprechen.
 
 === Kurzbeschreibung der Akteure
 
 ==== Dozent
 
-Möchte alle Nutzerdaten löschen und die Anwendung auf Standardeinstellungen zurücksetzen.
+Möchte das System auf Standardeinstellungen zurücksetzen.
 
 //==== <Akteur 1 Name>
 
 === Vorbedingungen
-//Vorbedingungen müssen erfüllt, damit der Use Case beginnen kann, z.B. Benutzer ist angemeldet, Warenkorb ist nicht leer...
 
---- nicht vorhanden
+* Der Dozent ist mittels seiner HTWD-Logindaten angemeldet und hat sich auf die "Projektübersicht" navigiert
+* Das System ist nicht auf den Standardeinstellungen.
 
 //<Vorbedingung 1>
 
 === Standardablauf (Basic Flow)
 //Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
 
---- nicht vorhanden ---
+. Der Use Case beginnt, wenn sich der Dozent auf der "Projektübersicht" befindet.
+. Dozent klickt auf den "Gesamtsystem zurücksetzen"-Button.
+. Das System zeigt ein Pop-Up an mit den Worten "Wollen Sie wirklich das System auf die Standardeinstellungen zurücksetzen?".
+. Der Dozent bestätigt das Zurücksetzen mit einem Klick auf den "Ja"-Button.
+. Das System entfernt alle Projekt und alle Teams und alle hinterlegten Daten aus der Datenbank.
+. Das System gibt ein positive Rückmeldung in Form eines Pop-Up-Fensters "Das komplette System wurde erfolgreich auf die Standardeinstellungen zurückgesetzt.".
+. Das System wurde in die Standardeinstellungen zurückgesetzt und besitzt somit weder Teams noch Projekte.
+. Der Use Case ist abgeschlossen.
 
 //. Der Use Case beginnt, wenn <akteur> <macht>…
 //. <Standardablauf Schritt 1>
