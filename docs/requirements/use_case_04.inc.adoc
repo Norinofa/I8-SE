@@ -19,7 +19,7 @@ Möchte ein bestehendes Projekt aus dem System löschen, sodass dieses nicht meh
 === Standardablauf (Basic Flow)
 //Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
 
-. Der Use Case beginnt, wenn der Dozent auf der "Projektübersicht" befindet.
+. Der Use Case beginnt, wenn sich der Dozent auf der "Projektübersicht" befindet.
 . Dozent wählt das zu bearbeitende Projekt mit einem Klick auf den "Projekt bearbeiten"-Button aus.
 . Dozent klickt auf den "Projekt löschen"-Button.
 . System zeigt ein Pop-Up an mit den Worten "Wollen Sie dieses Projekt wirklich löschen?"
