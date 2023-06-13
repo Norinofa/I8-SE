@@ -27,8 +27,6 @@ Möchte die bestehenden Teams zurücksetzen, sodass er neue Teams generieren kan
 . Es werden keine Studenten mehr in den Teams angezeigt, welche somit jeweils 0 Mitglieder haben.
 . Der Use Case ist abgeschlossen.
 
---- nicht vorhanden ---
-
 === Alternative Abläufe
 //Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
 
