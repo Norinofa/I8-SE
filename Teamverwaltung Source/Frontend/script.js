@@ -19,10 +19,11 @@ document.addEventListener('click', e => {
 var holder1 = document.getElementById('firstholder');
 var holder2 = document.getElementById('secondholder');
 var holder3 = document.getElementById('thirdholder');
+var holder4 = document.getElementById('fourthholder');
 var choice2 = document.getElementById('choice2');
 var choice3 = document.getElementById('choice3');
 var choice4 = document.getElementById('choice4');
-
+var choice5 = document.getElementById('choice5');
 
 function openholder1() {
   holder1.classList.toggle('active');
@@ -35,6 +36,11 @@ function openholder2() {
 function openholder3() {
   holder3.classList.toggle('active');
   choice4.style.borderRadius = '0 30px 30px 30px'
+}
+
+function openholder4() {
+  holder4.classList.toggle('active');
+  choice5.style.borderRadius = '0 30px 30px 30px'
 }
 
 // für sticky navbar

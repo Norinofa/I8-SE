@@ -48,7 +48,7 @@ body {
     width: 100%;
     min-width: 100%;
     min-height: 100%;
-    background-color: #1D2028;
+    background-color: #7c7c7c;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -91,7 +91,7 @@ header h2 a {font-size: 40px;}
     max-width: 1152px;
     margin-top: 20px;
     flex-wrap: wrap;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color:#4b4b4b ;
 }
 
 .container {
