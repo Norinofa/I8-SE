@@ -6,10 +6,6 @@
     <link rel="stylesheet" type="text/css" href="../Allgemein/style.css">
     <script type="text/javascript" src="Teamverwaltung.js"></script>
     <script type="text/javascript" src="../Allgemein/script.js"></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <meta charset="utf-8">
 </head>
 
 <body>
@@ -18,31 +14,21 @@
 			<a href="../Projektverwaltung/Projektverwaltung.html">Projektverwaltung</a>
 			<a href="#" class="active">Teams verwalten</a>
 			<a href="../Einstellungen/Einstellungen.html">Einstellungen</a>
-            <a href="../../index.html">
+			<a href="../../index.html">
 				<button class="login-btn">LogOut</button>
 			</a>
         </nav>
     </header>
 
-	<main class="container">
-		<div class="bg-body-tertiary p-5 rounded mt-3">
-		  <h1>Es sind noch keine Teams generiert</h1>
-		  <p class="lead">Wie viele Studenten soll es mindestens pro Team geben?</p>
-		  <div class="col-md-4">
-			<label for="validationServer01" class="form-label">Anzahl</label>
-			<input type="number" class="form-control is-valid" id="validationServer01" value=8 required>
-			<div class="valid-feedback">
-			  Looks good!
-			</div>
-		  </div>
-		  <div>
-			<br>
-		  </div>
-		  <button class="btn btn-lg btn-primary" onclick="generieren()">Teams generieren</button>
-		 
-		</div>
-	  </main>
-	
+    <div>
+		<h4>Es sind noch keine Teams vorhanden</h4>
+		<label for="min">Mindest Anzahl:</label>
+		<input type="number" id="min" name="min"><br><br>
+		<label for="max">Maximale Anzahl:</label>
+		<input type="number" id="max" name="max"><br><br>
+
+		<button onclick="generieren()">Teams generieren</button>
+  	</div>    
 
 
 </body>

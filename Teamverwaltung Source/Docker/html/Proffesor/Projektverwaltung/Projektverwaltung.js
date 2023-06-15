@@ -16,30 +16,8 @@ resetBtn.addEventListener("click", function() {
 saveBtn.addEventListener("click", function() {
 	const id = idField.value;
 	const name = nameField.value;
-	const nameval = nameField.value;
-
 	const longDesc = longDescField.value;
 	const shortDesc = shortDescField.value;
-	let projdata = {
-		name :  nameval   ,
-		description :  longDesc  ,
-		proid :  id    ,
-		firma :  shortDesc 
-	}
-	fetch("http://localhost:8080/Project/save", {
-    method: "post",
-    headers: {
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify(projdata)
-  })
-  .then(res => {
-    if (!res.ok) {
-      alert("password and username is wrong");
-      throw new Error(res.statusText);
-    }
-    return res.json();
-  })
 	const infoBox = document.createElement("div");
 	infoBox.classList.add("info");
 	infoBox.innerHTML = `
@@ -54,10 +32,82 @@ saveBtn.addEventListener("click", function() {
 	shortDescField.value = "";
 });
 
-	
+
+/*
+<form>
+		<label>ID:</label>
+		<input type="text" id="id-field" required>
+		<label>Name:</label>
+		<input type="text" id="name-field" required>
+		<label>Beschreibung:</label>
+		<textarea id="long-desc-field" required></textarea>
+		<label>Ansprechpartner:</label>
+		<textarea id="short-desc-field" required></textarea>
+		<br>
+		<button type="button" id="reset-btn" class="btn">Loeschen</button>
+		<button type="button" id="save-btn" class="btn">Speichern</button>
+	</form>
+ /*
 
 
 
+const createBoxBtn = document.getElementById('create-box-btn');
+const boxContainer = document.getElementById('box-container');
+
+let boxIndex = 1;
+
+createBoxBtn.addEventListener('click', () => {
+  // Box-Element erstellen
+  const infobox = document.createElement('div');
+  infobox.classList.add('info');
+  infobox.id = `box-${boxIndex}`;
+
+  // Text-Elemente erstellen
+
+    //const id = idField.value;
+    const id = document.createElement('p');
+    const name = document.createElement('p');
+	const longDesc = document.createElement('p');
+	const shortDesc = document.createElement('p');
+    
+    infobox.classList.add("info");
+	infobox.innerHTML = `
+		<h2>${id} - ${name}</h2>
+		<p>${longDesc}</p>
+		<p><strong>${shortDesc}</strong></p>
+	`;
+
+  /*
+  const text1 = document.createElement('p');
+
+  text1.textContent = `Box ${boxIndex} - Text 1`;
+  const text2 = document.createElement('p');
+
+  text2.textContent = `Box ${boxIndex} - Text 2`;
+  const text3 = document.createElement('p');
+
+  text3.textContent = `Box ${boxIndex} - Text 3`;
+  const text4 = document.createElement('p');
+
+  text4.textContent = `Box ${boxIndex} - Text 4`;
+
+  // Text-Elemente zur Box hinzufügen
+  infobox.appendChild(id);
+  infobox.appendChild(name);
+  infobox.appendChild(shortDesc);
+  infobox.appendChild(longDesc);
+/*
 
 
-   
+
+  // Box zur Container-Element hinzufügen
+  boxContainer.appendChild(infobox);
+
+  // Box-Index erhöhen
+  boxIndex++;
+});
+
+
+*/
+
+

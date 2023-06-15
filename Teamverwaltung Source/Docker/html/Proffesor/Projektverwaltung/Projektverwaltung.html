@@ -7,14 +7,6 @@
     <link rel="stylesheet" type="text/css" href="../Allgemein/style.css">
     
     <script type="text/javascript" src="../Allgemein/script.js"></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-	<link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/checkout/">
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <meta charset="utf-8">
 </head>
 
 <body>
@@ -23,71 +15,30 @@
 			<a href="#" class="active">Projektverwaltung</a>
 			<a href="../Teamverwaltung/Teams_generieren.html">Teams verwalten</a>
 			<a href="../Einstellungen/Einstellungen.html">Einstellungen</a>
-			<a href="../../index.html">
+			<a href="../algo/Algo.html">algo</a>
+            <a href="../../index.html">
 				<button class="login-btn">LogOut</button>
 			</a>
         </nav>
     </header>
 
 
-	
+	<button onclick="window.location.href='Projekt_generieren.html';">Projekt hinzufügen</button>
     
-    
-
+    <form>
+		<label>ID:</label>
+		<input type="text" id="id-field" required>
+		<label>Name:</label>
+		<input type="text" id="name-field" required>
+		<label>Beschreibung:</label>
+		<textarea id="long-desc-field" required></textarea>
+		<label>Ansprechpartner:</label>
+		<textarea id="short-desc-field" required></textarea>
+		<br>
+		<button type="button" id="reset-btn" class="btn">Loeschen</button>
+		<button type="button" id="save-btn" class="btn">Speichern</button>
+	</form>
 	<div id="info-container"></div>
-
-	<div class="container">
-
-		<main>
-		  <div class="py-5 text-center">
-			<h2>Projekt hinzufügen</h2>
-			<p class="lead">Bitte die folgenden Angaben zu dem Projekt geben.</p>
-		  </div>
-			
-			<div class="col col">
-			
-			  <form class="needs-validation" novalidate>
-				<div class="row g-3">
-				  <div class="col-sm-6">
-					<label for="firstName" class="form-label">Projekt_ID</label>
-					<input type="text" class="form-control" id="id-field" placeholder="" value="" required>
-					
-				  </div>
-	  
-				  <div class="col-sm-6">
-					<label for="lastName" class="form-label">Projekt_Name</label>
-					<input type="text" class="form-control" id="name-field" placeholder="" value="" required>
-					
-				  </div>
-	  
-				  <div class="col-12">
-					<label for="username" class="form-label">Ansprechpartner/Firma</label>
-					<div class="input-group has-validation">
-					 
-					  <input type="text" class="form-control" id="short-desc-field" placeholder="" required>
-					
-					</div>
-				  </div>
-	  
-	  
-				  <div class="col-12">
-					<label for="address" class="form-label">Beschreibung</label>
-					<input type="text" class="form-control" id="long-desc-field" placeholder="" required>
-					
-				  </div>
-	  
-				<hr class="my-4">
-
-				<button type="button" id="reset-btn" class="btn">Loeschen</button>
-				<button type="button" id="save-btn" class="btn">Speichern</button>
-			  </form>
-			</div>
-		  
-		</main>
-	  
-		
-	  </div>
-
 
 	<script src="Projektverwaltung.js"></script>
 
