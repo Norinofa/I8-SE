@@ -36,7 +36,6 @@ console.log(data.role);
       } else {
         alert("this is proffersor");
         window.location.href = "./Proffesor/Teamverwaltung/Teams_generieren.html";
-
       }
 
 

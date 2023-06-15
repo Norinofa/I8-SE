@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Projekt I8 Teamverwaltung</title>
     <link rel="stylesheet" type="text/css" href="Einstellungen.css">
     <link rel="stylesheet" type="text/css" href="../Allgemein/style.css">
     <script type="text/javascript" src="Einstellungen.js"></script>
     <script type="text/javascript" src="../Allgemein/script.js"></script>
-    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.6.0/jszip.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/jumbotron/">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    
 </head>
 
 <body>
@@ -15,33 +23,44 @@
 		<nav class="nav">
 			<a href="../Projektverwaltung/Projektverwaltung.html">Projektverwaltung</a>
 			<a href="../Teamverwaltung/Teams_generieren.html">Teams verwalten</a>
-      <a href="../algo/Algo.html">algo</a>
-
 			<a href="#" class="active">Einstellungen</a>
-      <a href="../../index.html">
+            <a href="../../index.html">
 				<button class="login-btn">LogOut</button>
 			</a>
         </nav>
     </header>
 
-    <div class="container">
-        <div class="box">
-          <h2>Backup</h2>
-          <p>Bakcup erstellen oder einfügen</p>
-          <button onclick="downloadAll()">Backup erstellen</button>
-          <button onclick="openFile()">Backup einfügen</button>
+
+    <div class="container py-4">
+
+    <div class="row align-items-md-stretch">
+
+        <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+            <div class="container-fluid py-5">
+                <h1 class="display-5 fw-bold">Seite zurücksetzen</h1>
+                <p class="col-md-8 fs-4">Beim zurücksetzen der Seite werden alle Semesterbezogenen Daten gelöscht.(Teamdaten, Projektdaten, Studentendaten)</p>
+                <button class="btn btn-primary btn-lg" onclick="openPopup()" type="button">Seite zurücksetzen</button>
+            </div>
         </div>
-        <div class="box">
-          <h2>Daten hinzufügen</h2>
-          <p>Daten per Exel Datei einfügen</p>
-          <button onclick="openFile()">Datei auswählen</button>
+
+
+        <div class="col-md-6">
+            <div class="h-100 p-5 text-bg-dark rounded-3">
+                <h2>Studenendaten hinzufügen</h2>
+                <p>Einfügen einer Datei um die neuen Daten der Studenten des aktuellen Semester zu laden.</p>
+                <button class="btn btn-outline-light" onclick="openFile()" type="button">Datei einfügen</button>
+            </div>
         </div>
-        <div class="box">
-          <h2>Seite zurücksetzen</h2>
-          <p>Seite zurücksetzen</p>
-          <button onclick="openPopup()">Seite zurücksetzen</button>
+
+        <div class="col-md-6">
+            <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+                <h2>Backup erstellen/laden</h2>
+                <p>Möglichkeit von der Seite ein Backup zuerstellen oder zu laden.</p>
+                <button onclick="downloadAll()" class="btn btn-outline-primary" type="button">Backup erstellen</button>
+                <button onclick="openFile()" class="btn btn-outline-dark btn" type="button">Backup laden</button>
+            </div>
         </div>
-      </div>
+    </div>
 
 
 
@@ -51,10 +70,12 @@
 		<div class="popup" id="popup">
 			<h2>Seite zurücksetzen</h2>
 			<p>Achtung, Seite wird vollständig zurück gesetzt</p>
+
 			<button onclick="closePopup()">Abbruch</button>
 			<button onclick="alert('Seite wird zurückgesetzt!')">Bestätigen</button>
-		</div>
-	</div>
+
+            </div>
+        </div>
 
 
 </body>
