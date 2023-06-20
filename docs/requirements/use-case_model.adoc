@@ -33,7 +33,7 @@ Vor allem das Use Case Modell ist ein Paradebeispiel für unser Versagen bei der
 Auf diesem Diagramm entspricht die Reihenfolge nicht der Priorisierung der Use Cases. Die Priorisierung ist dem Punkt "Identifizierte Use Cases" zu entnehmen.
 
 .Use Case Diagramm
-image::UseCaseDiagram.jpg[]
+image::UseCaseDiagramm.jpg[]
 
 //Fügen Sie nachfolgend alle detaillierten Use-Cases per Include ein.
 //Dafür sollten Sie pro Use-Case eine Datei anlegen, die auf dem use_case_01.inc.adoc Template basiert.
