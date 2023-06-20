@@ -17,16 +17,15 @@ Vor allem das Use Case Modell ist ein Paradebeispiel für unser Versagen bei der
 == Identifizierte Use Cases
 // Liste aller identifizierten Use Cases (priorisiert)
 
-* *UC03*: Projekt verwalten (bereits vorhanden - wird weiterentwickelt)
-* *UC02*: Fragebogen ausfüllen (bereits vorhanden - wird weiterentwickelt)
-* *UC05*: Teams generieren (bereits vorhanden - wird weiterentwickelt)
-* *UC08*: Backup erstellen/laden (neu)
-* *UC09*: Gesamtsystem zurücksetzen (neu)
-* *UC04*: Projekt löschen (bereits vorhanden)
-* *UC06*: Projektteams zurücksetzen (bereits vorhanden)
-* *UC07*: Teams manuell bearbeiten (bereits vorhanden)
-* *UC01*: User login (bereits vorhanden)
-
+* *UC03*: Projekt verwalten 
+* *UC02*: Fragebogen ausfüllen 
+* *UC05*: Teams generieren 
+* *UC04*: Projekt löschen 
+* *UC06*: Projektteams zurücksetzen 
+* *UC01*: User login 
+* *UC09*: Gesamtsystem zurücksetzen 
+* *UC07*: Teams manuell bearbeiten 
+* *UC08*: Backup erstellen/laden 
 
 == Use Case Diagram
 
