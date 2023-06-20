@@ -1,0 +1,676 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teamverwaltung</title>
+   
+    <link rel="stylesheet" href="./global.css">
+    <script src="https://kit.fontawesome.com/aed942cfc8.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+            crossorigin="anonymous"></script>
+            <style>
+                body {
+    width: 100%;
+    background-image: url('../res/svg/longcool.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+
+header {
+    padding: 40px 100px 15px 100px;
+}
+
+.logout {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.logout a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.start {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.start-container {
+    width: 100%;
+    max-width: 1500px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.text {
+    width: 65%;
+    height: 600px;
+    padding: 50px 100px 0px 150px;
+}
+
+.text h1 {
+    margin-top: 15%;
+}
+
+.text h3 {
+    margin-top: 5px;
+}
+
+.text p {
+    margin: 20px 0px;
+}
+
+/* first navigation */
+.navi li {
+    line-height: 45px;
+}
+
+.navi li a {
+    font-size: 30px;
+    font-weight: 800;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.navi li a:hover {
+    transition: transform 0.5s;
+    transform: translateY(-5px);
+    text-shadow: 0 0 3px #fff;
+}
+
+/* sticky navbar  start */
+.sticky-nav-container {
+    position: fixed;
+    top: 0vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 10;
+}
+
+.sticky-nav {
+    padding: 15px 10px 15px 10px;
+    width: 100%;
+
+    -webkit-backdrop-filter: blur(100px);
+    -moz-backdrop-filter: blur(100px);
+    -o-backdrop-filter: blur(100px);
+    -ms-backdrop-filter: blur(100px);
+    backdrop-filter: blur(100px);
+    background-color: rgba(0, 0, 0, 0.4);
+
+    box-shadow: 0 1px 3px #000;
+
+    transform: translateY(-20px);
+    transition: .5s ease-out;
+    visibility: hidden;
+    opacity: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sticky-nav.active {
+    transform: translateY(0px);
+    transition: .5s ease-out;
+    visibility: visible;
+    opacity: 1;
+}
+
+.sticky-nav a {
+    font-size: 18px;
+    font-weight: 1000;
+    text-shadow: 1px 1px 3px #000;
+    transition: .5s;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.sticky-nav a:last-child {
+    margin-right: 0px;
+}
+
+.sticky-nav a:hover {
+    transition: .5s;
+    transform: translateY(3px);
+}
+
+/* sticky navbar  end */
+
+/* Themenansicht */
+.cards {
+    max-width: 300px;
+    min-width: 300px;
+    min-height: 400px;
+    max-height: 400px;
+    margin: 2% 10px 2% 10px;
+    overflow: hidden;
+}
+
+
+/* Fragebogen */
+/* open and close parts of the survey */
+#questionnaireInfo {
+    display: none;
+    font-size: 17px;
+    text-align: center;
+    color: #B92B27;
+    padding: 50px;
+}
+
+.fragebogen .container {
+    flex-direction: column;
+}
+
+#firstholder {
+    display: none;
+}
+
+#firstholder.active {
+    display: block;
+}
+
+#secondholder {
+    display: none;
+}
+
+#secondholder.active {
+    display: block;
+}
+
+#thirdholder {
+    display: none;
+}
+
+#thirdholder.active {
+    display: block;
+}
+
+.divider {
+    width: 30%;
+    height: 0.4px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.choice {
+    width: 90%;
+    margin: 10px 0px;
+    box-shadow: 1px 1px 2px #000;
+    border-radius: 0 30px 0px 30px;
+    position: relative;
+    /* overflow: hidden; */
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.157))
+}
+
+.choice:first-of-type {
+    overflow: unset;
+}
+
+.choice h3 {
+    margin: 20px 0px;
+}
+
+.choice label {
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.head {
+    width: 100%;
+    height: 60px;
+    padding: 0px 20px 0px 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.erklaerung {
+    width: 100%;
+    /* margin-top: 20px; */
+    padding: 0 30px;
+    font-size: 13px;
+}
+
+.content-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+.content-container>* {
+    display: flex;
+    align-items: center;
+    height: 35px;
+}
+
+.content-container:last-child {
+    margin-bottom: 10px;
+}
+
+.bezeichnung {
+    width: 61%;
+    border-radius: 0px 30px 30px 0px;
+    padding: 20px;
+}
+
+.special-bez {
+    width: 48%;
+}
+
+.bezeichnung span {
+    width: 95%;
+    margin-left: 40px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    overflow: hidden
+}
+
+.cell-full {
+    width: 39%;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cell-full input {
+    margin: 0px 2px;
+}
+
+input[type="radio"] {
+    cursor: pointer;
+}
+
+.cell {
+    width: 13%;
+    border-radius: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.drop {
+    /* background-image: linear-gradient(to right, rgba(255, 255, 255, 0.014) , rgba(0, 0, 0, 0.157)); */
+    background-color: rgba(0, 0, 0, 0.157);
+}
+
+#sendQuestionnaire {
+    font-size: 18px;
+}
+
+/* Teamansicht */
+.teammember-placeholder {
+    padding: 0 10% 30px 10%;
+    flex-direction: column;
+    overflow-y: scroll;
+    border-radius: 30px;
+}
+
+.teammember {
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.teammember:first-child {
+    margin-top: 15px;
+}
+
+.titel-placeholder {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.titel-placeholder h3 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+/* dropdown test, auswahl wird im main angezeigt */
+.dropdown {
+    position: relative;
+    width: 90%;
+    height: 100%;
+}
+
+.dropdown input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: #1D2028;
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+}
+
+.dropdown .option {
+    position: absolute;
+    top: calc(100% + 5px);
+    width: 100%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    overflow: hidden;
+    z-index: 100;
+    background-color: #1D2028;
+    display: none;
+}
+
+.dropdown.active .option {
+    display: block;
+}
+
+.dropdown .option div {
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.dropdown .option div:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+/* center the placeholder in the input start */
+::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    text-align: center;
+    font-size: 16px;
+    font-weight: 550;
+    color: white;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    text-align: center;
+    font-size: 16px;
+    font-weight: 550;
+    color: white;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    text-align: center;
+    font-size: 16px;
+    font-weight: 550;
+    color: white;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    text-align: center;
+    font-size: 16px;
+    font-weight: 550;
+    color: white;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    text-align: center;
+    font-size: 16px;
+    font-weight: 550;
+    color: white;
+}
+
+::placeholder {
+    /* Most modern browsers support this now. */
+    text-align: center;
+    font-size: 16px;
+    font-weight: 550;
+    color: white;
+}
+
+.fa-arrow-up {
+    bottom: 25vh;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s ease-out;
+}
+
+.fa-arrow-up.active {
+    transition: 1s ease-out;
+    bottom: 1vh;
+    visibility: visible;
+    opacity: 1;
+}
+
+/* specific @media */
+@media only screen and (max-width: 1200px) {
+    .bezeichnung p {
+        font-size: 16px;
+    }
+
+    ::placeholder {
+        font-size: 14px;
+    }
+
+    ::-webkit-input-placeholder {
+        /* WebKit, Blink, Edge */
+        font-size: 14px;
+    }
+
+    :-moz-placeholder {
+        /* Mozilla Firefox 4 to 18 */
+        font-size: 14px;
+    }
+
+    ::-moz-placeholder {
+        /* Mozilla Firefox 19+ */
+        font-size: 14px;
+    }
+
+    :-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        font-size: 14px;
+    }
+
+    ::-ms-input-placeholder {
+        /* Microsoft Edge */
+        font-size: 14px;
+    }
+
+    .divider {
+        width: 40%;
+    }
+
+    .bezeichnung {
+        padding: 20px 0px;
+    }
+
+    .special-bez {
+        width: 61%;
+    }
+
+    .cell-full {
+        width: 35%;
+    }
+
+    .cell {
+        width: 17%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .bezeichnung p {
+        font-size: 12px;
+    }
+
+    ::placeholder {
+        font-size: 12px;
+    }
+
+    ::-webkit-input-placeholder {
+        /* WebKit, Blink, Edge */
+        font-size: 12px;
+    }
+
+    :-moz-placeholder {
+        /* Mozilla Firefox 4 to 18 */
+        font-size: 12px;
+    }
+
+    ::-moz-placeholder {
+        /* Mozilla Firefox 19+ */
+        font-size: 12px;
+    }
+
+    :-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        font-size: 12px;
+    }
+
+    ::-ms-input-placeholder {
+        /* Microsoft Edge */
+        font-size: 12px;
+    }
+
+    .divider {
+        width: 50%;
+    }
+
+    .bezeichnung {
+        padding: 20px 0px;
+    }
+
+    .special-bez {
+        width: 61%;
+    }
+
+    .cell-full {
+        width: 35%;
+    }
+
+    .cell {
+        width: 17%;
+    }
+}
+
+            </style>
+
+</head>
+<body>
+
+
+<div class="fragebogen" id="startFragebogen">
+    <header>
+        <h2 id="username">Hallo </h2>
+        <div class="logout">
+            <a href="../index.html"> Log out</a>
+            </div>
+        <h2 id="fragebogen">Fragebogen</h2>
+        <a href="#teams"><i class="fa-solid fa-angles-down"></i></a>
+    </header>
+    <div class="container">
+        <div class="choice" style="color: white;" id="questionnaireInfo">
+            Der Fragebogen wurde von Ihnen bereits ausgefüllt. Ihre Antworten wurden geladen und können weiterhin bearbeitet werden.
+        </div>
+
+        <div class="choice">
+            <div class="head" id="choice2"  onclick="openholder1()">
+                <h3>Projektpräferenz</h3>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="holder" id="firstholder">
+                <div class="erklaerung">
+                    <span>In nachfolgender Matrix können Sie angeben, welches Thema Sie gern für das Belegprojekt bearbeiten wollen. Bitte beachten Sie, dass nicht zwingend alle Themen zustande kommen, so dass die Angabe einer zweiten Wahl sehr sinnvoll ist. <br><br> <b>Hinweis:</b> Themen mit einem Themensteller innerhalb der HTW haben eine ID beginnend mit "I", externe Themen sind mit einer ID gekennzeichnet, die mit "E" beginnt.</span>
+                </div>
+                <div class="content-container">
+                    <div class="bezeichnung"></div>
+                    <div class="cell-full"><p>schlechteste bis beste</p></div>
+                </div>
+                <div class="content-container" id="projects">
+                   
+
+                   
+                  
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="choice">
+            <div class="head" id="choice3" onclick="openholder2()">
+                <h3>Tätigkeitsschwerpunkt</h3>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="holder" id="secondholder">
+                <div class="erklaerung">
+                    <span>Bitte geben Sie an, welche Tätigkeiten Sie im Belegprojekt bevorzugt durchführen möchten. Sie können eine Wunschtätigkeit und eine Alternative angeben. <br><br> <b>Hinweis:</b> Diese Angaben dienen nur der Teambildung. Innerhalb des Teams können Sie über die Schwerpunkte und Aufgaben auch im Zeitverlauf frei entscheiden.</span>
+                </div>
+                <div class="content-container">
+                    <div class="bezeichnung"></div>
+                    <div class="cell-full"><p>schlechteste bis beste</p></div>
+                </div>
+                <div class="content-container" id="roles">
+                
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="choice">
+            <div class="head" id="choice4" onclick="openholder3()">
+                <h3>Einschätzung eigener Fähigkeiten</h3>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="holder" id="thirdholder">
+                <div class="erklaerung" style="margin-bottom: 30px;">
+                        <span>
+                            Optional: Bitte geben Sie nachfolgend eine grobe Einschätzung ihrer eigenen Fähigkeiten und Kenntnisse an. <br><br> <b>Hinweis:</b> Hierbei geht es nicht primär um ihre Studienergebnisse, sondern um ihren generellen Kenntnisstand und ihre Erfahrungen. Möglicherweise haben Sie durch eine Berufsausbildung, Werkstudententätigkeit, Praktika, Mitarbeit in Vereinen oder Opensourcen-Projekten us. besondere Kenntnisse erlangt, die für die Teambildung interessant sind.
+                        </span>
+                </div>
+                <div class="content-container">
+                    <div id="special-bez" class="bezeichnung special-bez"></div>
+                    <div class="cell"><p>Solide Kennt&shy;nisse</p></div>
+                    <div class="cell"><p>Grund Kennt&shy;nisse</p></div>
+                    <div class="cell"><p>Geringe Kennt&shy;nisse</p></div>
+                    <div class="cell"><p>Keine Kennt&shy;nisse</p></div>
+                </div>
+                <div class="content-container" id="Skills">
+                   
+
+                   
+                </div> <!-- skillOOP, skillWeb, skillOOPLang, skillScript, skillWebFrameworks, skillDB, skillModelling, skillUI, skillManagement, skillTeamwork, skillSingleDeveloper, skillGit, skillTeamwork-->
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="choice">
+        <h4>Bereits erworbene Qualifikationen</h4>
+            <div id="special-bez" class="bezeichnung special-bez drop">
+                <span>Fachinformatikausbildung</span>
+            <div class="checkbox"><input type="checkbox" name="quality"></div>
+        </div>
+        </div>
+        </div>
+        <button type="button" id="sendQuestionnaire">Absenden</button>
+    </div>
+</div>
+<script src="./script.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>

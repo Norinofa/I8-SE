@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Projekt I8 Teamverwaltung</title>
+	<link rel="stylesheet" type="text/css" href="./Projektverwaltung.css">
+	<link rel="stylesheet" type="text/css" href="../Allgemein/style.css">
+
+	<script type="text/javascript" src="../Allgemein/script.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	<link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/checkout/">
+	<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+	<meta charset="utf-8">
+	<style>
+
+form {
+    margin: 50px auto;
+    max-width: 800px;
+}
+input[type="text"], textarea {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+textarea {
+    height: 200px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.btn:hover {
+    background-color: #555;
+}
+#save-btn {
+    background-color: #4caf50;
+}
+#reset-btn {
+    background-color: #f44336;
+}
+.info-box {
+    margin: 50px auto;
+    max-width: 800px;
+}
+.info {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.info h2 {
+    margin-top: 0;
+}
+
+  
+.box {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .btn-bd-primary {
+    --bd-violet-bg: #712cf9;
+    --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet-bg);
+    --bs-btn-border-color: var(--bd-violet-bg);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #6528e0;
+    --bs-btn-hover-border-color: #6528e0;
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #5a23c8;
+    --bs-btn-active-border-color: #5a23c8;
+  }
+  .bd-mode-toggle {
+    z-index: 1500;
+  }
+  .container {
+    max-width: 960px;
+  }
+  .p2p {
+    padding: 10px;
+
+  }
+  .p2p a {
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+    font-weight: 700;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+#update {
+  display: none;
+ z-index: 99;
+ 
+}
+.error {
+  color: red;
+  margin-bottom: 5px;
+
+}
+/* Zentrieren der Navigation */
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #eee;
+}
+
+/* Styling für die Links */
+.nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    margin-Top: 5px;
+    margin-Bottom: 5px;
+}
+
+/* Styling für den aktiven Link */
+.nav a.active {
+    color: #a9c5eb;
+}
+
+/* Styling für den Login-Button */
+.login-btn {
+    background-color: #3788f1;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center;
+    margin-Top: 5px;
+    margin-Bottom: 5px;
+}
+
+/* Hover-Effekt für den Login-Button */
+.login-btn:hover {
+    background-color: #74aaf0;
+}    
+
+
+/* Media Query für kleinere Bildschirme  */
+@media screen and (max-width: 768px) {
+    /* Ändern der Navigation auf ein Spalten-Layout */
+    .nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    /* Verschieben des Login-Buttons nach unten */
+    .login-btn {
+    margin-top: 20px;
+    }
+}
+
+	</style>
+</head>
+
+<body>
+	<header>
+		<nav class="nav">
+			<a href="#" class="active">Projektverwaltung</a>
+			<a href="../Teamverwaltung/Teams_generieren.html">Teamverwaltung</a>
+			<a href="../Einstellungen/Einstellungen.html">Einstellungen</a>
+			<a href="../../index.html">
+				<button class="login-btn">LogOut</button>
+			</a>
+		</nav>
+	</header>
+
+
+	<div id="info-container"></div>
+
+	<div class="container">
+
+		<main>
+			<div class="py-5 text-center">
+				<h2>Projekt hinzufügen</h2>
+				<p class="lead">Bitte die folgenden Felder zu dem Projekt ausfüllen.</p>
+				<div> <a href="./Projects.html"> Übersicht der Projekte</a> </div>
+
+			</div>
+
+			<div class="col col">
+				<form class="needs-validation" novalidate>
+					<div class="row g-3">
+						<div class="col-sm-6">
+							<label for="firstName" class="form-label">ID</label>
+							<input type="text" class="form-control" id="id-field" placeholder="" value="" required>
+
+						<label class="error" id="errorid"> </label>
+						</div>
+						<div class="col-sm-6">
+							<label for="lastName" class="form-label">Projektname</label>
+							<input type="text" class="form-control" id="name-field" placeholder="" value="" required>
+							<label class="error" id="errorname"> </label>
+
+						</div>
+						<div class="col-12">
+							<label for="username" class="form-label">Firma/Ansprechpartner</label>
+							<div class="input-group has-validation">
+								<input type="text" class="form-control" id="short-desc-field" placeholder="" required>
+
+						</div>
+						<label class="error" id="errorfirma"> </label>
+
+						</div>
+						<div class="col-12">
+							<label for="address" class="form-label">Beschreibung</label>
+							<input type="text" class="form-control" id="long-desc-field" placeholder="" required>
+							<label class="error" id="errordes"> </label>
+
+						</div>
+						<hr class="my-4">
+						<label class="error" id="isexsit">  </label>
+
+						<button type="button" id="reset-btn" class="btn">Löschen</button>
+						<button type="button" id="save-btn" class="btn">Speichern</button>
+				</form>
+			</div>
+
+		</main>
+
+
+	</div>
+
+
+	<script src="Projektverwaltung.js"></script>
+
+
+</body>
+
+</html>
