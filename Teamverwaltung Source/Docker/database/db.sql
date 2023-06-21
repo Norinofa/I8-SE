@@ -71,7 +71,7 @@ CREATE TABLE `users` (
   `issanswerd` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-INSERT INTO `users` (`username`, `password`, `firstname`, `lastname`, `role`, `issanswerd`) VALUES ("Nuha", "123", "Nuha", "Adnan", "student", "NO");
+INSERT INTO `users` (`username`, `password`, `firstname`, `lastname`, `role`, `issanswerd`) VALUES ("student", "123", "Nuha", "Adnan", "student", "NO");
 INSERT INTO `users` (`username`, `password`, `firstname`, `lastname`, `role`, `issanswerd`) VALUES ("Nuha2", "123", "Nuha", "Adnan", "student", "NO");
 INSERT INTO `users` (`username`, `password`, `firstname`, `lastname`, `role`, `issanswerd`) VALUES ("Nuha3", "123", "Nuha", "Adnan", "student", "NO");
 INSERT INTO `users` (`username`, `password`, `firstname`, `lastname`, `role`, `issanswerd`) VALUES ("Nuha4", "123", "Nuha", "Adnan", "student", "NO");
