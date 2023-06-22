@@ -8,7 +8,7 @@ include::../_includes/default-attributes.inc.adoc[]
 == Allgemeine Informationen
 Die folgende Anordnung der Use Cases entspricht der Priorisierung in der Entwicklung.
 
-Da wir eine Neuentwicklung mitten im Semester beschlossen haben, weil das alte System nicht mehr tragbar war. Waren wieder alle Use Cases wieder relevant für uns. Jedoch konnten wir nicht alle Use Cases erfolgreich erledigen, da wir nicht mehr die nötige Zeit hatten. Beispielsweise konnten wir den UC07 nicht mehr bearbeiten.
+Aufgrund der Entscheidung, eine Neuentwicklung mitten im Semester durchzuführen, da das alte System nicht mehr tragbar war, wurden alle Use Cases für uns wieder relevant. Allerdings konnten wir aufgrund des begrenzten Zeitrahmens nicht alle Use Cases erfolgreich abschließen, darunter auch UC07.
 
 == Identifizierte Use Cases
 // Liste aller identifizierten Use Cases (priorisiert)
