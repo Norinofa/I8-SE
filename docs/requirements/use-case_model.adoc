@@ -8,11 +8,7 @@ include::../_includes/default-attributes.inc.adoc[]
 == Allgemeine Informationen
 Die folgende Anordnung der Use Cases entspricht der Priorisierung in der Entwicklung.
 
-
-Da es sich hier um eine Weiterentwicklung eines bereits bestehenden Online-Tools handelt, haben wir Use Cases identifiziert, die bereits implementiert wurden. Auf Grund dessen werden einige der bereits implementierten Use Cases ignoriert, manche werden erweitert und andere werden neu hinzugefügt. Dies ist im Use Case Diagram anhand der Legende ersichtlich.
-
-
-Vor allem das Use Case Modell ist ein Paradebeispiel für unser Versagen bei der Anwendung des OpenUP und dem iterativen Verfahren. Zwar sind die relevanten Use Cases 02 und 03 zu großen Teilen richtig ausgearbeitet, jedoch sind vor allem andere Use Cases, die eigentlich nicht hätten ausgearbeitet werden müssen, relativ ausführlich ausgearbeitet (UC01, UC04). Dieser Fehler ist uns erst spät im Projekt aufgefallen und konnte daher nur sehr bedingt korrigiert werden. Nichtsdestotrotz haben wir den Bearbeitungsstand der Use Cases so belassen, um zu zeigen, dass zwar viel Zeit in das Use Case Modell geflossen sind, jedoch in die falschen Punkte. Diese Use Cases wurden nach Aufdecken des Fehlers nicht weiter überprüft, stattdessen flossen jegliche Ressourcen in die Bearbeitung der relevanten Use Cases.
+Da wir eine Neuentwicklung mitten im Semester beschlossen haben, weil das alte System nicht mehr tragbar war. Waren wieder alle Use Cases wieder relevant für uns. Jedoch konnten wir nicht alle Use Cases erfolgreich erledigen, da wir nicht mehr die nötige Zeit hatten. Beispielsweise konnten wir den UC07 nicht mehr bearbeiten.
 
 == Identifizierte Use Cases
 // Liste aller identifizierten Use Cases (priorisiert)
@@ -24,8 +20,8 @@ Vor allem das Use Case Modell ist ein Paradebeispiel für unser Versagen bei der
 * *UC06*: Projektteams zurücksetzen 
 * *UC01*: User login 
 * *UC09*: Gesamtsystem zurücksetzen 
+* *UC08*: Backup erstellen/laden
 * *UC07*: Teams manuell bearbeiten 
-* *UC08*: Backup erstellen/laden 
 
 == Use Case Diagram
 
