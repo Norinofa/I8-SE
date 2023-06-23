@@ -92,9 +92,9 @@ for(person std : allstudent) {
     }
 
     @PostMapping(path = "/savecsv")
-    public void savecsv(List<person> csvperson)
-    {
-        userobj.saveAll(csvperson);
+    public void saee(@RequestBody List<person> editteam) {
+
+        userobj.saveAll(editteam);
     }
 
 

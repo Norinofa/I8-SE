@@ -71,7 +71,7 @@ CREATE TABLE `users` (
   `issanswerd` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-INSERT INTO `users` (`username`, `password`, `firstname`, `lastname`, `role`, `issanswerd`) VALUES ("student", "123", "Nuha", "Adnan", "student", "NO");
+INSERT INTO `users` (`username`, `password`, `firstname`, `lastname`, `role`, `issanswerd`) VALUES ("Nuha", "123", "Nuha", "Adnan", "student", "NO");
 INSERT INTO `users` (`username`, `password`, `firstname`, `lastname`, `role`, `issanswerd`) VALUES ("Nuha2", "123", "Nuha", "Adnan", "student", "NO");
 INSERT INTO `users` (`username`, `password`, `firstname`, `lastname`, `role`, `issanswerd`) VALUES ("Nuha3", "123", "Nuha", "Adnan", "student", "NO");
 INSERT INTO `users` (`username`, `password`, `firstname`, `lastname`, `role`, `issanswerd`) VALUES ("Nuha4", "123", "Nuha", "Adnan", "student", "NO");
@@ -132,4 +132,15 @@ CREATE TABLE `skillanswer` (
   PRIMARY KEY (`id`),
   FOREIGN KEY (`skillid`) REFERENCES `skill`(`id`),
    FOREIGN KEY (`userid`) REFERENCES `users`(`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+DROP TABLE IF EXISTS `student`;
+
+CREATE TABLE `student` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `firstname` varchar(255) NOT NULL,
+  `lastname` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `studiengruppe` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
