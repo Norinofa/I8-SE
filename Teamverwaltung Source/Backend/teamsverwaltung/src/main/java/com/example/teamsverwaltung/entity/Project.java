@@ -14,10 +14,10 @@ public class Project {
     private String name ;
     @Column(name="description")
     private String description;
-    @Column(name="responsible")
-    private String responsible;
-    @Column(name="documentfile_url")
-    private String documentfile_url;
+    @Column(name="proid")
+    private String proid;
+    @Column(name="firma")
+    private String firma;
 
 
     public Long getId() {
@@ -44,29 +44,30 @@ public class Project {
         this.description = description;
     }
 
-    public String getResponsible() {
-        return responsible;
+    public String getProid() {
+        return proid;
     }
 
-    public void setResponsible(String responsible) {
-        this.responsible = responsible;
+    public void setProid(String proid) {
+        this.proid = proid;
     }
 
-    public String getDocumentfile_url() {
-        return documentfile_url;
-    }
-
-    public void setDocumentfile_url(String documentfile_url) {
-        this.documentfile_url = documentfile_url;
-    }
-
-    public Project(Long id, String name, String description, String responsible, String documentfile_url) {
+    public Project(Long id, String name, String description, String proid, String firma) {
         this.id = id;
         this.name = name;
         this.description = description;
-        this.responsible = responsible;
-        this.documentfile_url = documentfile_url;
+        this.proid = proid;
+        this.firma = firma;
     }
+
+    public String getFirma() {
+        return firma;
+    }
+
+    public void setFirma(String firma) {
+        this.firma = firma;
+    }
+
     public Project() {
     }
 }

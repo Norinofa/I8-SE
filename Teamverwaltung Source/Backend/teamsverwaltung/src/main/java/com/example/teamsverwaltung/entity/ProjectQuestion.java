@@ -3,7 +3,7 @@ package com.example.teamsverwaltung.entity;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name ="ProjectQuestion")
+@Table(name ="projectquestion")
 public class ProjectQuestion {
 
     @Column(name="id")
@@ -11,10 +11,10 @@ public class ProjectQuestion {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name= "Score")
+    @Column(name= "score")
     private  int Score;
 
-    @Column(name= "Projectid")
+    @Column(name= "projectid")
     private  Long  Projectid;
 
     @Column(name= "userid")

@@ -23,6 +23,9 @@ public class Skillanswer {
     @Column(name= "userid")
     private  Long  userid;
 
+    public Skillanswer() {
+    }
+
     public Skillanswer(Long id, int score, int skillid, Long userid) {
         this.id = id;
         this.score = score;

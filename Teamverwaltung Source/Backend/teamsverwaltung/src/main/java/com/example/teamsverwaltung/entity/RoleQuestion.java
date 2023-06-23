@@ -3,7 +3,7 @@ package com.example.teamsverwaltung.entity;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name="RoleQuestion")
+@Table(name="rolequestion")
 public class RoleQuestion {
 
     @Column(name="id")

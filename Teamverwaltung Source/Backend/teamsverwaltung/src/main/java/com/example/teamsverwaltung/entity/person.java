@@ -25,6 +25,8 @@ public class person {
     @Column(name="role")
     private String role;
 
+    @Column(name="issanswerd")
+    private String ISAnswred;
 
     public String getUsername() {
         return username;
@@ -42,14 +44,16 @@ public class person {
         this.firstname = firstname;
     }
 
-    public person(int id, String password, String username, String firstname, String lastname, String role) {
+    public person(int id, String password, String username, String firstname, String lastname, String role, String ISAnswred) {
         this.id = id;
         this.password = password;
         this.username = username;
         this.firstname = firstname;
         this.lastname = lastname;
         this.role = role;
+        this.ISAnswred = ISAnswred;
     }
+
     public person() {
     }
 
@@ -81,7 +85,13 @@ public class person {
         return password;
     }
 
+    public String getISAnswred() {
+        return ISAnswred;
+    }
 
+    public void setISAnswred(String ISAnswred) {
+        this.ISAnswred = ISAnswred;
+    }
 
     public void setPassword(String password) {
         this.password = password;

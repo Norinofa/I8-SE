@@ -24,13 +24,16 @@ public class Usercontroller {
     private user_interface userobj;
 
     /// save  Team
-    //insert
-    @PostMapping(path = "/save")
-    public void savetema(@RequestBody person savedteam) {
 
-        userobj.save(savedteam);
+
+
+
+    @PostMapping("/logins")
+    public ResponseEntity<String> loginss(@RequestBody logins loginRequest) {
+
+            return ResponseEntity.ok("Login successful");
+
     }
-
 
     @PostMapping(path = "/login")
     public ResponseEntity<person> login(@RequestBody logins loginRequest) {
@@ -45,6 +48,16 @@ public class Usercontroller {
 }
 
 
+    @GetMapping(path = "/getallstudent")
+    public void getallstudent() {
+List<person> allstudent = userobj.findAll();
+for(person std : allstudent) {
+    if (std.getRole().equals("student"))
+    {
+        userobj.deleteById(std.getId());
+    }
+}
+    }
     /// get alll teams
     /// select *
     @GetMapping(path = "/getall")
@@ -78,6 +91,11 @@ public class Usercontroller {
         userobj.save(editteam);
     }
 
+    @PostMapping(path = "/savecsv")
+    public void savecsv(List<person> csvperson)
+    {
+        userobj.saveAll(csvperson);
+    }
 
 
 

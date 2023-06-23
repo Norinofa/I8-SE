@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 import java.math.BigInteger;
 
 @Entity
-@Table(name="Role")
+@Table(name="role")
 
 
 public class Role {
