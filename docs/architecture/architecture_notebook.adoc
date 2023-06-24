@@ -184,7 +184,7 @@ in das Netzwerk der HTW, welche ihre eigenen Sicherheitsmaßennahmen besitzt.
 
 *Communication* - Problem adaption
 
-################## wtf is this?
+################## ????
 
 //Wenn es zu der Situation kommen sollte, dass es in einem Semester zu wenig oder zu viele Projektthemen geben sollte, hat der Dozent die Möglichkeit die Anzahl der 
 Teammitglieder festzulegen.
