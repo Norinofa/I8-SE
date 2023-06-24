@@ -66,10 +66,11 @@ aufgeführt.
 | Emailadresse muss `@`-Zeichen und `.` Punkt enthalten.
 | Login
 
-| xx
-| xx
-| xx
-| xx
+| Role
+| Zusammensetzung aus id und role
+| id - Integer; +
+  role - String
+| id ist Primary key (darf nicht null sein)
 | xx
 //kommt vllt. nächstes Semester mehr dazu c:<
 |===
