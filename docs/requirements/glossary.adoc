@@ -111,5 +111,58 @@ aufgeführt.
 | id ist Primary key (darf nicht null sein)
 |
 
+| Teammember
+| Zusammensetzung aus id, teamid, projectid, userid 
+| id - Integer; +
+  teamid - Integer; +
+  projectid - Integer; +
+  userid - Integer
+| id ist Primary key (darf nicht null sein); +
+  teamid ist Foreign key auf `teams` (id); +
+  projectid ist Foreign key auf `Project`(id); +
+  userid ist Foreign key auf `users` (id)
+|
+
+| Projectquestion
+| Zusammensetzung aus id, score, projectid, userid
+| id - Integer; +
+  score - Integer; +
+  projectid - Integer; +
+  userid - Integer
+| id ist Primary key (darf nicht null sein); +
+  projectid ist Foreign key auf `project` (id); +
+  userid ist Foreign key auf `users` (id);
+|
+
+| Rolequestion
+| Zusammensetzung aus id, score, roleid, userid
+| id - Integer; +
+  score - Integer; +
+  roleid - Integer; +
+  userid - Integer
+| id ist Primary key (darf nicht null sein); +
+  roleid ist Foreign key auf `role` (id); +
+  userid ist Foreign key auf `users` (id)
+|
+
+| Skillanswer
+| Zusammensetzung aus id, score, skillid, userid
+| id - Integer; +
+  score - Integer; +
+  skillid - Integer; +
+  userid - Integer
+| id ist Primary key (darf nicht null sein); +
+  skillid ist Foreign key auf `skill` (id); +
+  userid ist Foreign key auf `users` (id)
+|
+
+| Student
+| Zusammensetzung aus id, firstname, lastname, email, studiengruppe
+| id - Integer;+
+  firstname - String; +
+  lastname - String; +
+  email - String; +
+  studiengruppe - String
+| id ist Primary key
 | 
 
