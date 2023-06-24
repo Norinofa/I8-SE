@@ -72,6 +72,44 @@ aufgeführt.
   role - String
 | id ist Primary key (darf nicht null sein)
 | xx
-//kommt vllt. nächstes Semester mehr dazu c:<
-|===
+
+| Skill
+| Zusammensetzung aus id und skill
+| id - Integer; + 
+  skill - String
+| id ist Primary key (darf nicht null sein)
+|
+
+| Project
+| Zusammensetzung aus id, proid, name, firma, description
+| id - Integer; +
+  proid - String; +
+  name - String; +
+  firma - String; +
+  description - String
+| id ist Primary key (darf nicht null sein)
+| 
+
+| Teams
+| Zusammensetzung aus id, name, projectid
+| id - Integer; +
+  name - String;
+  projectid - Integer
+| id ist Primary key (darf nicht null sein); +
+  projectid ist Foreign key
+|
+
+| Users
+| Zusammensetzung aus id, username, password, firstname, lastname, role, issanswerd
+| id - Integer; +
+  username - String; +
+  password - String; + 
+  firstname - String; +
+  lastname - String; +
+  role - String; +
+  issanswerd - String
+| id ist Primary key (darf nicht null sein)
+|
+
+| 
 
