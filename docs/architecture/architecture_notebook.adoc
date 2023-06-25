@@ -121,6 +121,7 @@ zehn Personen sein.
 *NFAS-2 Die Möglichkeit die Webanwendung um verschiedene Funktionalitäten zu erweitern, sollte durch eine entsprechende 
 Struktur und geeignete Schnittstellen geben sein.
 
+
 == Entscheidungen, Nebenbedingungen und Begründungen
 
 //[List the decisions that have been made regarding architectural approaches and the constraints being 
@@ -145,6 +146,8 @@ Portabilität und Konsistenz bietet.
 .. HTML und CSS stellen weiterhin die Grundlage für unser Frontend dar, weil sie grundlegende Technologien für das 
 Erstellen von Webseiten und Benutzeroberflächen sind und eine hohe Flexibilität und Anpassungsfähigkeit bieten.
 
+.. Als Webserver verwenden wir Nginx, da er eine hohe Leistung und Skalierbarkeit bietet.
+
 Im folgenden werden Entscheidungen gelistet, die sich im Bezug auf die Vorgängergruppe geändert haben:
 
 .. Für das Backend werden wir die Programmiersprache Java anstatt von Python verwenden, da wir bereits 
@@ -160,51 +163,38 @@ schnell und effizient ansprechende und benutzerfreundliche Webseiten zu erstelle
 
 == Architekturmechanismen
 
-// https://www2.htw-dresden.de/~anke/openup/core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html[Doku "Concept: Architectural Mechanism"] //[List the architectural mechanisms and describe the current state of each one. Initially, each mechanism may be only name and a brief description. They will evolve until the mechanism is a collaboration or pattern that can be directly applied to some aspect of the design.]
+//https://www2.htw-dresden.de/~anke/openup/core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html[Doku "Concept: Architectural Mechanism"] //[List the architectural mechanisms and describe the current state of each one. Initially, each mechanism may be only name and a brief description. They will evolve until the mechanism is a collaboration or pattern that can be directly applied to some aspect of the design.]
 
 //Beispiele: relationales DBMS, Messaging-Dienste, Transaktionsserver, Webserver, Publish-Subscribe Mechanismus
 
 //Beschreiben Sie den Zweck, Eigenschaften und Funktion der Architekturmechanismen.
 
-*System Management* - Erreichbarkeit
-
-Die neuentwickelte Webanwendung wird weiterhin auf Linux basieren, wodurch diese auch in Zukunft im HTW-Netzwerk über Linux laufen wird.
-Die Möglichkeit die Website aufzurufen ist für jeden Browser auf jedem Betriebssystem möglich, erfordert jedoch das sich der entsprechende 
-Benutzer sich im HTW-Netzwerk befinden.
-
-*Security* - Zugangsberechtigung
-
-Der Zugang zur Dozentenansicht ist für alle Benutzer möglich die die entsprechenden festen Benutzerdaten besitzten.
+. Zur dauerhaften Speicherung der Fragebogen- und Zuordnungsdaten greifen wir auf die relationale Datenbank MySQL zurück. 
+Diese Entscheidung haben wir getroffen, da sich die zu sichernden Daten gut in einem relationalen Schema darstellen lassen. 
+MySQL bietet dabei eine weit verbreitete Lösung zur zuverlässigen und sicheren Speicherung der Daten. Außerdem kann durch 
+das individuell einstellbare Rechtesystem in der Datenbank der Zugriff vor Unbefugten geschützt werden 
+(siehe nicht funktionale Anforderungen).
+. Wir haben die Entscheidung getroffen, dass die Funktionalität der Buttons einheitlich visuell dargestellt werden soll, 
+da dies die Usability für die Nutzer erhöht. Dabei hatten wir entweder die Möglichkeit das User Interface 
+manuell per CSS von Grund auf neu zu entwickeln oder ein Framework mit vorgefertigten Design Elementen zu wählen. Das 
+manuelle Designen mittels CSS bietet zwar sehr großen Freiraum und nahezu unbegrenzte Gestaltungsmöglichkeit, jedoch 
+kostet dieses Vorgehen auch sehr viel Zeit. Deshalb haben wir uns für die zweite Möglichkeit entschieden und das Design 
+mit Bootstrap umgesetzt. Dies schränkt zwar die Gestaltungsmöglichkeiten ein, bietet für unsere Anforderungen jedoch 
+ausreichend Freiraum und erspart uns sehr viel Zeit.
+. Für die Teamzusammenstellung werden folgende Methodiken in Betracht gezogen: Zuordnen & Vertauschen Algorithmus, 
+genetischer Algorithmus und Algorithmus mittels Constraint Solver. Letztendlich haben wir uns für einen Algorithmus 
+mittels Constraint Solver entschieden, da dieser es uns ermöglicht schnell neue Restriktionen (Constraints) hinzuzufügen. 
+Dies erleichtert die Entwicklung und auch eine eventuelle Weiterentwicklung unseres Projekts in Zukunft. Außerdem schnitt 
+der Algorithmus mit Constraint Solver im Vergleich zu den anderen Varianten in Sachen Lösungsqualität als auch Lösungszeit 
+am besten ab.
+. Die neuentwickelte Webanwendung wird weiterhin auf Linux basieren, wodurch diese auch in Zukunft im HTW-Netzwerk über 
+Linux laufen wird. Die Möglichkeit die Website aufzurufen ist für jeden Browser auf jedem Betriebssystem möglich, erfordert 
+jedoch das sich der entsprechende Benutzer sich im HTW-Netzwerk befinden.
+. Der Zugang zur Dozentenansicht ist für alle Benutzer möglich die die entsprechenden festen Benutzerdaten besitzten.
 Der Fragebogen ist für alle Studierenden zugänglich, welche einen gültigen HTW-Account besitzen und deren Daten in einer 
 CSV Datei in das System importiert wurden. Voraussetzung dafür ist, dass sich die Studenten vorher im OPAL für den Beleg 
-eingeschrieben haben.
-
-Das Erreichen der Website ist ausschließlich im HTW-Netzwerk möglich, Benutzer von außen benötigen somit eine VPN Verbindung
-in das Netzwerk der HTW, welche ihre eigenen Sicherheitsmaßennahmen besitzt.
-
-*Communication* - Problem adaption
-
-################## ????
-
-//Wenn es zu der Situation kommen sollte, dass es in einem Semester zu wenig oder zu viele Projektthemen geben sollte, hat der Dozent die Möglichkeit die Anzahl der 
-Teammitglieder festzulegen.
-
-Daraufhin soll der Algorithmus eine Konstellation erstellen, bei der die beliebtesten Themen doppelt verwendet werden.
-
-Diese einzelnen Szenarien müssen in dem Algorithmus beachtet werden.
-
-*Archiving* - Sicherheitsabfrage
-
-##########  wtf is this?
-
-//Beim Verlassen einer Website oder beim Navigieren zu einem anderen Menüpunkt, ohne Speicherung der Daten, soll der Benutzer der 
-Dozentenansicht gefragt werden, ob dieser die Website verlassen möchte.
-
-*Memory Management* - Wiederherstellung der Website
-
-Für den Fall von Komplikationen oder Fehlern auf der Website, soll es die Möglichkeit geben mittels Backups eine 
-gespeicherte Version zu einem ausgewählten Zeitpunkt wiederherzustellen.
-
+eingeschrieben haben. Zusätzlich ist das Erreichen der Website ist ausschließlich im HTW-Netzwerk möglich, Benutzer von 
+außen benötigen somit eine VPN Verbindung in das Netzwerk der HTW, welche ihre eigenen Sicherheitsmaßennahmen besitzt.
 
 == Wesentliche Abstraktionen
 
@@ -248,12 +238,9 @@ Weiterhin besteht die Möglichkeit weitere Projekte hinzu zu fügen, indem sich 
 
 == Schichten oder Architektur-Framework
 
-
 Model-View-Controller(MVC)
 
 ergibt sich aus:
-
-############## geht das so?
 
 . Model: Docker als Open Source Tool zur Bereitstellung der Container in denen die verschiedenen Elemente des BackEnds 
 vorhanden sind. 
@@ -287,9 +274,7 @@ Bestätigungsemail oder ähnliches zu warten.
 Im zweitem Level unseres C4-Modeles wird die Grundstruktur und der Aufbau unseres Projektes deutlich. 
 Auf unserem Server für das Programm laufen mittels Docker mehrere Container:
 
-######### Welcher Webserver?
-
-*	Webserver: Verantwortlich für die Darstellung der Webseite auf den Endgeräten der Nutzer
+*	Webserver nginx: Verantwortlich für die Darstellung der Webseite auf den Endgeräten der Nutzer
 
 *	Java Spring Boot: greift auf die Daten aus der Datenbank zu und verwaltet diese mit abstrahierten Funktionen. 
     Verwaltet zudem die Oberfläche für die Bentuzer und zeigt entsprechende Daten an.
@@ -310,27 +295,7 @@ werden, die miteinander kommunizieren. Die Kommunikation erfolgt zwischen Spring
 
 === Use Cases
 
-*UC01 Authentifizierungsmöglichkeit für Studierende und Dozenten
-
-
-*UC02 Beantwortung des Fragebogens
-
-
-*UC03 Erstellung und Bearbeitung von Projektentitäten
-
-
-*UC04 Anpassung von Teamkonfigurationen
-
-
-*UC05 Einfügen von Studentendaten
-
-
-*UC06 Zurücksetzen der gespeicherten Daten
-
-
-*UC07 Generierung und Wiederherstellung von Daten-Backups
-
-
+Use Case als Bild
 
 
 === C4 Modelle 
